@@ -1,7 +1,9 @@
 import { NextRequest, NextResponse } from "next/server";
 import { Resend } from "resend";
 
-const resend = new Resend(process.env.RESEND_API_KEY);
+const resend = process.env.RESEND_API_KEY
+  ? new Resend(process.env.RESEND_API_KEY)
+  : null;
 
 const NOTIFY_EMAIL = process.env.NOTIFY_EMAIL || "hello@fladumpsterrentals.com";
 const FROM_EMAIL = process.env.FROM_EMAIL || "leads@fladumpsterrentals.com";
@@ -15,6 +17,14 @@ export async function POST(req: NextRequest) {
       return NextResponse.json(
         { error: "Required fields missing." },
         { status: 400 }
+      );
+    }
+
+    if (!resend) {
+      console.error("RESEND_API_KEY not configured");
+      return NextResponse.json(
+        { error: "Email service not configured." },
+        { status: 500 }
       );
     }
 
