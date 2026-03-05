@@ -1,1041 +1,1077 @@
 [
   {
-    "slug": "contractors",
-    "name": "Contractor Dumpster Rental",
+    "slug": "construction-dumpster-rental",
+    "name": "Construction Dumpster Rental",
     "category": "Commercial",
-    "description": "Reliable dumpster rentals for contractors across Florida. Keep your job sites clean and compliant with flexible scheduling and competitive pricing.",
-    "extendedDescription": "Florida contractors trust our dumpster rental services to keep projects running smoothly. Whether you're managing multiple job sites or a single build, we provide timely delivery and pickup of 10, 20, and 30 yard dumpsters. Our contractor accounts include priority scheduling, volume discounts, and dedicated support to minimize downtime. We handle all disposal logistics so you can focus on getting the job done.",
+    "description": "Reliable roll-off dumpster rentals for construction sites across Florida. Keep your job site clean, safe, and code-compliant with flexible scheduling, priority delivery, and competitive pricing for builders and general contractors.",
+    "extendedDescription": "Florida's construction industry is one of the busiest in the nation, with new residential developments, commercial complexes, and infrastructure projects breaking ground every week from the Panhandle to the Keys. Our construction dumpster rental service is built specifically for the demands of active job sites \u2014 fast delivery and pickup, flexible swap scheduling for ongoing projects, and volume pricing for contractors managing multiple sites simultaneously. We understand that a delayed dumpster can mean a delayed project, which is why we guarantee on-time delivery and same-day swap service in most Florida metro areas. Whether you are framing a single-family home in Cape Coral, pouring a foundation in Jacksonville, or building a high-rise in Miami, our 20 and 30 yard roll-off containers handle the full range of construction waste including lumber, drywall, concrete, metal, roofing materials, and mixed debris. Our contractor accounts include dedicated account management, consolidated billing, and priority scheduling during peak season.",
     "commonServices": [
-      "Job site waste removal",
-      "Multi-site dumpster scheduling",
-      "Construction debris disposal",
-      "Ongoing contractor accounts",
-      "Same-day delivery for urgent projects",
-      "Mixed waste hauling"
+      "New construction waste removal",
+      "Job site debris hauling",
+      "Multi-site dumpster coordination",
+      "Construction material disposal",
+      "Concrete and masonry waste removal",
+      "Framing and lumber waste disposal",
+      "Mixed construction debris hauling",
+      "Ongoing contractor account service"
     ],
     "faqs": [
       {
-        "q": "Do you offer volume discounts for contractors with multiple projects?",
-        "a": "Yes, we offer contractor account pricing with volume discounts for recurring rentals and multi-site projects throughout Florida."
+        "q": "What size dumpster do construction sites typically need?",
+        "a": "Most construction sites use 20-yard or 30-yard dumpsters. For residential construction, a 20-yard handles framing waste and general debris well. For commercial projects, demolition phases, or sites generating heavy materials like concrete, a 30-yard is usually the better choice. We can help you determine the right size based on your project scope."
       },
       {
-        "q": "How quickly can you deliver a dumpster to my job site?",
-        "a": "We offer next-day delivery for most Florida locations, and same-day delivery is available in many metro areas for an additional fee."
+        "q": "Do you offer contractor accounts with volume pricing?",
+        "a": "Yes. Our contractor accounts include volume discounts of 15-25% compared to one-off pricing, priority scheduling, dedicated account management, consolidated monthly billing, and multi-site coordination. We work with some of the largest builders in Florida and can set up your account within 24 hours."
       },
       {
-        "q": "What size dumpster do contractors typically need?",
-        "a": "Most contractors use 20-yard or 30-yard dumpsters depending on the scope of the project. We can help you choose the right size based on your job details."
+        "q": "How quickly can you deliver a dumpster to my construction site?",
+        "a": "Same-day delivery is available in most Florida metro areas for orders placed before noon. Next-day delivery is available statewide. For contractor accounts with scheduled projects, we can pre-arrange delivery dates weeks or months in advance to align with your project timeline."
       },
       {
-        "q": "Can I swap out a full dumpster for an empty one on the same job site?",
-        "a": "Absolutely. We offer same-day swap-outs so your project stays on schedule without waste piling up."
+        "q": "Can you do same-day dumpster swaps on active job sites?",
+        "a": "Absolutely. Same-day swap service is available in most areas \u2014 we pick up the full dumpster and drop off an empty one, often within a few hours. For high-volume sites, we can arrange scheduled swap days so you never have to think about it."
       },
       {
-        "q": "Are there any materials I can't put in the dumpster?",
-        "a": "Hazardous materials, paint, chemicals, tires, and batteries are prohibited. We'll provide a full list of accepted and restricted items when you book."
+        "q": "What construction materials are accepted in your dumpsters?",
+        "a": "We accept virtually all standard construction waste: lumber, drywall, roofing shingles, concrete, brick, metal, siding, flooring, insulation, wiring, plumbing fixtures, and mixed debris. Hazardous materials like asbestos, lead paint, and chemicals are not accepted and require specialized disposal."
       }
     ],
-    "priceRange": "$350 - $750",
+    "priceRange": "$350-$750",
     "recommendedSize": "20-yard or 30-yard",
     "avgRating": 4.9,
-    "reviewCount": 87
+    "reviewCount": 312
   },
   {
-    "slug": "corporate-accounts",
-    "name": "Corporate Dumpster Accounts",
-    "category": "Commercial",
-    "description": "Streamlined dumpster rental accounts for Florida businesses. Consistent service, consolidated billing, and dedicated account management.",
-    "extendedDescription": "Our corporate dumpster accounts are designed for businesses that need reliable, ongoing waste management solutions across Florida. From office parks to retail chains, we provide dedicated account managers, consolidated monthly billing, and priority scheduling. Whether you need regular pickups or on-demand service for special projects, our corporate program simplifies waste disposal so your team can focus on business operations.",
-    "commonServices": [
-      "Recurring scheduled pickups",
-      "Consolidated monthly billing",
-      "Multi-location waste management",
-      "Dedicated account manager",
-      "On-demand project dumpsters",
-      "Compliance documentation"
-    ],
-    "faqs": [
-      {
-        "q": "What are the benefits of a corporate dumpster account?",
-        "a": "Corporate accounts include volume pricing, priority scheduling, a dedicated account manager, consolidated billing, and flexible rental terms tailored to your business needs."
-      },
-      {
-        "q": "Can you service multiple business locations across Florida?",
-        "a": "Yes, we service corporate clients with multiple locations throughout Florida, all managed under a single account with one point of contact."
-      },
-      {
-        "q": "Is there a minimum commitment for corporate accounts?",
-        "a": "We offer flexible terms with no long-term contracts required. However, longer commitments may qualify for additional discounts."
-      },
-      {
-        "q": "Do you provide waste disposal reports for compliance?",
-        "a": "Yes, we provide detailed waste disposal documentation and reports to help your business meet environmental compliance requirements."
-      },
-      {
-        "q": "How does billing work for corporate accounts?",
-        "a": "Corporate accounts receive consolidated monthly invoices covering all locations and services, with net-30 payment terms available for qualified businesses."
-      }
-    ],
-    "priceRange": "$300 - $700",
-    "recommendedSize": "20-yard or 30-yard",
-    "avgRating": 4.8,
-    "reviewCount": 62
-  },
-  {
-    "slug": "commercial-cleanouts",
-    "name": "Commercial Cleanouts",
-    "category": "Commercial",
-    "description": "Fast, efficient dumpster rentals for commercial property cleanouts in Florida. Clear out offices, warehouses, and commercial spaces quickly.",
-    "extendedDescription": "When it's time to clean out a commercial property in Florida, our dumpster rental service makes the process fast and hassle-free. We deliver the right size dumpster directly to your location, give you the time you need to load it, and haul everything away. Whether you're clearing out a vacated tenant space, preparing for new occupants, or liquidating a business, our team ensures your commercial cleanout goes smoothly from start to finish.",
-    "commonServices": [
-      "Tenant turnover cleanouts",
-      "Business liquidation waste removal",
-      "Commercial property renovation debris",
-      "Office furniture and equipment disposal",
-      "Pre-lease space preparation",
-      "End-of-lease cleanouts",
-      "Property management cleanouts"
-    ],
-    "faqs": [
-      {
-        "q": "How long can I keep the dumpster for a commercial cleanout?",
-        "a": "Standard rental periods are 7 to 14 days. Extensions are available if your cleanout takes longer than expected."
-      },
-      {
-        "q": "Can you place the dumpster inside a loading dock or parking garage?",
-        "a": "In many cases, yes. We'll work with you on placement logistics to find the most convenient and accessible location for your commercial property."
-      },
-      {
-        "q": "What size dumpster do I need for a commercial cleanout?",
-        "a": "For most commercial cleanouts, a 20-yard or 30-yard dumpster is recommended. For smaller offices, a 10-yard dumpster may suffice."
-      },
-      {
-        "q": "Do you handle the disposal of office electronics and e-waste?",
-        "a": "Standard dumpster rental does not include e-waste. However, we can recommend certified e-waste recycling partners in Florida to handle electronics properly."
-      },
-      {
-        "q": "Can I schedule a cleanout dumpster for a weekend?",
-        "a": "Yes, we offer flexible delivery and pickup scheduling including weekends to accommodate your commercial cleanout timeline."
-      }
-    ],
-    "priceRange": "$350 - $700",
-    "recommendedSize": "20-yard or 30-yard",
-    "avgRating": 4.8,
-    "reviewCount": 74
-  },
-  {
-    "slug": "retail-store-cleanouts",
-    "name": "Retail Store Cleanouts",
-    "category": "Commercial",
-    "description": "Dumpster rentals for retail store cleanouts across Florida. Efficiently clear shelving, fixtures, inventory, and debris.",
-    "extendedDescription": "Closing a retail location, refreshing your store layout, or clearing out old inventory? Our dumpster rental service is the efficient solution for Florida retail store cleanouts. We deliver right to your storefront or loading area and handle all the hauling. From shelving units and display fixtures to damaged merchandise and packaging waste, we help you clear the space quickly so you can move on to what's next.",
-    "commonServices": [
-      "Store closing cleanouts",
-      "Fixture and shelving removal",
-      "Old inventory disposal",
-      "Store remodel debris removal",
-      "Packaging and display waste",
-      "Shopping center cleanouts"
-    ],
-    "faqs": [
-      {
-        "q": "Can you deliver a dumpster to a shopping center or strip mall?",
-        "a": "Yes, we regularly deliver to shopping centers and strip malls across Florida. We'll coordinate placement to minimize disruption to neighboring businesses."
-      },
-      {
-        "q": "What can I throw away from a retail store cleanout?",
-        "a": "Most non-hazardous materials are accepted including shelving, fixtures, cardboard, packaging, and general merchandise. Paints, chemicals, and electronics require special handling."
-      },
-      {
-        "q": "How fast can I get a dumpster for a store closing?",
-        "a": "We offer next-day delivery in most Florida areas. For urgent store closings, same-day delivery may be available."
-      },
-      {
-        "q": "What size dumpster works best for a retail cleanout?",
-        "a": "A 20-yard dumpster handles most small to mid-size retail cleanouts. For larger stores or those with heavy fixtures, a 30-yard is recommended."
-      },
-      {
-        "q": "Do I need a permit to place a dumpster outside my retail space?",
-        "a": "Permit requirements vary by Florida municipality. If the dumpster is placed on private property, a permit is usually not needed. We can help you determine local requirements."
-      }
-    ],
-    "priceRange": "$325 - $650",
-    "recommendedSize": "20-yard",
-    "avgRating": 4.7,
-    "reviewCount": 45
-  },
-  {
-    "slug": "warehouse-cleanouts",
-    "name": "Warehouse Cleanouts",
-    "category": "Commercial",
-    "description": "Large-capacity dumpster rentals for warehouse cleanouts in Florida. Handle pallets, racking, inventory, and bulk waste efficiently.",
-    "extendedDescription": "Warehouse cleanouts demand serious hauling capacity, and our 20 and 30 yard dumpsters are up to the task. Whether you're clearing out an entire warehouse, removing old racking systems, or disposing of damaged inventory, we deliver directly to your dock and handle pickup on your schedule. Our Florida warehouse cleanout service is trusted by property managers, logistics companies, and business owners who need large volumes of waste removed quickly and affordably.",
-    "commonServices": [
-      "Full warehouse cleanouts",
-      "Pallet and racking disposal",
-      "Damaged inventory removal",
-      "Packaging material disposal",
-      "Industrial equipment debris",
-      "Pre-lease warehouse preparation",
-      "Distribution center cleanouts"
-    ],
-    "faqs": [
-      {
-        "q": "What size dumpster do I need for a warehouse cleanout?",
-        "a": "Most warehouse cleanouts require a 30-yard dumpster, and many need multiple loads. We offer swap-out service to keep the project moving."
-      },
-      {
-        "q": "Can you place the dumpster at our loading dock?",
-        "a": "Yes, we can deliver directly to your loading dock or any accessible area on the warehouse property."
-      },
-      {
-        "q": "How do you handle heavy items like racking and pallets?",
-        "a": "Our dumpsters can handle heavy materials, but there are weight limits. We'll advise on the best approach for heavy items like steel racking and loaded pallets to avoid overage fees."
-      },
-      {
-        "q": "Can I get multiple dumpsters delivered at the same time?",
-        "a": "Yes, we can deliver multiple dumpsters simultaneously for large warehouse cleanout projects across Florida."
-      },
-      {
-        "q": "What happens if I fill the dumpster before my cleanout is done?",
-        "a": "Just call us and we'll swap it out for an empty one, usually within 24 hours. Many warehouse cleanouts require multiple hauls."
-      }
-    ],
-    "priceRange": "$400 - $800",
-    "recommendedSize": "30-yard",
-    "avgRating": 4.9,
-    "reviewCount": 53
-  },
-  {
-    "slug": "office-cleanouts",
-    "name": "Office Cleanouts",
-    "category": "Commercial",
-    "description": "Dumpster rentals for office cleanouts in Florida. Remove old furniture, cubicles, files, and equipment quickly and affordably.",
-    "extendedDescription": "Relocating your office, downsizing, or clearing out a vacated space? Our dumpster rental service makes Florida office cleanouts simple. We deliver a dumpster to your building and give you the flexibility to load desks, chairs, cubicle panels, filing cabinets, and general office clutter at your own pace. When you're done, we haul it all away. It's the most cost-effective way to handle office cleanouts without hiring expensive junk removal crews.",
-    "commonServices": [
-      "Office furniture disposal",
-      "Cubicle and partition removal",
-      "File and document purging",
-      "Office relocation waste",
-      "Tenant improvement debris",
-      "Break room and kitchen cleanouts"
-    ],
-    "faqs": [
-      {
-        "q": "Can a dumpster fit in our office building parking lot?",
-        "a": "Yes, our dumpsters fit in standard parking spaces. A 10-yard dumpster takes up about one parking space, while a 20-yard takes about two."
-      },
-      {
-        "q": "What office items can go in the dumpster?",
-        "a": "Desks, chairs, cubicles, filing cabinets, shelving, carpet, and general office clutter are all accepted. Electronics and fluorescent bulbs require separate disposal."
-      },
-      {
-        "q": "How much does an office cleanout dumpster cost?",
-        "a": "Office cleanout dumpsters in Florida typically range from $275 to $600 depending on the size and rental duration."
-      },
-      {
-        "q": "Is a 10-yard dumpster enough for a small office?",
-        "a": "A 10-yard dumpster works well for offices under 2,000 square feet. For larger offices, we recommend a 20-yard or 30-yard dumpster."
-      },
-      {
-        "q": "Can you deliver after business hours to avoid disrupting our office?",
-        "a": "Yes, we can arrange early morning or after-hours delivery and pickup to minimize disruption to your business operations."
-      }
-    ],
-    "priceRange": "$275 - $600",
-    "recommendedSize": "10-yard or 20-yard",
-    "avgRating": 4.8,
-    "reviewCount": 68
-  },
-  {
-    "slug": "junk-removal",
-    "name": "Junk Removal Dumpster Rental",
+    "slug": "residential-dumpster-rental",
+    "name": "Residential Dumpster Rental",
     "category": "Residential",
-    "description": "Affordable dumpster rentals for junk removal in Florida. Declutter your home on your own schedule without the high cost of junk haulers.",
-    "extendedDescription": "Skip the expensive junk removal crews and rent a dumpster instead. Our junk removal dumpster rental service gives Florida homeowners the freedom to clean out clutter at their own pace. Simply load up old furniture, broken appliances, clothing, toys, and household junk, and we'll haul it all away. With flexible rental periods and affordable flat-rate pricing, it's the smartest way to tackle junk removal for your Florida home.",
+    "description": "Affordable dumpster rentals for Florida homeowners. Perfect for cleanouts, decluttering, moving, downsizing, or any home project that generates more waste than your regular trash service can handle.",
+    "extendedDescription": "Every Florida homeowner eventually faces a project that generates more debris than the weekly trash pickup can handle. Whether you are finally cleaning out that garage, decluttering before a move, downsizing from a family home, or tackling a DIY renovation project, a residential dumpster rental gives you the freedom to work at your own pace without worrying about how to dispose of everything. Our residential dumpster service is designed to be as simple as possible \u2014 text us your project details, we give you an instant quote, deliver the dumpster to your driveway, and pick it up when you are done. No complicated scheduling, no account setup, no minimum orders. We serve residential customers in every city and community across Florida, from waterfront homes in Naples to suburban neighborhoods in Orlando to beachside condos in Daytona. Our 10-yard dumpster is the most popular residential size for smaller projects, while the 20-yard handles larger cleanouts and renovation waste with ease. Florida homeowners consistently rate us 4.9 stars because we make the entire process effortless.",
     "commonServices": [
-      "Household junk disposal",
-      "Old furniture removal",
-      "Broken appliance disposal",
-      "Basement and attic cleanouts",
-      "General clutter removal",
-      "Post-holiday cleanup",
-      "Storage unit cleanouts"
-    ],
-    "faqs": [
-      {
-        "q": "Is renting a dumpster cheaper than hiring a junk removal service?",
-        "a": "In most cases, yes. A dumpster rental is typically 40-60% less expensive than hiring a full-service junk removal crew, especially for larger cleanouts."
-      },
-      {
-        "q": "What size dumpster should I rent for junk removal?",
-        "a": "A 10-yard dumpster handles 1-2 rooms of junk. For a whole-house cleanout, a 20-yard is the most popular choice among Florida homeowners."
-      },
-      {
-        "q": "How long do I have to fill the dumpster?",
-        "a": "Standard rentals include 7 days, with extensions available. Most homeowners complete their junk removal in 3-5 days."
-      },
-      {
-        "q": "Can I throw away electronics and appliances?",
-        "a": "Most appliances are accepted. Electronics like TVs and computers may have restrictions depending on your Florida county. We'll let you know what's accepted when you book."
-      },
-      {
-        "q": "Where will the dumpster be placed at my home?",
-        "a": "We typically place dumpsters in driveways. If you don't have a driveway, we can discuss alternative placement options on your property."
-      }
-    ],
-    "priceRange": "$250 - $550",
-    "recommendedSize": "10-yard or 20-yard",
-    "avgRating": 4.9,
-    "reviewCount": 134
-  },
-  {
-    "slug": "home-cleanouts",
-    "name": "Home Cleanout Dumpster Rental",
-    "category": "Residential",
-    "description": "Dumpster rentals for full home cleanouts in Florida. Clear out an entire house efficiently with the right size dumpster delivered to your door.",
-    "extendedDescription": "A full home cleanout is a big job, but our dumpster rental service makes it manageable. Whether you're preparing a home for sale, cleaning out after a move, or clearing a property you've inherited, we deliver the right size dumpster to your Florida home and pick it up when you're done. Load everything from old furniture and clothing to kitchen items and garage clutter. Our flat-rate pricing means no surprises, just a clean, empty home when the job is done.",
-    "commonServices": [
-      "Pre-sale home cleanouts",
-      "Post-move cleanouts",
-      "Inherited property cleanouts",
+      "Garage and attic cleanouts",
       "Whole-house decluttering",
-      "Rental property turnovers",
-      "Downsizing cleanouts",
-      "Seasonal deep cleaning"
+      "Moving and downsizing waste removal",
+      "DIY renovation debris disposal",
+      "Furniture and appliance removal",
+      "Basement and storage unit cleanouts",
+      "Spring cleaning waste disposal",
+      "Post-party and event cleanup"
     ],
     "faqs": [
       {
-        "q": "What size dumpster do I need for a full home cleanout?",
-        "a": "For a typical 3-bedroom Florida home, a 20-yard dumpster usually handles the job. Larger homes or heavily furnished properties may need a 30-yard."
+        "q": "What size dumpster do most homeowners rent?",
+        "a": "Most residential customers go with either a 10-yard or 20-yard dumpster. A 10-yard is great for a single-room cleanout, garage cleanup, or small project. A 20-yard handles full-house cleanouts, multi-room renovations, and larger decluttering projects. Text us your project details and we will recommend the perfect size."
       },
       {
-        "q": "How long does a home cleanout typically take?",
-        "a": "Most homeowners complete a full cleanout in 3-7 days. Our standard 7-day rental gives you plenty of time, with extensions available."
+        "q": "Will a dumpster damage my driveway?",
+        "a": "Roll-off dumpsters are placed on wheels and typically do not damage concrete or asphalt driveways. If you are concerned about your surface \u2014 especially pavers or newer concrete \u2014 we can place plywood boards under the contact points at no extra charge. Just let us know when you order."
       },
       {
-        "q": "Can I put carpet and flooring in the dumpster?",
-        "a": "Yes, carpet, laminate, tile, and other flooring materials are all accepted in our dumpsters."
+        "q": "How long can I keep the dumpster?",
+        "a": "Standard residential rentals include a 7-day rental period, which gives you plenty of time for most home projects. If you need more time, we offer extensions at a reasonable daily rate. We understand that home projects do not always go according to plan, and we are flexible."
       },
       {
-        "q": "Do I need to sort or separate items before loading?",
-        "a": "No sorting is required. You can mix household items, furniture, and general debris in the same dumpster. Just no hazardous materials."
+        "q": "Can I place the dumpster in my yard instead of the driveway?",
+        "a": "Yes, as long as the delivery truck can access the location. Dumpsters can be placed on driveways, side yards, parking pads, or any relatively flat surface on your property. Let us know your preferred placement when you order and we will confirm it works for delivery."
       },
       {
-        "q": "What if I realize I need a bigger dumpster mid-project?",
-        "a": "No problem. Call us and we'll swap your current dumpster for a larger one, or bring a second dumpster to your property."
+        "q": "Is there anything I cannot put in a residential dumpster?",
+        "a": "Most household items are accepted \u2014 furniture, appliances, clothing, electronics, yard waste, and general junk. Items not accepted include hazardous materials, paint, batteries, tires, and chemicals. If you are unsure about a specific item, text us a photo and we will let you know instantly."
       }
     ],
-    "priceRange": "$300 - $600",
-    "recommendedSize": "20-yard",
-    "avgRating": 4.9,
-    "reviewCount": 112
-  },
-  {
-    "slug": "estate-cleanouts",
-    "name": "Estate Cleanout Dumpster Rental",
-    "category": "Residential",
-    "description": "Compassionate, efficient dumpster rental for estate cleanouts in Florida. Clear a loved one's home at your own pace with flexible scheduling.",
-    "extendedDescription": "Clearing out a loved one's estate is an emotional process, and we're here to make the practical side easier. Our estate cleanout dumpster rental service in Florida provides flexible rental periods so you can work through the home at your own pace. Take time to sort keepsakes, donate usable items, and dispose of the rest without pressure. We deliver discreetly, offer extended rental periods, and handle all hauling so you can focus on what matters most during a difficult time.",
-    "commonServices": [
-      "Estate property cleanouts",
-      "Post-probate home clearing",
-      "Inherited home preparation for sale",
-      "Personal belongings disposal",
-      "Furniture and household item removal",
-      "Multi-room estate clearing"
-    ],
-    "faqs": [
-      {
-        "q": "How long can I keep the dumpster for an estate cleanout?",
-        "a": "We offer flexible rental periods up to 14 days for estate cleanouts, with affordable extensions available. We understand these projects take time."
-      },
-      {
-        "q": "Can you recommend donation pickup services in Florida?",
-        "a": "Yes, we can provide referrals to local Florida charities and donation services that offer free pickup for usable furniture and household items."
-      },
-      {
-        "q": "What size dumpster is best for an estate cleanout?",
-        "a": "A 20-yard dumpster is the most common choice for estate cleanouts. For larger estates or homes with decades of accumulated belongings, a 30-yard may be needed."
-      },
-      {
-        "q": "Is there anything special I need to do to prepare for the dumpster?",
-        "a": "Just make sure there's a clear spot in the driveway or on the property for placement. We handle the rest."
-      },
-      {
-        "q": "Do you offer discreet delivery for sensitive situations?",
-        "a": "Yes, we understand estate cleanouts can be sensitive. We deliver and pick up professionally and discreetly with no loud branding or unnecessary disruption."
-      }
-    ],
-    "priceRange": "$300 - $650",
-    "recommendedSize": "20-yard or 30-yard",
-    "avgRating": 4.9,
-    "reviewCount": 91
-  },
-  {
-    "slug": "garage-cleanouts",
-    "name": "Garage Cleanout Dumpster Rental",
-    "category": "Residential",
-    "description": "Dumpster rentals for garage cleanouts in Florida. Reclaim your garage space by tossing old tools, equipment, and accumulated clutter.",
-    "extendedDescription": "Florida garages have a way of becoming catch-all storage spaces over the years. Our garage cleanout dumpster rental makes it easy to reclaim that space. We drop a dumpster right in your driveway so you can load up old tools, broken equipment, holiday decorations, sports gear, and everything else that's been piling up. A 10-yard dumpster handles most single-car garage cleanouts, while a 20-yard is perfect for two-car garages packed to the ceiling.",
-    "commonServices": [
-      "Old tool and equipment disposal",
-      "Broken furniture removal",
-      "Holiday decoration purging",
-      "Sports equipment disposal",
-      "Workshop cleanouts",
-      "Storage overflow clearing"
-    ],
-    "faqs": [
-      {
-        "q": "What size dumpster do I need for a garage cleanout?",
-        "a": "A 10-yard dumpster works for most single-car garage cleanouts. For packed two-car garages, we recommend a 20-yard dumpster."
-      },
-      {
-        "q": "Can I throw away paint and chemicals from my garage?",
-        "a": "No, paint, chemicals, pesticides, and other hazardous materials cannot go in the dumpster. Contact your local Florida waste authority for hazardous waste disposal options."
-      },
-      {
-        "q": "How much does a garage cleanout dumpster cost?",
-        "a": "Garage cleanout dumpsters in Florida start at $250 for a 10-yard container, with most projects coming in under $400."
-      },
-      {
-        "q": "Can I put power tools and lawn equipment in the dumpster?",
-        "a": "Yes, as long as fluids like oil and gasoline are drained first. Empty power tools and lawn equipment are accepted."
-      },
-      {
-        "q": "Will the dumpster damage my driveway?",
-        "a": "We place protective boards under the dumpster to protect your driveway surface from scratches or marks."
-      }
-    ],
-    "priceRange": "$250 - $450",
+    "priceRange": "$275-$500",
     "recommendedSize": "10-yard or 20-yard",
-    "avgRating": 4.8,
-    "reviewCount": 96
-  },
-  {
-    "slug": "moving-cleanout",
-    "name": "Moving Cleanout Dumpster Rental",
-    "category": "Residential",
-    "description": "Dumpster rentals for moving cleanouts in Florida. Toss what you don't want to take with you and leave the old place spotless.",
-    "extendedDescription": "Moving is the perfect time to get rid of things you no longer need. Our moving cleanout dumpster rental service in Florida lets you declutter before, during, or after your move. Load up broken furniture, outdated decor, old mattresses, and anything else that's not making the trip to your new home. We deliver to your current or new address and pick up on your schedule, making your Florida move cleaner and less stressful.",
-    "commonServices": [
-      "Pre-move decluttering",
-      "Post-move cleanup",
-      "Old furniture disposal",
-      "Mattress and box spring removal",
-      "Packing material disposal",
-      "Unwanted item disposal before moving day"
-    ],
-    "faqs": [
-      {
-        "q": "When should I schedule the dumpster for my move?",
-        "a": "We recommend having the dumpster delivered 3-5 days before your move date so you can sort and load items as you pack."
-      },
-      {
-        "q": "Can I put mattresses in the dumpster?",
-        "a": "Yes, mattresses, box springs, and bed frames are all accepted. This is one of the most common items people dispose of during a move."
-      },
-      {
-        "q": "What if my move date changes?",
-        "a": "We offer flexible scheduling. Just call us to adjust your delivery or pickup dates at no extra charge with reasonable notice."
-      },
-      {
-        "q": "Can the dumpster be placed at my new home instead?",
-        "a": "Absolutely. We can deliver to your old address, new address, or even arrange delivery at both locations during your move."
-      },
-      {
-        "q": "What size dumpster is best for a moving cleanout?",
-        "a": "A 10-yard dumpster works for light decluttering. For a major purge during a move, a 20-yard gives you plenty of room."
-      }
-    ],
-    "priceRange": "$250 - $500",
-    "recommendedSize": "10-yard or 20-yard",
-    "avgRating": 4.8,
-    "reviewCount": 78
-  },
-  {
-    "slug": "foreclosure-cleanout",
-    "name": "Foreclosure Cleanout Dumpster Rental",
-    "category": "Residential",
-    "description": "Fast, affordable dumpster rentals for foreclosure cleanouts in Florida. Clear abandoned properties quickly to prepare them for sale or rental.",
-    "extendedDescription": "Foreclosed properties in Florida often require extensive cleanouts before they can be listed for sale or rented. Our foreclosure cleanout dumpster rental service helps banks, real estate agents, and property managers clear these properties efficiently. From abandoned furniture and personal belongings to yard debris and general trash, we provide the dumpsters and hauling capacity to get foreclosed homes market-ready fast.",
-    "commonServices": [
-      "Abandoned property cleanouts",
-      "Bank-owned property clearing",
-      "REO property preparation",
-      "Abandoned furniture removal",
-      "Yard and exterior debris clearing",
-      "Multi-unit foreclosure cleanouts",
-      "Property preservation waste removal"
-    ],
-    "faqs": [
-      {
-        "q": "How quickly can you deliver for a foreclosure cleanout?",
-        "a": "We offer next-day delivery for foreclosure cleanouts throughout Florida. Same-day service may be available in metro areas."
-      },
-      {
-        "q": "Do you work with banks and property management companies?",
-        "a": "Yes, we regularly partner with banks, REO asset managers, real estate agents, and property preservation companies on foreclosure cleanouts across Florida."
-      },
-      {
-        "q": "What if the property has a lot of items left behind?",
-        "a": "For heavily loaded foreclosure properties, we recommend a 30-yard dumpster or scheduling a swap-out so you can continue loading without delay."
-      },
-      {
-        "q": "Can you clean out multiple foreclosure properties at once?",
-        "a": "Yes, we can coordinate dumpster delivery to multiple properties simultaneously. We offer volume pricing for property management companies."
-      },
-      {
-        "q": "Are there extra fees for heavy items like old appliances?",
-        "a": "Appliances are included in the standard rental as long as weight limits aren't exceeded. We'll help you estimate weight before booking."
-      }
-    ],
-    "priceRange": "$300 - $650",
-    "recommendedSize": "20-yard or 30-yard",
-    "avgRating": 4.7,
-    "reviewCount": 56
-  },
-  {
-    "slug": "hoarding-cleanup",
-    "name": "Hoarding Cleanup Dumpster Rental",
-    "category": "Residential",
-    "description": "Discreet, compassionate dumpster rental for hoarding cleanup in Florida. Flexible scheduling and multiple dumpster sizes to handle any situation.",
-    "extendedDescription": "Hoarding cleanup is a sensitive and often overwhelming project. Our Florida dumpster rental service provides a compassionate, no-judgment approach to help families and individuals reclaim their living spaces. We offer discreet delivery, extended rental periods, and the ability to swap out filled dumpsters as needed. Whether you're helping a loved one or managing a hoarding cleanup as a property owner, we provide the right dumpster size and schedule flexibility to handle the job properly.",
-    "commonServices": [
-      "Residential hoarding cleanouts",
-      "Multi-room debris removal",
-      "Compassionate family-assisted cleanups",
-      "Property owner hoarding remediation",
-      "Extended rental period cleanups",
-      "Multiple dumpster swap-outs"
-    ],
-    "faqs": [
-      {
-        "q": "How many dumpsters will I need for a hoarding cleanup?",
-        "a": "It depends on the severity, but most hoarding cleanups require 2-4 dumpster loads. We offer continuous swap-out service to keep the project moving."
-      },
-      {
-        "q": "Is the service discreet?",
-        "a": "Yes, we prioritize discretion for hoarding cleanups. Our delivery and pickup is conducted professionally with minimal attention to your property."
-      },
-      {
-        "q": "Can I take my time with the cleanup?",
-        "a": "Absolutely. We offer extended rental periods for hoarding cleanups because we know these projects take time and emotional energy."
-      },
-      {
-        "q": "What size dumpster is best for hoarding cleanup?",
-        "a": "We typically recommend starting with a 20-yard or 30-yard dumpster and planning for multiple loads depending on the amount of material."
-      },
-      {
-        "q": "Do you work with professional hoarding cleanup services?",
-        "a": "Yes, we regularly partner with professional cleaning and organizing services throughout Florida and can coordinate delivery with their schedules."
-      }
-    ],
-    "priceRange": "$350 - $750",
-    "recommendedSize": "20-yard or 30-yard",
     "avgRating": 4.9,
-    "reviewCount": 43
+    "reviewCount": 287
   },
   {
-    "slug": "spring-cleaning",
-    "name": "Spring Cleaning Dumpster Rental",
-    "category": "Residential",
-    "description": "Affordable dumpster rentals for spring cleaning in Florida. Go beyond surface cleaning and get rid of years of accumulated clutter.",
-    "extendedDescription": "Take your Florida spring cleaning to the next level with a dumpster rental. Instead of stuffing a few bags into the trash can each week, rent a dumpster and clear out everything at once. Old furniture, outdated electronics, clothes you'll never wear again, broken household items, and all the clutter that's been building up. Our affordable 10 and 20 yard dumpsters make it easy to do a real deep clean and start the season fresh.",
+    "slug": "commercial-dumpster-rental",
+    "name": "Commercial Dumpster Rental",
+    "category": "Commercial",
+    "description": "Roll-off dumpster rentals for Florida businesses, offices, retail spaces, and commercial properties. Streamlined service with corporate accounts, consolidated billing, and dedicated support.",
+    "extendedDescription": "Florida businesses generate commercial waste at every stage of their lifecycle \u2014 from build-out and opening to daily operations, renovations, and eventual closures. Our commercial dumpster rental service provides Florida businesses with reliable, on-demand waste removal that keeps your operations running smoothly. We serve retail stores clearing out seasonal inventory, offices relocating or remodeling, warehouses disposing of damaged goods, restaurants renovating dining areas, and property management companies handling tenant turnovers across multiple locations. Our commercial accounts include features that matter to businesses: consolidated monthly invoicing, tax-exempt billing where applicable, scheduled recurring deliveries, and a dedicated account manager who understands your specific needs. We serve commercial customers in every Florida market from the Miami financial district to the industrial zones of Jacksonville, from the tourist corridors of Orlando to the business parks of Tampa Bay.",
     "commonServices": [
-      "Whole-house decluttering",
-      "Closet and storage cleanouts",
-      "Attic and basement clearing",
-      "Outdoor furniture and decor disposal",
-      "Old clothing and household item purging",
-      "Seasonal deep cleaning waste removal"
+      "Office cleanout and relocation waste",
+      "Retail store fixture and inventory disposal",
+      "Warehouse and storage facility cleanouts",
+      "Restaurant renovation debris removal",
+      "Tenant turnover waste disposal",
+      "Commercial property maintenance waste",
+      "Event and convention cleanup",
+      "Corporate account recurring service"
     ],
     "faqs": [
       {
-        "q": "What size dumpster do I need for spring cleaning?",
-        "a": "A 10-yard dumpster is perfect for a focused cleanout of a few rooms. If you're tackling the whole house, a 20-yard gives you plenty of space."
+        "q": "Do you offer corporate accounts for businesses?",
+        "a": "Yes. Our corporate accounts include volume pricing, consolidated monthly billing, priority scheduling, a dedicated account manager, and multi-location coordination. We work with businesses of all sizes from single-location shops to statewide property management companies."
       },
       {
-        "q": "How much does a spring cleaning dumpster cost?",
-        "a": "Spring cleaning dumpster rentals in Florida start at just $250 for a 10-yard container, making it much more affordable than multiple trips to the dump."
+        "q": "Can you deliver to commercial properties with loading dock access only?",
+        "a": "We can deliver to most commercial properties including those with limited access. Let us know about any access restrictions \u2014 loading docks, gate codes, security requirements, delivery windows \u2014 and we will coordinate accordingly."
       },
       {
-        "q": "Can I share the dumpster with my neighbor?",
-        "a": "As long as you're the one who rented it and it doesn't exceed weight limits, you're welcome to coordinate with neighbors to share the space."
+        "q": "What size dumpster do commercial cleanouts typically need?",
+        "a": "It depends on the scope. A small office cleanout might need a 10-yard, while a full warehouse or retail store cleanout typically requires a 20 or 30-yard dumpster. For very large commercial projects, we can deliver multiple dumpsters or arrange daily swaps."
       },
       {
-        "q": "Is a dumpster worth it for spring cleaning?",
-        "a": "Absolutely. A dumpster rental eliminates dozens of trips to the dump and lets you clean everything out at once. Most customers say it's the best spring cleaning they've ever done."
+        "q": "Can you provide dumpsters for ongoing commercial waste needs?",
+        "a": "Absolutely. We offer scheduled recurring deliveries \u2014 weekly, bi-weekly, or monthly \u2014 for businesses with ongoing waste disposal needs. This is popular with property managers, construction companies, and businesses in growth phases."
       },
       {
-        "q": "What time of year is best to book a spring cleaning dumpster?",
-        "a": "In Florida, spring cleaning season typically runs from February through May. Book early for the best availability, especially on weekends."
+        "q": "Do you offer tax-exempt billing for businesses?",
+        "a": "Yes. If your business is tax-exempt, we can set up your account accordingly. Just provide your tax-exempt certificate when opening your corporate account and all invoicing will reflect the exemption."
       }
     ],
-    "priceRange": "$250 - $450",
-    "recommendedSize": "10-yard or 20-yard",
+    "priceRange": "$300-$700",
+    "recommendedSize": "20-yard or 30-yard",
     "avgRating": 4.8,
-    "reviewCount": 105
+    "reviewCount": 198
   },
   {
-    "slug": "roofing",
+    "slug": "roofing-dumpster-rental",
     "name": "Roofing Dumpster Rental",
-    "category": "Construction",
-    "description": "Heavy-duty dumpster rentals for roofing projects in Florida. Designed to handle shingles, tiles, underlayment, and roofing debris.",
-    "extendedDescription": "Florida roofing projects generate heavy, bulky waste that requires a dumpster built for the job. Our roofing dumpster rentals are designed to handle asphalt shingles, clay and concrete tiles, underlayment, flashing, and other roofing debris. We deliver directly to the job site and position the dumpster for easy loading from the roof. With competitive pricing and weight limits tailored for roofing materials, we're the go-to choice for Florida roofers and homeowners alike.",
+    "category": "Specialty",
+    "description": "Dumpster rentals specifically sized and priced for roofing projects in Florida. Handle shingle tear-offs, tile replacement, flat roof removal, and all roofing debris with the right container.",
+    "extendedDescription": "Florida roofs endure punishment that roofs in other states simply do not face. Intense UV radiation, tropical downpours, hurricane-force winds, and salt air along the coasts mean that Florida homeowners and businesses replace their roofs more frequently than the national average. Whether you are tearing off an aging shingle roof, replacing hurricane-damaged tiles, or removing a worn-out flat roof on a commercial building, our roofing dumpster rental service is tailored to the specific demands of roofing projects. Roofing debris is heavy \u2014 a single layer of asphalt shingles from an average Florida home weighs 2 to 3 tons, and tile or concrete roofing materials weigh even more. That is why we work with you to choose the right dumpster size and set accurate weight expectations upfront, so there are no surprises on your invoice. For residential re-roofing jobs, a 20-yard dumpster is typically the right fit. For larger homes, multi-layer tear-offs, or commercial roofing projects, a 30-yard container provides the extra capacity and weight allowance you need.",
     "commonServices": [
-      "Shingle tear-off disposal",
-      "Tile roof replacement debris",
-      "Flat roof removal waste",
-      "Underlayment and flashing disposal",
-      "Storm-damaged roof debris",
-      "New roof installation waste",
-      "Gutter replacement debris"
+      "Asphalt shingle tear-off disposal",
+      "Tile roof removal and disposal",
+      "Flat roof membrane removal",
+      "Multi-layer roof tear-off waste",
+      "Commercial roofing debris removal",
+      "Storm-damaged roofing cleanup",
+      "Gutter and fascia replacement waste",
+      "Roofing contractor recurring service"
     ],
     "faqs": [
       {
         "q": "What size dumpster do I need for a roofing project?",
-        "a": "For most single-family Florida homes, a 20-yard dumpster handles a full roof tear-off. Larger homes or commercial roofs may need a 30-yard."
+        "a": "For most single-family Florida homes with a single layer of shingles, a 20-yard dumpster is sufficient. For larger homes, multi-layer tear-offs, tile roofs, or commercial roofing jobs, go with a 30-yard. Roofing materials are heavy, so the weight limit is often the deciding factor rather than volume."
       },
       {
-        "q": "Can the dumpster handle heavy roofing materials like concrete tiles?",
-        "a": "Yes, but heavy materials like concrete and clay tiles fill weight limits faster. We'll help you estimate whether you need a higher weight allowance."
+        "q": "How heavy are roofing materials?",
+        "a": "Asphalt shingles weigh about 250-350 pounds per square (100 sq ft). A typical 2,000 sq ft Florida home generates 2-3 tons of shingle waste from a single-layer tear-off. Clay and concrete tile are even heavier. We set weight limits to match your roofing project so there are no surprise overweight charges."
       },
       {
-        "q": "How close to the house can you place the dumpster?",
-        "a": "We'll place the dumpster as close to the work area as safely possible, making it easy to load debris directly from the roof."
+        "q": "Can you time the delivery to match my roofing crew's schedule?",
+        "a": "Yes, and we strongly recommend it. We can deliver the dumpster the evening before or early morning of your roofing day. Just give us your crew's start time and preferred placement location. For multi-day roofing projects, the dumpster stays on-site for the duration."
       },
       {
-        "q": "Do roofers get special pricing?",
-        "a": "Yes, we offer contractor pricing for professional roofers with recurring projects. Contact us about setting up a contractor account."
+        "q": "Do you offer special pricing for roofing companies?",
+        "a": "Yes. Roofing contractors who set up accounts with us receive volume pricing, priority scheduling, and streamlined ordering. Many Florida roofing companies use us as their exclusive dumpster provider because of our reliability and roofing-specific expertise."
       },
       {
-        "q": "What's the weight limit for a roofing dumpster?",
-        "a": "Weight limits vary by dumpster size, typically 2-4 tons. Roofing materials are heavy, so we'll help you choose the right dumpster and weight allowance for your project."
+        "q": "Can roofing nails and metal flashing go in the dumpster?",
+        "a": "Absolutely. Roofing nails, metal flashing, drip edge, vents, and other metal components from roofing projects are accepted. The only roofing-related material we cannot accept is asbestos-containing roofing material, which requires specialized abatement disposal."
       }
     ],
-    "priceRange": "$350 - $700",
-    "recommendedSize": "20-yard",
+    "priceRange": "$350-$600",
+    "recommendedSize": "20-yard or 30-yard",
     "avgRating": 4.9,
-    "reviewCount": 98
+    "reviewCount": 245
   },
   {
-    "slug": "demolition",
+    "slug": "demolition-dumpster-rental",
     "name": "Demolition Dumpster Rental",
-    "category": "Construction",
-    "description": "Large-capacity dumpster rentals for demolition projects in Florida. Handle concrete, wood, drywall, and mixed demolition debris.",
-    "extendedDescription": "Demolition projects in Florida produce massive amounts of heavy, mixed debris that requires serious hauling capacity. Our demolition dumpster rentals come in 20 and 30 yard sizes to handle everything from interior gut jobs to full structure teardowns. We accommodate concrete, wood framing, drywall, metal, and other common demolition materials. With flexible scheduling and multiple dumpster availability, we keep your demo project on track and your site clean.",
+    "category": "Specialty",
+    "description": "Heavy-duty dumpster rentals for demolition projects in Florida. Handle concrete, block, drywall, framing, and mixed demolition debris with the right container and weight allowance.",
+    "extendedDescription": "Demolition projects generate massive volumes of heavy, mixed debris that require serious hauling capacity. Whether you are tearing down an interior wall, gutting a kitchen, demolishing a garage, or leveling an entire structure, our demolition dumpster rental service provides the container size and weight allowance to handle it all. Florida demolition projects present unique challenges \u2014 many older Florida homes and commercial buildings are constructed with concrete block and stucco, which are significantly heavier than wood-framed structures common in other states. A 30-yard dumpster filled with concrete block can easily reach 5 tons or more. We work with you before delivery to understand your demolition scope, identify the primary materials involved, and recommend the optimal dumpster size and weight configuration. For interior demolitions and partial tear-downs, a 20-yard dumpster often suffices. For full structural demolitions, you will typically need one or more 30-yard containers with enhanced weight allowances.",
     "commonServices": [
       "Interior demolition debris removal",
       "Full structure demolition waste",
-      "Concrete and masonry disposal",
-      "Wood and framing debris",
-      "Drywall and plaster removal",
-      "Mixed demolition waste hauling",
-      "Site clearing debris"
+      "Concrete and block disposal",
+      "Kitchen and bathroom gut-out waste",
+      "Garage and outbuilding demolition",
+      "Pool demolition debris removal",
+      "Commercial demolition hauling",
+      "Multi-dumpster demolition coordination"
     ],
     "faqs": [
       {
         "q": "What size dumpster do I need for a demolition project?",
-        "a": "A 30-yard dumpster is standard for most demolition projects. For interior-only demos, a 20-yard may be sufficient. We can help estimate based on your project scope."
+        "a": "For interior demolitions like gutting a kitchen or bathroom, a 20-yard dumpster usually works. For larger projects like demolishing a garage, pool, or entire structure, you will need a 30-yard \u2014 and possibly multiple loads. Tell us about your project and we will recommend the right setup."
       },
       {
-        "q": "Can I put concrete in the dumpster?",
-        "a": "Yes, concrete is accepted. However, due to its weight, you may need a dedicated heavy debris dumpster with a higher weight allowance to avoid overage charges."
+        "q": "Can I put concrete and block in a dumpster?",
+        "a": "Yes, but concrete and block are extremely heavy. A 30-yard dumpster has a typical weight limit of 4-5 tons, and concrete fills that quickly. For projects with large amounts of concrete or masonry, we can arrange a dedicated heavy-debris container with an appropriate weight allowance at special pricing."
       },
       {
-        "q": "How many dumpsters will I need for a full demolition?",
-        "a": "Full structure demolitions typically require 3-6 dumpster loads depending on the building size. We offer continuous swap-out service for seamless workflow."
+        "q": "How do you handle large demolition projects that need multiple dumpsters?",
+        "a": "We coordinate multi-dumpster projects regularly. We can deliver multiple containers simultaneously, arrange scheduled daily or weekly swaps, or provide same-day swap service as each container fills up. Our team will work with your demo crew to create a waste removal schedule that keeps the project moving."
       },
       {
-        "q": "Do you offer same-day swap-outs for demo projects?",
-        "a": "Yes, we prioritize same-day swap-outs for active demolition projects to keep your crew working without interruption."
+        "q": "Is there anything from a demolition that cannot go in the dumpster?",
+        "a": "Standard demolition debris is accepted \u2014 concrete, block, drywall, wood, metal, flooring, fixtures, and mixed demo waste. Asbestos, lead paint materials, and other hazardous substances require specialized disposal. If your building was constructed before 1980, we recommend testing for asbestos before demolition."
       },
       {
-        "q": "Are there restrictions on demolition materials?",
-        "a": "Most demolition materials are accepted. Asbestos, lead paint materials, and other hazardous items require specialized disposal and cannot go in our dumpsters."
+        "q": "Do you offer demolition dumpster service in rural Florida areas?",
+        "a": "Yes, we serve all of Florida including rural areas. Delivery to remote locations may require an additional day of lead time, but we can get a dumpster to any address in the state. Rural demolition projects \u2014 barns, agricultural buildings, old homesteads \u2014 are some of our favorite jobs."
       }
     ],
-    "priceRange": "$400 - $850",
+    "priceRange": "$400-$750",
     "recommendedSize": "30-yard",
-    "avgRating": 4.8,
-    "reviewCount": 76
+    "avgRating": 4.9,
+    "reviewCount": 176
   },
   {
-    "slug": "renovation-remodeling",
-    "name": "Renovation & Remodeling Dumpster Rental",
-    "category": "Construction",
-    "description": "Dumpster rentals for renovation and remodeling projects in Florida. Keep your remodel on schedule with reliable debris removal.",
-    "extendedDescription": "Home renovations and remodeling projects in Florida generate a steady stream of debris from start to finish. Our renovation dumpster rental service keeps your project site clean and organized throughout the entire process. From demolition of old kitchens and bathrooms to disposal of drywall, flooring, cabinetry, and fixtures, we provide the right size dumpster with flexible rental periods that match your renovation timeline.",
+    "slug": "renovation-dumpster-rental",
+    "name": "Renovation Dumpster Rental",
+    "category": "Residential",
+    "description": "Dumpster rentals for home renovation and remodeling projects in Florida. Handle kitchen remodels, bathroom renovations, flooring replacement, additions, and whole-house renovations.",
+    "extendedDescription": "Home renovation is practically a way of life in Florida. Between the constant wear from humidity and heat, the desire to modernize aging properties, and the booming real estate market that rewards updated homes, Florida homeowners renovate more frequently than almost any other state. Our renovation dumpster rental service supports projects of every scale \u2014 from a simple bathroom refresh to a complete whole-house renovation. The key to a successful renovation dumpster rental is matching the container size to your project scope. A single bathroom remodel generates about 1 to 2 cubic yards of waste, while a full kitchen gut-and-rebuild can produce 8 to 12 cubic yards of old cabinets, countertops, flooring, drywall, and fixtures. Our 10-yard dumpster handles single-room projects beautifully, while the 20-yard is the sweet spot for multi-room renovations and kitchen remodels. For whole-house renovations or additions, the 30-yard gives you the capacity to keep working without worrying about running out of space.",
     "commonServices": [
-      "Kitchen remodel debris removal",
-      "Bathroom renovation waste disposal",
-      "Flooring removal and disposal",
+      "Kitchen remodel debris disposal",
+      "Bathroom renovation waste removal",
+      "Flooring replacement debris hauling",
+      "Home addition construction waste",
       "Cabinet and countertop disposal",
-      "Drywall and plaster removal",
-      "Fixture and hardware disposal",
-      "Whole-home renovation debris"
+      "Drywall and plaster removal waste",
+      "Whole-house renovation debris",
+      "Fixture and appliance disposal"
     ],
     "faqs": [
       {
-        "q": "How long can I keep the dumpster during a renovation?",
-        "a": "Standard rentals are 7-14 days, but we offer extended rental periods for longer renovation projects at affordable daily rates."
+        "q": "What size dumpster for a kitchen remodel?",
+        "a": "A 20-yard dumpster is the standard choice for kitchen remodels. It comfortably holds old cabinets, countertops, flooring, drywall, appliances, and all the miscellaneous debris a kitchen gut generates. For smaller kitchen updates (just countertops and appliances), a 10-yard may suffice."
       },
       {
-        "q": "What size dumpster do I need for a kitchen or bathroom remodel?",
-        "a": "A 10-yard dumpster handles a single bathroom remodel. For kitchen remodels or multi-room renovations, a 20-yard is recommended."
+        "q": "How long do renovation dumpster rentals typically last?",
+        "a": "Our standard 7-day rental covers most renovation projects. For larger renovations that take 2-4 weeks, we offer extended rental periods at a reasonable daily rate. Many renovation customers keep their dumpster for the entire project duration so they can dispose of debris as they go."
       },
       {
-        "q": "Can I put old cabinets and countertops in the dumpster?",
-        "a": "Yes, cabinets, countertops, vanities, fixtures, and most other remodeling debris are accepted."
+        "q": "Can I put old appliances in the dumpster?",
+        "a": "Yes, most appliances are accepted \u2014 dishwashers, ovens, microwaves, washers, dryers, and water heaters. Refrigerators and AC units can be accepted if the refrigerant (freon) has been properly removed by a certified technician. We can arrange freon removal if needed."
       },
       {
-        "q": "What about old plumbing and electrical materials?",
-        "a": "Pipes, wiring, outlet boxes, and similar materials are accepted. Just no hazardous items like asbestos insulation."
+        "q": "What if my renovation generates more waste than expected?",
+        "a": "It happens all the time \u2014 especially in Florida where you might uncover water damage or termite damage behind walls. If your dumpster fills up, we offer same-day swap service in most areas. We pick up the full one and drop off an empty one so your renovation does not miss a beat."
       },
       {
-        "q": "Do you offer dumpster placement in tight spaces?",
-        "a": "Our delivery drivers are experienced with tight driveways and limited access areas common in Florida neighborhoods. We'll find the best placement option."
+        "q": "Can I load the dumpster gradually over the course of my renovation?",
+        "a": "Absolutely, and most renovation customers do exactly that. Load debris as you generate it throughout your project. The dumpster sits in your driveway for the entire rental period. This is much more convenient and cost-effective than making multiple trips to the dump."
       }
     ],
-    "priceRange": "$300 - $650",
+    "priceRange": "$300-$550",
     "recommendedSize": "20-yard",
     "avgRating": 4.9,
-    "reviewCount": 121
+    "reviewCount": 263
   },
   {
-    "slug": "new-construction",
-    "name": "New Construction Dumpster Rental",
-    "category": "Construction",
-    "description": "Dumpster rentals for new construction sites in Florida. Manage job site waste efficiently from foundation to final cleanup.",
-    "extendedDescription": "New construction projects in Florida generate waste at every phase, from site preparation through final cleanup. Our construction dumpster rental service provides reliable, scheduled waste removal to keep your build site clean and safe. We work with general contractors, home builders, and developers to deliver dumpsters on time, swap them out when full, and maintain a consistent waste management schedule throughout the entire construction timeline.",
+    "slug": "junk-removal-dumpster-rental",
+    "name": "Junk Removal Dumpster Rental",
+    "category": "Residential",
+    "description": "Rent a dumpster and do your own junk removal on your own schedule. Save hundreds compared to hiring a junk removal crew while getting the job done at your own pace.",
+    "extendedDescription": "Here is a secret the junk removal industry does not want you to know: renting a dumpster and doing it yourself costs a fraction of what a junk removal crew charges, and you get to work on your own schedule. A typical junk removal company charges $400 to $800 to fill a truck \u2014 and they show up at their convenience, not yours. With a dumpster rental, you pay $275 to $500 for the same capacity, the dumpster sits in your driveway for 7 days, and you load it whenever you want. Early morning before work, late evening after the kids are in bed, a little bit each day over a long weekend \u2014 your schedule, your pace. This is especially valuable in Florida where the smartest approach is to load during the cooler morning and evening hours and avoid the midday heat. Our junk removal dumpster service is the most popular choice for Florida homeowners who are decluttering, downsizing, or just tired of looking at the stuff piling up in the garage.",
     "commonServices": [
-      "Site preparation debris removal",
-      "Framing and lumber waste disposal",
-      "Drywall scrap removal",
-      "Packaging and material waste",
-      "Final construction cleanup",
-      "Multi-phase construction waste management",
-      "Builder account services"
+      "Household junk and clutter disposal",
+      "Garage and shed cleanout waste",
+      "Furniture and mattress disposal",
+      "Appliance removal and disposal",
+      "Storage unit cleanout",
+      "Hoarding cleanout support",
+      "Post-move junk removal",
+      "Seasonal decluttering waste disposal"
     ],
     "faqs": [
       {
-        "q": "Can I have a dumpster on-site for the entire construction project?",
-        "a": "Yes, we offer long-term rentals for the duration of your construction project with scheduled swap-outs as the dumpster fills."
+        "q": "How much can I save renting a dumpster vs hiring a junk removal crew?",
+        "a": "Typically 40-60%. A junk removal crew charges $400-$800 for a full truckload, and you are on their schedule. A dumpster rental with comparable capacity costs $275-$500, includes 7 days, and you load on your own time. The tradeoff is you do the loading yourself \u2014 but for most people, that is worth the savings."
       },
       {
-        "q": "Do you offer builder or developer account pricing?",
-        "a": "Yes, builders and developers with ongoing projects qualify for volume pricing, priority scheduling, and dedicated account management."
+        "q": "What size dumpster for a general junk removal project?",
+        "a": "A 10-yard dumpster handles a single room or garage cleanout. A 20-yard handles a full house decluttering or multi-room cleanout. If you are unsure, the 20-yard is the safe bet \u2014 it is better to have a little extra space than to run out."
       },
       {
-        "q": "How often should the dumpster be swapped out during construction?",
-        "a": "It depends on the project pace. Most new construction sites need a swap-out every 1-2 weeks during active phases."
+        "q": "Can I throw away electronics in the dumpster?",
+        "a": "Small electronics like printers, computers, monitors, and small appliances are generally accepted. TVs and large electronics may have specific disposal requirements depending on the county. Text us if you have a large amount of e-waste and we will advise on the best approach for your area."
       },
       {
-        "q": "Can you deliver to undeveloped lots?",
-        "a": "Yes, as long as there's a stable, accessible surface for placement. We'll coordinate with your site manager for optimal positioning."
+        "q": "Do I need to sort my junk before loading the dumpster?",
+        "a": "No sorting required. Mix furniture, clothing, household items, small appliances, and general junk together. The only things to keep out are the standard prohibited items: hazardous materials, paint, batteries, and tires. Everything else can go in together."
       },
       {
-        "q": "What construction materials are accepted?",
-        "a": "Wood, drywall, metal, concrete, roofing, insulation, packaging, and general construction debris are all accepted. No hazardous materials."
+        "q": "Can I throw away a hot tub or above-ground pool?",
+        "a": "Hot tubs and above-ground pools can go in a dumpster if broken down into manageable pieces. They are bulky but not typically heavy, so a 20-yard dumpster usually handles them well. You may want to drain and disassemble first \u2014 or break the shell into pieces with a sledgehammer. Oddly satisfying."
       }
     ],
-    "priceRange": "$375 - $800",
-    "recommendedSize": "30-yard",
-    "avgRating": 4.8,
-    "reviewCount": 83
-  },
-  {
-    "slug": "concrete-removal",
-    "name": "Concrete & Heavy Debris Removal",
-    "category": "Construction",
-    "description": "Dumpster rentals for concrete and heavy debris removal in Florida. Purpose-built for driveways, foundations, sidewalks, and masonry waste.",
-    "extendedDescription": "Concrete and heavy debris require specialized handling due to their extreme weight. Our Florida heavy debris dumpster rental service is designed specifically for projects involving concrete slab removal, driveway demolition, foundation work, brick, block, stone, and other masonry materials. We offer dumpsters with higher weight allowances and reinforced construction to handle the load safely. Get the right dumpster for your heavy material project without worrying about overage fees.",
-    "commonServices": [
-      "Concrete slab removal",
-      "Driveway and sidewalk demolition",
-      "Foundation debris removal",
-      "Brick and block disposal",
-      "Stone and masonry waste",
-      "Paver removal and disposal",
-      "Retaining wall demolition debris"
-    ],
-    "faqs": [
-      {
-        "q": "What's the weight limit for a heavy debris dumpster?",
-        "a": "Our heavy debris dumpsters include increased weight allowances of 4-6 tons, designed specifically for concrete and masonry materials."
-      },
-      {
-        "q": "Can I mix concrete with other materials?",
-        "a": "We recommend keeping concrete and heavy debris separate from lighter construction waste. Mixing materials can lead to overage charges or loading issues."
-      },
-      {
-        "q": "What size dumpster is best for concrete removal?",
-        "a": "A 10-yard or 20-yard dumpster is typically best for concrete because the material is so heavy. A 30-yard filled with concrete would exceed safe weight limits."
-      },
-      {
-        "q": "How much concrete can fit in a 10-yard dumpster?",
-        "a": "A 10-yard dumpster can hold approximately 5-6 tons of concrete, which is equivalent to a small driveway or patio slab."
-      },
-      {
-        "q": "Do you recycle concrete?",
-        "a": "Yes, we work with recycling facilities in Florida to ensure concrete and masonry materials are recycled when possible, keeping them out of landfills."
-      }
-    ],
-    "priceRange": "$350 - $700",
+    "priceRange": "$275-$500",
     "recommendedSize": "10-yard or 20-yard",
-    "avgRating": 4.8,
-    "reviewCount": 64
+    "avgRating": 4.9,
+    "reviewCount": 298
   },
   {
-    "slug": "landscaping",
-    "name": "Landscaping Dumpster Rental",
-    "category": "Construction",
-    "description": "Dumpster rentals for landscaping projects in Florida. Handle soil, sod, branches, stumps, and yard transformation debris easily.",
-    "extendedDescription": "Major landscaping projects in Florida produce more waste than your weekly yard pickup can handle. Our landscaping dumpster rental service is perfect for large-scale yard transformations, tree removal aftermath, hardscape demolition, and seasonal property maintenance. Load up old sod, soil, branches, stumps, bushes, pavers, and other landscaping debris. We'll haul it all away so your new Florida landscape can shine.",
+    "slug": "estate-cleanout-dumpster-rental",
+    "name": "Estate Cleanout Dumpster Rental",
+    "category": "Residential",
+    "description": "Compassionate, flexible dumpster rental for estate cleanouts in Florida. Clear a loved one's home at your own pace with extended rental options and understanding service.",
+    "extendedDescription": "Clearing out a loved one's home after they pass away or move to assisted living is one of the most emotionally and physically demanding tasks a family faces. In Florida, where many residents are retirees who have accumulated decades of belongings in their homes, estate cleanouts are particularly common and particularly challenging. A lifetime of furniture, clothing, kitchen items, books, memorabilia, workshop tools, and countless personal items need to be sorted, donated, kept, or disposed of. Our estate cleanout dumpster rental service is designed with the unique emotional and logistical needs of this situation in mind. We offer extended rental periods because estate cleanouts cannot be rushed \u2014 families need time to sort through belongings, make decisions about what to keep and what to let go, and process the emotional weight of the task. Our standard 7-day rental is often extended to 14 or even 21 days for estate cleanouts, and we offer compassionate daily extension rates.",
     "commonServices": [
-      "Yard transformation debris removal",
-      "Tree and stump removal waste",
-      "Old sod and soil disposal",
-      "Hardscape demolition debris",
-      "Bush and shrub removal",
-      "Pool area landscaping waste",
-      "Large-scale property cleanup"
+      "Full estate property cleanout",
+      "Post-estate-sale debris removal",
+      "Furniture and household item disposal",
+      "Coordination with estate sale companies",
+      "Extended rental for estate processing",
+      "Multi-generational home cleanout",
+      "Assisted living transition waste removal",
+      "Hoarder estate cleanout support"
     ],
     "faqs": [
       {
-        "q": "Can I put dirt and soil in the dumpster?",
-        "a": "Yes, dirt and soil are accepted. Keep in mind that soil is heavy, so a smaller dumpster with a higher weight allowance may be the best option."
+        "q": "How long does an estate cleanout typically take?",
+        "a": "Most estate cleanouts take 1-3 weeks depending on the size of the home and amount of belongings. We offer extended rental periods specifically for estate cleanouts \u2014 typically 14 to 21 days \u2014 and our daily extension rates are designed to be affordable because we understand this process cannot be rushed."
       },
       {
-        "q": "What about tree stumps and large branches?",
-        "a": "Tree stumps, branches, and other wood waste are accepted. Large stumps may need to be cut into smaller pieces for safe loading."
+        "q": "What size dumpster for a full estate cleanout?",
+        "a": "For a typical Florida home estate cleanout, a 20-yard dumpster is the most common choice. For larger homes or estates with extensive accumulation, a 30-yard provides extra capacity. Some families start with a 20-yard and request a swap if needed \u2014 there is no penalty for getting a second load."
       },
       {
-        "q": "What size dumpster do I need for a landscaping project?",
-        "a": "For most residential landscaping projects, a 10-yard or 20-yard dumpster works well. For large-scale property clearing, consider a 30-yard."
+        "q": "Can you coordinate with estate sale companies and donation services?",
+        "a": "Yes, and we recommend this approach. Have the estate sale first, then schedule donation pickups for remaining usable items, and then load everything else into the dumpster. We can time our delivery around your estate sale and donation schedules for maximum efficiency."
       },
       {
-        "q": "Can the dumpster be placed on grass or soft ground?",
-        "a": "We can place dumpsters on grass, but we recommend plywood or boards underneath to distribute the weight and protect your lawn."
+        "q": "What about items that might have sentimental value?",
+        "a": "We always recommend doing a thorough walkthrough before loading the dumpster. Once items are in the dumpster, retrieval is difficult. Take your time sorting through personal items, photos, documents, and anything that might have family significance. The dumpster will be there when you are ready."
       },
       {
-        "q": "Is there a difference in cost for landscaping debris vs. regular waste?",
-        "a": "Pricing is based on dumpster size and weight, not material type. However, heavy materials like soil may incur weight overage charges, so we'll help you choose the right plan."
+        "q": "Do you handle hoarding situations?",
+        "a": "Yes. Hoarding estate cleanouts require extra patience, often multiple dumpsters, and sometimes coordination with specialized cleaning services. We have experience supporting families through these challenging cleanouts and can provide the additional containers and flexible scheduling these projects require."
       }
     ],
-    "priceRange": "$275 - $600",
-    "recommendedSize": "10-yard or 20-yard",
-    "avgRating": 4.7,
-    "reviewCount": 72
+    "priceRange": "$300-$600",
+    "recommendedSize": "20-yard or 30-yard",
+    "avgRating": 4.9,
+    "reviewCount": 156
   },
   {
-    "slug": "storm-debris",
-    "name": "Storm Debris Cleanup Dumpster Rental",
+    "slug": "storm-debris-dumpster-rental",
+    "name": "Storm Debris Dumpster Rental",
     "category": "Specialty",
-    "description": "Emergency dumpster rentals for storm debris cleanup in Florida. Fast delivery when you need it most after hurricanes, tropical storms, and severe weather.",
-    "extendedDescription": "Living in Florida means dealing with storm damage, and when a hurricane or tropical storm hits, fast cleanup is essential. Our storm debris dumpster rental service provides priority delivery to help Florida homeowners, businesses, and property managers clear fallen trees, damaged roofing, fencing, siding, and other storm wreckage. We scale up capacity during storm season and work closely with communities to get neighborhoods cleaned up and back to normal as quickly as possible.",
+    "description": "Emergency and post-storm dumpster rentals for hurricane debris, tropical storm damage, and severe weather cleanup across Florida. Fast deployment when you need it most.",
+    "extendedDescription": "Living in Florida means living with hurricanes, tropical storms, and severe weather events that can generate overwhelming amounts of debris in a matter of hours. When a storm hits, the cleanup is massive \u2014 fallen trees, damaged roofing, destroyed fencing, waterlogged furniture, ruined drywall, flooded appliance disposal, and mountains of yard waste that no regular trash service can handle. Our storm debris dumpster rental service is built for exactly these moments. We maintain expanded hauler capacity during hurricane season from June through November, and we activate emergency response protocols when storms threaten Florida communities. After a major storm event, we work directly with insurance restoration companies, tree removal services, roofing contractors, and individual homeowners to deploy dumpsters rapidly across affected areas. Our experience with major Florida hurricanes including Ian, Nicole, Irma, and Michael has taught us exactly how to scale our operations to meet surge demand while maintaining the service quality our customers depend on.",
     "commonServices": [
       "Hurricane debris cleanup",
-      "Fallen tree and branch removal",
-      "Damaged roofing and siding disposal",
-      "Fence and structure debris removal",
-      "Flooding debris cleanup",
-      "Community storm cleanup coordination",
-      "Emergency property clearing"
+      "Tropical storm damage waste removal",
+      "Fallen tree and vegetation disposal",
+      "Flood-damaged material disposal",
+      "Storm-damaged roofing removal",
+      "Emergency rapid dumpster deployment",
+      "Insurance restoration project support",
+      "Community-wide storm cleanup coordination"
     ],
     "faqs": [
       {
-        "q": "How quickly can you deliver after a storm?",
-        "a": "We prioritize storm debris deliveries and begin dispatching as soon as roads are safe and accessible. In most cases, we can deliver within 24-48 hours after a storm."
+        "q": "How quickly can you deliver a dumpster after a hurricane?",
+        "a": "During active storm response, we work to deploy dumpsters within 24-48 hours of roads being cleared and safe for delivery trucks. Demand surges dramatically after major storms, so we recommend contacting us as early as possible \u2014 even before the storm hits if one is forecast for your area."
       },
       {
-        "q": "Do you increase capacity during hurricane season?",
-        "a": "Yes, we prepare for Florida's hurricane season by expanding our dumpster fleet and staffing to meet increased demand during and after storms."
+        "q": "Does homeowner's insurance cover storm debris dumpster rental?",
+        "a": "In many cases, yes. Most Florida homeowner's insurance policies cover debris removal costs as part of a storm damage claim. We provide detailed invoices that are formatted for insurance submission, and we can work directly with your insurance adjuster or restoration company."
       },
       {
-        "q": "Can I use a dumpster for tree debris from a storm?",
-        "a": "Absolutely. Fallen trees, branches, leaves, and other vegetative storm debris are all accepted."
+        "q": "What storm debris materials are accepted?",
+        "a": "We accept all standard storm debris: tree limbs and vegetation, damaged roofing materials, destroyed fencing, waterlogged drywall and insulation, ruined furniture and appliances, damaged siding, and general storm wreckage. Hazardous materials and flood-contaminated items may require special handling \u2014 we can advise based on your specific situation."
       },
       {
-        "q": "Will my insurance cover the dumpster rental for storm cleanup?",
-        "a": "Many homeowner insurance policies cover debris removal after a covered storm event. We can provide receipts and documentation for your insurance claim."
+        "q": "Do you offer multiple dumpsters for severe storm damage?",
+        "a": "Yes. After major hurricanes, it is common for a single property to need 2-4 dumpsters worth of debris removal. We coordinate multi-dumpster projects with scheduled swaps so you always have an empty container available. For neighborhood-wide cleanup, we can deploy multiple dumpsters across multiple properties simultaneously."
       },
       {
-        "q": "What size dumpster do I need for storm debris?",
-        "a": "A 30-yard dumpster is recommended for most storm cleanups due to the bulky nature of tree limbs and building materials. Multiple loads may be needed for severe damage."
+        "q": "Should I book a dumpster before hurricane season starts?",
+        "a": "We do not require advance booking, but having our number saved and being a previous customer does help prioritize your order during surge demand. We recommend texting us as soon as a storm watch is issued for your area \u2014 we can tentatively schedule delivery for immediately after the storm passes."
       }
     ],
-    "priceRange": "$350 - $800",
-    "recommendedSize": "30-yard",
-    "avgRating": 4.9,
-    "reviewCount": 147
-  },
-  {
-    "slug": "fire-damage-cleanup",
-    "name": "Fire Damage Cleanup Dumpster Rental",
-    "category": "Specialty",
-    "description": "Dumpster rentals for fire damage cleanup in Florida. Remove charred materials, damaged contents, and fire debris quickly and safely.",
-    "extendedDescription": "Dealing with fire damage is one of the most stressful experiences a property owner can face. Our fire damage cleanup dumpster rental service in Florida helps you begin the recovery process by providing fast delivery of dumpsters to remove charred building materials, smoke-damaged contents, destroyed furniture, and other fire debris. We work with homeowners, restoration companies, and insurance adjusters to ensure timely waste removal so the rebuilding process can begin as soon as possible.",
-    "commonServices": [
-      "Charred building material removal",
-      "Smoke-damaged content disposal",
-      "Destroyed furniture and belongings removal",
-      "Fire-damaged roofing and siding disposal",
-      "Interior gutting debris removal",
-      "Restoration company coordination"
-    ],
-    "faqs": [
-      {
-        "q": "How soon can you deliver a dumpster after a house fire?",
-        "a": "We offer priority delivery for fire damage cleanups, typically within 24 hours once the fire department has cleared the property for access."
-      },
-      {
-        "q": "Can I put fire-damaged materials in a regular dumpster?",
-        "a": "Yes, most fire-damaged materials like charred wood, drywall, insulation, and furniture can go in our standard dumpsters. Hazardous materials require separate handling."
-      },
-      {
-        "q": "Will you work with my insurance company?",
-        "a": "We provide detailed invoices and documentation that are accepted by Florida insurance companies for fire damage debris removal claims."
-      },
-      {
-        "q": "What size dumpster do I need for fire damage cleanup?",
-        "a": "Most fire damage cleanups require a 20-yard or 30-yard dumpster. The extent of damage determines the size and number of loads needed."
-      },
-      {
-        "q": "Do you work with fire restoration companies?",
-        "a": "Yes, we partner with fire restoration and remediation companies across Florida, coordinating delivery schedules to align with their cleanup timelines."
-      }
-    ],
-    "priceRange": "$350 - $750",
+    "priceRange": "$350-$700",
     "recommendedSize": "20-yard or 30-yard",
-    "avgRating": 4.9,
-    "reviewCount": 38
+    "avgRating": 4.8,
+    "reviewCount": 189
   },
   {
-    "slug": "flood-damage-cleanup",
-    "name": "Flood Damage Cleanup Dumpster Rental",
-    "category": "Specialty",
-    "description": "Dumpster rentals for flood damage cleanup in Florida. Remove waterlogged materials, damaged contents, and flood debris quickly.",
-    "extendedDescription": "Florida's flat terrain and tropical climate make flooding a recurring challenge for homeowners and businesses. Our flood damage cleanup dumpster rental service provides rapid response when you need to remove waterlogged drywall, soaked carpet, damaged furniture, ruined appliances, and other flood debris. Speed is critical to prevent mold growth, so we prioritize fast delivery and swap-outs to keep your flood remediation on track.",
-    "commonServices": [
-      "Waterlogged drywall and insulation removal",
-      "Soaked carpet and flooring disposal",
-      "Flood-damaged furniture removal",
-      "Ruined appliance disposal",
-      "Mold remediation debris removal",
-      "Basement and ground floor gutting waste"
-    ],
-    "faqs": [
-      {
-        "q": "How fast can you deliver after a flood?",
-        "a": "We offer emergency delivery for flood damage cleanups, typically within 24 hours once floodwaters have receded and the area is accessible."
-      },
-      {
-        "q": "Why is fast cleanup important after a flood?",
-        "a": "Mold can begin growing within 24-48 hours of water exposure. Fast debris removal is critical to preventing extensive mold damage in Florida's humid climate."
-      },
-      {
-        "q": "Can I put wet, heavy materials in the dumpster?",
-        "a": "Yes, waterlogged materials are accepted. Keep in mind that wet materials are significantly heavier, so we may recommend a smaller dumpster with higher weight allowance."
-      },
-      {
-        "q": "Do you coordinate with flood restoration companies?",
-        "a": "Yes, we work closely with water damage restoration and mold remediation companies throughout Florida to align dumpster delivery with their cleanup schedules."
-      },
-      {
-        "q": "Will my flood insurance cover dumpster rental costs?",
-        "a": "Many flood insurance policies include debris removal coverage. We provide detailed documentation and invoices for your insurance claim."
-      }
-    ],
-    "priceRange": "$350 - $750",
-    "recommendedSize": "20-yard or 30-yard",
-    "avgRating": 4.9,
-    "reviewCount": 52
-  },
-  {
-    "slug": "yard-waste",
+    "slug": "yard-waste-dumpster-rental",
     "name": "Yard Waste Dumpster Rental",
-    "category": "Specialty",
-    "description": "Dumpster rentals for yard waste in Florida. Handle branches, leaves, grass clippings, palm fronds, and other green waste in one load.",
-    "extendedDescription": "Florida's lush vegetation means year-round yard maintenance, and sometimes the waste is more than your curbside pickup can handle. Our yard waste dumpster rental is perfect for major tree trimming, seasonal palm frond cleanup, hedge removal, and large-scale yard maintenance. Load up branches, leaves, grass clippings, brush, and other green waste. We'll haul it to appropriate disposal or composting facilities, keeping your Florida property looking its best.",
+    "category": "Residential",
+    "description": "Dumpster rentals for yard waste, landscaping debris, tree trimming, and outdoor cleanup projects in Florida. Often available at reduced rates for clean green waste loads.",
+    "extendedDescription": "In most states, yard waste is a seasonal concern. In Florida, it is a year-round reality. The tropical and subtropical climate means trees, shrubs, palms, and landscaping grow aggressively 12 months a year, generating a constant stream of trimmings, clippings, fallen branches, and overgrowth. Add in the aftermath of Florida's frequent afternoon thunderstorms and occasional tropical weather, and yard waste disposal becomes a regular need for Florida homeowners and landscaping companies. Our yard waste dumpster rental service is one of our most popular offerings \u2014 and one of our best values. Because clean yard waste qualifies for lower disposal rates at many Florida landfills and composting facilities, we can often pass those savings along to our customers with reduced pricing for confirmed clean green waste loads. From palm frond cleanup after a storm to major landscaping overhauls to clearing overgrown lots, our 10 and 20 yard dumpsters handle all types of vegetation, sod, dirt, mulch, branches, tree stumps, and general yard debris.",
     "commonServices": [
-      "Tree trimming debris removal",
-      "Palm frond and leaf cleanup",
-      "Hedge and bush removal waste",
-      "Seasonal yard maintenance waste",
-      "Large-scale property grooming",
-      "HOA and community yard cleanups",
-      "Post-storm vegetative debris"
+      "Tree trimming and removal waste",
+      "Palm frond and vegetation cleanup",
+      "Landscaping overhaul debris",
+      "Sod and dirt removal",
+      "Overgrown lot clearing",
+      "Storm-damaged vegetation cleanup",
+      "Mulch and ground cover removal",
+      "Seasonal yard maintenance waste"
     ],
     "faqs": [
       {
-        "q": "Can I mix yard waste with other types of debris?",
-        "a": "We recommend keeping yard waste separate from construction or household debris, as it may qualify for composting or reduced disposal rates."
+        "q": "Is yard waste dumpster rental cheaper than regular dumpster rental?",
+        "a": "Often yes. Clean yard waste \u2014 branches, leaves, grass, palm fronds, and vegetation with no construction materials or household junk mixed in \u2014 qualifies for lower disposal rates at many Florida facilities. We pass those savings along when you confirm a clean green waste load. Ask about our yard waste pricing when you call or text."
       },
       {
-        "q": "What size dumpster is best for yard waste?",
-        "a": "A 10-yard dumpster handles most residential yard cleanups. For larger properties or major tree work, a 20-yard provides more capacity."
+        "q": "What counts as clean yard waste?",
+        "a": "Clean yard waste includes tree branches, leaves, grass clippings, palm fronds, shrub trimmings, sod, small stumps, and general vegetation. It should not include any construction materials, treated lumber, plastic, metal, household items, or dirt mixed with debris. Keeping the load clean helps you get the best pricing."
       },
       {
-        "q": "Do you accept palm fronds and coconuts?",
-        "a": "Yes, palm fronds, coconuts, and other tropical vegetation common in Florida are all accepted in our yard waste dumpsters."
+        "q": "What size dumpster for a major landscaping project?",
+        "a": "For tree removal or major landscaping overhauls, a 20-yard dumpster is typically the right choice. Yard waste is bulky but relatively light, so you will usually fill the volume before reaching the weight limit. For smaller projects like seasonal cleanup or a single large tree, a 10-yard often suffices."
       },
       {
-        "q": "Is there a weight limit for yard waste?",
-        "a": "Yes, standard weight limits apply. Yard waste is generally light and bulky, so you'll typically fill the volume before hitting the weight limit."
+        "q": "Can I put dirt and sod in a yard waste dumpster?",
+        "a": "Yes, but dirt and sod are heavy. A small amount mixed with vegetation is fine, but if your project involves removing large quantities of soil or sod, let us know upfront. We may recommend a dedicated heavy-load container or adjusted weight allowance to avoid overweight charges."
       },
       {
-        "q": "Can I use a dumpster for an HOA community cleanup?",
-        "a": "Absolutely. We work with HOAs and community associations across Florida to provide dumpsters for neighborhood-wide yard waste cleanup events."
+        "q": "Do you work with landscaping companies?",
+        "a": "Yes. Many Florida landscaping companies use our yard waste dumpster service for large jobs where their truck capacity is not enough. We offer landscaper accounts with volume pricing and priority scheduling. If you have a large tree removal, lot clearing, or landscape renovation project, we are your waste disposal partner."
       }
     ],
-    "priceRange": "$250 - $500",
+    "priceRange": "$250-$450",
     "recommendedSize": "10-yard or 20-yard",
-    "avgRating": 4.7,
-    "reviewCount": 89
+    "avgRating": 4.9,
+    "reviewCount": 87
   },
   {
-    "slug": "appliance-disposal",
-    "name": "Appliance Disposal Dumpster Rental",
-    "category": "Specialty",
-    "description": "Dumpster rentals for appliance disposal in Florida. Get rid of refrigerators, washers, dryers, stoves, and other old appliances the easy way.",
-    "extendedDescription": "Replacing old appliances or clearing out a property full of them? Our appliance disposal dumpster rental in Florida makes it simple. Instead of scheduling multiple pickups or hauling heavy appliances to a recycling center yourself, rent a dumpster and load everything at once. We accept refrigerators (with Freon properly removed), washers, dryers, dishwashers, stoves, water heaters, and other household appliances. Combine appliance disposal with other household cleanout items to make the most of your rental.",
+    "slug": "garage-cleanout-dumpster-rental",
+    "name": "Garage Cleanout Dumpster Rental",
+    "category": "Residential",
+    "description": "Dumpster rentals for garage cleanouts in Florida. Reclaim your garage space by clearing out years of accumulated tools, equipment, storage boxes, and forgotten items.",
+    "extendedDescription": "The average American garage holds over $3,000 worth of stuff that never gets used. In Florida, garages serve double duty \u2014 they are supposed to protect your car from the brutal sun and afternoon thunderstorms, but instead they become the default storage unit for everything from holiday decorations to that kayak you used once. Our garage cleanout dumpster rental makes it easy to reclaim that space. A 10-yard dumpster fits perfectly in your driveway right next to the garage door, giving you the shortest possible carry distance. Most two-car garage cleanouts fit comfortably in a 10-yard container, while heavily packed garages or those combined with attic cleanouts may need a 20-yard. We deliver in the morning, you spend a weekend loading, and we pick it up when you are done. Your car finally gets to sleep inside again.",
     "commonServices": [
-      "Old refrigerator and freezer disposal",
-      "Washer and dryer removal",
-      "Stove and oven disposal",
-      "Dishwasher removal",
+      "Full garage cleanout",
+      "Workshop and tool disposal",
+      "Storage box and bin removal",
+      "Old equipment disposal",
+      "Attic and garage combo cleanout",
+      "Seasonal item purge",
+      "Pre-move garage clearing",
+      "Garage renovation debris"
+    ],
+    "faqs": [
+      {
+        "q": "What size dumpster for a garage cleanout?",
+        "a": "A 10-yard dumpster handles most standard two-car garage cleanouts. If your garage is packed floor to ceiling or you are also cleaning out an attic or storage area, a 20-yard gives you extra room. When in doubt, the 10-yard is usually the right starting point."
+      },
+      {
+        "q": "Can I put old paint cans from my garage in the dumpster?",
+        "a": "Liquid paint is not accepted. However, if paint cans are completely dried out (open the lids and let them dry for a few days in the Florida sun), they can go in the dumpster. Most counties also have paint recycling drop-off locations."
+      },
+      {
+        "q": "What about old power tools and lawn equipment?",
+        "a": "Most power tools, lawn mowers, and equipment can go in the dumpster as long as you drain any fuel and oil first. Remove batteries from cordless tools and recycle them separately. The metal components of these items are often recycled at the disposal facility."
+      },
+      {
+        "q": "How long does a garage cleanout typically take?",
+        "a": "Most homeowners complete a garage cleanout in a single weekend. With a 7-day rental, you have plenty of time to sort through items, decide what to keep, donate, or toss, and load at a comfortable pace. No rush."
+      },
+      {
+        "q": "Will the dumpster fit in my driveway next to my car?",
+        "a": "A 10-yard dumpster is approximately 12 feet long and 8 feet wide \u2014 about the size of a parking space. Most Florida driveways can accommodate a 10-yard dumpster plus one car. If space is tight, let us know and we can discuss placement options."
+      }
+    ],
+    "priceRange": "$250-$400",
+    "recommendedSize": "10-yard or 20-yard",
+    "avgRating": 4.9,
+    "reviewCount": 234
+  },
+  {
+    "slug": "foreclosure-cleanout-dumpster-rental",
+    "name": "Foreclosure Cleanout Dumpster Rental",
+    "category": "Commercial",
+    "description": "Fast, affordable dumpster rentals for foreclosure property cleanouts in Florida. Clear abandoned properties quickly to prepare them for sale or new tenants.",
+    "extendedDescription": "Florida has one of the highest foreclosure rates in the nation, and clearing out foreclosed properties is a constant need for banks, asset management companies, REO agents, and property preservation firms. Foreclosure cleanouts are unpredictable \u2014 you never know what you will find until you open the door. Abandoned furniture, personal belongings, damaged fixtures, yard waste from months of neglect, and sometimes significant water or mold damage create a complex waste removal challenge. Our foreclosure cleanout dumpster service provides fast delivery, flexible scheduling, and the ability to handle multiple properties simultaneously. We work with property preservation companies across Florida to provide volume pricing and coordinated multi-property service. Whether you are clearing a single foreclosed condo in Miami or managing a portfolio of REO properties across the state, we deliver the right dumpster to each property on your schedule.",
+    "commonServices": [
+      "Foreclosed property cleanout",
+      "REO property preparation",
+      "Bank-owned property clearing",
+      "Multi-property cleanout coordination",
+      "Abandoned property debris removal",
+      "Property preservation waste disposal",
+      "Tenant eviction cleanout",
+      "Investor property turnover"
+    ],
+    "faqs": [
+      {
+        "q": "How quickly can you deliver to a foreclosure property?",
+        "a": "Same-day delivery is available in most Florida metro areas for orders placed before noon. For property preservation companies managing multiple properties, we can schedule deliveries across your portfolio for maximum efficiency."
+      },
+      {
+        "q": "What size dumpster for a foreclosure cleanout?",
+        "a": "A 20-yard dumpster handles most standard home foreclosure cleanouts. For properties with extensive accumulation or larger homes, a 30-yard may be needed. For condos and small units, a 10-yard often suffices."
+      },
+      {
+        "q": "Do you offer volume pricing for property preservation companies?",
+        "a": "Yes. We work with several property preservation and REO management firms across Florida. Our corporate accounts provide volume pricing, consolidated billing, multi-property coordination, and dedicated account management."
+      },
+      {
+        "q": "Can you handle properties with water damage or mold?",
+        "a": "Standard dumpsters can accept water-damaged materials like drywall, carpet, and furniture. Materials with active mold should be bagged before loading. For properties with significant mold contamination, we recommend professional mold remediation before cleanout."
+      },
+      {
+        "q": "Do you work with banks and asset management companies directly?",
+        "a": "Yes. We provide W-9 documentation, COI certificates, and formatted invoicing that meets the requirements of major banks, GSEs, and asset management companies. We understand the documentation and timeline requirements of institutional property disposition."
+      }
+    ],
+    "priceRange": "$300-$600",
+    "recommendedSize": "20-yard",
+    "avgRating": 4.8,
+    "reviewCount": 143
+  },
+  {
+    "slug": "moving-dumpster-rental",
+    "name": "Moving Dumpster Rental",
+    "category": "Residential",
+    "description": "Dumpster rentals for moving and relocation projects in Florida. Declutter before the move and leave the old place spotless without making multiple dump runs.",
+    "extendedDescription": "Moving is the perfect time to declutter \u2014 and Florida sees an enormous volume of moves. Over 300,000 people move to Florida every year, and hundreds of thousands more move within the state. Whether you are moving across town or across the country, a dumpster rental during your move saves time, money, and stress. Instead of packing and hauling things you no longer want, toss them in the dumpster. Old furniture that will not fit in the new place, broken items you have been meaning to throw away, boxes of stuff from the attic you have not opened in years \u2014 out it goes. Our moving dumpster rental is timed to your moving schedule. We deliver a few days before your move date so you can declutter as you pack, and we pick it up after you have finished clearing out the old place. This is especially valuable in Florida where the heat makes multiple trips to the dump absolutely miserable.",
+    "commonServices": [
+      "Pre-move decluttering",
+      "Post-move cleanup",
+      "Old furniture disposal",
+      "Packing material waste removal",
+      "Downsizing waste disposal",
+      "Cross-country move cleanout",
+      "Rental property turnover cleanup",
+      "Moving day debris removal"
+    ],
+    "faqs": [
+      {
+        "q": "When should I schedule the dumpster for my move?",
+        "a": "We recommend having the dumpster delivered 2-3 days before your planned moving day. This gives you time to declutter as you pack \u2014 toss items you do not want to move rather than boxing them up. Schedule pickup for 1-2 days after moving day to catch any last items from the final walkthrough."
+      },
+      {
+        "q": "What size dumpster for a residential move?",
+        "a": "For most moves from a 2-3 bedroom home, a 10-yard dumpster handles the decluttering waste. If you are downsizing significantly or clearing out a large home, a 20-yard gives you room for furniture, appliances, and larger items you are not taking with you."
+      },
+      {
+        "q": "Can I put moving boxes and packing materials in the dumpster?",
+        "a": "Yes, but consider recycling clean cardboard boxes instead \u2014 many Florida recycling programs accept them, and they can be reused by other people who are moving. Packing paper, bubble wrap, and foam can go in the dumpster."
+      },
+      {
+        "q": "I am moving out of state \u2014 can you still deliver?",
+        "a": "Of course. We deliver to your current Florida address so you can declutter before the move. Whether you are moving to another state or across town, the dumpster at your old address helps you leave the property clean."
+      },
+      {
+        "q": "Do landlords or property managers order dumpsters for tenant moves?",
+        "a": "Yes, this is common. Property managers often order a dumpster for the transition period between tenants to handle leftover items and make-ready debris from painting, carpet replacement, and minor repairs."
+      }
+    ],
+    "priceRange": "$250-$450",
+    "recommendedSize": "10-yard or 20-yard",
+    "avgRating": 4.9,
+    "reviewCount": 178
+  },
+  {
+    "slug": "concrete-dumpster-rental",
+    "name": "Concrete & Heavy Debris Dumpster Rental",
+    "category": "Specialty",
+    "description": "Specialized dumpster rentals for concrete, brick, block, stone, and other heavy materials in Florida. Higher weight allowances and appropriate pricing for dense debris.",
+    "extendedDescription": "Florida construction relies heavily on concrete block, poured concrete, stucco, and tile \u2014 all materials that are significantly heavier than the wood-framing waste common in other states. Our concrete and heavy debris dumpster service is specifically designed for projects that generate dense, heavy waste. Standard dumpster weight limits are often insufficient for concrete-heavy loads, which is why we offer enhanced weight allowances and pricing structures tailored to heavy materials. A 10-yard dumpster filled with concrete weighs approximately 10 to 12 tons \u2014 far exceeding standard weight limits. We work with you to determine the right container size and weight configuration for your specific project, whether you are breaking up a concrete patio, demolishing a block wall, removing a concrete driveway, or tearing down a Florida block-construction building. Our heavy debris service includes reinforced containers and haulers with appropriate truck capacity for safely transporting heavy loads on Florida roads.",
+    "commonServices": [
+      "Concrete slab removal",
+      "Block wall demolition waste",
+      "Driveway and patio removal",
+      "Foundation demolition debris",
+      "Brick and stone disposal",
+      "Stucco removal waste",
+      "Pool demolition concrete",
+      "Heavy construction debris hauling"
+    ],
+    "faqs": [
+      {
+        "q": "How much does concrete weigh per yard?",
+        "a": "Concrete weighs approximately 2,000-2,400 pounds per cubic yard. A 10-yard dumpster filled with concrete would weigh 10-12 tons \u2014 well over standard weight limits. This is why concrete projects require special weight allowances and pricing."
+      },
+      {
+        "q": "What size dumpster for a concrete project?",
+        "a": "Counterintuitively, smaller dumpsters are often better for concrete. A 10-yard with an enhanced weight allowance is the standard choice because you will hit the weight limit long before filling the volume. For mixed loads with some concrete, a 20-yard with adjusted weight limits works well."
+      },
+      {
+        "q": "Is concrete disposal more expensive than regular debris?",
+        "a": "Concrete can actually be cheaper to dispose of than mixed waste because it is recyclable. Clean concrete is crushed and reused as road base and fill material. Many facilities accept clean concrete at lower tipping rates. Mixed concrete with rebar, wire, or other materials costs more."
+      },
+      {
+        "q": "Can I mix concrete with other construction debris?",
+        "a": "You can, but keeping concrete separate often results in lower disposal costs. If your project generates both concrete and lighter construction waste, consider two separate loads \u2014 a heavy concrete load and a standard mixed debris load."
+      },
+      {
+        "q": "Do you handle pool demolition concrete?",
+        "a": "Yes. Pool demolition is one of the most common concrete disposal projects in Florida. A typical in-ground pool demolition generates 15-30 tons of concrete \u2014 usually requiring multiple heavy-load dumpsters with scheduled swaps over several days."
+      }
+    ],
+    "priceRange": "$300-$650",
+    "recommendedSize": "10-yard or 20-yard",
+    "avgRating": 4.8,
+    "reviewCount": 112
+  },
+  {
+    "slug": "appliance-removal-dumpster-rental",
+    "name": "Appliance Removal Dumpster Rental",
+    "category": "Residential",
+    "description": "Dumpster rentals for appliance disposal and removal in Florida. Dispose of old refrigerators, washers, dryers, water heaters, and other appliances properly and affordably.",
+    "extendedDescription": "Florida homeowners replace appliances more frequently than the national average due to the constant humidity, hard water, and heavy use that comes with year-round warm weather. Air conditioners run 10 months a year, water heaters corrode faster, and appliances generally wear out sooner in the Florida climate. When it is time to replace one or multiple appliances, our dumpster rental provides a simple disposal solution. Most appliances \u2014 dishwashers, stoves, ovens, microwaves, washers, dryers, water heaters, and window AC units \u2014 can go directly into the dumpster with no special handling. Refrigerators and central AC units require refrigerant removal by a certified technician before disposal, and we can arrange that service. For homeowners doing kitchen or laundry room renovations that involve replacing multiple appliances along with cabinets and fixtures, a dumpster is far more efficient than scheduling individual appliance pickups. The metal in appliances is valuable for recycling, so disposal costs are often lower than you might expect.",
+    "commonServices": [
+      "Old appliance disposal",
+      "Kitchen appliance replacement waste",
+      "Laundry room renovation debris",
       "Water heater disposal",
-      "HVAC unit removal",
-      "Multi-appliance property cleanouts"
+      "HVAC equipment removal",
+      "Multi-appliance disposal",
+      "Renovation appliance removal",
+      "Commercial appliance disposal"
     ],
     "faqs": [
       {
         "q": "Can I put a refrigerator in the dumpster?",
-        "a": "Yes, but the Freon refrigerant must be professionally removed first. We can recommend certified technicians in Florida who provide this service."
+        "a": "Yes, but the refrigerant (freon) must be removed first by a certified technician. We can arrange freon removal for you \u2014 just let us know when you order. Once the refrigerant is removed, the refrigerator can go in the dumpster."
       },
       {
-        "q": "How many appliances can fit in a 10-yard dumpster?",
-        "a": "A 10-yard dumpster can hold approximately 6-8 major appliances. If you're combining appliances with other items, a 20-yard gives you more flexibility."
+        "q": "How many appliances fit in a 10-yard dumpster?",
+        "a": "A 10-yard dumpster can hold 8-12 standard appliances depending on their size. If you are disposing of appliances only (no other debris), a 10-yard is usually more than enough for an entire household worth of old appliances."
       },
       {
-        "q": "Do you recycle old appliances?",
-        "a": "We work with recycling facilities to ensure metals and other recyclable materials from appliances are recovered whenever possible."
+        "q": "Are there extra fees for appliance disposal?",
+        "a": "Standard appliances have no extra disposal fees. Refrigerators and AC units that require freon removal have a small additional charge for the certified technician. This is typically - per unit."
       },
       {
-        "q": "Can I put a hot tub in the dumpster?",
-        "a": "Yes, hot tubs can be placed in our dumpsters, though they may need to be cut into sections to fit properly. A 20-yard dumpster is recommended."
+        "q": "Can businesses use this service for commercial appliances?",
+        "a": "Yes. Restaurants, hotels, laundromats, and other businesses use our service for commercial appliance disposal. Commercial appliances are often larger and heavier \u2014 let us know what you are disposing of so we can recommend the right dumpster size."
       },
       {
-        "q": "Is it cheaper to rent a dumpster than pay for individual appliance pickup?",
-        "a": "If you have more than 2-3 appliances, a dumpster rental is typically more cost-effective. Plus, you can throw in other items alongside your appliances."
+        "q": "Is it cheaper to use a dumpster or schedule appliance pickup?",
+        "a": "For a single appliance, scheduling a pickup may be simpler. For multiple appliances \u2014 especially combined with renovation debris \u2014 a dumpster is almost always more cost-effective and convenient. You load on your schedule rather than waiting for a pickup appointment."
       }
     ],
-    "priceRange": "$275 - $500",
+    "priceRange": "$250-$400",
+    "recommendedSize": "10-yard",
+    "avgRating": 4.9,
+    "reviewCount": 167
+  },
+  {
+    "slug": "pool-demolition-dumpster-rental",
+    "name": "Pool Demolition Dumpster Rental",
+    "category": "Specialty",
+    "description": "Dumpster rentals for swimming pool demolition and removal projects in Florida. Handle concrete, rebar, tile, decking, and pool equipment disposal.",
+    "extendedDescription": "Florida has more residential swimming pools than any other state \u2014 over 1.7 million \u2014 and thousands are demolished every year. Homeowners remove pools for many reasons: aging pools that cost more to maintain than they are worth, pools that no longer meet family needs, insurance cost reduction, and property reconfiguration. Pool demolition generates enormous amounts of heavy debris \u2014 a typical in-ground pool produces 15 to 30 tons of concrete, rebar, tile, plumbing, and decking material. Our pool demolition dumpster service coordinates with demolition contractors to provide the right number of heavy-load containers, timed to the demolition schedule. Most pool demolitions require 2 to 4 dumpster loads over 3 to 5 days. We arrange scheduled swaps so a fresh container is always available as the demo crew works. Pool shell concrete is recyclable and is typically crushed for reuse as fill material, which can reduce disposal costs compared to mixed waste.",
+    "commonServices": [
+      "In-ground pool demolition debris",
+      "Above-ground pool removal",
+      "Pool deck and coping removal",
+      "Screen enclosure demolition",
+      "Pool equipment disposal",
+      "Concrete shell removal",
+      "Tile and finish disposal",
+      "Backfill coordination"
+    ],
+    "faqs": [
+      {
+        "q": "How many dumpsters does a pool demolition need?",
+        "a": "A typical in-ground pool demolition requires 2-4 heavy-load dumpster deliveries over 3-5 days. We coordinate scheduled swaps with your demolition contractor so an empty container is always available as work progresses."
+      },
+      {
+        "q": "What about the pool screen enclosure?",
+        "a": "Pool screen enclosure materials \u2014 aluminum framing, screening, and hardware \u2014 can go in the dumpster. Screen enclosures are relatively lightweight compared to the pool shell, so they do not significantly impact weight. Most contractors remove the enclosure first before starting on the pool itself."
+      },
+      {
+        "q": "Is pool concrete recycled?",
+        "a": "Yes. Clean concrete from pool demolitions is highly recyclable \u2014 it is crushed and reused as road base, fill material, and aggregate. Keeping the concrete load clean (separating it from mixed debris) often results in lower disposal costs."
+      },
+      {
+        "q": "Do you work with pool demolition contractors?",
+        "a": "Yes. We partner with pool demolition contractors across Florida and coordinate dumpster logistics as part of their project planning. Many demo contractors use us exclusively because of our reliability and understanding of pool demolition waste flows."
+      },
+      {
+        "q": "What about partial pool demolition vs full removal?",
+        "a": "We support both approaches. Partial demolition (breaking the shell to 18-24 inches below grade) generates less debris than full removal. Your dumpster needs will vary accordingly \u2014 we can estimate based on your demolition plan."
+      }
+    ],
+    "priceRange": "$400-$800",
+    "recommendedSize": "20-yard or 30-yard",
+    "avgRating": 4.9,
+    "reviewCount": 98
+  },
+  {
+    "slug": "landscaping-dumpster-rental",
+    "name": "Landscaping Dumpster Rental",
+    "category": "Commercial",
+    "description": "Dumpster rentals for landscaping companies and large-scale landscaping projects in Florida. Handle sod, mulch, vegetation, stumps, and hardscape removal debris.",
+    "extendedDescription": "Florida landscaping projects generate waste year-round thanks to the tropical climate that keeps plants growing aggressively in every season. Our landscaping dumpster service supports both professional landscaping companies and homeowners tackling major outdoor projects. Large-scale landscaping overhauls \u2014 removing old sod, clearing overgrown vegetation, replacing hardscaping, removing pavers or concrete walkways, and grinding stumps \u2014 create waste volumes that far exceed what fits in a truck bed or trailer. Our dumpsters provide a central collection point on the job site, allowing crews to work efficiently without making multiple dump runs. For landscaping companies, we offer commercial accounts with volume pricing and priority scheduling. Many of our landscaping clients schedule weekly or bi-weekly dumpster service during their busiest months, ensuring they always have disposal capacity available for their projects across Florida.",
+    "commonServices": [
+      "Large-scale landscape overhaul debris",
+      "Sod and turf removal",
+      "Tree and stump removal waste",
+      "Hardscape demolition debris",
+      "Paver and stone removal",
+      "Irrigation system removal waste",
+      "Commercial landscape renovation",
+      "Landscaping company recurring service"
+    ],
+    "faqs": [
+      {
+        "q": "What size dumpster for a landscaping project?",
+        "a": "For vegetation-heavy projects (tree trimming, overgrowth clearing), a 20-yard handles the bulk since plant material is bulky but light. For hardscape projects involving pavers, concrete, or stone, weight is the concern \u2014 a 10 or 20-yard with appropriate weight allowance works best."
+      },
+      {
+        "q": "Can sod and dirt go in the dumpster?",
+        "a": "Yes, but be aware that sod and dirt are heavy \u2014 especially Florida soil which retains moisture. A small amount is fine, but large volumes of soil or sod may require a heavy-load dumpster or dedicated dirt removal service for the most cost-effective disposal."
+      },
+      {
+        "q": "Do you offer accounts for landscaping companies?",
+        "a": "Yes. Our landscaping company accounts include volume pricing, priority scheduling, flexible billing, and the ability to order dumpsters to client properties across Florida. Many of our landscaping clients consider us a core part of their operations."
+      },
+      {
+        "q": "Can tree stumps go in the dumpster?",
+        "a": "Small to medium stumps (under 24 inches in diameter) can go in the dumpster if they fit through the opening. Larger stumps may need to be cut into pieces first. Very large stumps are often better handled by a stump grinding service, with the grindings going in the dumpster."
+      },
+      {
+        "q": "Is landscaping waste cheaper to dispose of than construction waste?",
+        "a": "Clean green waste \u2014 vegetation only, no soil, no construction materials \u2014 often qualifies for reduced disposal rates at composting facilities. Keeping your load clean and vegetation-only can save you money on disposal costs."
+      }
+    ],
+    "priceRange": "$275-$500",
+    "recommendedSize": "20-yard",
+    "avgRating": 4.9,
+    "reviewCount": 134
+  },
+  {
+    "slug": "hoa-community-dumpster-rental",
+    "name": "HOA & Community Dumpster Rental",
+    "category": "Commercial",
+    "description": "Dumpster rentals for HOAs, apartment complexes, condo associations, and community cleanups in Florida. Organized waste disposal for shared properties and community events.",
+    "extendedDescription": "Florida has more homeowners associations than any other state, and community waste management is an ongoing challenge. Whether it is a community-wide cleanup day, a bulk waste event for residents, post-hurricane debris staging, common area renovation, or routine seasonal maintenance, HOAs and property managers need dumpster rental solutions that work within the constraints of shared communities. Our HOA and community dumpster service includes coordinated delivery and pickup scheduling, placement in designated areas approved by the board or management company, compliance with community aesthetic guidelines, and flexible sizing based on the scope of the event. We work directly with HOA boards, property management companies, and community event organizers to plan waste removal logistics. For apartment complexes and condo communities, we provide recurring service for move-in/move-out seasons, bulk waste days, and renovation projects. Our experience working with Florida communities means we understand the approval processes, placement restrictions, and communication requirements that make community dumpster events run smoothly.",
+    "commonServices": [
+      "Community cleanup day dumpsters",
+      "HOA bulk waste events",
+      "Apartment complex move-out season",
+      "Condo renovation waste management",
+      "Common area renovation debris",
+      "Post-storm community cleanup",
+      "Seasonal community cleanups",
+      "Multi-unit property management waste"
+    ],
+    "faqs": [
+      {
+        "q": "How do we schedule a dumpster for an HOA community event?",
+        "a": "Contact us with the event date, expected waste volume, placement location, and any community restrictions. We will recommend the right size and number of dumpsters, confirm placement meets your community guidelines, and coordinate delivery and pickup timing around your event schedule."
+      },
+      {
+        "q": "Can you place multiple dumpsters for a large community?",
+        "a": "Yes. For community-wide cleanup events or large complexes, we can deploy multiple dumpsters at different locations within the community. We coordinate placement and pickup logistics so that containers are swapped out before they overflow."
+      },
+      {
+        "q": "Do you work with property management companies?",
+        "a": "Extensively. We provide commercial accounts for property management companies with consolidated billing across all properties, volume pricing, and a dedicated account manager. Many Florida property management firms use us as their exclusive dumpster provider."
+      },
+      {
+        "q": "What are common HOA restrictions we should know about?",
+        "a": "Common restrictions include maximum dumpster duration (typically 3-7 days), placement location requirements (out of sight from main roads), tarp covering requirements, advance board notification, and prohibited placement on common area landscaping. Check your CC&Rs before ordering."
+      },
+      {
+        "q": "Can you help with post-hurricane community cleanup?",
+        "a": "Yes. After major storms, we deploy multiple dumpsters to affected communities for debris staging. We coordinate with HOA boards and management companies to establish collection points and schedule systematic pickups as containers fill."
+      }
+    ],
+    "priceRange": "$300-$700",
+    "recommendedSize": "20-yard or 30-yard",
+    "avgRating": 4.8,
+    "reviewCount": 109
+  },
+  {
+    "slug": "diy-project-dumpster-rental",
+    "name": "DIY Project Dumpster Rental",
+    "category": "Residential",
+    "description": "Dumpster rentals for do-it-yourself home projects in Florida. From weekend warriors to serious DIYers, get a dumpster for your self-managed home improvement project.",
+    "extendedDescription": "The DIY home improvement movement is enormous in Florida, fueled by YouTube tutorials, home renovation shows, and the financial incentive of doing it yourself in one of the most expensive contractor markets in the country. Whether you are replacing flooring throughout your house, building a backyard deck, tearing out a bathroom, converting a garage, or simply doing a massive organization project, a dumpster rental is the missing piece that makes DIY projects actually manageable. Without a dumpster, waste piles up in your garage, on your patio, or in your yard \u2014 creating safety hazards, attracting pests (this is Florida, after all), and making your project feel overwhelming. With a dumpster in your driveway, every demolished wall, every ripped-up floor tile, every old fixture goes straight into the container. It is satisfying, it is organized, and it keeps your project moving forward. Our DIY customers love the 7-day rental period because weekend warriors often work on projects across two or three weekends \u2014 the dumpster waits patiently while you recharge between sessions.",
+    "commonServices": [
+      "Weekend renovation waste",
+      "Flooring replacement debris",
+      "Deck building and removal waste",
+      "Bathroom DIY renovation debris",
+      "Fence replacement waste",
+      "Painting and wall removal waste",
+      "DIY kitchen update debris",
+      "Home office conversion waste"
+    ],
+    "faqs": [
+      {
+        "q": "I am doing a DIY project \u2014 what size dumpster should I get?",
+        "a": "For most single-room DIY projects (bathroom, bedroom, home office), a 10-yard handles the debris. For multi-room projects, flooring throughout the house, or deck removal, a 20-yard is the sweet spot. Text us your project details and we will give you a specific recommendation."
+      },
+      {
+        "q": "Can I keep the dumpster for multiple weekends?",
+        "a": "Our standard 7-day rental covers two weekends, and we offer affordable daily extensions if your project spans more time. Many DIY customers keep their dumpster for 10-14 days to accommodate a weekend-at-a-time work schedule."
+      },
+      {
+        "q": "Is it cheaper to rent a dumpster or haul debris myself?",
+        "a": "For anything more than a single truck load, a dumpster is almost always cheaper. Factor in dump fees, fuel, your time, and vehicle wear \u2014 plus the Florida heat of making multiple dump runs \u2014 and the dumpster pays for itself quickly. One delivery, one pickup, done."
+      },
+      {
+        "q": "My project is small \u2014 is a dumpster overkill?",
+        "a": "If your project generates more than 2-3 trash bags of debris, a dumpster is worth it. Our 10-yard starts at , which is comparable to a single dump run when you factor in time, fuel, and dump fees. The convenience alone is worth it."
+      },
+      {
+        "q": "Can I share a dumpster with my neighbor?",
+        "a": "We do not have rules against it. If you and a neighbor both have small projects, splitting a 20-yard dumpster and the cost can be a smart move. Just coordinate on timing and make sure both projects will complete within the rental period."
+      }
+    ],
+    "priceRange": "$250-$500",
+    "recommendedSize": "10-yard or 20-yard",
+    "avgRating": 4.9,
+    "reviewCount": 256
+  },
+  {
+    "slug": "office-cleanout-dumpster-rental",
+    "name": "Office Cleanout Dumpster Rental",
+    "category": "Commercial",
+    "description": "Dumpster rentals for office cleanouts, relocations, and furniture disposal in Florida. Clear out cubicles, desks, files, equipment, and more with efficient roll-off service.",
+    "extendedDescription": "Florida office markets are dynamic \u2014 companies expand, downsize, relocate, and reconfigure their spaces constantly. Each of these transitions generates waste: old cubicle systems, desks, chairs, filing cabinets, outdated technology equipment, years of accumulated files and documents, break room furniture, and outdated decor. Our office cleanout dumpster rental provides businesses with efficient waste removal that works around your business schedule. We can deliver after hours, on weekends, or during business hours \u2014 whatever minimizes disruption to your operations. For large office cleanouts, we coordinate multi-dumpster delivery with scheduled swaps so your cleanout crew always has disposal capacity. We work with office furniture liquidators, document shredding services, and e-waste recyclers to help you maximize value from usable items before the remainder goes in the dumpster. Florida businesses appreciate our corporate billing, tax-exempt invoicing, and ability to work with building management on delivery logistics for multi-tenant office buildings.",
+    "commonServices": [
+      "Full office cleanout",
+      "Cubicle and furniture disposal",
+      "File and document disposal",
+      "Office relocation waste",
+      "Technology equipment disposal",
+      "Break room and kitchen cleanout",
+      "Multi-floor office clearing",
+      "Building renovation debris"
+    ],
+    "faqs": [
+      {
+        "q": "Can you deliver a dumpster to a multi-tenant office building?",
+        "a": "Yes. We coordinate with building management on delivery logistics \u2014 loading dock access, elevator scheduling, designated placement areas, and delivery windows. Many commercial buildings have specific dumpster placement rules that we are familiar with."
+      },
+      {
+        "q": "What size dumpster for a standard office cleanout?",
+        "a": "For a small office (under 5,000 sq ft), a 10-yard usually suffices. For larger offices, a 20-yard handles the furniture and debris from most standard office cleanouts. Very large offices or multi-floor clearings may need a 30-yard or multiple loads."
+      },
+      {
+        "q": "Can you pick up after hours to avoid disrupting business?",
+        "a": "Yes. We offer flexible delivery and pickup scheduling including evenings, early mornings, and weekends. Just coordinate with your building management to ensure after-hours access is available for our driver."
+      },
+      {
+        "q": "Should we donate office furniture before ordering a dumpster?",
+        "a": "We recommend it. Many Florida organizations accept used office furniture \u2014 Habitat ReStore, local nonprofits, and office furniture resellers. Donate usable items first, then use the dumpster for everything that remains. This saves on disposal and supports your community."
+      },
+      {
+        "q": "What about confidential document disposal?",
+        "a": "We recommend using a certified document shredding service for confidential files before loading paper waste into the dumpster. Dumpsters are not secure, and putting confidential documents in an open container creates privacy risks. Shred first, then dispose of the shredded material."
+      }
+    ],
+    "priceRange": "$275-$600",
     "recommendedSize": "10-yard or 20-yard",
     "avgRating": 4.8,
-    "reviewCount": 67
+    "reviewCount": 145
+  },
+  {
+    "slug": "disaster-restoration-dumpster-rental",
+    "name": "Disaster Restoration Dumpster Rental",
+    "category": "Specialty",
+    "description": "Dumpster rentals for disaster restoration companies in Florida. Fast deployment for fire damage, water damage, mold remediation, and insurance restoration projects.",
+    "extendedDescription": "Disaster restoration companies are first responders for property damage in Florida \u2014 and Florida produces more property damage events per capita than almost any other state. Between hurricanes, tropical storms, flooding, fire, mold outbreaks from humidity, and water damage from aging plumbing, restoration contractors need a waste removal partner they can depend on without question. Our disaster restoration dumpster service provides rapid deployment, flexible scheduling, and the reliability that restoration companies require during high-pressure jobs. When a restoration crew arrives at a flood-damaged home at 6 AM to begin water extraction and tear-out, the dumpster needs to be there already. We coordinate with restoration project managers to align delivery with their work schedule and provide same-day swap service as containers fill during intensive tear-out phases. We also understand the documentation requirements of insurance restoration work and provide detailed invoicing formatted for insurance submission. Our restoration industry clients include some of the largest national restoration franchises operating in Florida as well as independent contractors throughout the state.",
+    "commonServices": [
+      "Fire damage debris removal",
+      "Flood and water damage tear-out waste",
+      "Mold remediation debris disposal",
+      "Insurance restoration project support",
+      "Emergency rapid deployment",
+      "Smoke and soot damaged material disposal",
+      "Biohazard-adjacent waste removal",
+      "Multi-day restoration project support"
+    ],
+    "faqs": [
+      {
+        "q": "How fast can you deploy a dumpster for an emergency restoration?",
+        "a": "For restoration emergencies, we offer expedited delivery \u2014 often within 2-4 hours in major Florida metro areas. Restoration companies with accounts get priority deployment. We understand that every hour of delay costs money and extends the damage."
+      },
+      {
+        "q": "Do you provide insurance-formatted invoicing?",
+        "a": "Yes. Our invoices include all the detail that insurance adjusters require \u2014 line-item pricing, delivery and pickup dates, weight tickets, and project reference numbers. We can work directly with your insurance coordinator to streamline the documentation process."
+      },
+      {
+        "q": "Can you handle the volume from a major restoration project?",
+        "a": "Yes. Major restoration projects often require daily dumpster swaps during intensive tear-out phases. We coordinate multi-dumpster logistics with your project manager and ensure continuous disposal capacity throughout the project."
+      },
+      {
+        "q": "What about flood-contaminated materials?",
+        "a": "Most flood-damaged building materials \u2014 drywall, carpet, insulation, furniture \u2014 are accepted in standard dumpsters. Materials contaminated with sewage or hazardous substances may require specialized disposal. We can advise based on the contamination type."
+      },
+      {
+        "q": "Do you offer accounts for restoration companies?",
+        "a": "Absolutely. Our restoration company accounts include priority deployment, volume pricing, consolidated billing across multiple projects, COI documentation, and a dedicated account manager who understands the urgency and pace of restoration work."
+      }
+    ],
+    "priceRange": "$350-$750",
+    "recommendedSize": "20-yard or 30-yard",
+    "avgRating": 4.9,
+    "reviewCount": 167
+  },
+  {
+    "slug": "warehouse-cleanout-dumpster-rental",
+    "name": "Warehouse Cleanout Dumpster Rental",
+    "category": "Commercial",
+    "description": "Large-capacity dumpster rentals for warehouse, storage facility, and industrial property cleanouts in Florida. Handle pallets, racking, inventory, and bulk waste efficiently.",
+    "extendedDescription": "Florida is a major logistics and distribution hub, and warehouses across the state regularly need cleanout service \u2014 whether for inventory liquidation, facility closure, tenant transition, or just clearing out years of accumulated waste. Warehouse cleanouts present unique challenges: massive volumes of waste, heavy items like racking systems and industrial equipment, awkward materials like pallets and packaging, and often tight timelines dictated by lease terms or business schedules. Our warehouse cleanout dumpster service provides the large-capacity containers and coordinated logistics these projects demand. We work with warehouse managers, logistics companies, and commercial landlords to plan multi-day, multi-dumpster cleanout operations that keep the project on schedule. For large warehouses, we can have multiple 30-yard containers on-site simultaneously and rotate them out as they fill. Our commercial accounts provide the billing structure and documentation that businesses require, including purchase order support, tax-exempt invoicing, and certificate of insurance.",
+    "commonServices": [
+      "Full warehouse cleanout",
+      "Pallet and packaging disposal",
+      "Racking system removal waste",
+      "Inventory liquidation waste",
+      "Industrial equipment disposal",
+      "Facility closure cleanout",
+      "Tenant transition waste removal",
+      "Storage unit facility cleanout"
+    ],
+    "faqs": [
+      {
+        "q": "How many dumpsters for a warehouse cleanout?",
+        "a": "It depends on the warehouse size and how much waste is involved. A 10,000 sq ft warehouse might need 2-4 loads. A 50,000+ sq ft facility could require 10 or more. We visit the site or review photos to provide an accurate estimate before you commit."
+      },
+      {
+        "q": "Can you have multiple dumpsters on-site at the same time?",
+        "a": "Yes. For large warehouse cleanouts, having multiple containers on-site speeds up the process significantly. Your crew can fill one while we swap out another. We coordinate logistics to minimize wait times between containers."
+      },
+      {
+        "q": "What about pallets \u2014 can they go in the dumpster?",
+        "a": "Yes, but consider selling or recycling clean pallets first \u2014 pallet recyclers will often pick them up for free. Broken or contaminated pallets can go in the dumpster. Pallets are bulky relative to their weight, so they fill volume fast."
+      },
+      {
+        "q": "Can industrial equipment go in the dumpster?",
+        "a": "Most industrial equipment and fixtures can be loaded into a dumpster. Very heavy items may require a forklift for loading. Let us know the approximate weight of heavy items so we can factor them into the weight limit calculation."
+      },
+      {
+        "q": "Do you offer weekend and after-hours delivery for warehouse projects?",
+        "a": "Yes. Warehouse cleanouts often happen on weekends or after business hours to minimize disruption. We deliver on your schedule and coordinate access requirements with building management or security."
+      }
+    ],
+    "priceRange": "$400-$800",
+    "recommendedSize": "30-yard",
+    "avgRating": 4.8,
+    "reviewCount": 89
+  },
+  {
+    "slug": "rental-property-dumpster-rental",
+    "name": "Rental Property Dumpster Rental",
+    "category": "Commercial",
+    "description": "Dumpster rentals for rental property turnovers, cleanouts, and renovations in Florida. Keep your rental units clean, updated, and move-in ready with fast, reliable service.",
+    "extendedDescription": "Florida is landlord country \u2014 with over 3 million rental units across the state, property owners and managers deal with tenant turnovers, cleanouts, and unit renovations on a constant basis. Every turnover generates waste: leftover tenant belongings, worn carpet, damaged drywall, outdated fixtures, and general cleaning debris. Renovation turnovers generate even more \u2014 new flooring, fresh paint prep waste, updated bathroom and kitchen debris, and appliance swaps. Our rental property dumpster service gives landlords and property managers a fast, reliable way to clear out units and get them back on the market. Time is money in the rental business \u2014 every day a unit sits empty costs you rent revenue. We offer same-day delivery so your make-ready crew can start work immediately after a tenant moves out. For property managers handling multiple units, our commercial accounts provide volume pricing, multi-property coordination, and consolidated billing that simplifies your accounting.",
+    "commonServices": [
+      "Tenant turnover cleanout",
+      "Unit renovation debris removal",
+      "Carpet and flooring replacement waste",
+      "Abandoned tenant property disposal",
+      "Multi-unit turnover coordination",
+      "Vacation rental refresh waste",
+      "Make-ready project debris",
+      "Property manager recurring service"
+    ],
+    "faqs": [
+      {
+        "q": "How fast can you get a dumpster to my rental property?",
+        "a": "Same-day delivery is available in most Florida metro areas for orders placed before noon. For property managers who schedule turnovers in advance, we can pre-arrange delivery to coincide with your make-ready crew start date."
+      },
+      {
+        "q": "What size dumpster for a rental unit turnover?",
+        "a": "For a standard apartment or small house turnover with minor renovation, a 10-yard handles the waste. For full-unit renovations including carpet, fixtures, and appliances, a 20-yard is the standard choice. For large homes or extensive renovations, consider a 30-yard."
+      },
+      {
+        "q": "Can I dispose of abandoned tenant belongings?",
+        "a": "Yes, once you have followed Florida legal requirements for abandoned property notification (Florida Statute 715.104 requires written notice and a reasonable time for the tenant to claim belongings). After the legal waiting period, unclaimed items can be disposed of in the dumpster."
+      },
+      {
+        "q": "Do you work with vacation rental management companies?",
+        "a": "Yes. Vacation rental managers in Florida tourist markets use our service for between-guest deep cleaning waste, furniture refresh projects, and hurricane preparation and cleanup. Our fast delivery times are especially important in the vacation rental industry where turnover timelines are tight."
+      },
+      {
+        "q": "Can I set up recurring service for a large rental portfolio?",
+        "a": "Absolutely. Property managers with multiple units can set up a commercial account with volume pricing and streamlined ordering. Some clients have standing orders for dumpster delivery whenever a unit turns over \u2014 just one text with the address and we deploy."
+      }
+    ],
+    "priceRange": "$250-$500",
+    "recommendedSize": "10-yard or 20-yard",
+    "avgRating": 4.9,
+    "reviewCount": 203
+  },
+  {
+    "slug": "flooring-removal-dumpster-rental",
+    "name": "Flooring Removal Dumpster Rental",
+    "category": "Residential",
+    "description": "Dumpster rentals for flooring removal and replacement projects in Florida. Dispose of old tile, carpet, hardwood, laminate, and vinyl flooring debris easily.",
+    "extendedDescription": "Flooring replacement is one of the most common home improvement projects in Florida, driven by wear from sandy feet, pet damage, water stains from humidity, and the desire to update dated tile and carpet. Removing old flooring generates a surprising amount of heavy debris \u2014 especially tile, which is the dominant flooring material in Florida homes. A 1,500 square foot tile floor removal produces approximately 3 to 5 tons of tile, thinset mortar, and concrete backer board. That is heavier than most people expect, and it is why proper dumpster sizing and weight planning are critical for flooring projects. Our flooring removal dumpster service helps you plan the right container for your specific flooring type and area. Carpet and vinyl are lightweight \u2014 you can fill a 20-yard dumpster with carpet from an entire house without coming close to the weight limit. Tile and stone are heavy \u2014 a 10-yard with enhanced weight allowance is often the smartest choice for tile-only loads. We deliver on your flooring removal start date and pick up when the old floor is out, keeping your home clean and the project moving.",
+    "commonServices": [
+      "Tile flooring removal disposal",
+      "Carpet and padding removal",
+      "Hardwood floor tear-out waste",
+      "Laminate and vinyl removal",
+      "Thinset and mortar disposal",
+      "Subfloor replacement debris",
+      "Commercial flooring removal",
+      "Multi-room flooring project waste"
+    ],
+    "faqs": [
+      {
+        "q": "How heavy is tile flooring waste?",
+        "a": "Florida ceramic and porcelain tile with thinset mortar weighs approximately 15-20 pounds per square foot. A 1,000 sq ft tile removal generates 7-10 tons of waste. This is why tile flooring projects require careful weight planning \u2014 you will hit the weight limit with the dumpster only partially full."
+      },
+      {
+        "q": "What size dumpster for whole-house carpet removal?",
+        "a": "Carpet is bulky but lightweight. A 20-yard dumpster easily handles carpet and padding from a 2,000+ sq ft home without approaching the weight limit. For smaller areas, a 10-yard works fine."
+      },
+      {
+        "q": "Can I put tile and carpet in the same dumpster?",
+        "a": "Yes, but be aware that mixing heavy tile with lightweight carpet means the tile weight drives your cost. If you are removing tile from some rooms and carpet from others, consider whether separate loads might be more cost-effective \u2014 heavy tile in a smaller dumpster with enhanced weight allowance, carpet in a standard container."
+      },
+      {
+        "q": "What about the dust from tile removal?",
+        "a": "Tile removal in Florida generates significant dust, especially from the thinset mortar. This is a site cleanliness issue, not a dumpster concern. Use plastic sheeting to contain dust and consider renting a construction-grade vacuum. The debris itself goes in the dumpster normally."
+      },
+      {
+        "q": "Can flooring installers order dumpsters for their job sites?",
+        "a": "Yes. Flooring installation companies use our service regularly to handle tear-out waste from their projects. Our commercial accounts provide volume pricing and the ability to order dumpsters to client properties across Florida with a single text."
+      }
+    ],
+    "priceRange": "$275-$550",
+    "recommendedSize": "10-yard or 20-yard",
+    "avgRating": 4.9,
+    "reviewCount": 191
+  },
+  {
+    "slug": "fence-removal-dumpster-rental",
+    "name": "Fence Removal Dumpster Rental",
+    "category": "Residential",
+    "description": "Dumpster rentals for fence removal, replacement, and installation projects in Florida. Dispose of old wood, vinyl, chain-link, and aluminum fencing materials.",
+    "extendedDescription": "Florida fences take a beating. Between hurricane winds, intense sun that warps and bleaches materials, moisture that rots wood, salt air that corrodes metal along the coasts, and aggressive vegetation that grows into and through fence lines, the average Florida fence has a shorter lifespan than fences in more temperate climates. When it is time to replace your fence, the old materials need to go somewhere. Our fence removal dumpster rental makes disposing of old fencing simple and affordable. Wood fencing \u2014 the most common type in Florida \u2014 breaks down into manageable pieces that fit easily into a dumpster. Vinyl and PVC fencing is lightweight and bulky. Chain-link and aluminum fencing is relatively compact and light. Most residential fence removal and replacement projects fit comfortably in a 10-yard dumpster, which sits neatly in your driveway while your fencing contractor works. For larger properties or commercial fencing projects, a 20-yard provides extra capacity. Concrete fence post footings add weight, so let us know if your project involves removing embedded posts with their concrete bases.",
+    "commonServices": [
+      "Wood fence removal and disposal",
+      "Vinyl fence removal waste",
+      "Chain-link fence removal",
+      "Aluminum fence disposal",
+      "Concrete post footing disposal",
+      "Privacy fence replacement waste",
+      "Commercial fencing removal",
+      "Storm-damaged fence cleanup"
+    ],
+    "faqs": [
+      {
+        "q": "What size dumpster for fence removal?",
+        "a": "For most residential fence removal projects (up to 200 linear feet of standard 6-foot privacy fence), a 10-yard dumpster is sufficient. For larger properties, commercial fencing, or if you are also removing concrete post footings, a 20-yard provides extra capacity."
+      },
+      {
+        "q": "Can concrete fence post footings go in the dumpster?",
+        "a": "Yes, but concrete is heavy. Each 4x4 post footing weighs approximately 60-100 pounds. A fence with 30 posts could add 2,000-3,000 pounds of concrete. Factor this into your weight limit planning and let us know about the concrete when you order."
+      },
+      {
+        "q": "Can I remove the fence myself and use the dumpster?",
+        "a": "Absolutely. Many homeowners remove fences as a DIY project \u2014 it is relatively straightforward work. The dumpster in your driveway gives you a convenient disposal point as you work your way around the property. Break fence panels into 4-foot sections for easy loading."
+      },
+      {
+        "q": "What about fencing damaged in a hurricane?",
+        "a": "Storm-damaged fencing is one of the most common post-hurricane debris items. After a major storm, fencing debris may be mixed with tree branches, screening, and other wind-blown materials \u2014 all of which can go in the dumpster together."
+      },
+      {
+        "q": "Do you work with fencing contractors?",
+        "a": "Yes. Fencing contractors use our service to handle removal debris from replacement projects. Our commercial accounts provide volume pricing for contractors who do regular fence installation and removal work."
+      }
+    ],
+    "priceRange": "$250-$400",
+    "recommendedSize": "10-yard",
+    "avgRating": 4.9,
+    "reviewCount": 118
   }
 ]

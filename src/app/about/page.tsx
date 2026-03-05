@@ -3,6 +3,7 @@ import Link from "next/link";
 import { PHONE, SITE_URL, EMAIL, ADDRESS } from "@/lib/seo";
 import CTAGroup from "@/components/CTAGroup";
 import CTABanner from "@/components/CTABanner";
+import ProTip from "@/components/ProTip";
 
 export const metadata: Metadata = {
   title: "About Florida Dumpster Rentals | Fort Lauderdale, FL",
@@ -211,6 +212,23 @@ export default function AboutPage() {
           </div>
         </div>
       </section>
+
+      <ProTip
+        tips={[
+          {
+            title: "We Answer Our Phone. Weird, Right?",
+            body: "Most dumpster companies send you to voicemail or make you fill out a form and wait. We actually pick up. Text us, call us — you'll hear back in minutes, not hours. It shouldn't be revolutionary, but apparently it is.",
+          },
+          {
+            title: "Ask About Hidden Fees Before You Book",
+            body: "Some companies lure you in with a low base price, then tack on fuel surcharges, environmental fees, delivery fees, and admin charges. Always ask: \"Does this price include everything?\" With us, it does.",
+          },
+          {
+            title: "Local Haulers Beat National Chains",
+            body: "A company based in Florida knows which landfills close early, which counties require permits, and how to navigate a narrow Key West side street with a 30-yard container. That local knowledge saves you time, money, and headaches.",
+          },
+        ]}
+      />
 
       {/* Final CTA */}
       <CTAGroup variant="final" />

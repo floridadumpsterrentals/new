@@ -8,6 +8,7 @@ import {
 } from "@/lib/data";
 import Breadcrumbs from "@/components/Breadcrumbs";
 import CTAGroup from "@/components/CTAGroup";
+import ProTip from "@/components/ProTip";
 import {
   getOrganizationSchema,
   getFAQPageSchema,
@@ -342,6 +343,23 @@ export default function AreasPage() {
           </div>
         </div>
       </section>
+
+      <ProTip
+        tips={[
+          {
+            title: "Yes, We Really Serve All of Florida",
+            body: "Every county, every city — from Key West to Pensacola and everywhere in between. Our hauler network covers the entire state. If you have a Florida address, we can get a dumpster to you. No exceptions.",
+          },
+          {
+            title: "Rural Delivery Takes a Day Longer",
+            body: "If you're out in Glades County or deep in the Panhandle, delivery might take an extra business day compared to metro areas. But we get there — even if it's a dirt road. Just give us a heads-up on access conditions so our driver knows what to expect.",
+          },
+          {
+            title: "Know Your County's Dump Hours",
+            body: "Some Florida landfills close at 4 PM, others at 6 PM, and a few are closed on weekends. This affects when we can schedule your pickup. If you need a specific pickup day or time, mention it when you book and we'll work around your county's schedule.",
+          },
+        ]}
+      />
 
       {/* Final CTA */}
       <CTAGroup variant="final" />

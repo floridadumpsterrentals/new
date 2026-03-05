@@ -3,6 +3,7 @@ import Link from "next/link";
 import { PHONE, SITE_URL, EMAIL, ADDRESS } from "@/lib/seo";
 import CTAGroup from "@/components/CTAGroup";
 import CTABanner from "@/components/CTABanner";
+import ProTip from "@/components/ProTip";
 
 export const metadata: Metadata = {
   title: "Dumpster Sizes: 10, 20 & 30 Yard Roll-Off Containers | Florida Dumpster Rentals",
@@ -355,6 +356,23 @@ export default function DumpsterSizesPage() {
           </div>
         </div>
       </section>
+
+      <ProTip
+        tips={[
+          {
+            title: "When in Doubt, Go One Size Up",
+            body: "Upgrading from a 10 to a 20 yard costs way less than ordering a second dumpster because you ran out of room. We see it all the time — people underestimate how much stuff they have. Trust us, go bigger.",
+          },
+          {
+            title: "Measure Your Driveway First",
+            body: "A 20-yard dumpster is 22 feet long and 8 feet wide. A 30-yard is the same footprint but taller. Make sure your placement spot can handle it — and check for low-hanging branches, power lines, and overhead clearance for the delivery truck.",
+          },
+          {
+            title: "Tell Us What You're Tossing",
+            body: "\"I need a dumpster\" is a great start, but \"I'm tearing out a tile bathroom and ripping up carpet in three rooms\" lets us recommend the perfect size. The more detail you give us, the better we can dial in the right container for your project.",
+          },
+        ]}
+      />
 
       {/* Final CTA */}
       <CTAGroup variant="final" />

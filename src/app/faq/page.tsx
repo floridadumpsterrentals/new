@@ -4,6 +4,7 @@ import { PHONE, SITE_URL, EMAIL, ADDRESS } from "@/lib/seo";
 import { getFAQPageSchema } from "@/lib/seo";
 import CTAGroup from "@/components/CTAGroup";
 import CTABanner from "@/components/CTABanner";
+import ProTip from "@/components/ProTip";
 
 export const metadata: Metadata = {
   title: "FAQ | Florida Dumpster Rentals",
@@ -233,6 +234,23 @@ export default function FAQPage() {
           </div>
         </div>
       </section>
+
+      <ProTip
+        tips={[
+          {
+            title: "You Probably Need a 20-Yarder",
+            body: "It's our most popular size for a reason. Whether you're doing a kitchen remodel, a roof tear-off, or a whole-house cleanout, the 20-yard dumpster handles it. It fits in a standard driveway and holds about 8 pickup truck loads of debris.",
+          },
+          {
+            title: "Rain Makes Everything Heavier",
+            body: "Florida's afternoon thunderstorms can add hundreds of pounds of water weight to your dumpster — especially if it's full of drywall, cardboard, or insulation. Toss a tarp over it between loading sessions. Thirty seconds of effort can save you $50-100 in overage fees.",
+          },
+          {
+            title: "We Don't Judge Your Hoard",
+            body: "We've hauled away 30 years of National Geographic collections, entire garages full of mystery boxes, and things we genuinely can't identify. No shame, no judgment — just a dumpster and a fresh start. That's what we're here for.",
+          },
+        ]}
+      />
 
       {/* Final CTA */}
       <CTAGroup variant="final" />

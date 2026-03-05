@@ -14,9 +14,14 @@ export default function Footer() {
               FLA<span className="text-green-400">Dumpster</span>Rentals
             </span>
             <p className="mt-3 text-sm leading-6">
-              Affordable roll-off dumpster rental across Florida. 10, 20 &amp;
-              30 yard containers for construction, junk removal, cleanouts &amp;
-              more.
+              We serve homeowners, contractors, and businesses across Florida by
+              evaluating disposal needs and coordinating waste removal services,
+              including providing 10, 20 &amp; 30 yard{" "}
+              <Link href="/dumpster-sizes" className="text-green-400 hover:text-green-300">roll-off dumpster</Link>{" "}
+              equipment for{" "}
+              <Link href="/construction-dumpster-rental" className="text-green-400 hover:text-green-300">construction</Link>,{" "}
+              <Link href="/junk-removal-dumpster-rental" className="text-green-400 hover:text-green-300">junk removal</Link>,{" "}
+              <Link href="/residential-dumpster-rental" className="text-green-400 hover:text-green-300">cleanouts</Link> &amp; more.
             </p>
             <a
               href={`tel:${PHONE.replace(/-/g, "")}`}
@@ -34,14 +39,14 @@ export default function Footer() {
             </h3>
             <ul className="mt-4 space-y-2">
               {[
-                { name: "Contractor Dumpsters", href: "/services/contractors" },
-                { name: "Junk Removal", href: "/services/junk-removal" },
-                { name: "Home Cleanouts", href: "/services/home-cleanouts" },
-                { name: "Corporate Accounts", href: "/services/corporate-accounts" },
-                { name: "Roofing", href: "/services/roofing" },
-                { name: "Demolition", href: "/services/demolition" },
-                { name: "Renovation", href: "/services/renovation-remodeling" },
-                { name: "Storm Debris", href: "/services/storm-debris" },
+                { name: "Construction Dumpster Rental", href: "/construction-dumpster-rental" },
+                { name: "Residential Dumpster Rental", href: "/residential-dumpster-rental" },
+                { name: "Commercial Dumpster Rental", href: "/commercial-dumpster-rental" },
+                { name: "Roofing Dumpster Rental", href: "/roofing-dumpster-rental" },
+                { name: "Renovation Dumpster Rental", href: "/renovation-dumpster-rental" },
+                { name: "Junk Removal Dumpster Rental", href: "/junk-removal-dumpster-rental" },
+                { name: "Storm Debris Dumpster Rental", href: "/storm-debris-dumpster-rental" },
+                { name: "Landscaping Dumpster Rental", href: "/landscaping-dumpster-rental" },
               ].map((svc) => (
                 <li key={svc.href}>
                   <Link href={svc.href} className="text-sm hover:text-white">
@@ -119,9 +124,48 @@ export default function Footer() {
           </div>
         </div>
 
-        <div className="mt-10 border-t border-zinc-700 pt-8 text-center text-sm">
-          <p>
+        <div className="mt-10 border-t border-zinc-700 pt-8 text-sm space-y-4">
+          <p className="mx-auto max-w-4xl text-center leading-6 text-zinc-400">
+            We serve homeowners, contractors, and businesses by evaluating their
+            disposal needs and coordinating waste removal services, including
+            providing the necessary dumpster equipment.{" "}
+            <Link href="/dumpster-sizes" className="text-green-400 hover:text-green-300">Dumpster sizes</Link>{" "}
+            include 10, 20 &amp; 30 yard roll-off containers for{" "}
+            <Link href="/construction-dumpster-rental" className="text-green-400 hover:text-green-300">construction</Link>,{" "}
+            <Link href="/roofing-dumpster-rental" className="text-green-400 hover:text-green-300">roofing</Link>,{" "}
+            <Link href="/renovation-dumpster-rental" className="text-green-400 hover:text-green-300">renovation</Link>,{" "}
+            <Link href="/junk-removal-dumpster-rental" className="text-green-400 hover:text-green-300">junk removal</Link>,{" "}
+            <Link href="/storm-debris-dumpster-rental" className="text-green-400 hover:text-green-300">storm debris</Link>,{" "}
+            <Link href="/landscaping-dumpster-rental" className="text-green-400 hover:text-green-300">landscaping</Link>,{" "}
+            and <Link href="/residential-dumpster-rental" className="text-green-400 hover:text-green-300">residential cleanouts</Link>.{" "}
+            View our <Link href="/pricing" className="text-green-400 hover:text-green-300">flat-rate pricing</Link>,{" "}
+            learn <Link href="/how-it-works" className="text-green-400 hover:text-green-300">how it works</Link>,{" "}
+            or <Link href="/schedule-dumpster-rental-form" className="text-green-400 hover:text-green-300">book your dumpster online</Link>.{" "}
+            Same-day delivery available across <Link href="/areas" className="text-green-400 hover:text-green-300">436+ Florida service areas</Link>.
+          </p>
+          <p className="text-center">
             &copy; {new Date().getFullYear()} {SITE_NAME}. All rights reserved.
+          </p>
+          <p className="text-zinc-500">
+            Web design &amp; digital marketing by{" "}
+            <a
+              href="https://www.consortiumnyc.com/"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-zinc-400 hover:text-white"
+            >
+              Destin Digital Marketing Agency
+            </a>
+            . SEO managed by{" "}
+            <a
+              href="https://www.thenycseo.com/"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-zinc-400 hover:text-white"
+            >
+              The NYC SEO
+            </a>
+            .
           </p>
         </div>
       </div>

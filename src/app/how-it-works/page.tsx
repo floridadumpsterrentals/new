@@ -3,6 +3,7 @@ import Link from "next/link";
 import { PHONE, SITE_URL, EMAIL, ADDRESS } from "@/lib/seo";
 import CTAGroup from "@/components/CTAGroup";
 import CTABanner from "@/components/CTABanner";
+import ProTip from "@/components/ProTip";
 
 export const metadata: Metadata = {
   title: "How It Works | Florida Dumpster Rentals",
@@ -204,6 +205,23 @@ export default function HowItWorksPage() {
           </div>
         </div>
       </section>
+
+      <ProTip
+        tips={[
+          {
+            title: "Text Us a Photo of Your Mess",
+            body: "Seriously — snap a picture of whatever you're getting rid of and text it to us. We can usually recommend the right dumpster size and give you a quote faster from a photo than a 10-minute phone call. A picture is worth a thousand cubic yards.",
+          },
+          {
+            title: "Book Early for Hurricane Season",
+            body: "June through November is hurricane season in Florida, and after a big storm, dumpster demand spikes 300-500%. If you see a storm coming, book your dumpster before it hits. Post-storm availability disappears fast.",
+          },
+          {
+            title: "Clear a Path for the Truck",
+            body: "The delivery truck needs about 60 feet of straight clearance to roll the dumpster off. Move cars out of the driveway, trim any low-hanging branches, and make sure there are no obstacles overhead. A little prep saves a lot of hassle on delivery day.",
+          },
+        ]}
+      />
 
       {/* Final CTA */}
       <CTAGroup variant="final" />

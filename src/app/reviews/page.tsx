@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import { PHONE, SITE_URL, EMAIL, ADDRESS } from "@/lib/seo";
 import CTAGroup from "@/components/CTAGroup";
 import CTABanner from "@/components/CTABanner";
+import ProTip from "@/components/ProTip";
 
 export const metadata: Metadata = {
   title: "Reviews | Florida Dumpster Rentals",
@@ -233,6 +234,23 @@ export default function ReviewsPage() {
       <CTABanner
         title="Join 312+ Happy Customers Across Florida."
         subtitle="Fast delivery, fair pricing, no hidden fees. Text or call for your free quote today."
+      />
+
+      <ProTip
+        tips={[
+          {
+            title: "Read the 1-Star Reviews Too",
+            body: "Any company can cherry-pick their best reviews. We don't hide anything — check our full review history. Transparency matters more than perfection. When we do get negative feedback, we fix it. That's how you get to 4.9 stars with 312+ reviews.",
+          },
+          {
+            title: "Ask Your Contractor Who They Use",
+            body: "Contractors rent dumpsters constantly and they know who delivers on time and who doesn't. If your contractor recommends a dumpster company, that's a strong signal. If they recommend us — well, we appreciate the love.",
+          },
+          {
+            title: "4.9 Stars Means We Earn It Every Day",
+            body: "One late delivery, one surprise fee, one unanswered text — and we hear about it. A 4.9 rating across hundreds of reviews isn't luck, it's showing up and doing the job right every single time. That's the standard we hold ourselves to.",
+          },
+        ]}
       />
 
       {/* Final CTA */}

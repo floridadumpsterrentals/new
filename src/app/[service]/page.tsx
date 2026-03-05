@@ -20,6 +20,7 @@ import {
 } from "@/lib/seo";
 import Breadcrumbs from "@/components/Breadcrumbs";
 import CTAGroup from "@/components/CTAGroup";
+import ProTip from "@/components/ProTip";
 
 interface PageProps {
   params: Promise<{ service: string }>;
@@ -118,7 +119,7 @@ export default async function ServiceHubPage({ params }: PageProps) {
 
             <div className="mt-10">
               <p className="text-sm font-semibold uppercase tracking-[0.2em] text-green-500">
-                {service.category}
+                Dumpster Rental Service
               </p>
               <h1 className="mt-3 text-4xl font-extrabold tracking-tight sm:text-5xl lg:text-6xl">
                 {service.name}
@@ -143,6 +144,12 @@ export default async function ServiceHubPage({ params }: PageProps) {
                 >
                   Call {PHONE}
                 </a>
+                <Link
+                  href="/schedule-dumpster-rental-form"
+                  className="inline-flex items-center justify-center rounded-lg border border-zinc-700 px-6 py-3 text-sm font-semibold text-white hover:border-zinc-500 hover:bg-white/5"
+                >
+                  Book Online
+                </Link>
               </div>
             </div>
 
@@ -236,15 +243,18 @@ export default async function ServiceHubPage({ params }: PageProps) {
                     >
                       Text Us for a Quote
                     </a>
-                    <div className="mt-3 text-center">
-                      <span className="text-xs text-zinc-500">or call </span>
-                      <a
-                        href={`tel:${phonePlain}`}
-                        className="text-xs font-semibold text-green-500 hover:text-white"
-                      >
-                        {PHONE}
-                      </a>
-                    </div>
+                    <a
+                      href={`tel:${phonePlain}`}
+                      className="mt-3 block w-full rounded-lg border border-zinc-600 py-3 text-center text-sm font-semibold text-white hover:border-zinc-400"
+                    >
+                      Call {PHONE}
+                    </a>
+                    <Link
+                      href="/schedule-dumpster-rental-form"
+                      className="mt-3 block w-full rounded-lg border border-zinc-600 py-3 text-center text-sm font-semibold text-green-400 hover:border-green-500 hover:text-white"
+                    >
+                      Book Online
+                    </Link>
                   </div>
 
                   <div className="rounded-xl border border-zinc-700 bg-zinc-800 p-6">
@@ -423,6 +433,23 @@ export default async function ServiceHubPage({ params }: PageProps) {
             </div>
           </div>
         </section>
+
+        <ProTip
+          tips={[
+            {
+              title: "Tell Us the Project, Not Just the Size",
+              body: `Saying "I need a dumpster for a ${service.name.replace(" Dumpster Rental", "").toLowerCase()} project" tells us way more than "I need a 20-yarder." We'll match the right container to your actual debris — and save you from overpaying or running out of space.`,
+            },
+            {
+              title: "Book Before Demo Day",
+              body: "The worst time to order a dumpster is when your crew is standing around waiting for one. Book at least a day ahead — same-day is available but mornings fill up fast, especially in South Florida.",
+            },
+            {
+              title: "Cover It If Rain Is Coming",
+              body: "Florida afternoon thunderstorms can add hundreds of pounds of water weight to an open dumpster. A cheap tarp from Home Depot can save you from overage charges. Trust us — we see this every summer.",
+            },
+          ]}
+        />
 
         {/* Final CTA */}
         <CTAGroup variant="final" />

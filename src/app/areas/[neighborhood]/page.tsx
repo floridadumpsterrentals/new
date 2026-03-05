@@ -21,6 +21,7 @@ import {
 } from "@/lib/seo";
 import Breadcrumbs from "@/components/Breadcrumbs";
 import CTAGroup from "@/components/CTAGroup";
+import ProTip from "@/components/ProTip";
 
 interface PageProps {
   params: Promise<{ neighborhood: string }>;
@@ -387,6 +388,23 @@ export default async function NeighborhoodHubPage({ params }: PageProps) {
           </div>
         </section>
       )}
+
+      <ProTip
+        tips={[
+          {
+            title: `Know Your Local Permit Rules`,
+            body: `Dumpster on your driveway? No permit needed anywhere in Florida. On the street? ${neighborhood.name} may require a right-of-way permit. Text us and we'll tell you exactly what you need for your area.`,
+          },
+          {
+            title: "Delivery Access Matters",
+            body: `Make sure the delivery truck can reach your spot — we need about 60 feet of clearance and 14 feet of overhead. Low-hanging trees, narrow gates, and overhead wires are the usual suspects. If you're not sure, text us a photo of your driveway.`,
+          },
+          {
+            title: "Your Neighbors Will Thank You",
+            body: "A dumpster in the driveway beats a pile of debris on the curb every time. Most of our customers say their neighbors actually appreciate how clean the project stays. Some even ask for our number.",
+          },
+        ]}
+      />
 
       {/* Final CTA */}
       <CTAGroup variant="final" />

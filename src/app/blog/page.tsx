@@ -2,75 +2,76 @@ import Link from "next/link";
 import type { Metadata } from "next";
 import Breadcrumbs from "@/components/Breadcrumbs";
 import { PHONE, SITE_URL } from "@/lib/seo";
+import CTAGroup from "@/components/CTAGroup";
+import ProTip from "@/components/ProTip";
 
 export const metadata: Metadata = {
-  title: "Dumpster Rental Blog | Guides & Tips | Florida Dumpster Rentals",
-  description:
-    "Dumpster rental guides, tips, and project planning resources. Learn about dumpster sizes, what you can throw away, project planning, and more from Florida Dumpster Rentals.",
+  title: `Dumpster Rental Blog | Guides & Tips | ${PHONE} | Florida Dumpster Rentals`,
+  description: `The complete A-to-Z guide to dumpster rentals in Florida. 52 articles covering everything from sizing and pricing to hurricane cleanup and FL regulations. Call ${PHONE}.`,
   openGraph: {
     title: "Dumpster Rental Blog | Florida Dumpster Rentals",
-    description: "Guides, tips, and resources for your dumpster rental project.",
+    description: "52 guides covering dumpster rental basics and Florida project types from A to Z.",
     url: `${SITE_URL}/blog`,
   },
   alternates: { canonical: `${SITE_URL}/blog` },
 };
 
-const seoAZ = [
-  { letter: "A", title: "Authority: How Search Engines Decide Who Ranks First", slug: "authority-how-search-engines-decide-who-ranks-first" },
-  { letter: "B", title: "Backlinks: The Currency of SEO Trust", slug: "backlinks-the-currency-of-seo-trust" },
-  { letter: "C", title: "Core Web Vitals: Why Speed Is a Ranking Factor", slug: "core-web-vitals-why-speed-is-a-ranking-factor" },
-  { letter: "D", title: "Domain Rating: What It Means and How to Build It", slug: "domain-rating-what-it-means-and-how-to-build-it" },
-  { letter: "E", title: "E-E-A-T: Experience, Expertise, Authoritativeness & Trust", slug: "eeat-experience-expertise-authoritativeness-trust" },
-  { letter: "F", title: "FAQPage Schema: Structured Data That Wins Featured Snippets", slug: "faqpage-schema-structured-data-featured-snippets" },
-  { letter: "G", title: "Google Business Profile: The Foundation of Local SEO", slug: "google-business-profile-foundation-of-local-seo" },
-  { letter: "H", title: "Heading Structure: H1 Through H6 and Why It Matters", slug: "heading-structure-h1-through-h6-why-it-matters" },
-  { letter: "I", title: "Internal Linking: How to Pass Authority Through Your Site", slug: "internal-linking-how-to-pass-authority-through-your-site" },
-  { letter: "J", title: "JSON-LD: The Structured Data Format Search Engines Prefer", slug: "json-ld-structured-data-format-search-engines-prefer" },
-  { letter: "K", title: "Keyword Research: Finding What Your Customers Actually Search", slug: "keyword-research-finding-what-customers-actually-search" },
-  { letter: "L", title: "Local SEO: Ranking in the Cities and Neighborhoods You Serve", slug: "local-seo-ranking-in-cities-and-neighborhoods-you-serve" },
-  { letter: "M", title: "Meta Tags: Title Tags and Descriptions That Get Clicks", slug: "meta-tags-title-tags-descriptions-that-get-clicks" },
-  { letter: "N", title: "NAP Consistency: Name, Address, Phone Across the Web", slug: "nap-consistency-name-address-phone-across-the-web" },
-  { letter: "O", title: "On-Page SEO: Everything That Happens on Your Actual Pages", slug: "on-page-seo-everything-that-happens-on-your-actual-pages" },
-  { letter: "P", title: "Programmatic SEO: Building Thousands of Pages That Rank", slug: "programmatic-seo-building-thousands-of-pages-that-rank" },
-  { letter: "Q", title: "Query Intent: Understanding What Searchers Really Want", slug: "query-intent-understanding-what-searchers-really-want" },
-  { letter: "R", title: "Reviews: How Online Reputation Impacts Rankings", slug: "reviews-how-online-reputation-impacts-rankings" },
-  { letter: "S", title: "Sitemaps: Helping Search Engines Find Every Page", slug: "sitemaps-helping-search-engines-find-every-page" },
-  { letter: "T", title: "Technical SEO: The Code Behind the Rankings", slug: "technical-seo-the-code-behind-the-rankings" },
-  { letter: "U", title: "URL Structure: Clean Paths That Search Engines Love", slug: "url-structure-clean-paths-search-engines-love" },
-  { letter: "V", title: "Voice Search: Optimizing for How People Actually Talk", slug: "voice-search-optimizing-for-how-people-actually-talk" },
-  { letter: "W", title: "Web Performance: Why Faster Sites Rank Higher", slug: "web-performance-why-faster-sites-rank-higher" },
-  { letter: "X", title: "XML Sitemaps: The Technical File That Guides Crawlers", slug: "xml-sitemaps-technical-file-that-guides-crawlers" },
-  { letter: "Y", title: "Your Competition: How to Analyze and Outrank Them", slug: "your-competition-how-to-analyze-and-outrank-them" },
-  { letter: "Z", title: "Zero-Click Searches: Winning When Users Never Leave Google", slug: "zero-click-searches-winning-when-users-never-leave-google" },
+const dumpsterAZ = [
+  { letter: "A", title: "Asbestos and Hazardous Waste — What Can't Go in a Dumpster", slug: "asbestos-and-hazardous-waste-what-cant-go-in-a-dumpster" },
+  { letter: "B", title: "Building Permits — When You Need One for Your Dumpster in Florida", slug: "building-permits-when-you-need-one-for-your-dumpster-in-florida" },
+  { letter: "C", title: "Construction Dumpster Rental — Keeping Job Sites Clean and Compliant", slug: "construction-dumpster-rental-keeping-job-sites-clean-and-compliant" },
+  { letter: "D", title: "Delivery Day — What to Expect When Your Dumpster Arrives", slug: "delivery-day-what-to-expect-when-your-dumpster-arrives" },
+  { letter: "E", title: "Estate Cleanouts — How to Clear a Loved One's Home Efficiently", slug: "estate-cleanouts-how-to-clear-a-loved-ones-home-efficiently" },
+  { letter: "F", title: "Flat-Rate Pricing — Why Transparent Dumpster Costs Matter", slug: "flat-rate-pricing-why-transparent-dumpster-costs-matter" },
+  { letter: "G", title: "Garage Cleanouts — The Weekend Project That Changes Everything", slug: "garage-cleanouts-the-weekend-project-that-changes-everything" },
+  { letter: "H", title: "Hurricane Debris Cleanup — Florida's Annual Dumpster Rush", slug: "hurricane-debris-cleanup-floridas-annual-dumpster-rush" },
+  { letter: "I", title: "Insurance and Liability — Who's Responsible for the Dumpster on Your Property", slug: "insurance-and-liability-whos-responsible-for-the-dumpster-on-your-property" },
+  { letter: "J", title: "Junk Removal vs Dumpster Rental — Which Is Right for Your Project", slug: "junk-removal-vs-dumpster-rental-which-is-right-for-your-project" },
+  { letter: "K", title: "Kitchen Renovation — Demolition Debris and Dumpster Sizing", slug: "kitchen-renovation-demolition-debris-and-dumpster-sizing" },
+  { letter: "L", title: "Landfill Regulations in Florida — Where Your Waste Actually Goes", slug: "landfill-regulations-in-florida-where-your-waste-actually-goes" },
+  { letter: "M", title: "Moving Day Dumpsters — Declutter Before You Pack", slug: "moving-day-dumpsters-declutter-before-you-pack" },
+  { letter: "N", title: "Neighborhood Rules and HOA Restrictions on Dumpsters in Florida", slug: "neighborhood-rules-and-hoa-restrictions-on-dumpsters-in-florida" },
+  { letter: "O", title: "Overfilling Your Dumpster — Weight Limits and What Happens When You Exceed Them", slug: "overfilling-your-dumpster-weight-limits-and-what-happens" },
+  { letter: "P", title: "Placement Tips — Where to Put Your Dumpster for Easy Loading", slug: "placement-tips-where-to-put-your-dumpster-for-easy-loading" },
+  { letter: "Q", title: "Questions to Ask Before You Rent a Dumpster", slug: "questions-to-ask-before-you-rent-a-dumpster" },
+  { letter: "R", title: "Roofing Tear-Offs — The Most Common Dumpster Rental Project in Florida", slug: "roofing-tear-offs-the-most-common-dumpster-rental-project-in-florida" },
+  { letter: "S", title: "Same-Day Delivery — How Fast Dumpster Service Works in Florida", slug: "same-day-delivery-how-fast-dumpster-service-works-in-florida" },
+  { letter: "T", title: "Ten Yard vs Twenty Yard vs Thirty Yard — Choosing the Right Size", slug: "ten-yard-vs-twenty-yard-vs-thirty-yard-choosing-the-right-size" },
+  { letter: "U", title: "Understanding Your Rental Agreement — Terms, Fees, and Fine Print", slug: "understanding-your-rental-agreement-terms-fees-and-fine-print" },
+  { letter: "V", title: "Vacant Property Cleanouts — Foreclosures, Flips, and Abandoned Homes", slug: "vacant-property-cleanouts-foreclosures-flips-and-abandoned-homes" },
+  { letter: "W", title: "Weight Limits Explained — How Heavy Materials Affect Your Rental Cost", slug: "weight-limits-explained-how-heavy-materials-affect-your-rental-cost" },
+  { letter: "X", title: "eXtra Rental Days — Extending Your Dumpster Rental Period", slug: "extra-rental-days-extending-your-dumpster-rental-period" },
+  { letter: "Y", title: "Yard Waste Dumpsters — Palm Fronds, Branches, and Florida Landscaping", slug: "yard-waste-dumpsters-palm-fronds-branches-and-florida-landscaping" },
+  { letter: "Z", title: "Zero Hidden Fees — What Flat-Rate Dumpster Pricing Really Means", slug: "zero-hidden-fees-what-flat-rate-dumpster-pricing-really-means" },
 ];
 
-const aiSearchAZ = [
-  { letter: "A", title: "Answer Engine Optimization: Getting Cited by AI", slug: "answer-engine-optimization-getting-cited-by-ai" },
-  { letter: "B", title: "Bing Integration: Why It Powers ChatGPT Results", slug: "bing-integration-why-it-powers-chatgpt-results" },
-  { letter: "C", title: "ChatGPT Optimization: How to Get Recommended by Name", slug: "chatgpt-optimization-how-to-get-recommended-by-name" },
-  { letter: "D", title: "Data Structures: What AI Models Parse From Your Pages", slug: "data-structures-what-ai-models-parse-from-your-pages" },
-  { letter: "E", title: "Entity Authority: How AI Decides Which Businesses to Recommend", slug: "entity-authority-how-ai-decides-which-businesses-to-recommend" },
-  { letter: "F", title: "FAQ Content: The Format AI Search Models Love Most", slug: "faq-content-the-format-ai-search-models-love-most" },
-  { letter: "G", title: "GEO: Generative Engine Optimization Explained", slug: "geo-generative-engine-optimization-explained" },
-  { letter: "H", title: "Hallucination Prevention: Making Sure AI Gets Your Info Right", slug: "hallucination-prevention-making-sure-ai-gets-your-info-right" },
-  { letter: "I", title: "Indexing for AI: How Crawlers Feed Language Models", slug: "indexing-for-ai-how-crawlers-feed-language-models" },
-  { letter: "J", title: "JSON-LD for AI: Structured Data That Machines Understand", slug: "json-ld-for-ai-structured-data-machines-understand" },
-  { letter: "K", title: "Knowledge Graphs: How AI Connects Your Business to Queries", slug: "knowledge-graphs-how-ai-connects-business-to-queries" },
-  { letter: "L", title: "LLM Training Data: Where AI Gets Its Recommendations", slug: "llm-training-data-where-ai-gets-its-recommendations" },
-  { letter: "M", title: "Multi-Platform Strategy: ChatGPT, Perplexity, Gemini & Claude", slug: "multi-platform-strategy-chatgpt-perplexity-gemini-claude" },
-  { letter: "N", title: "Natural Language Content: Writing for AI Comprehension", slug: "natural-language-content-writing-for-ai-comprehension" },
-  { letter: "O", title: "OpenAI Search: How ChatGPT Finds and Recommends Businesses", slug: "openai-search-how-chatgpt-finds-recommends-businesses" },
-  { letter: "P", title: "Perplexity Optimization: Getting Cited in AI Search Results", slug: "perplexity-optimization-getting-cited-in-ai-search-results" },
-  { letter: "Q", title: "Query Patterns: How People Search AI vs Google", slug: "query-patterns-how-people-search-ai-vs-google" },
-  { letter: "R", title: "RAG Systems: How AI Retrieves and Generates Answers", slug: "rag-systems-how-ai-retrieves-and-generates-answers" },
-  { letter: "S", title: "Source Attribution: Getting Your Business Cited as the Source", slug: "source-attribution-getting-business-cited-as-source" },
-  { letter: "T", title: "Trust Signals: What Makes AI Recommend One Business Over Another", slug: "trust-signals-what-makes-ai-recommend-one-business-over-another" },
-  { letter: "U", title: "User Intent in AI: How AI Interprets What Customers Need", slug: "user-intent-in-ai-how-ai-interprets-what-customers-need" },
-  { letter: "V", title: "Voice AI: When Customers Talk to AI Instead of Typing", slug: "voice-ai-when-customers-talk-to-ai-instead-of-typing" },
-  { letter: "W", title: "Web Presence: The Signals AI Aggregates About Your Business", slug: "web-presence-signals-ai-aggregates-about-your-business" },
-  { letter: "X", title: "X-Factor: The Competitive Edge of Early AI Search Adoption", slug: "x-factor-competitive-edge-early-ai-search-adoption" },
-  { letter: "Y", title: "Your AI Visibility Score: Measuring AI Search Performance", slug: "your-ai-visibility-score-measuring-ai-search-performance" },
-  { letter: "Z", title: "Zero to Recommended: The Full AI Search Optimization Playbook", slug: "zero-to-recommended-full-ai-search-optimization-playbook" },
+const projectsAZ = [
+  { letter: "A", title: "Apartment Complex Cleanouts — Dumpster Rental for Property Managers", slug: "apartment-complex-cleanouts-dumpster-rental-for-property-managers" },
+  { letter: "B", title: "Bathroom Renovation — Tearing Out Tile, Tubs, and Vanities", slug: "bathroom-renovation-tearing-out-tile-tubs-and-vanities" },
+  { letter: "C", title: "Commercial Construction Waste — Managing Large-Scale Job Sites", slug: "commercial-construction-waste-managing-large-scale-job-sites" },
+  { letter: "D", title: "Deck and Patio Demolition — Removing Outdoor Structures", slug: "deck-and-patio-demolition-removing-outdoor-structures" },
+  { letter: "E", title: "Emergency Storm Cleanup — Getting a Dumpster After Disaster Strikes", slug: "emergency-storm-cleanup-getting-a-dumpster-after-disaster-strikes" },
+  { letter: "F", title: "Fence Removal — Posts, Panels, and Disposal", slug: "fence-removal-posts-panels-and-disposal" },
+  { letter: "G", title: "General Contractor Accounts — Volume Pricing and Priority Scheduling", slug: "general-contractor-accounts-volume-pricing-and-priority-scheduling" },
+  { letter: "H", title: "Home Addition Projects — Managing Waste During Expansion", slug: "home-addition-projects-managing-waste-during-expansion" },
+  { letter: "I", title: "Interior Demolition — Gutting Rooms Down to the Studs", slug: "interior-demolition-gutting-rooms-down-to-the-studs" },
+  { letter: "J", title: "Job Site Waste Management — Best Practices for Builders", slug: "job-site-waste-management-best-practices-for-builders" },
+  { letter: "K", title: "Kitchen Remodel Dumpsters — Cabinets, Countertops, and Appliances", slug: "kitchen-remodel-dumpsters-cabinets-countertops-and-appliances" },
+  { letter: "L", title: "Landscaping Overhaul — Clearing Land and Removing Vegetation", slug: "landscaping-overhaul-clearing-land-and-removing-vegetation" },
+  { letter: "M", title: "Multi-Family Property Cleanouts — Apartments, Condos, and Townhomes", slug: "multi-family-property-cleanouts-apartments-condos-and-townhomes" },
+  { letter: "N", title: "New Construction Waste — From Foundation to Finishing", slug: "new-construction-waste-from-foundation-to-finishing" },
+  { letter: "O", title: "Office Building Renovations — Commercial Dumpster Solutions", slug: "office-building-renovations-commercial-dumpster-solutions" },
+  { letter: "P", title: "Pool Demolition — Removing an Inground Pool in Florida", slug: "pool-demolition-removing-an-inground-pool-in-florida" },
+  { letter: "Q", title: "Quick Turnaround Projects — Weekend Dumpster Rentals", slug: "quick-turnaround-projects-weekend-dumpster-rentals" },
+  { letter: "R", title: "Restaurant Buildout and Renovation Debris", slug: "restaurant-buildout-and-renovation-debris" },
+  { letter: "S", title: "Storm Damage Restoration — Working With Insurance Companies", slug: "storm-damage-restoration-working-with-insurance-companies" },
+  { letter: "T", title: "Tenant Eviction Cleanouts — Clearing Abandoned Units Fast", slug: "tenant-eviction-cleanouts-clearing-abandoned-units-fast" },
+  { letter: "U", title: "Utility and Infrastructure Projects — Municipal Dumpster Needs", slug: "utility-and-infrastructure-projects-municipal-dumpster-needs" },
+  { letter: "V", title: "Vehicle and Equipment Removal — What Counts as Acceptable Debris", slug: "vehicle-and-equipment-removal-what-counts-as-acceptable-debris" },
+  { letter: "W", title: "Warehouse Cleanouts — Industrial-Scale Waste Removal", slug: "warehouse-cleanouts-industrial-scale-waste-removal" },
+  { letter: "X", title: "eXterior Renovation — Siding, Stucco, and Facade Removal", slug: "exterior-renovation-siding-stucco-and-facade-removal" },
+  { letter: "Y", title: "Year-Round Rental — Ongoing Dumpster Service for Businesses", slug: "year-round-rental-ongoing-dumpster-service-for-businesses" },
+  { letter: "Z", title: "Zoning and Placement Laws — Florida Dumpster Regulations by County", slug: "zoning-and-placement-laws-florida-dumpster-regulations-by-county" },
 ];
 
 export default function BlogPage() {
@@ -86,27 +87,27 @@ export default function BlogPage() {
           <div className="mt-10 text-center">
             <p className="text-sm font-semibold uppercase tracking-[0.2em] text-green-500">52 Guides &middot; Two Series</p>
             <h1 className="mx-auto mt-4 max-w-4xl text-4xl font-extrabold tracking-tight sm:text-5xl lg:text-6xl">
-              The SEO &amp; AI Search
-              <br /><span className="text-green-400">Knowledge Base</span>
+              The Complete
+              <br /><span className="text-green-400">Dumpster Rental Guide</span>
             </h1>
             <p className="mx-auto mt-6 max-w-3xl text-lg leading-8 text-zinc-300">
-              Two complete A-to-Z series covering every concept in search engine optimization and AI search optimization. No fluff. No filler. Just the knowledge your business needs to dominate every search platform.
+              Two complete A-to-Z series covering everything about dumpster rentals in Florida. From sizing and pricing to hurricane cleanup and project-specific guides. No fluff — just the knowledge you need to rent the right dumpster for the right project.
             </p>
           </div>
         </div>
       </section>
 
-      {/* SEO A-Z Series */}
+      {/* Dumpster Rental A-Z Series */}
       <section className="bg-[#2A2A2A] py-20">
         <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
           <div className="text-center">
             <p className="text-sm font-semibold uppercase tracking-[0.2em] text-green-500">Series 01</p>
-            <h2 className="mt-2 text-3xl font-bold sm:text-4xl">SEO A&ndash;Z</h2>
-            <p className="mx-auto mt-3 max-w-2xl text-zinc-400">26 guides covering every fundamental of search engine optimization — from authority and backlinks to zero-click searches.</p>
+            <h2 className="mt-2 text-3xl font-bold sm:text-4xl">Dumpster Rental A&ndash;Z</h2>
+            <p className="mx-auto mt-3 max-w-2xl text-zinc-400">26 guides covering every aspect of renting a dumpster in Florida — from hazardous waste rules and pricing to weight limits and HOA regulations.</p>
           </div>
 
           <div className="mt-12 grid gap-3 sm:grid-cols-2 lg:grid-cols-3">
-            {seoAZ.map((post) => (
+            {dumpsterAZ.map((post) => (
               <Link
                 key={post.slug}
                 href={`/blog/${post.slug}`}
@@ -124,17 +125,20 @@ export default function BlogPage() {
         </div>
       </section>
 
-      {/* AI Search A-Z Series */}
+      {/* Mid CTA */}
+      <CTAGroup variant="mid" />
+
+      {/* Florida Projects A-Z Series */}
       <section className="bg-[#0A0A0A] py-20">
         <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
           <div className="text-center">
             <p className="text-sm font-semibold uppercase tracking-[0.2em] text-green-400">Series 02</p>
-            <h2 className="mt-2 text-3xl font-bold sm:text-4xl">AI Search A&ndash;Z</h2>
-            <p className="mx-auto mt-3 max-w-2xl text-zinc-400">26 guides on the future of search — from answer engine optimization and ChatGPT visibility to generative engine optimization and AI trust signals.</p>
+            <h2 className="mt-2 text-3xl font-bold sm:text-4xl">Florida Projects A&ndash;Z</h2>
+            <p className="mx-auto mt-3 max-w-2xl text-zinc-400">26 project-specific guides — from bathroom renovations and pool demolitions to storm cleanup and warehouse cleanouts. Every project type that needs a dumpster in Florida.</p>
           </div>
 
           <div className="mt-12 grid gap-3 sm:grid-cols-2 lg:grid-cols-3">
-            {aiSearchAZ.map((post) => (
+            {projectsAZ.map((post) => (
               <Link
                 key={post.slug}
                 href={`/blog/${post.slug}`}
@@ -152,19 +156,25 @@ export default function BlogPage() {
         </div>
       </section>
 
-      {/* CTA */}
-      <section className="bg-green-600 py-14">
-        <div className="mx-auto max-w-4xl px-4 text-center sm:px-6 lg:px-8">
-          <h2 className="text-2xl font-bold text-white sm:text-3xl">Need a Dumpster?</h2>
-          <p className="mx-auto mt-3 max-w-2xl text-lg text-green-100">
-            Whether you are tackling a home renovation, construction project, or major cleanout, we have the right dumpster for you. 10, 20 &amp; 30 yard roll-off containers delivered across Florida.
-          </p>
-          <div className="mt-6 flex flex-col items-center gap-4 sm:flex-row sm:justify-center">
-            <a href={`sms:${phonePlain}`} className="inline-flex items-center rounded-lg bg-white px-6 py-3 text-lg font-semibold text-green-600 hover:bg-green-50">Text Us for a Quote</a>
-            <a href={`tel:${phonePlain}`} className="inline-flex items-center rounded-lg border-2 border-white px-6 py-3 text-lg font-semibold text-white hover:bg-white/10">Call {PHONE}</a>
-          </div>
-        </div>
-      </section>
+      <ProTip
+        tips={[
+          {
+            title: "Knowledge Is Horsepower",
+            body: "The more you know about dumpster rental before you call, the better deal you'll get and the smoother your project will go. These 52 guides cover everything we've learned from thousands of rentals across Florida. Read the ones that apply to your project.",
+          },
+          {
+            title: "Share These With Your Contractor",
+            body: "Contractors appreciate clients who've done their homework. Send your contractor the relevant guide before your project starts — you'll both be on the same page about sizing, timing, and what goes in (and what doesn't).",
+          },
+          {
+            title: "Still Have Questions? Text Us",
+            body: "We wrote 52 in-depth guides, but every project is a little different. If you've read the guides and still have questions, text or call us. We're always happy to talk dumpsters — somebody has to be passionate about this stuff, and it might as well be us.",
+          },
+        ]}
+      />
+
+      {/* Final CTA */}
+      <CTAGroup variant="final" />
     </div>
   );
 }

@@ -3,6 +3,7 @@ import Link from "next/link";
 import { PHONE, SITE_URL, EMAIL, ADDRESS } from "@/lib/seo";
 import CTAGroup from "@/components/CTAGroup";
 import CTABanner from "@/components/CTABanner";
+import ProTip from "@/components/ProTip";
 
 export const metadata: Metadata = {
   title: "Broker Service | How Our Hauler Network Works | Florida Dumpster Rentals",
@@ -236,6 +237,23 @@ export default function BrokerServicePage() {
           </div>
         </div>
       </section>
+
+      <ProTip
+        tips={[
+          {
+            title: "One Call, We Handle Everything",
+            body: "You don't need to research haulers, compare prices, or chase down availability. Tell us what you need and where — we coordinate with the best local hauler in your area and handle all the logistics. You get one number to call, one quote, one invoice.",
+          },
+          {
+            title: "We Vet Every Hauler in Our Network",
+            body: "Every hauler we work with is licensed, insured, and performance-tracked. We monitor on-time rates, customer feedback, and service quality. If a hauler drops below our standards, they're out. Your dumpster experience is only as good as the hauler, and we take that seriously.",
+          },
+          {
+            title: "Rural Florida? We've Got You",
+            body: "Live down a dirt road in Okeechobee County? Need a dumpster in a small Panhandle town with one traffic light? We've got hauler partners across the entire state — even in places most companies won't bother servicing. If you're in Florida, we can get a dumpster to you.",
+          },
+        ]}
+      />
 
       {/* Final CTA */}
       <CTAGroup variant="final" />

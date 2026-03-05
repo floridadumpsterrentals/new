@@ -1,6 +1,6 @@
 import Link from "next/link";
 import { PHONE } from "@/lib/seo";
-import { getRegions, getNeighborhoodsByRegion } from "@/lib/data";
+import { getRegions, getNeighborhoodsByRegion, getAllServices } from "@/lib/data";
 import MegaMenu from "./MegaMenu";
 
 export default function Header() {
@@ -19,6 +19,7 @@ export default function Header() {
             Object.entries(getNeighborhoodsByRegion()).map(([r, ns]) => [r, ns.length])
           )}
           phone={PHONE}
+          services={getAllServices().map(s => ({ slug: s.slug, name: s.name, category: s.category }))}
         />
       </div>
     </header>

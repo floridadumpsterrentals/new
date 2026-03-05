@@ -3,6 +3,7 @@ import type { Metadata } from "next";
 import Breadcrumbs from "@/components/Breadcrumbs";
 import CTAGroup from "@/components/CTAGroup";
 import { PHONE, SITE_URL } from "@/lib/seo";
+import ProTip from "@/components/ProTip";
 
 export const metadata: Metadata = {
   title: "Dumpster Rental Pricing Florida | Florida Dumpster Rentals",
@@ -447,6 +448,23 @@ export default function PricingPage() {
             })),
           }),
         }}
+      />
+
+      <ProTip
+        tips={[
+          {
+            title: "The Cheapest Quote Isn't Always the Best Deal",
+            body: "A $199 dumpster rental sounds great until you get hit with a $75 fuel surcharge, a $50 environmental fee, and a $40 admin charge. Always compare the total, all-inclusive price. Ours includes delivery, pickup, rental period, and disposal — no surprises.",
+          },
+          {
+            title: "Right-Size Your Dumpster and Save",
+            body: "Ordering too small means paying for a second haul. Ordering too big means paying for space you don't use. Tell us what you're tossing and we'll recommend the exact right size — it's what we do hundreds of times a week.",
+          },
+          {
+            title: "Ask About Weight Limits Upfront",
+            body: "Concrete, dirt, tile, and roofing shingles are deceptively heavy. A small pile of concrete can blow past your weight limit and trigger overage fees. If your project involves heavy materials, mention it when you call so we can set you up right.",
+          },
+        ]}
       />
 
       {/* Final CTA */}

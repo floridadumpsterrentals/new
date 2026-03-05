@@ -1,6 +1,6 @@
 import { PHONE } from "@/lib/seo";
 
-type CTAVariant = "hero" | "mid" | "preFaq" | "final";
+type CTAVariant = "hero" | "mid" | "preFaq" | "final" | "inline";
 
 interface CTAGroupProps {
   variant: CTAVariant;
@@ -11,19 +11,28 @@ interface CTAGroupProps {
 const defaults: Record<CTAVariant, { title: string; subtitle: string }> = {
   hero: {
     title: "Get Your Dumpster Delivered Today.",
-    subtitle: "Fast, affordable roll-off dumpster rental across Florida. Text or call for an instant quote.",
+    subtitle:
+      "Fast, affordable roll-off dumpster rental across Florida. Text or call for an instant quote.",
   },
   mid: {
-    title: "Same-Day Delivery Available.",
-    subtitle: "We deliver 10, 20 & 30 yard roll-off dumpsters anywhere in Florida. No hidden fees.",
+    title: "Same-Day Delivery Available Statewide.",
+    subtitle:
+      "We deliver 10, 20 & 30 yard roll-off dumpsters anywhere in Florida. No hidden fees, no surprises.",
   },
   preFaq: {
     title: "Florida's Most Trusted Dumpster Rental.",
-    subtitle: "Contractors, homeowners, and businesses across Florida rely on us for fast, reliable dumpster service.",
+    subtitle:
+      "Contractors, homeowners, and businesses across Florida rely on us for fast, reliable dumpster service.",
   },
   final: {
     title: "Ready to Order Your Dumpster?",
-    subtitle: "Text us your project details for an instant quote, or call to speak with a dumpster specialist.",
+    subtitle:
+      "Text us your project details for an instant quote, or call to speak with a dumpster specialist.",
+  },
+  inline: {
+    title: "Need a Dumpster? We Make It Easy.",
+    subtitle:
+      "Text, call, or book online. Most dumpsters delivered same-day or next-day across Florida.",
   },
 };
 
@@ -49,6 +58,12 @@ export default function CTAGroup({ variant, title, subtitle }: CTAGroupProps) {
         >
           Call {PHONE}
         </a>
+        <a
+          href="/schedule-dumpster-rental-form"
+          className="inline-flex items-center justify-center rounded-lg border border-green-600 px-6 py-3 text-sm font-semibold text-green-400 hover:bg-green-600/10"
+        >
+          Book Online
+        </a>
       </div>
     );
   }
@@ -58,12 +73,12 @@ export default function CTAGroup({ variant, title, subtitle }: CTAGroupProps) {
   return (
     <section className={`bg-green-600 ${isLarge ? "py-20" : "py-14"}`}>
       <div className="mx-auto max-w-4xl px-4 text-center sm:px-6 lg:px-8">
-        <h2 className={`font-bold text-white ${isLarge ? "text-3xl sm:text-4xl" : "text-2xl sm:text-3xl"}`}>
+        <h2
+          className={`font-bold text-white ${isLarge ? "text-3xl sm:text-4xl" : "text-2xl sm:text-3xl"}`}
+        >
           {heading}
         </h2>
-        <p className="mx-auto mt-3 max-w-2xl text-lg text-green-100">
-          {sub}
-        </p>
+        <p className="mx-auto mt-3 max-w-2xl text-lg text-green-100">{sub}</p>
         <div className="mt-6 flex flex-col items-center gap-4 sm:flex-row sm:justify-center">
           <a
             href={`sms:${phonePlain}`}
@@ -76,6 +91,12 @@ export default function CTAGroup({ variant, title, subtitle }: CTAGroupProps) {
             className="inline-flex items-center rounded-lg border-2 border-white px-6 py-3 text-lg font-semibold text-white hover:bg-white/10"
           >
             Call {PHONE}
+          </a>
+          <a
+            href="/schedule-dumpster-rental-form"
+            className="inline-flex items-center rounded-lg border-2 border-white/50 px-6 py-3 text-lg font-semibold text-white hover:border-white hover:bg-white/10"
+          >
+            Book Online
           </a>
         </div>
       </div>

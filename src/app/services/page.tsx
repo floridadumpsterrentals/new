@@ -3,6 +3,7 @@ import type { Metadata } from "next";
 import { getServicesByCategory } from "@/lib/data";
 import Breadcrumbs from "@/components/Breadcrumbs";
 import CTAGroup from "@/components/CTAGroup";
+import ProTip from "@/components/ProTip";
 import { SITE_URL } from "@/lib/seo";
 
 export const metadata: Metadata = {
@@ -123,6 +124,23 @@ export default function ServicesPage() {
           </div>
         </div>
       </section>
+
+      <ProTip
+        tips={[
+          {
+            title: "Not Sure Which Service? Just Describe Your Project",
+            body: "You don't need to know the exact service category — just tell us what you're working on. \"I'm gutting my kitchen\" or \"we're clearing a lot for new construction\" is all we need. We'll match you with the right dumpster size and service type.",
+          },
+          {
+            title: "Combine Projects and Save",
+            body: "Doing a roof tear-off AND a bathroom remodel? Cleaning out the garage AND the attic? Sometimes one dumpster can handle multiple projects if you time it right. Tell us everything you've got planned and we'll help you figure out the most cost-effective approach.",
+          },
+          {
+            title: "Recurring Service Gets Better Pricing",
+            body: "Contractors and property managers who rent dumpsters regularly save 15-25% with volume pricing. If you need dumpsters more than once a month, ask us about contractor rates — dedicated scheduling, priority delivery, and net-30 billing included.",
+          },
+        ]}
+      />
 
       {/* Final CTA */}
       <CTAGroup variant="final" />

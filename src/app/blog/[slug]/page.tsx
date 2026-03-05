@@ -2,6 +2,7 @@ import Link from "next/link";
 import type { Metadata } from "next";
 import { notFound } from "next/navigation";
 import Breadcrumbs from "@/components/Breadcrumbs";
+import ProTip from "@/components/ProTip";
 import { PHONE, SITE_URL } from "@/lib/seo";
 import { getPostBySlug, getAllSlugs } from "@/lib/blog";
 
@@ -115,6 +116,23 @@ export default async function BlogPostPage({ params }: Props) {
         </div>
       </section>
 
+      <ProTip
+        tips={[
+          {
+            title: "Reading Is Great. Texting Is Faster.",
+            body: "You've clearly done your homework — respect. But if you already know what you need, just text us at 954-710-2332 with your project details and zip code. We'll have a quote back before you finish the next article.",
+          },
+          {
+            title: "Save This for Later",
+            body: "Bookmark this page. When your project kicks off and you're knee-deep in demo debris wondering about weight limits or sizing, you'll be glad you did.",
+          },
+          {
+            title: "We Wrote 52 of These. Ask Us Anything.",
+            body: "If we missed something or you have a question that none of our guides cover, just reach out. We genuinely love talking about dumpsters. Somebody has to.",
+          },
+        ]}
+      />
+
       {/* CTA */}
       <section className="bg-green-600 py-14">
         <div className="mx-auto max-w-4xl px-4 text-center sm:px-6 lg:px-8">
@@ -137,6 +155,12 @@ export default async function BlogPostPage({ params }: Props) {
               className="inline-flex items-center rounded-lg border-2 border-white px-6 py-3 text-lg font-semibold text-white hover:bg-white/10"
             >
               Call {PHONE}
+            </a>
+            <a
+              href="/schedule-dumpster-rental-form"
+              className="inline-flex items-center rounded-lg border-2 border-white/50 px-6 py-3 text-lg font-semibold text-white hover:border-white hover:bg-white/10"
+            >
+              Book Online
             </a>
           </div>
           <p className="mt-6 text-sm text-green-200">

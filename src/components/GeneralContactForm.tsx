@@ -41,17 +41,17 @@ export default function GeneralContactForm() {
 
   if (status === "sent") {
     return (
-      <div className="rounded-xl border border-green-200 bg-green-50 p-10 text-center">
+      <div className="rounded-xl border border-green-800 bg-green-900/30 p-10 text-center">
         <div className="text-3xl">&#10003;</div>
-        <h3 className="mt-2 text-lg font-semibold text-green-900">
+        <h3 className="mt-2 text-lg font-semibold text-green-300">
           Message Sent
         </h3>
-        <p className="mt-1 text-sm text-green-700">
+        <p className="mt-1 text-sm text-green-400">
           Thanks for reaching out. We&apos;ll get back to you shortly.
         </p>
         <button
           onClick={() => setStatus("idle")}
-          className="mt-4 text-sm font-medium text-green-700 underline hover:text-green-900"
+          className="mt-4 text-sm font-medium text-green-400 underline hover:text-green-300"
         >
           Send another message
         </button>
@@ -60,8 +60,8 @@ export default function GeneralContactForm() {
   }
 
   const inputClass =
-    "mt-1 block w-full rounded-lg border border-zinc-300 px-3 py-2.5 text-sm text-zinc-900 shadow-sm placeholder:text-zinc-400 focus:border-blue-500 focus:ring-1 focus:ring-blue-500";
-  const labelClass = "block text-sm font-medium text-zinc-700";
+    "mt-1 block w-full rounded-lg border border-zinc-600 bg-zinc-700 px-3 py-2.5 text-sm text-white shadow-sm placeholder:text-zinc-400 focus:border-green-500 focus:ring-1 focus:ring-green-500";
+  const labelClass = "block text-sm font-medium text-zinc-200";
 
   return (
     <form onSubmit={handleSubmit} className="space-y-5">
@@ -95,13 +95,13 @@ export default function GeneralContactForm() {
       <button
         type="submit"
         disabled={status === "sending"}
-        className="w-full rounded-lg bg-[#0080FE] px-6 py-3 text-sm font-semibold text-white shadow-sm hover:bg-[#0070E0] disabled:opacity-50"
+        className="w-full rounded-lg bg-green-600 px-6 py-3 text-sm font-semibold text-white shadow-sm hover:bg-green-700 disabled:opacity-50"
       >
         {status === "sending" ? "Sending..." : "Send Message"}
       </button>
 
       {status === "error" && (
-        <p className="text-center text-sm text-red-600">
+        <p className="text-center text-sm text-red-400">
           Something went wrong. Please try again or call us directly.
         </p>
       )}
