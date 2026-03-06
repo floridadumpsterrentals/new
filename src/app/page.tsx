@@ -127,61 +127,63 @@ export default function Home() {
       {/* ============================================= */}
       {/* HERO — Split layout: copy left, trust boxes right */}
       {/* ============================================= */}
-      <section className="bg-zinc-950 py-20 sm:py-28">
+      <section className="relative overflow-hidden bg-stone-950 py-20 sm:py-28">
+        <div className="pointer-events-none absolute -right-64 -top-64 h-[500px] w-[500px] rounded-full bg-orange-500/[0.07] blur-3xl" />
+        <div className="pointer-events-none absolute -bottom-32 -left-32 h-[300px] w-[300px] rounded-full bg-orange-600/[0.05] blur-3xl" />
         <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
           <div className="grid items-start gap-12 lg:grid-cols-2">
             {/* Left: Copy */}
             <div>
-              <p className="inline-block rounded-full border border-green-500/30 bg-green-500/10 px-4 py-1.5 text-xs font-semibold uppercase tracking-wider text-green-400">
+              <p className="inline-block rounded-full border border-orange-500/20 bg-orange-500/10 px-4 py-1.5 text-xs font-semibold uppercase tracking-[0.15em] text-orange-400 shadow-sm shadow-orange-500/10">
                 Serving All 67 Florida Counties
               </p>
               <h1 className="mt-5 text-4xl font-bold tracking-tight text-white sm:text-5xl">
                 Florida Dumpster Rental.{" "}
-                <span className="text-green-400">Your Junk, Gone.</span>
+                <span className="text-orange-400">Your Junk, Gone.</span>
               </h1>
-              <p className="mt-5 max-w-lg text-lg leading-relaxed text-zinc-300">
+              <p className="mt-5 max-w-lg text-lg leading-relaxed text-stone-300">
                 10, 20 &amp; 30 yard roll-off dumpsters delivered anywhere in
                 Florida. Same-day available. Flat-rate pricing. No hidden fees.
                 Text us, get a quote in 30 seconds, and we handle the rest.
               </p>
-              <p className="mt-3 max-w-lg text-sm leading-relaxed text-zinc-400">
+              <p className="mt-3 max-w-lg text-sm leading-relaxed text-stone-400">
                 Construction, roofing, demolition, home cleanouts, junk removal,
                 storm debris — we have hauled it all across every corner of
                 Florida. We are not here to judge your garage. Just to empty it.
               </p>
               {/* Trust row */}
               <div className="mt-6 flex flex-wrap gap-x-6 gap-y-2">
-                <div className="flex items-center gap-2 text-sm text-zinc-300">
-                  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" className="h-4 w-4 text-green-400">
+                <div className="flex items-center gap-2 text-sm text-stone-300">
+                  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" className="h-4 w-4 text-orange-400">
                     <path fillRule="evenodd" d="M16.704 4.153a.75.75 0 0 1 .143 1.052l-8 10.5a.75.75 0 0 1-1.127.075l-4.5-4.5a.75.75 0 0 1 1.06-1.06l3.894 3.893 7.48-9.817a.75.75 0 0 1 1.05-.143Z" clipRule="evenodd" />
                   </svg>
                   No money up front
                 </div>
-                <div className="flex items-center gap-2 text-sm text-zinc-300">
-                  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" className="h-4 w-4 text-green-400">
+                <div className="flex items-center gap-2 text-sm text-stone-300">
+                  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" className="h-4 w-4 text-orange-400">
                     <path fillRule="evenodd" d="M16.704 4.153a.75.75 0 0 1 .143 1.052l-8 10.5a.75.75 0 0 1-1.127.075l-4.5-4.5a.75.75 0 0 1 1.06-1.06l3.894 3.893 7.48-9.817a.75.75 0 0 1 1.05-.143Z" clipRule="evenodd" />
                   </svg>
                   Pay when done
                 </div>
-                <div className="flex items-center gap-2 text-sm text-zinc-300">
-                  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" className="h-4 w-4 text-green-400">
+                <div className="flex items-center gap-2 text-sm text-stone-300">
+                  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" className="h-4 w-4 text-orange-400">
                     <path fillRule="evenodd" d="M16.704 4.153a.75.75 0 0 1 .143 1.052l-8 10.5a.75.75 0 0 1-1.127.075l-4.5-4.5a.75.75 0 0 1 1.06-1.06l3.894 3.893 7.48-9.817a.75.75 0 0 1 1.05-.143Z" clipRule="evenodd" />
                   </svg>
                   Top-tier communication &amp; service
                 </div>
               </div>
               <CTAGroup variant="hero" />
-              <p className="mt-6 text-xs text-zinc-400">
+              <p className="mt-6 text-xs text-stone-400">
                 {ADDRESS}
               </p>
             </div>
 
             {/* Right: 4 Trust Point Boxes with SEO descriptions */}
             <div className="grid grid-cols-2 gap-4">
-              <div className="group rounded-2xl border border-zinc-800 bg-zinc-900/60 p-5 transition-colors hover:border-green-500/40">
+              <div className="group rounded-2xl border border-stone-800/80 bg-stone-900/40 p-5 backdrop-blur-sm transition-all duration-300 hover:border-orange-500/30 hover:bg-stone-900/60 hover:shadow-lg hover:shadow-orange-500/5">
                 <div className="flex items-center gap-3">
-                  <div className="flex h-10 w-10 shrink-0 items-center justify-center rounded-lg bg-green-600/20">
-                    <svg className="h-5 w-5 text-green-400" fill="none" viewBox="0 0 24 24" strokeWidth={2} stroke="currentColor">
+                  <div className="flex h-10 w-10 shrink-0 items-center justify-center rounded-xl bg-gradient-to-br from-orange-600/20 to-orange-400/10">
+                    <svg className="h-5 w-5 text-orange-400" fill="none" viewBox="0 0 24 24" strokeWidth={2} stroke="currentColor">
                       <path strokeLinecap="round" strokeLinejoin="round" d="M15 10.5a3 3 0 11-6 0 3 3 0 016 0z" />
                       <path strokeLinecap="round" strokeLinejoin="round" d="M19.5 10.5c0 7.142-7.5 11.25-7.5 11.25S4.5 17.642 4.5 10.5a7.5 7.5 0 1115 0z" />
                     </svg>
@@ -190,18 +192,18 @@ export default function Home() {
                     <p className="text-2xl font-bold text-white">
                       {neighborhoods.length}+
                     </p>
-                    <p className="text-xs font-semibold text-zinc-300">
+                    <p className="text-xs font-semibold text-stone-300">
                       Florida Areas Served
                     </p>
                   </div>
                 </div>
-                <p className="mt-3 text-xs leading-relaxed text-zinc-300">
+                <p className="mt-3 text-xs leading-relaxed text-stone-300">
                   Cities, counties, and communities across all of Florida —
                   from Miami-Dade to the Panhandle.
                 </p>
               </div>
 
-              <div className="group rounded-2xl border border-zinc-800 bg-zinc-900/60 p-5 transition-colors hover:border-yellow-500/40">
+              <div className="group rounded-2xl border border-stone-800/80 bg-stone-900/40 p-5 backdrop-blur-sm transition-all duration-300 hover:border-yellow-500/30 hover:bg-stone-900/60 hover:shadow-lg hover:shadow-yellow-500/5">
                 <div className="flex items-center gap-3">
                   <div className="flex h-10 w-10 shrink-0 items-center justify-center rounded-lg bg-yellow-500/20">
                     <svg className="h-5 w-5 text-yellow-400" fill="currentColor" viewBox="0 0 20 20">
@@ -212,52 +214,52 @@ export default function Home() {
                     <p className="text-2xl font-bold text-white">
                       4.9 Stars
                     </p>
-                    <p className="text-xs font-semibold text-zinc-300">
+                    <p className="text-xs font-semibold text-stone-300">
                       1,247 Verified Reviews
                     </p>
                   </div>
                 </div>
-                <p className="mt-3 text-xs leading-relaxed text-zinc-400">
+                <p className="mt-3 text-xs leading-relaxed text-stone-400">
                   Top-rated FL dumpster rental — trusted by homeowners,
                   contractors, and property managers statewide.
                 </p>
               </div>
 
-              <div className="group rounded-2xl border border-zinc-800 bg-zinc-900/60 p-5 transition-colors hover:border-green-500/40">
+              <div className="group rounded-2xl border border-stone-800/80 bg-stone-900/40 p-5 backdrop-blur-sm transition-all duration-300 hover:border-orange-500/30 hover:bg-stone-900/60 hover:shadow-lg hover:shadow-orange-500/5">
                 <div className="flex items-center gap-3">
-                  <div className="flex h-10 w-10 shrink-0 items-center justify-center rounded-lg bg-green-600/20">
-                    <svg className="h-5 w-5 text-green-400" fill="none" viewBox="0 0 24 24" strokeWidth={2} stroke="currentColor">
+                  <div className="flex h-10 w-10 shrink-0 items-center justify-center rounded-xl bg-gradient-to-br from-orange-600/20 to-orange-400/10">
+                    <svg className="h-5 w-5 text-orange-400" fill="none" viewBox="0 0 24 24" strokeWidth={2} stroke="currentColor">
                       <path strokeLinecap="round" strokeLinejoin="round" d="M8.625 12a.375.375 0 11-.75 0 .375.375 0 01.75 0zm0 0H8.25m4.125 0a.375.375 0 11-.75 0 .375.375 0 01.75 0zm0 0H12m4.125 0a.375.375 0 11-.75 0 .375.375 0 01.75 0zm0 0h-.375M21 12c0 4.556-4.03 8.25-9 8.25a9.764 9.764 0 01-2.555-.337A5.972 5.972 0 015.41 20.97a5.969 5.969 0 01-.474-.065 4.48 4.48 0 00.978-2.025c.09-.457-.133-.901-.467-1.226C3.93 16.178 3 14.189 3 12c0-4.556 4.03-8.25 9-8.25s9 3.694 9 8.25z" />
                     </svg>
                   </div>
                   <div>
                     <p className="text-2xl font-bold text-white">~30 Sec</p>
-                    <p className="text-xs font-semibold text-zinc-300">
+                    <p className="text-xs font-semibold text-stone-300">
                       Book by Text Message
                     </p>
                   </div>
                 </div>
-                <p className="mt-3 text-xs leading-relaxed text-zinc-400">
+                <p className="mt-3 text-xs leading-relaxed text-stone-400">
                   Text your zip code and project type — get a flat-rate
                   dumpster quote back in seconds. No forms, no hold music.
                 </p>
               </div>
 
-              <div className="group rounded-2xl border border-zinc-800 bg-zinc-900/60 p-5 transition-colors hover:border-green-500/40">
+              <div className="group rounded-2xl border border-stone-800/80 bg-stone-900/40 p-5 backdrop-blur-sm transition-all duration-300 hover:border-orange-500/30 hover:bg-stone-900/60 hover:shadow-lg hover:shadow-orange-500/5">
                 <div className="flex items-center gap-3">
-                  <div className="flex h-10 w-10 shrink-0 items-center justify-center rounded-lg bg-green-600/20">
-                    <svg className="h-5 w-5 text-green-400" fill="none" viewBox="0 0 24 24" strokeWidth={2} stroke="currentColor">
+                  <div className="flex h-10 w-10 shrink-0 items-center justify-center rounded-xl bg-gradient-to-br from-orange-600/20 to-orange-400/10">
+                    <svg className="h-5 w-5 text-orange-400" fill="none" viewBox="0 0 24 24" strokeWidth={2} stroke="currentColor">
                       <path strokeLinecap="round" strokeLinejoin="round" d="M9 12.75L11.25 15 15 9.75m-3-7.036A11.959 11.959 0 013.598 6 11.99 11.99 0 003 9.749c0 5.592 3.824 10.29 9 11.623 5.176-1.332 9-6.03 9-11.622 0-1.31-.21-2.571-.598-3.751h-.152c-3.196 0-6.1-1.248-8.25-3.285z" />
                     </svg>
                   </div>
                   <div>
                     <p className="text-2xl font-bold text-white">$0 Hidden</p>
-                    <p className="text-xs font-semibold text-zinc-300">
+                    <p className="text-xs font-semibold text-stone-300">
                       Flat-Rate Dumpster Pricing
                     </p>
                   </div>
                 </div>
-                <p className="mt-3 text-xs leading-relaxed text-zinc-400">
+                <p className="mt-3 text-xs leading-relaxed text-stone-400">
                   Delivery, pickup, rental period, and disposal included. No
                   fuel surcharges, no surprise fees. Ever.
                 </p>
@@ -275,7 +277,7 @@ export default function Home() {
           <h2 className="text-3xl font-bold text-zinc-900">
             How Dumpster Rental Works in Florida
           </h2>
-          <p className="mt-3 max-w-3xl text-lg text-zinc-500">
+          <p className="mt-3 max-w-3xl text-lg text-stone-500">
             We have stripped out every unnecessary step. No account creation, no
             lengthy forms, no waiting on hold. Here is the entire process — it
             takes about 30 seconds.
@@ -305,14 +307,14 @@ export default function Home() {
               },
             ].map((s) => (
               <div key={s.step}>
-                <div className="flex h-14 w-14 items-center justify-center rounded-full bg-green-600 text-xl font-bold text-white">
+                <div className="flex h-14 w-14 items-center justify-center rounded-full bg-orange-600 text-xl font-bold text-white">
                   {s.step}
                 </div>
                 <h3 className="mt-4 text-xl font-bold text-zinc-900">
                   {s.title}
                 </h3>
                 <p className="mt-2 text-zinc-600">{s.desc}</p>
-                <p className="mt-3 text-sm italic text-zinc-400">{s.humor}</p>
+                <p className="mt-3 text-sm italic text-stone-400">{s.humor}</p>
               </div>
             ))}
           </div>
@@ -322,12 +324,12 @@ export default function Home() {
       {/* ============================================= */}
       {/* PRICING BREAKDOWN — Moved up */}
       {/* ============================================= */}
-      <section className="bg-zinc-950 py-16">
+      <section className="bg-stone-950 py-16">
         <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
           <h2 className="text-3xl font-bold text-white">
             Dumpster Rental Pricing in Florida — What to Expect
           </h2>
-          <div className="mt-6 max-w-4xl space-y-4 text-lg leading-relaxed text-zinc-300">
+          <div className="mt-6 max-w-4xl space-y-4 text-lg leading-relaxed text-stone-300">
             <p>
               Dumpster rental pricing in Florida varies based on three main
               factors: the size of the dumpster, your location within the state,
@@ -337,71 +339,71 @@ export default function Home() {
               in at the lower end of the range.
             </p>
           </div>
-          <div className="mt-8 overflow-hidden rounded-xl border border-zinc-800">
+          <div className="mt-8 overflow-hidden rounded-xl border border-stone-800">
             <table className="w-full text-left">
-              <thead className="bg-zinc-900">
+              <thead className="bg-stone-900">
                 <tr>
-                  <th className="px-6 py-4 text-sm font-semibold text-zinc-200">
+                  <th className="px-6 py-4 text-sm font-semibold text-stone-200">
                     Size
                   </th>
-                  <th className="px-6 py-4 text-sm font-semibold text-zinc-200">
+                  <th className="px-6 py-4 text-sm font-semibold text-stone-200">
                     Price Range
                   </th>
-                  <th className="px-6 py-4 text-sm font-semibold text-zinc-200">
+                  <th className="px-6 py-4 text-sm font-semibold text-stone-200">
                     Rental Period
                   </th>
-                  <th className="px-6 py-4 text-sm font-semibold text-zinc-200">
+                  <th className="px-6 py-4 text-sm font-semibold text-stone-200">
                     Weight Limit
                   </th>
-                  <th className="hidden px-6 py-4 text-sm font-semibold text-zinc-200 sm:table-cell">
+                  <th className="hidden px-6 py-4 text-sm font-semibold text-stone-200 sm:table-cell">
                     Best For
                   </th>
                 </tr>
               </thead>
-              <tbody className="divide-y divide-zinc-800">
-                <tr className="bg-zinc-900/50">
+              <tbody className="divide-y divide-stone-800">
+                <tr className="bg-stone-900/50">
                   <td className="px-6 py-4 font-medium text-white">
                     10 Yard
                   </td>
-                  <td className="px-6 py-4 font-semibold text-green-400">
+                  <td className="px-6 py-4 font-semibold text-orange-400">
                     $275 - $350
                   </td>
-                  <td className="px-6 py-4 text-zinc-300">7 days</td>
-                  <td className="px-6 py-4 text-zinc-300">2 tons</td>
-                  <td className="hidden px-6 py-4 text-sm text-zinc-400 sm:table-cell">
+                  <td className="px-6 py-4 text-stone-300">7 days</td>
+                  <td className="px-6 py-4 text-stone-300">2 tons</td>
+                  <td className="hidden px-6 py-4 text-sm text-stone-400 sm:table-cell">
                     Garage cleanouts, small remodels
                   </td>
                 </tr>
-                <tr className="bg-zinc-900/50">
+                <tr className="bg-stone-900/50">
                   <td className="px-6 py-4 font-medium text-white">
                     20 Yard
                   </td>
-                  <td className="px-6 py-4 font-semibold text-green-400">
+                  <td className="px-6 py-4 font-semibold text-orange-400">
                     $350 - $450
                   </td>
-                  <td className="px-6 py-4 text-zinc-300">7-10 days</td>
-                  <td className="px-6 py-4 text-zinc-300">3-4 tons</td>
-                  <td className="hidden px-6 py-4 text-sm text-zinc-400 sm:table-cell">
+                  <td className="px-6 py-4 text-stone-300">7-10 days</td>
+                  <td className="px-6 py-4 text-stone-300">3-4 tons</td>
+                  <td className="hidden px-6 py-4 text-sm text-stone-400 sm:table-cell">
                     Renovations, roofing, large cleanouts
                   </td>
                 </tr>
-                <tr className="bg-zinc-900/50">
+                <tr className="bg-stone-900/50">
                   <td className="px-6 py-4 font-medium text-white">
                     30 Yard
                   </td>
-                  <td className="px-6 py-4 font-semibold text-green-400">
+                  <td className="px-6 py-4 font-semibold text-orange-400">
                     $450 - $750
                   </td>
-                  <td className="px-6 py-4 text-zinc-300">7-10 days</td>
-                  <td className="px-6 py-4 text-zinc-300">4-5 tons</td>
-                  <td className="hidden px-6 py-4 text-sm text-zinc-400 sm:table-cell">
+                  <td className="px-6 py-4 text-stone-300">7-10 days</td>
+                  <td className="px-6 py-4 text-stone-300">4-5 tons</td>
+                  <td className="hidden px-6 py-4 text-sm text-stone-400 sm:table-cell">
                     Construction, demolition, storm debris
                   </td>
                 </tr>
               </tbody>
             </table>
           </div>
-          <div className="mt-6 max-w-4xl space-y-4 text-lg leading-relaxed text-zinc-300">
+          <div className="mt-6 max-w-4xl space-y-4 text-lg leading-relaxed text-stone-300">
             <p>
               All of our pricing is flat-rate. The quote you receive includes
               delivery, pickup, disposal fees, and your entire rental period.
@@ -412,7 +414,7 @@ export default function Home() {
             <p>
               For the most accurate pricing for your specific project and
               location, text or call us at{" "}
-              <a href={`tel:${phonePlain}`} className="font-semibold text-green-400 hover:text-green-300">
+              <a href={`tel:${phonePlain}`} className="font-semibold text-orange-400 hover:text-orange-300">
                 {PHONE}
               </a>
               . We can usually get you a quote in under a minute.
@@ -430,7 +432,7 @@ export default function Home() {
           <h2 className="text-3xl font-bold text-zinc-900 sm:text-4xl">
             Why Florida Is the Busiest Dumpster Rental Market in America
           </h2>
-          <p className="mt-4 max-w-3xl text-lg text-zinc-500">
+          <p className="mt-4 max-w-3xl text-lg text-stone-500">
             22 million residents. 67 counties. Constant construction. Here is
             why Florida generates more dumpster demand than almost any other
             state.
@@ -439,8 +441,8 @@ export default function Home() {
           <div className="mt-10 grid gap-8 lg:grid-cols-2">
             {/* Growth & Construction */}
             <div className="rounded-xl border border-zinc-200 p-6">
-              <div className="flex h-10 w-10 items-center justify-center rounded-lg bg-green-100">
-                <svg className="h-5 w-5 text-green-600" fill="none" viewBox="0 0 24 24" strokeWidth={2} stroke="currentColor">
+              <div className="flex h-10 w-10 items-center justify-center rounded-lg bg-orange-100">
+                <svg className="h-5 w-5 text-orange-600" fill="none" viewBox="0 0 24 24" strokeWidth={2} stroke="currentColor">
                   <path strokeLinecap="round" strokeLinejoin="round" d="M2.25 21h19.5m-18-18v18m10.5-18v18m6-13.5V21M6.75 6.75h.75m-.75 3h.75m-.75 3h.75m3-6h.75m-.75 3h.75m-.75 3h.75M6.75 21v-3.375c0-.621.504-1.125 1.125-1.125h2.25c.621 0 1.125.504 1.125 1.125V21M3 3h12m-.75 4.5H21m-3.75 3H21m-3.75 3H21" />
                 </svg>
               </div>
@@ -452,15 +454,15 @@ export default function Home() {
                 fastest-growing state in the country, and that growth generates
                 an enormous amount of waste. With over 22 million residents and
                 hundreds of thousands of new residents moving in every year,{" "}
-                <Link href="/construction-dumpster-rental" className="font-medium text-green-600 hover:text-green-700">
+                <Link href="/construction-dumpster-rental" className="font-medium text-orange-600 hover:text-orange-700">
                   construction is booming
                 </Link>{" "}
                 from the Panhandle to the Keys. New housing developments,{" "}
-                <Link href="/commercial-dumpster-rental" className="font-medium text-green-600 hover:text-green-700">
+                <Link href="/commercial-dumpster-rental" className="font-medium text-orange-600 hover:text-orange-700">
                   commercial projects
                 </Link>
                 , infrastructure upgrades, and{" "}
-                <Link href="/renovation-dumpster-rental" className="font-medium text-green-600 hover:text-green-700">
+                <Link href="/renovation-dumpster-rental" className="font-medium text-orange-600 hover:text-orange-700">
                   renovations of aging properties
                 </Link>{" "}
                 create a constant demand for reliable, affordable dumpster
@@ -485,11 +487,11 @@ export default function Home() {
                 generate massive amounts of debris — fallen trees, damaged
                 roofing, destroyed fencing, waterlogged furniture, and ruined
                 building materials. After Hurricane Ian in 2022, demand for{" "}
-                <Link href="/storm-debris-dumpster-rental" className="font-medium text-green-600 hover:text-green-700">
+                <Link href="/storm-debris-dumpster-rental" className="font-medium text-orange-600 hover:text-orange-700">
                   storm debris dumpster rentals
                 </Link>{" "}
                 in{" "}
-                <Link href="/areas#southwest-florida" className="font-medium text-green-600 hover:text-green-700">
+                <Link href="/areas#southwest-florida" className="font-medium text-orange-600 hover:text-orange-700">
                   Southwest Florida
                 </Link>{" "}
                 surged by over 400 percent. Having a trusted dumpster rental
@@ -511,11 +513,11 @@ export default function Home() {
                 The intense heat, humidity, salt air along the coasts, and
                 frequent afternoon thunderstorms accelerate wear and tear on
                 everything from{" "}
-                <Link href="/roofing-dumpster-rental" className="font-medium text-green-600 hover:text-green-700">
+                <Link href="/roofing-dumpster-rental" className="font-medium text-orange-600 hover:text-orange-700">
                   roofing shingles
                 </Link>{" "}
                 to exterior siding to{" "}
-                <Link href="/landscaping-dumpster-rental" className="font-medium text-green-600 hover:text-green-700">
+                <Link href="/landscaping-dumpster-rental" className="font-medium text-orange-600 hover:text-orange-700">
                   landscaping
                 </Link>
                 . Florida homeowners replace roofs more frequently, renovate more
@@ -538,7 +540,7 @@ export default function Home() {
               </h3>
               <p className="mt-2 leading-relaxed text-zinc-600">
                 For{" "}
-                <Link href="/construction-dumpster-rental" className="font-medium text-green-600 hover:text-green-700">
+                <Link href="/construction-dumpster-rental" className="font-medium text-orange-600 hover:text-orange-700">
                   contractors and builders
                 </Link>
                 , Florida is the land of opportunity — but only if you can keep
@@ -548,7 +550,7 @@ export default function Home() {
                 surprise fees can throw off your schedule and blow your budget.
                 That is exactly why Florida contractors trust us: we deliver on
                 time, price with{" "}
-                <Link href="/pricing" className="font-medium text-green-600 hover:text-green-700">
+                <Link href="/pricing" className="font-medium text-orange-600 hover:text-orange-700">
                   flat-rate transparency
                 </Link>
                 , and make scheduling as easy as sending a text message.
@@ -566,9 +568,9 @@ export default function Home() {
           <h2 className="text-3xl font-bold text-zinc-900">
             Choose Your Dumpster Size
           </h2>
-          <p className="mt-3 max-w-3xl text-lg text-zinc-500">
+          <p className="mt-3 max-w-3xl text-lg text-stone-500">
             Not sure which size you need? Text us your project details at{" "}
-            <a href={`sms:${phonePlain}`} className="text-green-600 font-semibold">
+            <a href={`sms:${phonePlain}`} className="text-orange-600 font-semibold">
               {PHONE}
             </a>{" "}
             and we will recommend the right one — free, no obligation.
@@ -617,40 +619,40 @@ export default function Home() {
                 key={d.size}
                 className={`relative rounded-2xl border p-8 ${
                   d.popular
-                    ? "border-green-600 shadow-lg shadow-green-100"
+                    ? "border-orange-600 shadow-lg shadow-orange-100"
                     : "border-zinc-200"
                 }`}
               >
                 {d.popular && (
-                  <span className="absolute -top-3 left-6 rounded-full bg-green-600 px-4 py-1 text-xs font-semibold text-white">
+                  <span className="absolute -top-3 left-6 rounded-full bg-orange-600 px-4 py-1 text-xs font-semibold text-white">
                     Most Popular
                   </span>
                 )}
                 <div>
-                  <span className="text-5xl font-bold text-green-600">
+                  <span className="text-5xl font-bold text-orange-600">
                     {d.size}
                   </span>
-                  <span className="ml-1 text-lg font-medium text-zinc-500">
+                  <span className="ml-1 text-lg font-medium text-stone-500">
                     yard
                   </span>
                 </div>
                 <h3 className="mt-4 text-xl font-bold text-zinc-900">
                   {d.label}
                 </h3>
-                <p className="mt-1 text-sm text-zinc-500">
+                <p className="mt-1 text-sm text-stone-500">
                   {d.dimensions}
                 </p>
                 <div className="mt-6 space-y-3">
                   <div className="flex items-start gap-2">
-                    <span className="mt-0.5 text-green-600">&#10003;</span>
+                    <span className="mt-0.5 text-orange-600">&#10003;</span>
                     <span className="text-sm text-zinc-700">{d.capacity}</span>
                   </div>
                   <div className="flex items-start gap-2">
-                    <span className="mt-0.5 text-green-600">&#10003;</span>
+                    <span className="mt-0.5 text-orange-600">&#10003;</span>
                     <span className="text-sm text-zinc-700">{d.bestFor}</span>
                   </div>
                   <div className="flex items-start gap-2">
-                    <span className="mt-0.5 text-green-600">&#10003;</span>
+                    <span className="mt-0.5 text-orange-600">&#10003;</span>
                     <span className="text-sm text-zinc-700">{d.weight}</span>
                   </div>
                 </div>
@@ -659,7 +661,7 @@ export default function Home() {
                 </p>
                 <a
                   href={`sms:${phonePlain}?body=I'm interested in a ${d.size} yard dumpster`}
-                  className="mt-4 block w-full rounded-lg bg-green-600 py-3 text-center text-sm font-semibold text-white hover:bg-green-700"
+                  className="mt-4 block w-full rounded-lg bg-orange-600 py-3 text-center text-sm font-semibold text-white hover:bg-orange-700"
                 >
                   Text for a Quote
                 </a>
@@ -672,7 +674,7 @@ export default function Home() {
           <div className="mt-8">
             <Link
               href="/dumpster-sizes"
-              className="text-sm font-medium text-green-600 hover:text-green-700"
+              className="text-sm font-medium text-orange-600 hover:text-orange-700"
             >
               View detailed size comparison guide &rarr;
             </Link>
@@ -691,7 +693,7 @@ export default function Home() {
           <h2 className="text-3xl font-bold text-zinc-900">
             Why Florida Trusts Us With Their Dumpster Rentals
           </h2>
-          <p className="mt-3 max-w-3xl text-lg text-zinc-500">
+          <p className="mt-3 max-w-3xl text-lg text-stone-500">
             We are not the only dumpster rental company in Florida. But we are
             the one that over 1,200 customers have rated 4.9 stars. Here is why.
           </p>
@@ -746,7 +748,7 @@ export default function Home() {
           <h2 className="text-3xl font-bold text-zinc-900">
             Dumpster Rental for Every Type of Project in Florida
           </h2>
-          <p className="mt-3 text-lg text-zinc-500">
+          <p className="mt-3 text-lg text-stone-500">
             {services.length} specialized services across{" "}
             {neighborhoods.length}+ Florida locations. Whatever your project,
             we have the right dumpster and the experience to support it.
@@ -765,13 +767,13 @@ export default function Home() {
                       <Link
                         key={svc.slug}
                         href={`/${svc.slug}`}
-                        className="group rounded-xl border border-zinc-200 bg-white p-6 hover:border-green-300 hover:shadow-sm"
+                        className="group rounded-xl border border-zinc-200 bg-white p-6 hover:border-orange-300 hover:shadow-sm"
                       >
                         <div className="flex items-start justify-between">
-                          <h4 className="font-semibold text-zinc-900 group-hover:text-green-600">
+                          <h4 className="font-semibold text-zinc-900 group-hover:text-orange-600">
                             {svc.name}
                           </h4>
-                          <div className="flex items-center gap-1 text-sm text-zinc-400">
+                          <div className="flex items-center gap-1 text-sm text-stone-400">
                             <svg
                               className="h-4 w-4 text-yellow-400"
                               fill="currentColor"
@@ -784,10 +786,10 @@ export default function Home() {
                             </span>
                           </div>
                         </div>
-                        <p className="mt-2 text-sm text-zinc-500 leading-relaxed">
+                        <p className="mt-2 text-sm text-stone-500 leading-relaxed">
                           {svc.description}
                         </p>
-                        <div className="mt-3 flex items-center justify-between text-xs text-zinc-400">
+                        <div className="mt-3 flex items-center justify-between text-xs text-stone-400">
                           <span>{svc.priceRange}</span>
                           <span>Recommended: {svc.recommendedSize}</span>
                         </div>
@@ -801,7 +803,7 @@ export default function Home() {
           <div className="mt-8">
             <Link
               href="/services"
-              className="text-sm font-medium text-green-600 hover:text-green-700"
+              className="text-sm font-medium text-orange-600 hover:text-orange-700"
             >
               View all {services.length} services with full details &rarr;
             </Link>
@@ -817,16 +819,16 @@ export default function Home() {
           <h2 className="text-3xl font-bold text-zinc-900">
             What Can You Put in a Dumpster in Florida?
           </h2>
-          <p className="mt-3 max-w-3xl text-lg text-zinc-500">
+          <p className="mt-3 max-w-3xl text-lg text-stone-500">
             Knowing what is accepted saves you time, money, and headaches. Here
             is the full breakdown for Florida dumpster rentals.
           </p>
           <div className="mt-10 grid gap-8 md:grid-cols-2">
-            <div className="rounded-xl border border-green-200 bg-green-50 p-8">
-              <h3 className="text-xl font-bold text-green-800">
+            <div className="rounded-xl border border-orange-200 bg-orange-50 p-8">
+              <h3 className="text-xl font-bold text-orange-800">
                 Accepted Materials
               </h3>
-              <p className="mt-2 text-sm text-green-700">
+              <p className="mt-2 text-sm text-orange-700">
                 These items can go in your dumpster with no issues.
               </p>
               <ul className="mt-4 grid grid-cols-2 gap-2">
@@ -852,8 +854,8 @@ export default function Home() {
                   "Mattresses & box springs",
                   "Bathroom fixtures",
                 ].map((item) => (
-                  <li key={item} className="flex items-center gap-2 text-sm text-green-800">
-                    <span className="text-green-600">&#10003;</span> {item}
+                  <li key={item} className="flex items-center gap-2 text-sm text-orange-800">
+                    <span className="text-orange-600">&#10003;</span> {item}
                   </li>
                 ))}
               </ul>
@@ -904,7 +906,7 @@ export default function Home() {
           <h2 className="text-3xl font-bold text-zinc-900">
             Dumpster Delivery Across All of Florida
           </h2>
-          <p className="mt-3 max-w-3xl text-lg text-zinc-500">
+          <p className="mt-3 max-w-3xl text-lg text-stone-500">
             We deliver roll-off dumpsters to {neighborhoods.length}+ locations
             across {regions.length} Florida regions — {countyCount} counties,{" "}
             {cityCount} cities, and {communityCount} communities and
@@ -924,7 +926,7 @@ export default function Home() {
                   <h3 className="text-xl font-bold text-zinc-800">
                     Dumpster Rental in {region}
                   </h3>
-                  <p className="mt-1 text-sm text-zinc-500">
+                  <p className="mt-1 text-sm text-stone-500">
                     {regionNeighborhoods.length} locations served
                   </p>
                   <div className="mt-3 flex flex-wrap gap-2">
@@ -932,7 +934,7 @@ export default function Home() {
                       <Link
                         key={n.slug}
                         href={`/areas/${n.slug}`}
-                        className="rounded-lg border border-zinc-200 bg-zinc-50 px-3 py-1.5 text-sm text-zinc-700 hover:border-green-300 hover:text-green-700"
+                        className="rounded-lg border border-zinc-200 bg-zinc-50 px-3 py-1.5 text-sm text-zinc-700 hover:border-orange-300 hover:text-orange-700"
                       >
                         {n.name}
                       </Link>
@@ -945,7 +947,7 @@ export default function Home() {
           <div className="mt-10">
             <Link
               href="/areas"
-              className="text-sm font-medium text-green-600 hover:text-green-700"
+              className="text-sm font-medium text-orange-600 hover:text-orange-700"
             >
               Browse all {neighborhoods.length} locations &rarr;
             </Link>
@@ -961,7 +963,7 @@ export default function Home() {
           <h2 className="text-3xl font-bold text-zinc-900">
             Dumpster Rental Tips Specific to Florida
           </h2>
-          <p className="mt-3 text-lg text-zinc-500">
+          <p className="mt-3 text-lg text-stone-500">
             Florida is not like other states when it comes to dumpster rental.
             Here are the things every Florida customer should know.
           </p>
@@ -1022,7 +1024,7 @@ export default function Home() {
           <h2 className="text-3xl font-bold text-zinc-900">
             Who Rents Dumpsters in Florida?
           </h2>
-          <p className="mt-3 max-w-3xl text-lg text-zinc-500">
+          <p className="mt-3 max-w-3xl text-lg text-stone-500">
             The short answer: everyone. The long answer is a bit more
             interesting.
           </p>
@@ -1115,7 +1117,7 @@ export default function Home() {
           <h2 className="text-3xl font-bold text-zinc-900">
             Frequently Asked Questions About Dumpster Rental in Florida
           </h2>
-          <p className="mt-3 text-zinc-500">
+          <p className="mt-3 text-stone-500">
             We have answered thousands of questions from Florida customers. Here
             are the ones that come up most often.
           </p>
@@ -1151,7 +1153,7 @@ export default function Home() {
           <div className="mt-6">
             <Link
               href="/guide"
-              className="inline-flex items-center rounded-lg bg-green-600 px-6 py-3 text-sm font-semibold text-white hover:bg-green-700"
+              className="inline-flex items-center rounded-lg bg-orange-600 px-6 py-3 text-sm font-semibold text-white hover:bg-orange-700"
             >
               Read the Complete Guide &rarr;
             </Link>

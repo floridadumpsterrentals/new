@@ -142,15 +142,15 @@ export default function ReviewsPage() {
   return (
     <>
       {/* Hero */}
-      <section className="bg-zinc-950 py-20">
+      <section className="bg-stone-950 py-20">
         <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
-          <p className="text-sm font-semibold uppercase tracking-wider text-green-400">
+          <p className="text-sm font-semibold uppercase tracking-wider text-orange-400">
             Customer Reviews
           </p>
           <h1 className="mt-3 text-4xl font-bold tracking-tight text-white sm:text-5xl">
             What Our Customers Say
           </h1>
-          <p className="mt-5 max-w-2xl text-lg text-zinc-400">
+          <p className="mt-5 max-w-2xl text-lg text-stone-400">
             Don&apos;t just take our word for it. Here&apos;s what contractors,
             homeowners, and businesses across Florida have to say about our dumpster
             rental service.
@@ -171,7 +171,7 @@ export default function ReviewsPage() {
                   </span>
                 ))}
               </div>
-              <p className="mt-2 text-zinc-500">
+              <p className="mt-2 text-stone-500">
                 Based on {totalReviews} reviews
               </p>
             </div>
@@ -185,7 +185,7 @@ export default function ReviewsPage() {
                       style={{ width: `${(sc.count / totalReviews) * 100}%` }}
                     />
                   </div>
-                  <span className="w-10 text-right text-sm text-zinc-500">{sc.count}</span>
+                  <span className="w-10 text-right text-sm text-stone-500">{sc.count}</span>
                 </div>
               ))}
             </div>
@@ -207,7 +207,7 @@ export default function ReviewsPage() {
                     <span
                       key={i}
                       className={`text-lg ${
-                        i < review.rating ? "text-yellow-400" : "text-zinc-200"
+                        i < review.rating ? "text-yellow-400" : "text-stone-200"
                       }`}
                     >
                       {"\u2605"}
@@ -219,11 +219,98 @@ export default function ReviewsPage() {
                 </p>
                 <div className="mt-4 border-t border-zinc-100 pt-4">
                   <p className="font-semibold text-zinc-900">{review.name}</p>
-                  <p className="text-xs text-zinc-500">
+                  <p className="text-xs text-stone-500">
                     {review.role} &middot; {review.location}
                   </p>
-                  <p className="mt-1 text-xs text-zinc-400">{review.date}</p>
+                  <p className="mt-1 text-xs text-stone-400">{review.date}</p>
                 </div>
+              </div>
+            ))}
+          </div>
+        </div>
+      </section>
+
+      {/* Why Customers Choose Us */}
+      <section className="bg-white py-16">
+        <div className="mx-auto max-w-4xl px-4 sm:px-6 lg:px-8">
+          <h2 className="text-3xl font-bold text-zinc-900">
+            Why Florida Customers Choose Us Over Other Dumpster Companies
+          </h2>
+          <div className="mt-6 space-y-5 text-lg text-zinc-600 leading-8">
+            <p>
+              The reviews above reflect what we hear every day from customers across
+              Florida: pricing transparency, on-time delivery, and responsive
+              communication are the three things that matter most when renting a
+              dumpster. These are also the three areas where most dumpster companies
+              fall short. Hidden fees frustrate customers who feel deceived. Late
+              deliveries disrupt project timelines. Unanswered calls and texts
+              create anxiety about whether the dumpster will show up at all.
+            </p>
+            <p>
+              We built our business around solving these exact problems. Every
+              quote is flat-rate and all-inclusive — delivery, pickup, a 7-day
+              rental period, and disposal up to the weight limit are all included
+              in one price. We do not add fuel surcharges, environmental fees,
+              admin charges, or any other hidden fees. The number we quote is the
+              number on your invoice. Period. This commitment to pricing
+              transparency is why our reviews consistently mention &quot;no surprises&quot;
+              and &quot;exactly what they quoted.&quot;
+            </p>
+            <p>
+              Delivery reliability comes from our hauler network model. Instead
+              of depending on a single fleet, we partner with vetted haulers in
+              every major Florida market. When you order a dumpster in Tampa, a
+              Tampa-based hauler delivers it. When you order in Jacksonville, a
+              Jacksonville-based hauler handles it. Local haulers mean shorter
+              travel distances, faster response times, and familiarity with your
+              area&apos;s roads, regulations, and disposal facilities. Our 98%
+              on-time delivery rate reflects the reliability of this approach.
+            </p>
+            <p>
+              Communication is where we really stand out. We respond to texts in
+              minutes, not hours. We answer phone calls — a real person, not a
+              voicemail system. We send photo confirmations after delivery and
+              pickup so you have a record of every step. And if something goes
+              wrong — a delivery delay, a scheduling conflict, a placement
+              issue — we communicate proactively rather than leaving you wondering.
+              Our customers notice this and it shows in the reviews.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      {/* What Our Reviews Say About Us */}
+      <section className="bg-zinc-50 py-16">
+        <div className="mx-auto max-w-4xl px-4 sm:px-6 lg:px-8">
+          <h2 className="text-3xl font-bold text-zinc-900">
+            Common Themes in Our Customer Reviews
+          </h2>
+          <div className="mt-8 space-y-6">
+            {[
+              {
+                theme: "Pricing Was Exactly as Quoted",
+                detail: "The most common positive comment in our reviews is about pricing transparency. Customers appreciate that the price we quoted is the price they paid — no surprise fees on the invoice, no post-rental charges they did not expect. In an industry known for bait-and-switch pricing, delivering on a quoted price builds the kind of trust that generates 5-star reviews.",
+              },
+              {
+                theme: "Delivery Was Fast and On Time",
+                detail: "Same-day and next-day delivery availability is mentioned frequently. Customers value that we can deliver quickly — especially contractors who need a dumpster on site before a crew shows up. Our network model ensures we have availability even during peak demand periods like hurricane season and the winter construction boom.",
+              },
+              {
+                theme: "Communication Was Excellent",
+                detail: "Texting for a quote and getting a response in minutes is a standout experience for customers used to calling companies and getting voicemail. Our text-first communication model fits how people actually want to interact — fast, convenient, and asynchronous. Many reviewers specifically mention how easy the texting process was.",
+              },
+              {
+                theme: "Right Size Recommended",
+                detail: "Multiple reviewers mention that we helped them choose the right dumpster size for their project. Getting the size right the first time saves money and prevents the frustration of a mid-project second haul. Our experience across thousands of projects means we can accurately size a dumpster from a brief project description or a photo.",
+              },
+              {
+                theme: "Contractors Keep Coming Back",
+                detail: "Our contractor reviews highlight consistent pricing, priority scheduling, same-day swap service, and NET-30 billing as reasons they use us exclusively. When a professional who rents dumpsters weekly chooses to keep coming back, that is the strongest endorsement possible.",
+              },
+            ].map((item) => (
+              <div key={item.theme} className="border-b border-zinc-200 pb-6">
+                <h3 className="text-lg font-semibold text-zinc-900">{item.theme}</h3>
+                <p className="mt-2 text-zinc-600">{item.detail}</p>
               </div>
             ))}
           </div>

@@ -107,7 +107,7 @@ export default async function MoneyPage({ params }: PageProps) {
       />
 
       {/* Hero */}
-      <section className="bg-[#0A0A0A] py-16 sm:py-20">
+      <section className="bg-stone-950 py-16 sm:py-20">
         <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
           <Breadcrumbs
             items={[
@@ -121,13 +121,13 @@ export default async function MoneyPage({ params }: PageProps) {
           />
 
           <div className="mt-6">
-            <p className="text-sm font-semibold uppercase tracking-[0.2em] text-green-500">
+            <p className="text-sm font-semibold uppercase tracking-[0.2em] text-orange-500">
               {neighborhood.region}
             </p>
             <h1 className="mt-3 text-3xl font-bold tracking-tight text-white sm:text-4xl lg:text-5xl">
               {service.name} in {neighborhood.name}
             </h1>
-            <p className="mt-6 max-w-3xl text-lg leading-8 text-zinc-300">
+            <p className="mt-6 max-w-3xl text-lg leading-8 text-stone-300">
               {pageContent.heroDescription}
             </p>
           </div>
@@ -135,19 +135,19 @@ export default async function MoneyPage({ params }: PageProps) {
           <div className="mt-8 flex flex-col gap-4 sm:flex-row">
             <a
               href={`sms:${phonePlain}`}
-              className="inline-flex items-center justify-center rounded-lg bg-green-600 px-6 py-3 text-sm font-semibold text-white shadow-sm hover:bg-green-700"
+              className="inline-flex items-center justify-center rounded-lg bg-orange-600 px-6 py-3 text-sm font-semibold text-white shadow-sm hover:bg-orange-700"
             >
               Text Us for a Quote
             </a>
             <a
               href={`tel:${phonePlain}`}
-              className="inline-flex items-center justify-center rounded-lg border border-zinc-700 px-6 py-3 text-sm font-semibold text-white hover:border-zinc-500 hover:bg-zinc-900"
+              className="inline-flex items-center justify-center rounded-lg border border-stone-700 px-6 py-3 text-sm font-semibold text-white hover:border-zinc-500 hover:bg-stone-900"
             >
               Call {PHONE}
             </a>
             <Link
               href="/schedule-dumpster-rental-form"
-              className="inline-flex items-center justify-center rounded-lg border border-zinc-700 px-6 py-3 text-sm font-semibold text-white hover:border-zinc-500 hover:bg-zinc-900"
+              className="inline-flex items-center justify-center rounded-lg border border-stone-700 px-6 py-3 text-sm font-semibold text-white hover:border-zinc-500 hover:bg-stone-900"
             >
               Book Online
             </Link>
@@ -156,7 +156,7 @@ export default async function MoneyPage({ params }: PageProps) {
       </section>
 
       {/* Main Content */}
-      <section className="bg-[#2A2A2A] py-16">
+      <section className="bg-stone-900 py-16">
         <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
           <div className="grid gap-10 lg:grid-cols-3">
             <div className="lg:col-span-2 space-y-10">
@@ -165,7 +165,7 @@ export default async function MoneyPage({ params }: PageProps) {
                   <h2 className="text-2xl font-bold text-white">
                     {section.heading}
                   </h2>
-                  <p className="mt-4 leading-7 text-zinc-300">
+                  <p className="mt-4 leading-7 text-stone-300">
                     {section.content}
                   </p>
                 </div>
@@ -180,7 +180,7 @@ export default async function MoneyPage({ params }: PageProps) {
                   {service.commonServices.map((cs) => (
                     <div key={cs} className="flex items-center gap-3">
                       <svg
-                        className="h-4 w-4 shrink-0 text-green-500"
+                        className="h-4 w-4 shrink-0 text-orange-500"
                         fill="none"
                         viewBox="0 0 24 24"
                         strokeWidth={2}
@@ -192,16 +192,16 @@ export default async function MoneyPage({ params }: PageProps) {
                           d="M4.5 12.75l6 6 9-13.5"
                         />
                       </svg>
-                      <span className="text-sm text-zinc-300">{cs}</span>
+                      <span className="text-sm text-stone-300">{cs}</span>
                     </div>
                   ))}
                 </div>
               </div>
 
               {service.recommendedSize && (
-                <div className="rounded-lg border border-green-600/30 bg-green-600/5 p-5">
-                  <p className="text-zinc-300">
-                    <span className="font-semibold text-green-400">
+                <div className="rounded-lg border border-orange-600/30 bg-orange-600/5 p-5">
+                  <p className="text-stone-300">
+                    <span className="font-semibold text-orange-400">
                       Recommended Size for {service.name}:
                     </span>{" "}
                     {service.recommendedSize}
@@ -213,53 +213,53 @@ export default async function MoneyPage({ params }: PageProps) {
             {/* Sidebar */}
             <aside>
               <div className="sticky top-8 space-y-6">
-                <div className="rounded-xl border border-zinc-700 bg-zinc-800 p-6">
+                <div className="rounded-xl border border-stone-700 bg-stone-800 p-6">
                   <h3 className="text-lg font-semibold text-white">
                     Get a Free Quote
                   </h3>
-                  <p className="mb-4 mt-2 text-sm text-zinc-400">
+                  <p className="mb-4 mt-2 text-sm text-stone-400">
                     Need a dumpster for your {nameLower} project in{" "}
                     {neighborhood.name}? Text or call for an instant quote.
                   </p>
                   <a
                     href={`sms:${phonePlain}`}
-                    className="block w-full rounded-lg bg-green-600 py-3 text-center text-sm font-semibold text-white hover:bg-green-700"
+                    className="block w-full rounded-lg bg-orange-600 py-3 text-center text-sm font-semibold text-white hover:bg-orange-700"
                   >
                     Text Us for a Quote
                   </a>
                   <a
                     href={`tel:${phonePlain}`}
-                    className="mt-3 block w-full rounded-lg border border-zinc-600 py-3 text-center text-sm font-semibold text-white hover:border-zinc-400"
+                    className="mt-3 block w-full rounded-lg border border-stone-600 py-3 text-center text-sm font-semibold text-white hover:border-stone-400"
                   >
                     Call {PHONE}
                   </a>
                   <Link
                     href="/schedule-dumpster-rental-form"
-                    className="mt-3 block w-full rounded-lg border border-zinc-600 py-3 text-center text-sm font-semibold text-green-400 hover:border-green-500 hover:text-white"
+                    className="mt-3 block w-full rounded-lg border border-stone-600 py-3 text-center text-sm font-semibold text-orange-400 hover:border-orange-500 hover:text-white"
                   >
                     Book Online
                   </Link>
                 </div>
 
-                <div className="rounded-xl border border-zinc-700 bg-zinc-800 p-6">
+                <div className="rounded-xl border border-stone-700 bg-stone-800 p-6">
                   <h3 className="text-lg font-semibold text-white">
                     Quick Pricing
                   </h3>
                   <div className="mt-3 space-y-3">
                     <div className="flex items-center justify-between">
-                      <span className="text-sm text-zinc-400">10 Yard</span>
+                      <span className="text-sm text-stone-400">10 Yard</span>
                       <span className="text-sm font-semibold text-white">
                         From $275
                       </span>
                     </div>
                     <div className="flex items-center justify-between">
-                      <span className="text-sm text-zinc-400">20 Yard</span>
+                      <span className="text-sm text-stone-400">20 Yard</span>
                       <span className="text-sm font-semibold text-white">
                         From $350
                       </span>
                     </div>
                     <div className="flex items-center justify-between">
-                      <span className="text-sm text-zinc-400">30 Yard</span>
+                      <span className="text-sm text-stone-400">30 Yard</span>
                       <span className="text-sm font-semibold text-white">
                         From $450
                       </span>
@@ -267,14 +267,14 @@ export default async function MoneyPage({ params }: PageProps) {
                   </div>
                   <Link
                     href="/pricing"
-                    className="mt-4 block text-center text-sm text-green-500 hover:text-white"
+                    className="mt-4 block text-center text-sm text-orange-500 hover:text-white"
                   >
                     View full pricing &rarr;
                   </Link>
                 </div>
 
                 {nearbyNeighborhoods.length > 0 && (
-                  <div className="rounded-xl border border-zinc-700 bg-zinc-800 p-6">
+                  <div className="rounded-xl border border-stone-700 bg-stone-800 p-6">
                     <h3 className="text-lg font-semibold text-white">
                       {service.name} Nearby
                     </h3>
@@ -283,7 +283,7 @@ export default async function MoneyPage({ params }: PageProps) {
                         <li key={n.slug}>
                           <Link
                             href={`/${service.slug}/${n.slug}`}
-                            className="text-sm text-green-500 hover:text-white"
+                            className="text-sm text-orange-500 hover:text-white"
                           >
                             {n.name}
                           </Link>
@@ -299,7 +299,7 @@ export default async function MoneyPage({ params }: PageProps) {
       </section>
 
       {/* FAQ */}
-      <section className="bg-[#0A0A0A] py-16">
+      <section className="bg-stone-950 py-16">
         <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
           <h2 className="text-2xl font-bold text-white sm:text-3xl">
             {service.name} FAQ for {neighborhood.name}
@@ -308,10 +308,10 @@ export default async function MoneyPage({ params }: PageProps) {
             {service.faqs.map((faq, i) => (
               <div
                 key={i}
-                className="rounded-xl border border-zinc-800 bg-zinc-900/50 p-6"
+                className="rounded-xl border border-stone-800 bg-stone-900/50 p-6"
               >
                 <h3 className="font-semibold text-white">{faq.q}</h3>
-                <p className="mt-3 text-sm leading-6 text-zinc-400">
+                <p className="mt-3 text-sm leading-6 text-stone-400">
                   {faq.a}
                 </p>
               </div>
@@ -322,7 +322,7 @@ export default async function MoneyPage({ params }: PageProps) {
 
       {/* Related Services */}
       {relatedServices.length > 0 && (
-        <section className="bg-[#2A2A2A] py-16">
+        <section className="bg-stone-900 py-16">
           <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
             <h2 className="text-2xl font-bold text-white">
               Related Services in {neighborhood.name}
@@ -332,10 +332,10 @@ export default async function MoneyPage({ params }: PageProps) {
                 <Link
                   key={rs.slug}
                   href={`/${rs.slug}/${neighborhood.slug}`}
-                  className="rounded-lg border border-zinc-700 bg-zinc-800/50 p-4 hover:border-green-600/50"
+                  className="rounded-lg border border-stone-700 bg-stone-800/50 p-4 hover:border-orange-600/50"
                 >
                   <h3 className="font-medium text-white">{rs.name}</h3>
-                  <p className="mt-1 text-xs text-zinc-500">
+                  <p className="mt-1 text-xs text-stone-500">
                     in {neighborhood.name}
                   </p>
                 </Link>
@@ -352,10 +352,10 @@ export default async function MoneyPage({ params }: PageProps) {
                     <Link
                       key={cs.slug}
                       href={`/${cs.slug}/${neighborhood.slug}`}
-                      className="rounded-lg border border-zinc-700 bg-zinc-800/50 p-4 hover:border-green-600/50"
+                      className="rounded-lg border border-stone-700 bg-stone-800/50 p-4 hover:border-orange-600/50"
                     >
                       <h3 className="font-medium text-white">{cs.name}</h3>
-                      <p className="mt-1 text-xs text-zinc-500">
+                      <p className="mt-1 text-xs text-stone-500">
                         {cs.category}
                       </p>
                     </Link>

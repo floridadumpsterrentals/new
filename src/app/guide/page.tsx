@@ -65,7 +65,7 @@ export default function GuidePage() {
       />
 
       {/* Hero */}
-      <section className="bg-zinc-950 py-16 sm:py-20">
+      <section className="bg-stone-950 py-16 sm:py-20">
         <div className="mx-auto max-w-4xl px-4 sm:px-6 lg:px-8">
           <Breadcrumbs
             items={[{ name: "Complete Guide", url: "/guide" }]}
@@ -74,16 +74,16 @@ export default function GuidePage() {
           <h1 className="mt-6 text-3xl font-bold tracking-tight text-white sm:text-4xl lg:text-5xl">
             The Complete Guide to Dumpster Rental in Florida
           </h1>
-          <p className="mt-4 text-lg text-zinc-400">
+          <p className="mt-4 text-lg text-stone-400">
             Everything you need to know about renting a dumpster in the Sunshine
             State — from choosing the right size to understanding Florida-specific
             regulations, permits, pricing, weight limits, and expert tips for
             every type of project. Whether you are a first-time renter or a
             seasoned contractor, this guide has you covered.
           </p>
-          <p className="mt-2 text-sm text-zinc-500">
+          <p className="mt-2 text-sm text-stone-500">
             Questions? Call{" "}
-            <a href={`tel:${phonePlain}`} className="text-green-400">
+            <a href={`tel:${phonePlain}`} className="text-orange-400">
               {PHONE}
             </a>{" "}
             or text us anytime.
@@ -116,7 +116,7 @@ export default function GuidePage() {
                 <a
                   key={item.href}
                   href={item.href}
-                  className="text-sm text-green-600 hover:text-green-800"
+                  className="text-sm text-orange-600 hover:text-orange-800"
                 >
                   &rarr; {item.label}
                 </a>
@@ -172,7 +172,7 @@ export default function GuidePage() {
                 and understanding how they work is the first step toward a
                 successful rental experience.
               </p>
-              <p className="text-sm italic text-zinc-500">
+              <p className="text-sm italic text-stone-500">
                 Fun fact: the average Florida homeowner will rent a dumpster 2 to 3
                 times during their homeownership. Contractors rent them hundreds of
                 times. Either way, it pays to understand how the process works.
@@ -305,7 +305,7 @@ export default function GuidePage() {
                 over the sides. On active construction sites where equipment is
                 available for loading, this is not an issue.
               </p>
-              <p className="text-sm italic text-zinc-500">
+              <p className="text-sm italic text-stone-500">
                 Pro tip: if you are genuinely torn between two sizes, go with the
                 larger one. The price difference between a 20-yard and 30-yard is
                 typically $100 to $150, but needing a second dumpster because
@@ -403,7 +403,7 @@ export default function GuidePage() {
                   <tbody className="divide-y divide-zinc-100">
                     <tr>
                       <td className="px-6 py-3 font-medium">10 Yard</td>
-                      <td className="px-6 py-3 font-semibold text-green-600">
+                      <td className="px-6 py-3 font-semibold text-orange-600">
                         $275 - $350
                       </td>
                       <td className="px-6 py-3 text-zinc-600">7 days</td>
@@ -411,7 +411,7 @@ export default function GuidePage() {
                     </tr>
                     <tr>
                       <td className="px-6 py-3 font-medium">20 Yard</td>
-                      <td className="px-6 py-3 font-semibold text-green-600">
+                      <td className="px-6 py-3 font-semibold text-orange-600">
                         $350 - $450
                       </td>
                       <td className="px-6 py-3 text-zinc-600">7-10 days</td>
@@ -419,7 +419,7 @@ export default function GuidePage() {
                     </tr>
                     <tr>
                       <td className="px-6 py-3 font-medium">30 Yard</td>
-                      <td className="px-6 py-3 font-semibold text-green-600">
+                      <td className="px-6 py-3 font-semibold text-orange-600">
                         $450 - $750
                       </td>
                       <td className="px-6 py-3 text-zinc-600">7-10 days</td>
@@ -526,42 +526,42 @@ export default function GuidePage() {
                     <tr>
                       <td className="px-6 py-3">Household junk (mixed)</td>
                       <td className="px-6 py-3">150-300 lbs</td>
-                      <td className="px-6 py-3 text-zinc-500">Rarely a weight concern</td>
+                      <td className="px-6 py-3 text-stone-500">Rarely a weight concern</td>
                     </tr>
                     <tr>
                       <td className="px-6 py-3">Wood / lumber</td>
                       <td className="px-6 py-3">300-500 lbs</td>
-                      <td className="px-6 py-3 text-zinc-500">Heavier when wet</td>
+                      <td className="px-6 py-3 text-stone-500">Heavier when wet</td>
                     </tr>
                     <tr>
                       <td className="px-6 py-3">Drywall / sheetrock</td>
                       <td className="px-6 py-3">500-700 lbs</td>
-                      <td className="px-6 py-3 text-zinc-500">Much heavier when water-damaged</td>
+                      <td className="px-6 py-3 text-stone-500">Much heavier when water-damaged</td>
                     </tr>
                     <tr>
                       <td className="px-6 py-3">Asphalt shingles</td>
                       <td className="px-6 py-3">750-1,000 lbs</td>
-                      <td className="px-6 py-3 text-zinc-500">Common weight limit trigger</td>
+                      <td className="px-6 py-3 text-stone-500">Common weight limit trigger</td>
                     </tr>
                     <tr>
                       <td className="px-6 py-3">Concrete / block</td>
                       <td className="px-6 py-3">2,000-2,400 lbs</td>
-                      <td className="px-6 py-3 text-zinc-500">Extremely heavy — plan carefully</td>
+                      <td className="px-6 py-3 text-stone-500">Extremely heavy — plan carefully</td>
                     </tr>
                     <tr>
                       <td className="px-6 py-3">Dirt / soil</td>
                       <td className="px-6 py-3">1,800-2,200 lbs</td>
-                      <td className="px-6 py-3 text-zinc-500">Even heavier when wet (Florida rain)</td>
+                      <td className="px-6 py-3 text-stone-500">Even heavier when wet (Florida rain)</td>
                     </tr>
                     <tr>
                       <td className="px-6 py-3">Yard waste</td>
                       <td className="px-6 py-3">200-500 lbs</td>
-                      <td className="px-6 py-3 text-zinc-500">Light and bulky</td>
+                      <td className="px-6 py-3 text-stone-500">Light and bulky</td>
                     </tr>
                     <tr>
                       <td className="px-6 py-3">Tile / ceramic</td>
                       <td className="px-6 py-3">1,500-1,800 lbs</td>
-                      <td className="px-6 py-3 text-zinc-500">Common in Florida bathroom/kitchen demos</td>
+                      <td className="px-6 py-3 text-stone-500">Common in Florida bathroom/kitchen demos</td>
                     </tr>
                   </tbody>
                 </table>
@@ -574,7 +574,7 @@ export default function GuidePage() {
                 dumpster's volume. This is why communication with your dumpster
                 provider about what you are loading is critical.
               </p>
-              <p className="text-sm italic text-zinc-500">
+              <p className="text-sm italic text-stone-500">
                 Florida pro tip: water adds weight. If your dumpster sits
                 through several afternoon thunderstorms and the contents absorb
                 water, the weight increases. Materials like drywall, carpet, and
@@ -772,7 +772,7 @@ export default function GuidePage() {
                 permits handled through the City of Jacksonville Public Works
                 Department. Generally straightforward and affordable.
               </p>
-              <p className="text-sm italic text-zinc-500">
+              <p className="text-sm italic text-stone-500">
                 Not sure about your city's requirements? Text or call us at{" "}
                 {PHONE} and we will look it up for you. We have delivered
                 dumpsters in every corner of Florida and we know the local rules.
@@ -1226,7 +1226,7 @@ export default function GuidePage() {
             <h2 className="text-3xl font-bold text-zinc-900">
               Explore Our Dumpster Rental Services
             </h2>
-            <p className="mt-3 text-zinc-500">
+            <p className="mt-3 text-stone-500">
               We offer specialized dumpster rental services for every type of
               project across all of Florida.
             </p>
@@ -1235,10 +1235,10 @@ export default function GuidePage() {
                 <Link
                   key={svc.slug}
                   href={`/${svc.slug}`}
-                  className="rounded-lg border border-zinc-200 p-4 hover:border-green-300"
+                  className="rounded-lg border border-zinc-200 p-4 hover:border-orange-300"
                 >
                   <h3 className="font-semibold text-zinc-900">{svc.name}</h3>
-                  <p className="mt-1 text-xs text-zinc-500">
+                  <p className="mt-1 text-xs text-stone-500">
                     {svc.priceRange} | {svc.recommendedSize}
                   </p>
                 </Link>
@@ -1256,7 +1256,7 @@ export default function GuidePage() {
                 <Link
                   key={r}
                   href={`/areas#${r.toLowerCase().replace(/\s+/g, "-")}`}
-                  className="rounded-lg border border-zinc-200 px-4 py-2 text-sm text-zinc-700 hover:border-green-300"
+                  className="rounded-lg border border-zinc-200 px-4 py-2 text-sm text-zinc-700 hover:border-orange-300"
                 >
                   {r}
                 </Link>
@@ -1269,11 +1269,11 @@ export default function GuidePage() {
             <p className="text-lg text-zinc-700">
               Have questions this guide did not answer? We are happy to help.
             </p>
-            <p className="mt-2 text-zinc-500">
+            <p className="mt-2 text-stone-500">
               Text or call{" "}
               <a
                 href={`tel:${phonePlain}`}
-                className="font-semibold text-green-600"
+                className="font-semibold text-orange-600"
               >
                 {PHONE}
               </a>{" "}

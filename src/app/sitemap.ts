@@ -1,5 +1,6 @@
 import type { MetadataRoute } from "next";
 import { getAllServices, getAllNeighborhoods, getRegions } from "@/lib/data";
+import { getAllSlugs } from "@/lib/blog";
 import { SITE_URL } from "@/lib/seo";
 
 const MAX_URLS = 49999;
@@ -94,7 +95,50 @@ export default function sitemap(): MetadataRoute.Sitemap {
       changeFrequency: "monthly",
       priority: 0.8,
     },
+    {
+      url: `${SITE_URL}/free-quote`,
+      lastModified: new Date(),
+      changeFrequency: "monthly",
+      priority: 0.9,
+    },
+    {
+      url: `${SITE_URL}/contractor-program`,
+      lastModified: new Date(),
+      changeFrequency: "monthly",
+      priority: 0.8,
+    },
+    {
+      url: `${SITE_URL}/cheap-dumpster-rental`,
+      lastModified: new Date(),
+      changeFrequency: "monthly",
+      priority: 0.8,
+    },
+    {
+      url: `${SITE_URL}/same-day-dumpster-rental`,
+      lastModified: new Date(),
+      changeFrequency: "monthly",
+      priority: 0.8,
+    },
+    {
+      url: `${SITE_URL}/junk-removal-vs-dumpster-rental`,
+      lastModified: new Date(),
+      changeFrequency: "monthly",
+      priority: 0.7,
+    },
+    {
+      url: `${SITE_URL}/best-dumpster-rental-florida`,
+      lastModified: new Date(),
+      changeFrequency: "monthly",
+      priority: 0.7,
+    },
   ];
+
+  const blogPages: MetadataRoute.Sitemap = getAllSlugs().map((slug) => ({
+    url: `${SITE_URL}/blog/${slug}`,
+    lastModified: new Date(),
+    changeFrequency: "monthly" as const,
+    priority: 0.6,
+  }));
 
   const servicePages: MetadataRoute.Sitemap = services.map((s) => ({
     url: `${SITE_URL}/${s.slug}`,
@@ -112,6 +156,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
 
   const highPriorityUrls = [
     ...staticPages,
+    ...blogPages,
     ...servicePages,
     ...neighborhoodPages,
   ];

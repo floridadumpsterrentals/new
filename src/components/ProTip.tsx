@@ -4,12 +4,12 @@ interface ProTipProps {
 
 export default function ProTip({ tips }: ProTipProps) {
   return (
-    <section className="bg-zinc-900 py-14">
+    <section className="bg-stone-900/80 py-16">
       <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
         <div className="flex items-center gap-3">
-          <div className="flex h-10 w-10 shrink-0 items-center justify-center rounded-lg bg-green-600/20">
+          <div className="flex h-10 w-10 shrink-0 items-center justify-center rounded-xl bg-gradient-to-br from-orange-600/20 to-orange-400/10">
             <svg
-              className="h-5 w-5 text-green-400"
+              className="h-5 w-5 text-orange-400"
               fill="none"
               viewBox="0 0 24 24"
               strokeWidth={2}
@@ -28,10 +28,10 @@ export default function ProTip({ tips }: ProTipProps) {
           {tips.map((tip) => (
             <div
               key={tip.title}
-              className="rounded-xl border border-zinc-800 bg-zinc-800/50 p-5"
+              className="rounded-2xl border border-stone-700/50 bg-gradient-to-br from-stone-800/80 to-stone-900/80 p-6 backdrop-blur-sm transition-all hover:border-orange-500/20 hover:shadow-lg hover:shadow-orange-500/5"
             >
-              <h3 className="text-sm font-bold text-green-400">{tip.title}</h3>
-              <p className="mt-2 text-sm leading-relaxed text-zinc-300">
+              <h3 className="text-sm font-bold text-orange-400">{tip.title}</h3>
+              <p className="mt-2 text-sm leading-relaxed text-stone-300">
                 {tip.body}
               </p>
             </div>

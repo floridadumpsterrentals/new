@@ -186,15 +186,15 @@ export default function FAQPage() {
       />
 
       {/* Hero */}
-      <section className="bg-zinc-950 py-20">
+      <section className="bg-stone-950 py-20">
         <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
-          <p className="text-sm font-semibold uppercase tracking-wider text-green-400">
+          <p className="text-sm font-semibold uppercase tracking-wider text-orange-400">
             Got Questions?
           </p>
           <h1 className="mt-3 text-4xl font-bold tracking-tight text-white sm:text-5xl">
             Frequently Asked Questions
           </h1>
-          <p className="mt-5 max-w-3xl text-lg text-zinc-400">
+          <p className="mt-5 max-w-3xl text-lg text-stone-400">
             Everything you need to know about renting a dumpster in Florida.
             We have compiled the most common questions we get from homeowners,
             contractors, and businesses across the state. Can&apos;t find your
@@ -213,7 +213,7 @@ export default function FAQPage() {
               <a
                 key={cat.category}
                 href={`#${cat.category.toLowerCase().replace(/[^a-z0-9]+/g, "-")}`}
-                className="rounded-full border border-zinc-200 px-4 py-2 text-sm font-medium text-zinc-700 hover:border-green-300 hover:text-green-600"
+                className="rounded-full border border-zinc-200 px-4 py-2 text-sm font-medium text-zinc-700 hover:border-orange-300 hover:text-orange-600"
               >
                 {cat.category}
               </a>
@@ -252,7 +252,7 @@ export default function FAQPage() {
           <h2 className="text-3xl font-bold text-zinc-900">
             Still Have Questions?
           </h2>
-          <p className="mt-3 text-lg text-zinc-500">
+          <p className="mt-3 text-lg text-stone-500">
             We are here to help. Text or call us anytime and get a real answer
             from a real person — not a chatbot, not a form submission, not a
             callback request. A real person who knows dumpsters.
@@ -260,7 +260,7 @@ export default function FAQPage() {
           <div className="mt-8 flex flex-col items-center gap-4 sm:flex-row sm:justify-center">
             <a
               href={`sms:${phonePlain}`}
-              className="inline-flex items-center rounded-lg bg-green-600 px-6 py-3 text-lg font-semibold text-white hover:bg-green-700"
+              className="inline-flex items-center rounded-lg bg-orange-600 px-6 py-3 text-lg font-semibold text-white hover:bg-orange-700"
             >
               Text Us
             </a>

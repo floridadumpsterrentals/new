@@ -8,6 +8,8 @@ interface MegaMenuProps {
   regionCounts: Record<string, number>;
   phone: string;
   services: { slug: string; name: string; category: string }[];
+  onMobileToggle: () => void;
+  mobileOpen: boolean;
 }
 
 export default function MegaMenu({
@@ -15,24 +17,19 @@ export default function MegaMenu({
   regionCounts,
   phone,
   services,
+  onMobileToggle,
+  mobileOpen,
 }: MegaMenuProps) {
   const [activeMenu, setActiveMenu] = useState<string | null>(null);
-  const [mobileOpen, setMobileOpen] = useState(false);
-  const [mobileSection, setMobileSection] = useState<string | null>(null);
   const timeoutRef = useRef<NodeJS.Timeout | null>(null);
   const menuRef = useRef<HTMLDivElement>(null);
 
   const phonePlain = phone.replace(/-/g, "");
 
-  function toggleMobileSection(section: string) {
-    setMobileSection((prev) => (prev === section ? null : section));
-  }
-
   useEffect(() => {
     function handleClick(e: MouseEvent) {
       if (menuRef.current && !menuRef.current.contains(e.target as Node)) {
         setActiveMenu(null);
-        setMobileOpen(false);
       }
     }
     document.addEventListener("mousedown", handleClick);
@@ -43,24 +40,11 @@ export default function MegaMenu({
     function handleKey(e: KeyboardEvent) {
       if (e.key === "Escape") {
         setActiveMenu(null);
-        setMobileOpen(false);
       }
     }
     document.addEventListener("keydown", handleKey);
     return () => document.removeEventListener("keydown", handleKey);
   }, []);
-
-  // Lock body scroll when mobile menu is open
-  useEffect(() => {
-    if (mobileOpen) {
-      document.body.style.overflow = "hidden";
-    } else {
-      document.body.style.overflow = "";
-    }
-    return () => {
-      document.body.style.overflow = "";
-    };
-  }, [mobileOpen]);
 
   function handleEnter(menu: string) {
     if (timeoutRef.current) clearTimeout(timeoutRef.current);
@@ -131,7 +115,7 @@ export default function MegaMenu({
           </button>
 
           {activeMenu === "services" && (
-            <div className="absolute left-1/2 top-full z-50 mt-1 -translate-x-1/2 rounded-xl border border-zinc-200 bg-white p-5 shadow-xl">
+            <div className="absolute left-1/2 top-full z-50 mt-2 -translate-x-1/2 rounded-2xl border border-zinc-200/80 bg-white/95 p-5 shadow-2xl shadow-zinc-900/10 backdrop-blur-xl ring-1 ring-black/5">
               <div className="flex gap-8">
                 {categoryOrder.map((cat) => {
                   const catServices = byCategory[cat];
@@ -145,7 +129,7 @@ export default function MegaMenu({
                         <Link
                           key={svc.slug}
                           href={`/${svc.slug}`}
-                          className="whitespace-nowrap rounded-lg px-3 py-1.5 text-sm text-zinc-700 hover:bg-green-50 hover:text-green-700"
+                          className="whitespace-nowrap rounded-lg px-3 py-1.5 text-sm text-zinc-700 hover:bg-orange-50 hover:text-orange-700"
                           onClick={() => setActiveMenu(null)}
                         >
                           {svc.name.replace(" Dumpster Rental", "")}
@@ -158,7 +142,7 @@ export default function MegaMenu({
               <div className="mt-3 border-t border-zinc-100 pt-2">
                 <Link
                   href="/services"
-                  className="block rounded-lg px-3 py-2 text-sm font-semibold text-green-600 hover:bg-green-50"
+                  className="block rounded-lg px-3 py-2 text-sm font-semibold text-orange-600 hover:bg-orange-50"
                   onClick={() => setActiveMenu(null)}
                 >
                   All Services &rarr;
@@ -186,13 +170,13 @@ export default function MegaMenu({
           </button>
 
           {activeMenu === "areas" && (
-            <div className="absolute right-0 top-full z-50 mt-1 min-w-[420px] rounded-xl border border-zinc-200 bg-white p-4 shadow-xl">
+            <div className="absolute right-0 top-full z-50 mt-2 min-w-[420px] rounded-2xl border border-zinc-200/80 bg-white/95 p-4 shadow-2xl shadow-zinc-900/10 backdrop-blur-xl ring-1 ring-black/5">
               <div className="grid grid-cols-2 gap-x-4 gap-y-0.5">
                 {regions.map((region) => (
                   <Link
                     key={region}
                     href={`/areas#${region.toLowerCase().replace(/\s+/g, "-")}`}
-                    className="flex items-center justify-between whitespace-nowrap rounded-lg px-3 py-1.5 text-sm text-zinc-700 hover:bg-green-50 hover:text-green-700"
+                    className="flex items-center justify-between whitespace-nowrap rounded-lg px-3 py-1.5 text-sm text-zinc-700 hover:bg-orange-50 hover:text-orange-700"
                     onClick={() => setActiveMenu(null)}
                   >
                     {region}
@@ -205,7 +189,7 @@ export default function MegaMenu({
               <div className="mt-2 border-t border-zinc-100 pt-2">
                 <Link
                   href="/areas"
-                  className="block rounded-lg px-3 py-2 text-sm font-semibold text-green-600 hover:bg-green-50"
+                  className="block rounded-lg px-3 py-2 text-sm font-semibold text-orange-600 hover:bg-orange-50"
                   onClick={() => setActiveMenu(null)}
                 >
                   All {Object.values(regionCounts).reduce((a, b) => a + b, 0)}+ Areas &rarr;
@@ -233,13 +217,13 @@ export default function MegaMenu({
           </button>
 
           {activeMenu === "more" && (
-            <div className="absolute right-0 top-full z-50 mt-1 rounded-xl border border-zinc-200 bg-white p-3 shadow-xl">
+            <div className="absolute right-0 top-full z-50 mt-2 rounded-2xl border border-zinc-200/80 bg-white/95 p-3 shadow-2xl shadow-zinc-900/10 backdrop-blur-xl ring-1 ring-black/5">
               <div className="flex flex-col gap-0.5">
                 {moreLinks.map((item) => (
                   <Link
                     key={item.href}
                     href={item.href}
-                    className="whitespace-nowrap rounded-lg px-3 py-1.5 text-sm text-zinc-700 hover:bg-green-50 hover:text-green-700"
+                    className="whitespace-nowrap rounded-lg px-3 py-1.5 text-sm text-zinc-700 hover:bg-orange-50 hover:text-orange-700"
                     onClick={() => setActiveMenu(null)}
                   >
                     {item.name}
@@ -254,24 +238,24 @@ export default function MegaMenu({
         <div className="ml-3 flex items-center gap-2">
           <a
             href={`sms:${phonePlain}`}
-            className="rounded-lg bg-green-600 px-3.5 py-2 text-sm font-semibold text-white hover:bg-green-700"
+            className="rounded-lg bg-gradient-to-r from-orange-600 to-orange-500 px-3.5 py-2 text-sm font-semibold text-white shadow-md shadow-orange-600/25 transition-all hover:shadow-lg hover:shadow-orange-600/30 hover:brightness-110"
           >
             Text Us
           </a>
           <a
             href={`tel:${phonePlain}`}
-            className="rounded-lg border border-zinc-300 px-3.5 py-2 text-sm font-semibold text-zinc-700 hover:border-green-600 hover:text-green-600"
+            className="rounded-lg border border-zinc-300 px-3.5 py-2 text-sm font-semibold text-zinc-700 transition-all hover:border-orange-600 hover:text-orange-600 hover:shadow-sm"
           >
             {phone}
           </a>
         </div>
       </nav>
 
-      {/* ===== MOBILE NAV ===== */}
+      {/* ===== MOBILE TRIGGER ===== */}
       <div className="flex items-center gap-2 lg:hidden">
         <a
           href={`sms:${phonePlain}`}
-          className="rounded-lg bg-green-600 px-3 py-1.5 text-sm font-semibold text-white hover:bg-green-700"
+          className="rounded-lg bg-gradient-to-r from-orange-600 to-orange-500 px-3 py-1.5 text-sm font-semibold text-white shadow-sm shadow-orange-600/20"
         >
           Text
         </a>
@@ -282,162 +266,13 @@ export default function MegaMenu({
           Call
         </a>
         <button
-          onClick={() => setMobileOpen(!mobileOpen)}
+          onClick={onMobileToggle}
           className="rounded-lg p-2 text-zinc-700 hover:bg-zinc-100"
           aria-label="Toggle menu"
         >
           {mobileOpen ? <XIcon /> : <HamburgerIcon />}
         </button>
       </div>
-
-      {/* Mobile overlay */}
-      {mobileOpen && (
-        <div
-          className="fixed inset-0 top-[57px] z-50 bg-black/20 lg:hidden"
-          onClick={() => setMobileOpen(false)}
-        />
-      )}
-
-      {/* Mobile panel */}
-      {mobileOpen && (
-        <div className="fixed left-0 right-0 top-[57px] z-50 max-h-[calc(100vh-57px)] overflow-y-auto bg-white shadow-xl lg:hidden">
-          <div className="px-4 py-4">
-            {/* Top links */}
-            {[
-              { name: "Home", href: "/" },
-              { name: "Pricing", href: "/pricing" },
-              { name: "Dumpster Sizes", href: "/dumpster-sizes" },
-              { name: "Complete Guide", href: "/guide" },
-            ].map((item) => (
-              <Link
-                key={item.href}
-                href={item.href}
-                className="block rounded-lg py-3 pl-3 text-base font-medium text-zinc-900 hover:bg-zinc-50"
-                onClick={() => setMobileOpen(false)}
-              >
-                {item.name}
-              </Link>
-            ))}
-
-            <div className="my-3 border-t border-zinc-100" />
-
-            {/* Services accordion */}
-            <button
-              onClick={() => toggleMobileSection("services")}
-              className="flex w-full items-center justify-between rounded-lg py-3 pl-3 pr-3 text-base font-medium text-zinc-900"
-            >
-              Services ({services.length})
-              <Chevron open={mobileSection === "services"} />
-            </button>
-            {mobileSection === "services" && (
-              <div className="pb-2 pl-3">
-                {categoryOrder.map((cat) => {
-                  const catServices = byCategory[cat];
-                  if (!catServices) return null;
-                  return (
-                    <div key={cat} className="mt-2">
-                      <p className="px-3 text-xs font-semibold uppercase tracking-wider text-zinc-400">
-                        {cat}
-                      </p>
-                      {catServices.map((svc) => (
-                        <Link
-                          key={svc.slug}
-                          href={`/${svc.slug}`}
-                          className="block rounded-lg py-2 pl-3 text-sm text-zinc-700 hover:bg-green-50 hover:text-green-700"
-                          onClick={() => setMobileOpen(false)}
-                        >
-                          {svc.name.replace(" Dumpster Rental", "")}
-                        </Link>
-                      ))}
-                    </div>
-                  );
-                })}
-                <Link
-                  href="/services"
-                  className="mt-2 block rounded-lg py-2 pl-3 text-sm font-semibold text-green-600"
-                  onClick={() => setMobileOpen(false)}
-                >
-                  All Services &rarr;
-                </Link>
-              </div>
-            )}
-
-            {/* Areas accordion */}
-            <button
-              onClick={() => toggleMobileSection("areas")}
-              className="flex w-full items-center justify-between rounded-lg py-3 pl-3 pr-3 text-base font-medium text-zinc-900"
-            >
-              Service Areas ({regions.length} Regions)
-              <Chevron open={mobileSection === "areas"} />
-            </button>
-            {mobileSection === "areas" && (
-              <div className="pb-2 pl-3">
-                {regions.map((region) => (
-                  <Link
-                    key={region}
-                    href={`/areas#${region.toLowerCase().replace(/\s+/g, "-")}`}
-                    className="flex items-center justify-between rounded-lg py-2 pl-3 pr-4 text-sm text-zinc-700 hover:bg-green-50 hover:text-green-700"
-                    onClick={() => setMobileOpen(false)}
-                  >
-                    {region}
-                    <span className="text-xs text-zinc-400">
-                      {regionCounts[region] || 0}
-                    </span>
-                  </Link>
-                ))}
-                <Link
-                  href="/areas"
-                  className="mt-2 block rounded-lg py-2 pl-3 text-sm font-semibold text-green-600"
-                  onClick={() => setMobileOpen(false)}
-                >
-                  All Areas &rarr;
-                </Link>
-              </div>
-            )}
-
-            {/* More accordion */}
-            <button
-              onClick={() => toggleMobileSection("more")}
-              className="flex w-full items-center justify-between rounded-lg py-3 pl-3 pr-3 text-base font-medium text-zinc-900"
-            >
-              More
-              <Chevron open={mobileSection === "more"} />
-            </button>
-            {mobileSection === "more" && (
-              <div className="pb-2 pl-3">
-                {moreLinks.map((item) => (
-                  <Link
-                    key={item.href}
-                    href={item.href}
-                    className="block rounded-lg py-2 pl-3 text-sm text-zinc-700 hover:bg-green-50 hover:text-green-700"
-                    onClick={() => setMobileOpen(false)}
-                  >
-                    {item.name}
-                  </Link>
-                ))}
-              </div>
-            )}
-
-            <div className="my-3 border-t border-zinc-100" />
-
-            {/* Mobile CTA */}
-            <div className="flex gap-3">
-              <a
-                href={`sms:${phonePlain}`}
-                className="flex-1 rounded-lg bg-green-600 py-3 text-center text-sm font-semibold text-white hover:bg-green-700"
-              >
-                Text Us for a Quote
-              </a>
-              <a
-                href={`tel:${phonePlain}`}
-                className="flex-1 rounded-lg border border-zinc-300 py-3 text-center text-sm font-semibold text-zinc-700"
-              >
-                Call {phone}
-              </a>
-            </div>
-          </div>
-        </div>
-      )}
     </div>
   );
 }

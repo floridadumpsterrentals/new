@@ -264,4 +264,30 @@ export function getEducationPageSchema() {
   };
 }
 
+export function getBlogPostSchema(post: { title: string; slug: string; intro: string; publishedDate: string }) {
+  return {
+    "@context": "https://schema.org",
+    "@type": "BlogPosting",
+    headline: post.title,
+    description: post.intro.slice(0, 155),
+    url: `${SITE_URL}/blog/${post.slug}`,
+    datePublished: post.publishedDate,
+    dateModified: post.publishedDate,
+    author: {
+      "@type": "Organization",
+      name: SITE_NAME,
+      url: SITE_URL,
+    },
+    publisher: {
+      "@type": "Organization",
+      name: SITE_NAME,
+      url: SITE_URL,
+    },
+    mainEntityOfPage: {
+      "@type": "WebPage",
+      "@id": `${SITE_URL}/blog/${post.slug}`,
+    },
+  };
+}
+
 export { SITE_NAME, SITE_URL, PHONE, EMAIL, ADDRESS };

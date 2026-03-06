@@ -68,20 +68,20 @@ export default function PricingPage() {
   return (
     <div className="text-white">
       {/* Hero */}
-      <section className="bg-[#0A0A0A] pb-20 pt-8">
+      <section className="bg-stone-950 pb-20 pt-8">
         <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
           <Breadcrumbs items={[{ name: "Pricing", url: "/pricing" }]} />
 
           <div className="mt-10 text-center">
-            <p className="text-sm font-semibold uppercase tracking-[0.2em] text-green-500">
+            <p className="text-sm font-semibold uppercase tracking-[0.2em] text-orange-500">
               Simple, Transparent Pricing
             </p>
             <h1 className="mx-auto mt-4 max-w-4xl text-4xl font-extrabold tracking-tight sm:text-5xl lg:text-6xl">
               Dumpster Rental Pricing
               <br />
-              <span className="text-green-500">No Hidden Fees. Ever.</span>
+              <span className="text-orange-500">No Hidden Fees. Ever.</span>
             </h1>
-            <p className="mx-auto mt-6 max-w-3xl text-lg leading-8 text-zinc-300">
+            <p className="mx-auto mt-6 max-w-3xl text-lg leading-8 text-stone-300">
               Every price includes delivery, pickup, a 7-day rental period, and
               disposal up to the weight limit. Pick your size, schedule your
               drop-off, and we handle the rest. Flat-rate pricing across all of
@@ -94,12 +94,12 @@ export default function PricingPage() {
       </section>
 
       {/* How Our Pricing Works */}
-      <section className="bg-[#2A2A2A] py-16">
+      <section className="bg-stone-900 py-16">
         <div className="mx-auto max-w-4xl px-4 sm:px-6 lg:px-8">
           <h2 className="text-3xl font-bold sm:text-4xl">
             How Our Dumpster Rental Pricing Works
           </h2>
-          <div className="mt-6 space-y-4 leading-7 text-zinc-300">
+          <div className="mt-6 space-y-4 leading-7 text-stone-300">
             <p>
               Dumpster rental pricing in Florida varies wildly between companies.
               Some advertise a low base price and then pile on fees at delivery or
@@ -132,180 +132,180 @@ export default function PricingPage() {
       </section>
 
       {/* Pricing Cards */}
-      <section className="bg-[#0A0A0A] py-20">
+      <section className="bg-stone-950 py-20">
         <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
           <h2 className="text-center text-3xl font-bold sm:text-4xl">
             Choose Your Dumpster Size
           </h2>
-          <p className="mx-auto mt-3 max-w-2xl text-center text-zinc-400">
+          <p className="mx-auto mt-3 max-w-2xl text-center text-stone-400">
             All prices include delivery, pickup, 7-day rental, and disposal up
             to the listed weight limit. No hidden fees, no surprises.
           </p>
 
           <div className="mt-12 grid gap-8 sm:grid-cols-2 lg:grid-cols-3">
             {/* 10 Yard */}
-            <div className="rounded-2xl border border-zinc-700 bg-[#141414] p-8">
+            <div className="rounded-2xl border border-stone-700 bg-stone-950 p-8">
               <div className="text-center">
-                <p className="text-sm font-semibold uppercase tracking-[0.2em] text-green-500">
+                <p className="text-sm font-semibold uppercase tracking-[0.2em] text-orange-500">
                   10 Yard
                 </p>
                 <p className="mt-4 text-5xl font-extrabold text-white">
                   $275
                 </p>
-                <p className="mt-1 text-sm text-zinc-500">starting price</p>
+                <p className="mt-1 text-sm text-stone-500">starting price</p>
               </div>
               <ul className="mt-8 space-y-3">
-                <li className="flex items-center gap-3 text-sm text-zinc-300">
-                  <span className="text-green-400">&#10003;</span>
+                <li className="flex items-center gap-3 text-sm text-stone-300">
+                  <span className="text-orange-400">&#10003;</span>
                   10 cubic yards capacity
                 </li>
-                <li className="flex items-center gap-3 text-sm text-zinc-300">
-                  <span className="text-green-400">&#10003;</span>
+                <li className="flex items-center gap-3 text-sm text-stone-300">
+                  <span className="text-orange-400">&#10003;</span>
                   Fits 3-4 pickup truck loads
                 </li>
-                <li className="flex items-center gap-3 text-sm text-zinc-300">
-                  <span className="text-green-400">&#10003;</span>
+                <li className="flex items-center gap-3 text-sm text-stone-300">
+                  <span className="text-orange-400">&#10003;</span>
                   Up to 2 tons included
                 </li>
-                <li className="flex items-center gap-3 text-sm text-zinc-300">
-                  <span className="text-green-400">&#10003;</span>
+                <li className="flex items-center gap-3 text-sm text-stone-300">
+                  <span className="text-orange-400">&#10003;</span>
                   7-day rental included
                 </li>
-                <li className="flex items-center gap-3 text-sm text-zinc-300">
-                  <span className="text-green-400">&#10003;</span>
+                <li className="flex items-center gap-3 text-sm text-stone-300">
+                  <span className="text-orange-400">&#10003;</span>
                   Free delivery &amp; pickup
                 </li>
-                <li className="flex items-center gap-3 text-sm text-zinc-300">
-                  <span className="text-green-400">&#10003;</span>
+                <li className="flex items-center gap-3 text-sm text-stone-300">
+                  <span className="text-orange-400">&#10003;</span>
                   Dimensions: 12&apos; x 8&apos; x 3.5&apos;
                 </li>
               </ul>
-              <p className="mt-6 text-xs text-zinc-500">
+              <p className="mt-6 text-xs text-stone-500">
                 Best for: garage cleanouts, small renovations, yard debris,
                 single-room remodels, pre-move decluttering
               </p>
               <a
                 href={`sms:${phonePlain}`}
-                className="mt-6 block w-full rounded-lg bg-green-600 py-3 text-center text-sm font-semibold text-white hover:bg-green-700"
+                className="mt-6 block w-full rounded-lg bg-orange-600 py-3 text-center text-sm font-semibold text-white hover:bg-orange-700"
               >
                 Text for 10 Yard Quote
               </a>
               <a
                 href={`tel:${phonePlain}`}
-                className="mt-3 block w-full rounded-lg border border-zinc-600 py-3 text-center text-sm font-semibold text-white hover:border-zinc-400"
+                className="mt-3 block w-full rounded-lg border border-stone-600 py-3 text-center text-sm font-semibold text-white hover:border-stone-400"
               >
                 Call {PHONE}
               </a>
             </div>
 
             {/* 20 Yard */}
-            <div className="relative rounded-2xl border-2 border-green-600 bg-[#141414] p-8">
-              <div className="absolute -top-3 left-1/2 -translate-x-1/2 rounded-full bg-green-600 px-4 py-1 text-xs font-bold text-white">
+            <div className="relative rounded-2xl border-2 border-orange-600 bg-stone-950 p-8">
+              <div className="absolute -top-3 left-1/2 -translate-x-1/2 rounded-full bg-orange-600 px-4 py-1 text-xs font-bold text-white">
                 Most Popular
               </div>
               <div className="text-center">
-                <p className="text-sm font-semibold uppercase tracking-[0.2em] text-green-500">
+                <p className="text-sm font-semibold uppercase tracking-[0.2em] text-orange-500">
                   20 Yard
                 </p>
                 <p className="mt-4 text-5xl font-extrabold text-white">
                   $350
                 </p>
-                <p className="mt-1 text-sm text-zinc-500">starting price</p>
+                <p className="mt-1 text-sm text-stone-500">starting price</p>
               </div>
               <ul className="mt-8 space-y-3">
-                <li className="flex items-center gap-3 text-sm text-zinc-300">
-                  <span className="text-green-400">&#10003;</span>
+                <li className="flex items-center gap-3 text-sm text-stone-300">
+                  <span className="text-orange-400">&#10003;</span>
                   20 cubic yards capacity
                 </li>
-                <li className="flex items-center gap-3 text-sm text-zinc-300">
-                  <span className="text-green-400">&#10003;</span>
+                <li className="flex items-center gap-3 text-sm text-stone-300">
+                  <span className="text-orange-400">&#10003;</span>
                   Fits 6-8 pickup truck loads
                 </li>
-                <li className="flex items-center gap-3 text-sm text-zinc-300">
-                  <span className="text-green-400">&#10003;</span>
+                <li className="flex items-center gap-3 text-sm text-stone-300">
+                  <span className="text-orange-400">&#10003;</span>
                   Up to 3 tons included
                 </li>
-                <li className="flex items-center gap-3 text-sm text-zinc-300">
-                  <span className="text-green-400">&#10003;</span>
+                <li className="flex items-center gap-3 text-sm text-stone-300">
+                  <span className="text-orange-400">&#10003;</span>
                   7-day rental included
                 </li>
-                <li className="flex items-center gap-3 text-sm text-zinc-300">
-                  <span className="text-green-400">&#10003;</span>
+                <li className="flex items-center gap-3 text-sm text-stone-300">
+                  <span className="text-orange-400">&#10003;</span>
                   Free delivery &amp; pickup
                 </li>
-                <li className="flex items-center gap-3 text-sm text-zinc-300">
-                  <span className="text-green-400">&#10003;</span>
+                <li className="flex items-center gap-3 text-sm text-stone-300">
+                  <span className="text-orange-400">&#10003;</span>
                   Dimensions: 22&apos; x 8&apos; x 4.5&apos;
                 </li>
               </ul>
-              <p className="mt-6 text-xs text-zinc-500">
+              <p className="mt-6 text-xs text-stone-500">
                 Best for: kitchen/bath remodels, roof tear-offs, estate
                 cleanouts, construction debris, flooring removal
               </p>
               <a
                 href={`sms:${phonePlain}`}
-                className="mt-6 block w-full rounded-lg bg-green-600 py-3 text-center text-sm font-semibold text-white hover:bg-green-700"
+                className="mt-6 block w-full rounded-lg bg-orange-600 py-3 text-center text-sm font-semibold text-white hover:bg-orange-700"
               >
                 Text for 20 Yard Quote
               </a>
               <a
                 href={`tel:${phonePlain}`}
-                className="mt-3 block w-full rounded-lg border border-zinc-600 py-3 text-center text-sm font-semibold text-white hover:border-zinc-400"
+                className="mt-3 block w-full rounded-lg border border-stone-600 py-3 text-center text-sm font-semibold text-white hover:border-stone-400"
               >
                 Call {PHONE}
               </a>
             </div>
 
             {/* 30 Yard */}
-            <div className="rounded-2xl border border-zinc-700 bg-[#141414] p-8">
+            <div className="rounded-2xl border border-stone-700 bg-stone-950 p-8">
               <div className="text-center">
-                <p className="text-sm font-semibold uppercase tracking-[0.2em] text-green-500">
+                <p className="text-sm font-semibold uppercase tracking-[0.2em] text-orange-500">
                   30 Yard
                 </p>
                 <p className="mt-4 text-5xl font-extrabold text-white">
                   $450
                 </p>
-                <p className="mt-1 text-sm text-zinc-500">starting price</p>
+                <p className="mt-1 text-sm text-stone-500">starting price</p>
               </div>
               <ul className="mt-8 space-y-3">
-                <li className="flex items-center gap-3 text-sm text-zinc-300">
-                  <span className="text-green-400">&#10003;</span>
+                <li className="flex items-center gap-3 text-sm text-stone-300">
+                  <span className="text-orange-400">&#10003;</span>
                   30 cubic yards capacity
                 </li>
-                <li className="flex items-center gap-3 text-sm text-zinc-300">
-                  <span className="text-green-400">&#10003;</span>
+                <li className="flex items-center gap-3 text-sm text-stone-300">
+                  <span className="text-orange-400">&#10003;</span>
                   Fits 9-12 pickup truck loads
                 </li>
-                <li className="flex items-center gap-3 text-sm text-zinc-300">
-                  <span className="text-green-400">&#10003;</span>
+                <li className="flex items-center gap-3 text-sm text-stone-300">
+                  <span className="text-orange-400">&#10003;</span>
                   Up to 4 tons included
                 </li>
-                <li className="flex items-center gap-3 text-sm text-zinc-300">
-                  <span className="text-green-400">&#10003;</span>
+                <li className="flex items-center gap-3 text-sm text-stone-300">
+                  <span className="text-orange-400">&#10003;</span>
                   7-day rental included
                 </li>
-                <li className="flex items-center gap-3 text-sm text-zinc-300">
-                  <span className="text-green-400">&#10003;</span>
+                <li className="flex items-center gap-3 text-sm text-stone-300">
+                  <span className="text-orange-400">&#10003;</span>
                   Free delivery &amp; pickup
                 </li>
-                <li className="flex items-center gap-3 text-sm text-zinc-300">
-                  <span className="text-green-400">&#10003;</span>
+                <li className="flex items-center gap-3 text-sm text-stone-300">
+                  <span className="text-orange-400">&#10003;</span>
                   Dimensions: 22&apos; x 8&apos; x 6&apos;
                 </li>
               </ul>
-              <p className="mt-6 text-xs text-zinc-500">
+              <p className="mt-6 text-xs text-stone-500">
                 Best for: large renovations, new construction, commercial
                 cleanouts, demolition, storm damage
               </p>
               <a
                 href={`sms:${phonePlain}`}
-                className="mt-6 block w-full rounded-lg bg-green-600 py-3 text-center text-sm font-semibold text-white hover:bg-green-700"
+                className="mt-6 block w-full rounded-lg bg-orange-600 py-3 text-center text-sm font-semibold text-white hover:bg-orange-700"
               >
                 Text for 30 Yard Quote
               </a>
               <a
                 href={`tel:${phonePlain}`}
-                className="mt-3 block w-full rounded-lg border border-zinc-600 py-3 text-center text-sm font-semibold text-white hover:border-zinc-400"
+                className="mt-3 block w-full rounded-lg border border-stone-600 py-3 text-center text-sm font-semibold text-white hover:border-stone-400"
               >
                 Call {PHONE}
               </a>
@@ -315,11 +315,11 @@ export default function PricingPage() {
       </section>
 
       {/* What's Included */}
-      <section className="bg-[#2A2A2A] py-20">
+      <section className="bg-stone-900 py-20">
         <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
           <h2 className="text-3xl font-bold sm:text-4xl">
             What&apos;s Included in{" "}
-            <span className="text-green-500">Every Rental</span>
+            <span className="text-orange-500">Every Rental</span>
           </h2>
           <div className="mt-10 grid gap-6 sm:grid-cols-2 lg:grid-cols-4">
             {[
@@ -346,10 +346,10 @@ export default function PricingPage() {
             ].map((item) => (
               <div
                 key={item.title}
-                className="rounded-xl border border-zinc-800 bg-zinc-900/50 p-6"
+                className="rounded-xl border border-stone-800 bg-stone-900/50 p-6"
               >
                 <h3 className="font-semibold text-white">{item.title}</h3>
-                <p className="mt-2 text-sm text-zinc-400">{item.detail}</p>
+                <p className="mt-2 text-sm text-stone-400">{item.detail}</p>
               </div>
             ))}
           </div>
@@ -357,17 +357,17 @@ export default function PricingPage() {
       </section>
 
       {/* Detailed Pricing Breakdown */}
-      <section className="bg-[#0A0A0A] py-16">
+      <section className="bg-stone-950 py-16">
         <div className="mx-auto max-w-4xl px-4 sm:px-6 lg:px-8">
           <h2 className="text-3xl font-bold sm:text-4xl">
             Detailed Pricing Breakdown by Dumpster Size
           </h2>
           <div className="mt-8 space-y-10">
             <div>
-              <h3 className="text-xl font-semibold text-green-500">
+              <h3 className="text-xl font-semibold text-orange-500">
                 10 Yard Dumpster — Starting at $275
               </h3>
-              <p className="mt-3 leading-7 text-zinc-300">
+              <p className="mt-3 leading-7 text-stone-300">
                 The 10 yard dumpster is our most affordable option and the right
                 choice for small to medium projects that generate more waste than
                 your regular trash pickup can handle but do not require a large
@@ -376,7 +376,7 @@ export default function PricingPage() {
                 narrow single-car driveways common in older neighborhoods across
                 Miami, Tampa, Orlando, and Jacksonville.
               </p>
-              <p className="mt-3 leading-7 text-zinc-300">
+              <p className="mt-3 leading-7 text-stone-300">
                 The $275 starting price includes everything: delivery, a 7-day
                 rental period, pickup, and disposal up to 2 tons (4,000 pounds).
                 Two tons is more than enough for most household cleanouts. To put
@@ -386,7 +386,7 @@ export default function PricingPage() {
                 the dumpster with dense materials like concrete or tile to
                 approach the 2-ton limit with a 10 yard.
               </p>
-              <p className="mt-3 leading-7 text-zinc-300">
+              <p className="mt-3 leading-7 text-stone-300">
                 The 10 yard is ideal for garage cleanouts, attic purges, single
                 bathroom renovations, small landscaping projects, shed
                 demolitions, pre-move decluttering, and general household junk
@@ -397,10 +397,10 @@ export default function PricingPage() {
               </p>
             </div>
             <div>
-              <h3 className="text-xl font-semibold text-green-500">
+              <h3 className="text-xl font-semibold text-orange-500">
                 20 Yard Dumpster — Starting at $350
               </h3>
-              <p className="mt-3 leading-7 text-zinc-300">
+              <p className="mt-3 leading-7 text-stone-300">
                 The 20 yard dumpster is our most popular size and the
                 all-purpose workhorse of dumpster rental. At 22 feet long, 8
                 feet wide, and 4.5 feet high, it holds approximately 8 pickup
@@ -410,7 +410,7 @@ export default function PricingPage() {
                 construction jobs. If you are unsure which size to order, the 20
                 yard is the safe bet.
               </p>
-              <p className="mt-3 leading-7 text-zinc-300">
+              <p className="mt-3 leading-7 text-stone-300">
                 The $350 starting price includes delivery, a 7-day rental
                 period, pickup, and disposal up to 3 tons (6,000 pounds). Three
                 tons handles the debris from most residential renovation
@@ -421,7 +421,7 @@ export default function PricingPage() {
                 pounds. The 20 yard&apos;s 3-ton limit covers both scenarios
                 comfortably.
               </p>
-              <p className="mt-3 leading-7 text-zinc-300">
+              <p className="mt-3 leading-7 text-stone-300">
                 For roofing contractors, the 20 yard is the standard order for
                 residential re-roofing. For general contractors, it handles the
                 demolition phase of most renovation projects. For homeowners
@@ -433,10 +433,10 @@ export default function PricingPage() {
               </p>
             </div>
             <div>
-              <h3 className="text-xl font-semibold text-green-500">
+              <h3 className="text-xl font-semibold text-orange-500">
                 30 Yard Dumpster — Starting at $450
               </h3>
-              <p className="mt-3 leading-7 text-zinc-300">
+              <p className="mt-3 leading-7 text-stone-300">
                 The 30 yard dumpster is our largest container, designed for
                 serious projects that generate high volumes of debris. At 22
                 feet long, 8 feet wide, and 6 feet high, it holds approximately
@@ -445,7 +445,7 @@ export default function PricingPage() {
                 order for new construction sites, full-home demolition projects,
                 large commercial cleanouts, and whole-house renovation gut jobs.
               </p>
-              <p className="mt-3 leading-7 text-zinc-300">
+              <p className="mt-3 leading-7 text-stone-300">
                 The $450 starting price includes delivery, a 7-day rental
                 period, pickup, and disposal up to 4 tons (8,000 pounds). Four
                 tons accommodates the debris from most large residential and
@@ -455,7 +455,7 @@ export default function PricingPage() {
                 construction waste from framing through finishing on a
                 single-family home runs 3,000-5,000 pounds per phase.
               </p>
-              <p className="mt-3 leading-7 text-zinc-300">
+              <p className="mt-3 leading-7 text-stone-300">
                 For large projects that generate more debris than a single 30
                 yard can hold, we offer rotation service: when one dumpster
                 fills up, we swap it for an empty one — typically within hours of
@@ -471,24 +471,24 @@ export default function PricingPage() {
       </section>
 
       {/* Additional Costs */}
-      <section className="bg-[#2A2A2A] py-20">
+      <section className="bg-stone-900 py-20">
         <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
           <h2 className="text-3xl font-bold sm:text-4xl">
             Additional Costs to Know About
           </h2>
-          <p className="mt-3 max-w-3xl text-zinc-400">
+          <p className="mt-3 max-w-3xl text-stone-400">
             We believe in full transparency. Here are the only situations where
             additional charges may apply — and we always communicate these
             upfront so there are no surprises.
           </p>
 
           <div className="mt-10 grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
-            <div className="rounded-xl border border-zinc-800 bg-zinc-900/50 p-6">
+            <div className="rounded-xl border border-stone-800 bg-stone-900/50 p-6">
               <h3 className="font-semibold text-white">Weight Overage</h3>
-              <p className="mt-1 text-2xl font-bold text-green-500">
-                $40-$60<span className="text-sm font-normal text-zinc-500">/ton over</span>
+              <p className="mt-1 text-2xl font-bold text-orange-500">
+                $40-$60<span className="text-sm font-normal text-stone-500">/ton over</span>
               </p>
-              <p className="mt-2 text-sm text-zinc-400">
+              <p className="mt-2 text-sm text-stone-400">
                 If your load exceeds the included weight limit, overage is
                 charged per additional ton. We weigh every load at the landfill
                 and communicate any overage before billing. Most residential
@@ -496,12 +496,12 @@ export default function PricingPage() {
                 concrete, tile, dirt, and roofing shingles.
               </p>
             </div>
-            <div className="rounded-xl border border-zinc-800 bg-zinc-900/50 p-6">
+            <div className="rounded-xl border border-stone-800 bg-stone-900/50 p-6">
               <h3 className="font-semibold text-white">Extra Rental Days</h3>
-              <p className="mt-1 text-2xl font-bold text-green-500">
-                $15-$25<span className="text-sm font-normal text-zinc-500">/day</span>
+              <p className="mt-1 text-2xl font-bold text-orange-500">
+                $15-$25<span className="text-sm font-normal text-stone-500">/day</span>
               </p>
-              <p className="mt-2 text-sm text-zinc-400">
+              <p className="mt-2 text-sm text-stone-400">
                 Need it longer than 7 days? $15/day for 10 yd, $20/day for 20
                 yd, $25/day for 30 yd. Just text or call before day 7 to
                 extend. Many customers extend by a few days for larger
@@ -509,10 +509,10 @@ export default function PricingPage() {
                 dumpster.
               </p>
             </div>
-            <div className="rounded-xl border border-zinc-800 bg-zinc-900/50 p-6">
+            <div className="rounded-xl border border-stone-800 bg-stone-900/50 p-6">
               <h3 className="font-semibold text-white">Prohibited Materials</h3>
-              <p className="mt-1 text-2xl font-bold text-green-500">Varies</p>
-              <p className="mt-2 text-sm text-zinc-400">
+              <p className="mt-1 text-2xl font-bold text-orange-500">Varies</p>
+              <p className="mt-2 text-sm text-stone-400">
                 Hazardous materials, tires (more than 4), batteries, liquid
                 paint, chemicals, and appliances with freon require special
                 disposal. If prohibited items are found in your dumpster, the
@@ -525,12 +525,12 @@ export default function PricingPage() {
       </section>
 
       {/* Pricing by Project Type */}
-      <section className="bg-[#0A0A0A] py-16">
+      <section className="bg-stone-950 py-16">
         <div className="mx-auto max-w-4xl px-4 sm:px-6 lg:px-8">
           <h2 className="text-3xl font-bold sm:text-4xl">
             Dumpster Rental Cost by Project Type
           </h2>
-          <p className="mt-3 text-zinc-400">
+          <p className="mt-3 text-stone-400">
             Here is what most customers pay for common Florida projects, including
             our recommended dumpster size and why.
           </p>
@@ -585,17 +585,17 @@ export default function PricingPage() {
                 detail: "Yard waste is bulky but light — tree branches, brush, sod, and mulch fill space fast without adding much weight. A 10 yard handles basic cleanup. Large-scale landscaping with tree removal needs a 20 yard. Dirt and soil are heavy — mention it when ordering.",
               },
             ].map((item) => (
-              <div key={item.project} className="rounded-xl border border-zinc-800 bg-zinc-900/50 p-6">
+              <div key={item.project} className="rounded-xl border border-stone-800 bg-stone-900/50 p-6">
                 <div className="flex flex-col gap-2 sm:flex-row sm:items-center sm:justify-between">
                   <h3 className="text-lg font-semibold text-white">{item.project}</h3>
                   <div className="flex items-center gap-3">
-                    <span className="rounded-full border border-green-600/30 bg-green-600/10 px-3 py-1 text-sm font-semibold text-green-400">
+                    <span className="rounded-full border border-orange-600/30 bg-orange-600/10 px-3 py-1 text-sm font-semibold text-orange-400">
                       {item.size}
                     </span>
                     <span className="text-lg font-bold text-white">{item.cost}</span>
                   </div>
                 </div>
-                <p className="mt-3 text-sm leading-6 text-zinc-400">{item.detail}</p>
+                <p className="mt-3 text-sm leading-6 text-stone-400">{item.detail}</p>
               </div>
             ))}
           </div>
@@ -606,12 +606,12 @@ export default function PricingPage() {
       <CTAGroup variant="mid" />
 
       {/* Weight Limits Explained */}
-      <section className="bg-[#0A0A0A] py-16">
+      <section className="bg-stone-950 py-16">
         <div className="mx-auto max-w-4xl px-4 sm:px-6 lg:px-8">
           <h2 className="text-3xl font-bold sm:text-4xl">
             Understanding Weight Limits and Overage Fees
           </h2>
-          <div className="mt-6 space-y-4 leading-7 text-zinc-300">
+          <div className="mt-6 space-y-4 leading-7 text-stone-300">
             <p>
               Every dumpster rental includes a weight limit: 2 tons for the 10
               yard, 3 tons for the 20 yard, and 4 tons for the 30 yard. These
@@ -655,7 +655,7 @@ export default function PricingPage() {
             </p>
           </div>
 
-          <div className="mt-8 rounded-xl border border-zinc-800 bg-zinc-900/50 p-6">
+          <div className="mt-8 rounded-xl border border-stone-800 bg-stone-900/50 p-6">
             <h3 className="text-lg font-semibold text-white">Common Material Weights</h3>
             <div className="mt-4 grid gap-3 sm:grid-cols-2 lg:grid-cols-3">
               {[
@@ -670,7 +670,7 @@ export default function PricingPage() {
                 { material: "Mixed renovation debris", weight: "400-800 lbs/cubic yard" },
               ].map((item) => (
                 <div key={item.material} className="flex items-center justify-between text-sm">
-                  <span className="text-zinc-400">{item.material}</span>
+                  <span className="text-stone-400">{item.material}</span>
                   <span className="font-semibold text-white">{item.weight}</span>
                 </div>
               ))}
@@ -680,12 +680,12 @@ export default function PricingPage() {
       </section>
 
       {/* Dumpster Rental vs Alternatives */}
-      <section className="bg-[#2A2A2A] py-16">
+      <section className="bg-stone-900 py-16">
         <div className="mx-auto max-w-4xl px-4 sm:px-6 lg:px-8">
           <h2 className="text-3xl font-bold sm:text-4xl">
             Dumpster Rental vs. Other Disposal Options
           </h2>
-          <div className="mt-6 space-y-4 leading-7 text-zinc-300">
+          <div className="mt-6 space-y-4 leading-7 text-stone-300">
             <p>
               When you have a large amount of debris to dispose of, you
               generally have three options: rent a dumpster, hire a junk removal
@@ -732,17 +732,17 @@ export default function PricingPage() {
       </section>
 
       {/* Volume / Contractor Pricing */}
-      <section className="bg-[#0A0A0A] py-20">
+      <section className="bg-stone-950 py-20">
         <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
           <div className="grid gap-10 lg:grid-cols-2 lg:items-center">
             <div>
-              <p className="text-sm font-semibold uppercase tracking-[0.2em] text-green-500">
+              <p className="text-sm font-semibold uppercase tracking-[0.2em] text-orange-500">
                 Contractor &amp; Volume Pricing
               </p>
               <h2 className="mt-3 text-3xl font-bold sm:text-4xl">
                 Regular Service? We Have Rates for That.
               </h2>
-              <p className="mt-4 text-lg text-zinc-300">
+              <p className="mt-4 text-lg text-stone-300">
                 Contractors, property managers, and businesses that need regular
                 dumpster service get preferred pricing. The more you rent, the
                 more you save. Our contractor program is designed for
@@ -750,64 +750,64 @@ export default function PricingPage() {
                 the hassle of quoting every single job.
               </p>
               <ul className="mt-6 space-y-3">
-                <li className="flex items-center gap-3 text-sm text-zinc-300">
-                  <span className="text-green-400">&#10003;</span>
+                <li className="flex items-center gap-3 text-sm text-stone-300">
+                  <span className="text-orange-400">&#10003;</span>
                   15-25% discount on standard rates for volume accounts
                 </li>
-                <li className="flex items-center gap-3 text-sm text-zinc-300">
-                  <span className="text-green-400">&#10003;</span>
+                <li className="flex items-center gap-3 text-sm text-stone-300">
+                  <span className="text-orange-400">&#10003;</span>
                   Multiple dumpsters on the same job site simultaneously
                 </li>
-                <li className="flex items-center gap-3 text-sm text-zinc-300">
-                  <span className="text-green-400">&#10003;</span>
+                <li className="flex items-center gap-3 text-sm text-stone-300">
+                  <span className="text-orange-400">&#10003;</span>
                   Priority scheduling and same-day swaps when containers fill up
                 </li>
-                <li className="flex items-center gap-3 text-sm text-zinc-300">
-                  <span className="text-green-400">&#10003;</span>
+                <li className="flex items-center gap-3 text-sm text-stone-300">
+                  <span className="text-orange-400">&#10003;</span>
                   NET-30 billing with monthly consolidated invoicing
                 </li>
-                <li className="flex items-center gap-3 text-sm text-zinc-300">
-                  <span className="text-green-400">&#10003;</span>
+                <li className="flex items-center gap-3 text-sm text-stone-300">
+                  <span className="text-orange-400">&#10003;</span>
                   Dedicated account manager who knows your projects
                 </li>
-                <li className="flex items-center gap-3 text-sm text-zinc-300">
-                  <span className="text-green-400">&#10003;</span>
+                <li className="flex items-center gap-3 text-sm text-stone-300">
+                  <span className="text-orange-400">&#10003;</span>
                   Insurance certificates provided on request
                 </li>
               </ul>
               <div className="mt-8 flex flex-col gap-3 sm:flex-row">
                 <a
                   href={`tel:${phonePlain}`}
-                  className="inline-flex items-center justify-center rounded-lg bg-green-600 px-6 py-3 text-sm font-semibold text-white hover:bg-green-700"
+                  className="inline-flex items-center justify-center rounded-lg bg-orange-600 px-6 py-3 text-sm font-semibold text-white hover:bg-orange-700"
                 >
                   Call for Contractor Rates: {PHONE}
                 </a>
                 <Link
                   href="/schedule-dumpster-rental-form"
-                  className="inline-flex items-center justify-center rounded-lg border border-zinc-600 px-6 py-3 text-sm font-semibold text-white hover:border-zinc-400"
+                  className="inline-flex items-center justify-center rounded-lg border border-stone-600 px-6 py-3 text-sm font-semibold text-white hover:border-stone-400"
                 >
                   Book Online
                 </Link>
               </div>
             </div>
             <div className="grid grid-cols-2 gap-4">
-              <div className="rounded-xl border border-zinc-800 bg-zinc-900/50 p-6 text-center">
-                <p className="text-3xl font-extrabold text-green-500">10+</p>
-                <p className="mt-1 text-xs text-zinc-400">
+              <div className="rounded-xl border border-stone-800 bg-stone-900/50 p-6 text-center">
+                <p className="text-3xl font-extrabold text-orange-500">10+</p>
+                <p className="mt-1 text-xs text-stone-400">
                   Rentals/mo for best rates
                 </p>
               </div>
-              <div className="rounded-xl border border-zinc-800 bg-zinc-900/50 p-6 text-center">
+              <div className="rounded-xl border border-stone-800 bg-stone-900/50 p-6 text-center">
                 <p className="text-3xl font-extrabold text-white">3</p>
-                <p className="mt-1 text-xs text-zinc-400">Dumpster sizes available</p>
+                <p className="mt-1 text-xs text-stone-400">Dumpster sizes available</p>
               </div>
-              <div className="rounded-xl border border-zinc-800 bg-zinc-900/50 p-6 text-center">
+              <div className="rounded-xl border border-stone-800 bg-stone-900/50 p-6 text-center">
                 <p className="text-3xl font-extrabold text-white">Same Day</p>
-                <p className="mt-1 text-xs text-zinc-400">Swap-outs available</p>
+                <p className="mt-1 text-xs text-stone-400">Swap-outs available</p>
               </div>
-              <div className="rounded-xl border border-zinc-800 bg-zinc-900/50 p-6 text-center">
-                <p className="text-3xl font-extrabold text-green-500">Net 30</p>
-                <p className="mt-1 text-xs text-zinc-400">Billing available</p>
+              <div className="rounded-xl border border-stone-800 bg-stone-900/50 p-6 text-center">
+                <p className="text-3xl font-extrabold text-orange-500">Net 30</p>
+                <p className="mt-1 text-xs text-stone-400">Billing available</p>
               </div>
             </div>
           </div>
@@ -815,12 +815,12 @@ export default function PricingPage() {
       </section>
 
       {/* Pricing Tips */}
-      <section className="bg-[#2A2A2A] py-16">
+      <section className="bg-stone-900 py-16">
         <div className="mx-auto max-w-4xl px-4 sm:px-6 lg:px-8">
           <h2 className="text-3xl font-bold sm:text-4xl">
             How to Get the Best Price on Your Dumpster Rental
           </h2>
-          <div className="mt-6 space-y-4 leading-7 text-zinc-300">
+          <div className="mt-6 space-y-4 leading-7 text-stone-300">
             <p>
               Getting the best price on a dumpster rental is not about finding
               the cheapest quote — it is about avoiding unnecessary costs and
@@ -879,7 +879,7 @@ export default function PricingPage() {
       </section>
 
       {/* FAQ */}
-      <section className="bg-[#0A0A0A] py-20">
+      <section className="bg-stone-950 py-20">
         <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
           <h2 className="text-3xl font-bold sm:text-4xl">
             Dumpster Rental Pricing FAQ
@@ -888,10 +888,10 @@ export default function PricingPage() {
             {faqs.map((faq, i) => (
               <div
                 key={i}
-                className="rounded-xl border border-zinc-700 bg-zinc-800/50 p-6"
+                className="rounded-xl border border-stone-700 bg-stone-800/50 p-6"
               >
                 <h3 className="font-semibold text-white">{faq.q}</h3>
-                <p className="mt-3 text-sm leading-6 text-zinc-400">{faq.a}</p>
+                <p className="mt-3 text-sm leading-6 text-stone-400">{faq.a}</p>
               </div>
             ))}
           </div>

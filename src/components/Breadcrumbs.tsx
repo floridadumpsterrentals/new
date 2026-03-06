@@ -40,7 +40,7 @@ export default function Breadcrumbs({
                   href={item.url}
                   className={
                     dark
-                      ? "hover:text-[#0080FE] text-zinc-400"
+                      ? "hover:text-orange-400 text-zinc-400"
                       : "hover:text-blue-600"
                   }
                 >

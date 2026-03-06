@@ -6,26 +6,26 @@ export default function Footer() {
   const regions = getRegions();
 
   return (
-    <footer className="border-t border-zinc-200 bg-zinc-900 text-zinc-300">
+    <footer className="border-t border-stone-800 bg-stone-950 text-stone-400">
       <div className="mx-auto max-w-7xl px-4 py-12 sm:px-6 lg:px-8">
         <div className="grid grid-cols-1 gap-8 md:grid-cols-4">
           <div>
             <span className="text-xl font-bold text-white">
-              FLA<span className="text-green-400">Dumpster</span>Rentals
+              FLA<span className="text-orange-400">Dumpster</span>Rentals
             </span>
             <p className="mt-3 text-sm leading-6">
               We serve homeowners, contractors, and businesses across Florida by
               evaluating disposal needs and coordinating waste removal services,
               including providing 10, 20 &amp; 30 yard{" "}
-              <Link href="/dumpster-sizes" className="text-green-400 hover:text-green-300">roll-off dumpster</Link>{" "}
+              <Link href="/dumpster-sizes" className="text-orange-400 hover:text-orange-300">roll-off dumpster</Link>{" "}
               equipment for{" "}
-              <Link href="/construction-dumpster-rental" className="text-green-400 hover:text-green-300">construction</Link>,{" "}
-              <Link href="/junk-removal-dumpster-rental" className="text-green-400 hover:text-green-300">junk removal</Link>,{" "}
-              <Link href="/residential-dumpster-rental" className="text-green-400 hover:text-green-300">cleanouts</Link> &amp; more.
+              <Link href="/construction-dumpster-rental" className="text-orange-400 hover:text-orange-300">construction</Link>,{" "}
+              <Link href="/junk-removal-dumpster-rental" className="text-orange-400 hover:text-orange-300">junk removal</Link>,{" "}
+              <Link href="/residential-dumpster-rental" className="text-orange-400 hover:text-orange-300">cleanouts</Link> &amp; more.
             </p>
             <a
               href={`tel:${PHONE.replace(/-/g, "")}`}
-              className="mt-3 inline-block text-lg font-semibold text-green-400 hover:text-green-300"
+              className="mt-3 inline-block text-lg font-semibold text-orange-400 hover:text-orange-300"
             >
               {PHONE}
             </a>
@@ -34,7 +34,7 @@ export default function Footer() {
           </div>
 
           <div>
-            <h3 className="text-sm font-semibold uppercase tracking-wider text-white">
+            <h3 className="text-xs font-semibold uppercase tracking-[0.2em] text-stone-300">
               Services
             </h3>
             <ul className="mt-4 space-y-2">
@@ -58,7 +58,7 @@ export default function Footer() {
           </div>
 
           <div>
-            <h3 className="text-sm font-semibold uppercase tracking-wider text-white">
+            <h3 className="text-xs font-semibold uppercase tracking-[0.2em] text-stone-300">
               Service Areas
             </h3>
             <ul className="mt-4 space-y-2">
@@ -76,7 +76,7 @@ export default function Footer() {
           </div>
 
           <div>
-            <h3 className="text-sm font-semibold uppercase tracking-wider text-white">
+            <h3 className="text-xs font-semibold uppercase tracking-[0.2em] text-stone-300">
               Company
             </h3>
             <ul className="mt-4 space-y-2">
@@ -124,26 +124,26 @@ export default function Footer() {
           </div>
         </div>
 
-        <div className="mt-10 border-t border-zinc-700 pt-8 text-sm space-y-4">
-          <p className="mx-auto max-w-4xl text-center leading-6 text-zinc-400">
+        <div className="mt-10 border-t border-stone-700 pt-8 text-sm space-y-4">
+          <p className="mx-auto max-w-4xl text-center leading-6 text-stone-400">
             We serve homeowners, contractors, and businesses by evaluating their
             disposal needs and coordinating waste removal services, including
             providing the necessary dumpster equipment.{" "}
-            <Link href="/dumpster-sizes" className="text-green-400 hover:text-green-300">Dumpster sizes</Link>{" "}
+            <Link href="/dumpster-sizes" className="text-orange-400 hover:text-orange-300">Dumpster sizes</Link>{" "}
             include 10, 20 &amp; 30 yard roll-off containers for{" "}
-            <Link href="/construction-dumpster-rental" className="text-green-400 hover:text-green-300">construction</Link>,{" "}
-            <Link href="/roofing-dumpster-rental" className="text-green-400 hover:text-green-300">roofing</Link>,{" "}
-            <Link href="/renovation-dumpster-rental" className="text-green-400 hover:text-green-300">renovation</Link>,{" "}
-            <Link href="/junk-removal-dumpster-rental" className="text-green-400 hover:text-green-300">junk removal</Link>,{" "}
-            <Link href="/storm-debris-dumpster-rental" className="text-green-400 hover:text-green-300">storm debris</Link>,{" "}
-            <Link href="/landscaping-dumpster-rental" className="text-green-400 hover:text-green-300">landscaping</Link>,{" "}
-            and <Link href="/residential-dumpster-rental" className="text-green-400 hover:text-green-300">residential cleanouts</Link>.{" "}
-            View our <Link href="/pricing" className="text-green-400 hover:text-green-300">flat-rate pricing</Link>,{" "}
-            learn <Link href="/how-it-works" className="text-green-400 hover:text-green-300">how it works</Link>,{" "}
-            or <Link href="/schedule-dumpster-rental-form" className="text-green-400 hover:text-green-300">book your dumpster online</Link>.{" "}
-            Same-day delivery available across <Link href="/areas" className="text-green-400 hover:text-green-300">436+ Florida service areas</Link>.
+            <Link href="/construction-dumpster-rental" className="text-orange-400 hover:text-orange-300">construction</Link>,{" "}
+            <Link href="/roofing-dumpster-rental" className="text-orange-400 hover:text-orange-300">roofing</Link>,{" "}
+            <Link href="/renovation-dumpster-rental" className="text-orange-400 hover:text-orange-300">renovation</Link>,{" "}
+            <Link href="/junk-removal-dumpster-rental" className="text-orange-400 hover:text-orange-300">junk removal</Link>,{" "}
+            <Link href="/storm-debris-dumpster-rental" className="text-orange-400 hover:text-orange-300">storm debris</Link>,{" "}
+            <Link href="/landscaping-dumpster-rental" className="text-orange-400 hover:text-orange-300">landscaping</Link>,{" "}
+            and <Link href="/residential-dumpster-rental" className="text-orange-400 hover:text-orange-300">residential cleanouts</Link>.{" "}
+            View our <Link href="/pricing" className="text-orange-400 hover:text-orange-300">flat-rate pricing</Link>,{" "}
+            learn <Link href="/how-it-works" className="text-orange-400 hover:text-orange-300">how it works</Link>,{" "}
+            or <Link href="/schedule-dumpster-rental-form" className="text-orange-400 hover:text-orange-300">book your dumpster online</Link>.{" "}
+            Same-day delivery available across <Link href="/areas" className="text-orange-400 hover:text-orange-300">436+ Florida service areas</Link>.
           </p>
-          <p className="text-center text-zinc-400">
+          <p className="text-center text-stone-400">
             &copy; {new Date().getFullYear()} {SITE_NAME}. All rights reserved.
             {" "}&middot;{" "}
             Web design &amp; digital marketing by{" "}
@@ -151,7 +151,7 @@ export default function Footer() {
               href="https://www.consortiumnyc.com/"
               target="_blank"
               rel="noopener noreferrer"
-              className="text-zinc-400 hover:text-white"
+              className="text-stone-400 hover:text-white"
             >
               Destin Digital Marketing Agency
             </a>
@@ -160,7 +160,7 @@ export default function Footer() {
               href="https://www.thenycseo.com/"
               target="_blank"
               rel="noopener noreferrer"
-              className="text-zinc-400 hover:text-white"
+              className="text-stone-400 hover:text-white"
             >
               The NYC SEO
             </a>

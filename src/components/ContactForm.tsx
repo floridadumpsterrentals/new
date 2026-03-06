@@ -59,25 +59,25 @@ export default function ContactForm({
       <div
         className={`rounded-xl border text-center ${
           dark
-            ? "border-green-800 bg-green-900/30 p-6"
-            : "border-green-200 bg-green-50"
+            ? "border-orange-800 bg-orange-900/30 p-6"
+            : "border-orange-200 bg-orange-50"
         } ${compact ? "p-6" : "p-10"}`}
       >
         <div className="text-3xl">&#10003;</div>
         <h3
-          className={`mt-2 text-lg font-semibold ${dark ? "text-green-300" : "text-green-900"}`}
+          className={`mt-2 text-lg font-semibold ${dark ? "text-orange-300" : "text-orange-900"}`}
         >
           Quote Request Received
         </h3>
-        <p className={`mt-1 text-sm ${dark ? "text-green-400" : "text-green-700"}`}>
+        <p className={`mt-1 text-sm ${dark ? "text-orange-400" : "text-orange-700"}`}>
           Thank you! We&apos;ll get back to you with pricing within the hour.
         </p>
         <button
           onClick={() => setStatus("idle")}
           className={`mt-4 text-sm font-medium underline ${
             dark
-              ? "text-green-400 hover:text-green-300"
-              : "text-green-700 hover:text-green-900"
+              ? "text-orange-400 hover:text-orange-300"
+              : "text-orange-700 hover:text-orange-900"
           }`}
         >
           Submit another request
@@ -87,11 +87,11 @@ export default function ContactForm({
   }
 
   const inputClass = dark
-    ? "mt-1 block w-full rounded-lg border border-zinc-600 bg-zinc-800 px-3 py-2.5 text-sm text-white shadow-sm placeholder:text-zinc-500 focus:border-green-500 focus:ring-1 focus:ring-green-500"
-    : "mt-1 block w-full rounded-lg border border-zinc-300 px-3 py-2.5 text-sm text-zinc-900 shadow-sm placeholder:text-zinc-400 focus:border-green-500 focus:ring-1 focus:ring-green-500";
+    ? "mt-1 block w-full rounded-lg border border-zinc-600 bg-zinc-800 px-3 py-2.5 text-sm text-white shadow-sm placeholder:text-zinc-500 focus:border-orange-500 focus:ring-1 focus:ring-orange-500"
+    : "mt-1 block w-full rounded-lg border border-zinc-300 px-3 py-2.5 text-sm text-zinc-900 shadow-sm placeholder:text-zinc-400 focus:border-orange-500 focus:ring-1 focus:ring-orange-500";
   const selectClass = dark
-    ? "mt-1 block w-full rounded-lg border border-zinc-600 bg-zinc-800 px-3 py-2.5 text-sm text-white shadow-sm focus:border-green-500 focus:ring-1 focus:ring-green-500"
-    : "mt-1 block w-full rounded-lg border border-zinc-300 px-3 py-2.5 text-sm text-zinc-900 shadow-sm focus:border-green-500 focus:ring-1 focus:ring-green-500";
+    ? "mt-1 block w-full rounded-lg border border-zinc-600 bg-zinc-800 px-3 py-2.5 text-sm text-white shadow-sm focus:border-orange-500 focus:ring-1 focus:ring-orange-500"
+    : "mt-1 block w-full rounded-lg border border-zinc-300 px-3 py-2.5 text-sm text-zinc-900 shadow-sm focus:border-orange-500 focus:ring-1 focus:ring-orange-500";
   const labelClass = dark
     ? "block text-sm font-medium text-zinc-300"
     : "block text-sm font-medium text-zinc-700";
@@ -130,7 +130,7 @@ export default function ContactForm({
           <label htmlFor="message" className={labelClass}>Project details *</label>
           <textarea id="message" name="message" required rows={3} className={inputClass} placeholder="Tell us about your project..." />
         </div>
-        <button type="submit" disabled={status === "sending"} className="w-full rounded-lg bg-green-600 px-6 py-3 text-sm font-semibold text-white shadow-sm hover:bg-green-700 disabled:opacity-50">
+        <button type="submit" disabled={status === "sending"} className="w-full rounded-lg bg-orange-600 px-6 py-3 text-sm font-semibold text-white shadow-sm hover:bg-orange-700 disabled:opacity-50">
           {status === "sending" ? "Sending..." : "Get a Free Quote"}
         </button>
         {status === "error" && (
@@ -207,7 +207,7 @@ export default function ContactForm({
       <button
         type="submit"
         disabled={status === "sending"}
-        className="w-full rounded-lg bg-green-600 px-6 py-3 text-sm font-semibold text-white shadow-sm hover:bg-green-700 disabled:opacity-50"
+        className="w-full rounded-lg bg-orange-600 px-6 py-3 text-sm font-semibold text-white shadow-sm hover:bg-orange-700 disabled:opacity-50"
       >
         {status === "sending" ? "Submitting..." : "Get a Free Quote"}
       </button>

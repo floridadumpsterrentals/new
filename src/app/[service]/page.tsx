@@ -108,7 +108,7 @@ export default async function ServiceHubPage({ params }: PageProps) {
 
       <div className="text-white">
         {/* Hero */}
-        <section className="bg-[#0A0A0A] pb-20 pt-8">
+        <section className="bg-stone-950 pb-20 pt-8">
           <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
             <Breadcrumbs
               items={[
@@ -118,15 +118,15 @@ export default async function ServiceHubPage({ params }: PageProps) {
             />
 
             <div className="mt-10">
-              <p className="text-sm font-semibold uppercase tracking-[0.2em] text-green-500">
+              <p className="text-sm font-semibold uppercase tracking-[0.2em] text-orange-500">
                 Dumpster Rental Service
               </p>
               <h1 className="mt-3 text-4xl font-extrabold tracking-tight sm:text-5xl lg:text-6xl">
                 {service.name}
                 <br />
-                <span className="text-green-500">Across Florida</span>
+                <span className="text-orange-500">Across Florida</span>
               </h1>
-              <p className="mt-6 max-w-3xl text-lg leading-8 text-zinc-300">
+              <p className="mt-6 max-w-3xl text-lg leading-8 text-stone-300">
                 {service.description} 10, 20 &amp; 30 yard roll-off dumpsters
                 available for same-day or next-day delivery anywhere in Florida.
               </p>
@@ -134,19 +134,19 @@ export default async function ServiceHubPage({ params }: PageProps) {
               <div className="mt-8 flex flex-col gap-4 sm:flex-row">
                 <a
                   href={`sms:${phonePlain}`}
-                  className="inline-flex items-center justify-center rounded-lg bg-green-600 px-6 py-3 text-sm font-semibold text-white hover:bg-green-700"
+                  className="inline-flex items-center justify-center rounded-lg bg-orange-600 px-6 py-3 text-sm font-semibold text-white hover:bg-orange-700"
                 >
                   Text Us for a Quote
                 </a>
                 <a
                   href={`tel:${phonePlain}`}
-                  className="inline-flex items-center justify-center rounded-lg border border-zinc-700 px-6 py-3 text-sm font-semibold text-white hover:border-zinc-500 hover:bg-white/5"
+                  className="inline-flex items-center justify-center rounded-lg border border-stone-700 px-6 py-3 text-sm font-semibold text-white hover:border-zinc-500 hover:bg-white/5"
                 >
                   Call {PHONE}
                 </a>
                 <Link
                   href="/schedule-dumpster-rental-form"
-                  className="inline-flex items-center justify-center rounded-lg border border-zinc-700 px-6 py-3 text-sm font-semibold text-white hover:border-zinc-500 hover:bg-white/5"
+                  className="inline-flex items-center justify-center rounded-lg border border-stone-700 px-6 py-3 text-sm font-semibold text-white hover:border-zinc-500 hover:bg-white/5"
                 >
                   Book Online
                 </Link>
@@ -154,46 +154,46 @@ export default async function ServiceHubPage({ params }: PageProps) {
             </div>
 
             <div className="mt-10 grid grid-cols-2 gap-4 sm:grid-cols-4">
-              <div className="rounded-xl border border-zinc-800 bg-zinc-900/50 p-4 text-center">
-                <p className="text-2xl font-bold text-green-500">3</p>
-                <p className="mt-1 text-xs text-zinc-500">Dumpster Sizes</p>
+              <div className="rounded-xl border border-stone-800 bg-stone-900/50 p-4 text-center">
+                <p className="text-2xl font-bold text-orange-500">3</p>
+                <p className="mt-1 text-xs text-stone-500">Dumpster Sizes</p>
               </div>
-              <div className="rounded-xl border border-zinc-800 bg-zinc-900/50 p-4 text-center">
-                <p className="text-2xl font-bold text-green-500">
+              <div className="rounded-xl border border-stone-800 bg-stone-900/50 p-4 text-center">
+                <p className="text-2xl font-bold text-orange-500">
                   {totalNeighborhoods}+
                 </p>
-                <p className="mt-1 text-xs text-zinc-500">Areas Served</p>
+                <p className="mt-1 text-xs text-stone-500">Areas Served</p>
               </div>
-              <div className="rounded-xl border border-zinc-800 bg-zinc-900/50 p-4 text-center">
-                <p className="text-2xl font-bold text-green-500">Same Day</p>
-                <p className="mt-1 text-xs text-zinc-500">Delivery Available</p>
+              <div className="rounded-xl border border-stone-800 bg-stone-900/50 p-4 text-center">
+                <p className="text-2xl font-bold text-orange-500">Same Day</p>
+                <p className="mt-1 text-xs text-stone-500">Delivery Available</p>
               </div>
-              <div className="rounded-xl border border-zinc-800 bg-zinc-900/50 p-4 text-center">
-                <p className="text-2xl font-bold text-green-500">
+              <div className="rounded-xl border border-stone-800 bg-stone-900/50 p-4 text-center">
+                <p className="text-2xl font-bold text-orange-500">
                   {service.priceRange}
                 </p>
-                <p className="mt-1 text-xs text-zinc-500">Price Range</p>
+                <p className="mt-1 text-xs text-stone-500">Price Range</p>
               </div>
             </div>
           </div>
         </section>
 
         {/* Service Details */}
-        <section className="bg-[#2A2A2A] py-16">
+        <section className="bg-stone-900 py-16">
           <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
             <div className="grid gap-10 lg:grid-cols-3">
               <div className="lg:col-span-2">
                 <h2 className="text-2xl font-bold text-white">
                   About {service.name}
                 </h2>
-                <p className="mt-4 leading-7 text-zinc-400">
+                <p className="mt-4 leading-7 text-stone-400">
                   {service.extendedDescription}
                 </p>
 
                 {service.recommendedSize && (
-                  <div className="mt-6 rounded-lg border border-green-600/30 bg-green-600/5 p-4">
-                    <p className="text-sm text-zinc-300">
-                      <span className="font-semibold text-green-400">
+                  <div className="mt-6 rounded-lg border border-orange-600/30 bg-orange-600/5 p-4">
+                    <p className="text-sm text-stone-300">
+                      <span className="font-semibold text-orange-400">
                         Recommended Dumpster Size:
                       </span>{" "}
                       {service.recommendedSize}
@@ -208,7 +208,7 @@ export default async function ServiceHubPage({ params }: PageProps) {
                   {service.commonServices.map((cs) => (
                     <div key={cs} className="flex items-center gap-3">
                       <svg
-                        className="h-4 w-4 shrink-0 text-green-500"
+                        className="h-4 w-4 shrink-0 text-orange-500"
                         fill="none"
                         viewBox="0 0 24 24"
                         strokeWidth={2}
@@ -220,7 +220,7 @@ export default async function ServiceHubPage({ params }: PageProps) {
                           d="M4.5 12.75l6 6 9-13.5"
                         />
                       </svg>
-                      <span className="text-sm text-zinc-300">{cs}</span>
+                      <span className="text-sm text-stone-300">{cs}</span>
                     </div>
                   ))}
                 </div>
@@ -229,53 +229,53 @@ export default async function ServiceHubPage({ params }: PageProps) {
               {/* Sidebar */}
               <aside>
                 <div className="sticky top-8 space-y-6">
-                  <div className="rounded-xl border border-zinc-700 bg-zinc-800 p-6">
+                  <div className="rounded-xl border border-stone-700 bg-stone-800 p-6">
                     <h3 className="text-lg font-semibold text-white">
                       Get a Free Quote
                     </h3>
-                    <p className="mb-4 mt-2 text-sm text-zinc-400">
+                    <p className="mb-4 mt-2 text-sm text-stone-400">
                       Tell us about your {nameLower} project and we will
                       recommend the right dumpster size.
                     </p>
                     <a
                       href={`sms:${phonePlain}`}
-                      className="block w-full rounded-lg bg-green-600 py-3 text-center text-sm font-semibold text-white hover:bg-green-700"
+                      className="block w-full rounded-lg bg-orange-600 py-3 text-center text-sm font-semibold text-white hover:bg-orange-700"
                     >
                       Text Us for a Quote
                     </a>
                     <a
                       href={`tel:${phonePlain}`}
-                      className="mt-3 block w-full rounded-lg border border-zinc-600 py-3 text-center text-sm font-semibold text-white hover:border-zinc-400"
+                      className="mt-3 block w-full rounded-lg border border-stone-600 py-3 text-center text-sm font-semibold text-white hover:border-stone-400"
                     >
                       Call {PHONE}
                     </a>
                     <Link
                       href="/schedule-dumpster-rental-form"
-                      className="mt-3 block w-full rounded-lg border border-zinc-600 py-3 text-center text-sm font-semibold text-green-400 hover:border-green-500 hover:text-white"
+                      className="mt-3 block w-full rounded-lg border border-stone-600 py-3 text-center text-sm font-semibold text-orange-400 hover:border-orange-500 hover:text-white"
                     >
                       Book Online
                     </Link>
                   </div>
 
-                  <div className="rounded-xl border border-zinc-700 bg-zinc-800 p-6">
+                  <div className="rounded-xl border border-stone-700 bg-stone-800 p-6">
                     <h3 className="text-lg font-semibold text-white">
                       Quick Pricing
                     </h3>
                     <div className="mt-3 space-y-3">
                       <div className="flex items-center justify-between">
-                        <span className="text-sm text-zinc-400">10 Yard</span>
+                        <span className="text-sm text-stone-400">10 Yard</span>
                         <span className="text-sm font-semibold text-white">
                           From $275
                         </span>
                       </div>
                       <div className="flex items-center justify-between">
-                        <span className="text-sm text-zinc-400">20 Yard</span>
+                        <span className="text-sm text-stone-400">20 Yard</span>
                         <span className="text-sm font-semibold text-white">
                           From $350
                         </span>
                       </div>
                       <div className="flex items-center justify-between">
-                        <span className="text-sm text-zinc-400">30 Yard</span>
+                        <span className="text-sm text-stone-400">30 Yard</span>
                         <span className="text-sm font-semibold text-white">
                           From $450
                         </span>
@@ -283,7 +283,7 @@ export default async function ServiceHubPage({ params }: PageProps) {
                     </div>
                     <Link
                       href="/pricing"
-                      className="mt-4 block text-center text-sm text-green-500 hover:text-white"
+                      className="mt-4 block text-center text-sm text-orange-500 hover:text-white"
                     >
                       View full pricing &rarr;
                     </Link>
@@ -295,13 +295,13 @@ export default async function ServiceHubPage({ params }: PageProps) {
         </section>
 
         {/* Locations Grid */}
-        <section className="bg-[#0A0A0A] py-16">
+        <section className="bg-stone-950 py-16">
           <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
             <h2 className="text-2xl font-bold text-white sm:text-3xl">
               {service.name} in{" "}
-              <span className="text-green-500">Every Florida Region</span>
+              <span className="text-orange-500">Every Florida Region</span>
             </h2>
-            <p className="mt-2 text-zinc-500">
+            <p className="mt-2 text-stone-500">
               Click any area to see {nameLower} dumpster rental details and
               pricing for that location.
             </p>
@@ -317,7 +317,7 @@ export default async function ServiceHubPage({ params }: PageProps) {
                       <Link
                         key={n.slug}
                         href={`/${service.slug}/${n.slug}`}
-                        className="rounded-lg border border-zinc-700 bg-zinc-800/50 px-3 py-2 text-sm text-zinc-300 hover:border-green-600/50 hover:text-white"
+                        className="rounded-lg border border-stone-700 bg-stone-800/50 px-3 py-2 text-sm text-stone-300 hover:border-orange-600/50 hover:text-white"
                       >
                         {n.name}
                       </Link>
@@ -333,7 +333,7 @@ export default async function ServiceHubPage({ params }: PageProps) {
         <CTAGroup variant="mid" />
 
         {/* FAQ */}
-        <section className="bg-green-600 py-16">
+        <section className="bg-orange-600 py-16">
           <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
             <h2 className="text-2xl font-bold text-white sm:text-3xl">
               {service.name} FAQs
@@ -345,7 +345,7 @@ export default async function ServiceHubPage({ params }: PageProps) {
                   className="rounded-xl border border-white/20 bg-white/10 p-6 backdrop-blur-sm"
                 >
                   <h3 className="font-semibold text-white">{faq.q}</h3>
-                  <p className="mt-3 text-sm leading-6 text-green-100">
+                  <p className="mt-3 text-sm leading-6 text-orange-100">
                     {faq.a}
                   </p>
                 </div>
@@ -356,7 +356,7 @@ export default async function ServiceHubPage({ params }: PageProps) {
 
         {/* Related Services */}
         {relatedServices.length > 0 && (
-          <section className="bg-[#0A0A0A] py-16">
+          <section className="bg-stone-950 py-16">
             <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
               <h2 className="text-2xl font-bold text-white">
                 Related {service.category} Services
@@ -366,10 +366,10 @@ export default async function ServiceHubPage({ params }: PageProps) {
                   <Link
                     key={rs.slug}
                     href={`/${rs.slug}`}
-                    className="rounded-lg border border-zinc-800 bg-zinc-900/50 p-4 hover:border-green-600/50"
+                    className="rounded-lg border border-stone-800 bg-stone-900/50 p-4 hover:border-orange-600/50"
                   >
                     <h3 className="font-medium text-white">{rs.name}</h3>
-                    <p className="mt-1 text-xs text-zinc-500">{rs.category}</p>
+                    <p className="mt-1 text-xs text-stone-500">{rs.category}</p>
                   </Link>
                 ))}
               </div>
@@ -384,10 +384,10 @@ export default async function ServiceHubPage({ params }: PageProps) {
                       <Link
                         key={cs.slug}
                         href={`/${cs.slug}`}
-                        className="rounded-lg border border-zinc-800 bg-zinc-900/50 p-4 hover:border-green-600/50"
+                        className="rounded-lg border border-stone-800 bg-stone-900/50 p-4 hover:border-orange-600/50"
                       >
                         <h3 className="font-medium text-white">{cs.name}</h3>
-                        <p className="mt-1 text-xs text-zinc-500">
+                        <p className="mt-1 text-xs text-stone-500">
                           {cs.category}
                         </p>
                       </Link>
@@ -400,7 +400,7 @@ export default async function ServiceHubPage({ params }: PageProps) {
         )}
 
         {/* Resource Links */}
-        <section className="bg-[#2A2A2A] py-12">
+        <section className="bg-stone-900 py-12">
           <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
             <h3 className="text-lg font-semibold text-white">
               Helpful Links
@@ -408,25 +408,25 @@ export default async function ServiceHubPage({ params }: PageProps) {
             <div className="mt-4 flex flex-wrap gap-3">
               <Link
                 href="/pricing"
-                className="rounded-lg border border-zinc-800 bg-zinc-900/50 px-4 py-2 text-sm text-green-500 hover:text-white"
+                className="rounded-lg border border-stone-800 bg-stone-900/50 px-4 py-2 text-sm text-orange-500 hover:text-white"
               >
                 Pricing Guide
               </Link>
               <Link
                 href="/services"
-                className="rounded-lg border border-zinc-800 bg-zinc-900/50 px-4 py-2 text-sm text-green-500 hover:text-white"
+                className="rounded-lg border border-stone-800 bg-stone-900/50 px-4 py-2 text-sm text-orange-500 hover:text-white"
               >
                 All Services
               </Link>
               <Link
                 href="/areas"
-                className="rounded-lg border border-zinc-800 bg-zinc-900/50 px-4 py-2 text-sm text-green-500 hover:text-white"
+                className="rounded-lg border border-stone-800 bg-stone-900/50 px-4 py-2 text-sm text-orange-500 hover:text-white"
               >
                 All Areas
               </Link>
               <Link
                 href="/blog"
-                className="rounded-lg border border-zinc-800 bg-zinc-900/50 px-4 py-2 text-sm text-green-500 hover:text-white"
+                className="rounded-lg border border-stone-800 bg-stone-900/50 px-4 py-2 text-sm text-orange-500 hover:text-white"
               >
                 Blog &amp; Guides
               </Link>

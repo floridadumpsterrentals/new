@@ -18,50 +18,50 @@ export default function AboutPage() {
   return (
     <>
       {/* Hero */}
-      <section className="bg-zinc-950 py-20">
+      <section className="bg-stone-950 py-20">
         <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
           <div className="grid gap-12 lg:grid-cols-2 lg:items-center">
             <div>
-              <p className="text-sm font-semibold uppercase tracking-wider text-green-400">
+              <p className="text-sm font-semibold uppercase tracking-wider text-orange-400">
                 About Us
               </p>
               <h1 className="mt-3 text-4xl font-bold tracking-tight text-white sm:text-5xl">
                 Dumpster Rental,{" "}
-                <span className="text-green-400">Done Right.</span>
+                <span className="text-orange-400">Done Right.</span>
               </h1>
-              <p className="mt-5 text-lg text-zinc-400">
+              <p className="mt-5 text-lg text-stone-400">
                 Florida Dumpster Rentals is a Fort Lauderdale-based dumpster rental
                 service connecting customers across Florida with reliable, affordable
                 roll-off containers. We partner with a statewide network of vetted
                 local haulers to deliver 10, 20, and 30 yard dumpsters for every
                 project &mdash; from garage cleanouts to large-scale construction.
               </p>
-              <p className="mt-4 text-lg text-zinc-400">
+              <p className="mt-4 text-lg text-stone-400">
                 One call or text gets you a quote, a delivery date, and a dumpster at
                 your door. No runaround, no hidden fees, no hassle.
               </p>
               <CTAGroup variant="hero" />
-              <p className="mt-6 text-sm text-zinc-500">{ADDRESS}</p>
+              <p className="mt-6 text-sm text-stone-500">{ADDRESS}</p>
             </div>
 
             <div className="grid grid-cols-2 gap-4">
-              <div className="rounded-xl border border-zinc-800 bg-zinc-900 p-6 text-center">
+              <div className="rounded-xl border border-stone-800 bg-stone-900 p-6 text-center">
                 <div className="text-3xl font-extrabold text-white">67</div>
-                <div className="mt-1 text-sm text-zinc-400">Counties Served</div>
+                <div className="mt-1 text-sm text-stone-400">Counties Served</div>
               </div>
-              <div className="rounded-xl border border-zinc-800 bg-zinc-900 p-6 text-center">
+              <div className="rounded-xl border border-stone-800 bg-stone-900 p-6 text-center">
                 <div className="text-3xl font-extrabold text-white">3</div>
-                <div className="mt-1 text-sm text-zinc-400">Dumpster Sizes</div>
+                <div className="mt-1 text-sm text-stone-400">Dumpster Sizes</div>
               </div>
-              <div className="rounded-xl border border-zinc-800 bg-zinc-900 p-6 text-center">
-                <div className="text-3xl font-extrabold text-green-400">98%</div>
-                <div className="mt-1 text-sm text-zinc-400">On-Time Delivery</div>
+              <div className="rounded-xl border border-stone-800 bg-stone-900 p-6 text-center">
+                <div className="text-3xl font-extrabold text-orange-400">98%</div>
+                <div className="mt-1 text-sm text-stone-400">On-Time Delivery</div>
               </div>
-              <div className="rounded-xl border border-zinc-800 bg-zinc-900 p-6 text-center">
+              <div className="rounded-xl border border-stone-800 bg-stone-900 p-6 text-center">
                 <div className="flex justify-center text-xl text-yellow-400">
                   {"\u2605\u2605\u2605\u2605\u2605"}
                 </div>
-                <div className="mt-1 text-sm text-zinc-400">4.9 / 5 Rating</div>
+                <div className="mt-1 text-sm text-stone-400">4.9 / 5 Rating</div>
               </div>
             </div>
           </div>
@@ -154,7 +154,7 @@ export default function AboutPage() {
           <h2 className="text-3xl font-bold text-zinc-900">
             Statewide Coverage, Local Service
           </h2>
-          <p className="mt-3 text-lg text-zinc-500">
+          <p className="mt-3 text-lg text-stone-500">
             Based in Fort Lauderdale, serving all of Florida through our network
             of local hauler partners. We maintain dedicated dumpster inventory in
             every major region to ensure fast delivery regardless of your location.
@@ -197,7 +197,7 @@ export default function AboutPage() {
           <div className="mt-8 text-center">
             <Link
               href="/areas"
-              className="text-sm font-medium text-green-600 hover:text-green-700"
+              className="text-sm font-medium text-orange-600 hover:text-orange-700"
             >
               Browse all 400+ service areas &rarr;
             </Link>
@@ -206,12 +206,12 @@ export default function AboutPage() {
       </section>
 
       {/* How Our Model Works */}
-      <section className="bg-[#0A0A0A] py-16 text-white">
+      <section className="bg-stone-950 py-16 text-white">
         <div className="mx-auto max-w-4xl px-4 sm:px-6 lg:px-8">
           <h2 className="text-3xl font-bold">
             How Our Hauler Network Model Works
           </h2>
-          <div className="mt-6 space-y-5 text-lg text-zinc-300 leading-8">
+          <div className="mt-6 space-y-5 text-lg text-stone-300 leading-8">
             <p>
               Most dumpster rental companies operate a single fleet of trucks and
               containers out of one yard. That works fine if you live near their
@@ -348,7 +348,7 @@ export default function AboutPage() {
       </section>
 
       {/* Stats */}
-      <section className="bg-zinc-950 py-16 text-white">
+      <section className="bg-stone-950 py-16 text-white">
         <div className="mx-auto max-w-5xl px-4 sm:px-6 lg:px-8">
           <h2 className="text-center text-3xl font-bold">By the Numbers</h2>
           <div className="mt-10 grid gap-6 sm:grid-cols-2 lg:grid-cols-4">
@@ -358,9 +358,9 @@ export default function AboutPage() {
               { stat: "98%", label: "On-Time Delivery Rate" },
               { stat: "4.9", label: "Average Customer Rating" },
             ].map((item) => (
-              <div key={item.label} className="rounded-xl border border-zinc-800 bg-zinc-900 p-6 text-center">
-                <div className="text-3xl font-extrabold text-green-400">{item.stat}</div>
-                <div className="mt-1 text-sm text-zinc-400">{item.label}</div>
+              <div key={item.label} className="rounded-xl border border-stone-800 bg-stone-900 p-6 text-center">
+                <div className="text-3xl font-extrabold text-orange-400">{item.stat}</div>
+                <div className="mt-1 text-sm text-stone-400">{item.label}</div>
               </div>
             ))}
           </div>

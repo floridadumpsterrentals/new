@@ -100,15 +100,15 @@ export default function DumpsterSizesPage() {
   return (
     <>
       {/* Hero */}
-      <section className="bg-zinc-950 py-20">
+      <section className="bg-stone-950 py-20">
         <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
-          <p className="text-sm font-semibold uppercase tracking-wider text-green-400">
+          <p className="text-sm font-semibold uppercase tracking-wider text-orange-400">
             Size Guide
           </p>
           <h1 className="mt-3 text-4xl font-bold tracking-tight text-white sm:text-5xl">
             Dumpster Sizes &amp; Pricing
           </h1>
-          <p className="mt-5 max-w-3xl text-lg text-zinc-400">
+          <p className="mt-5 max-w-3xl text-lg text-stone-400">
             We offer 10, 20, and 30 yard roll-off dumpsters for every project
             size across all of Florida. Choosing the right dumpster size is the
             single most important decision in your rental — it determines your
@@ -121,12 +121,12 @@ export default function DumpsterSizesPage() {
       </section>
 
       {/* Understanding Dumpster Sizes */}
-      <section className="bg-[#2A2A2A] py-16">
+      <section className="bg-stone-900 py-16">
         <div className="mx-auto max-w-4xl px-4 sm:px-6 lg:px-8">
           <h2 className="text-2xl font-bold text-white sm:text-3xl">
             Understanding Roll-Off Dumpster Sizes
           </h2>
-          <div className="mt-6 space-y-4 leading-7 text-zinc-300">
+          <div className="mt-6 space-y-4 leading-7 text-stone-300">
             <p>
               Roll-off dumpster sizes are measured in cubic yards — the total
               volume of debris the container can hold. A &quot;10 yard dumpster&quot;
@@ -174,46 +174,46 @@ export default function DumpsterSizesPage() {
                 id={`${s.yard}-yard`}
                 className={`rounded-2xl border p-8 sm:p-10 ${
                   s.popular
-                    ? "border-green-600 shadow-lg shadow-green-100"
+                    ? "border-orange-600 shadow-lg shadow-orange-100"
                     : "border-zinc-200"
                 }`}
               >
                 {s.popular && (
-                  <span className="mb-4 inline-block rounded-full bg-green-600 px-4 py-1 text-xs font-semibold text-white">
+                  <span className="mb-4 inline-block rounded-full bg-orange-600 px-4 py-1 text-xs font-semibold text-white">
                     Most Popular
                   </span>
                 )}
                 <div className="grid gap-8 lg:grid-cols-2">
                   <div>
                     <div className="flex items-baseline gap-2">
-                      <span className="text-5xl font-bold text-green-600">{s.yard}</span>
-                      <span className="text-xl font-medium text-zinc-500">Yard Dumpster</span>
+                      <span className="text-5xl font-bold text-orange-600">{s.yard}</span>
+                      <span className="text-xl font-medium text-stone-500">Yard Dumpster</span>
                     </div>
                     <p className="mt-4 text-zinc-600">{s.idealFor}</p>
 
                     <div className="mt-6 grid grid-cols-2 gap-4">
                       <div className="rounded-lg bg-zinc-50 p-4">
-                        <p className="text-xs font-semibold uppercase text-zinc-500">Dimensions</p>
+                        <p className="text-xs font-semibold uppercase text-stone-500">Dimensions</p>
                         <p className="mt-1 font-semibold text-zinc-900">{s.dimensions}</p>
                       </div>
                       <div className="rounded-lg bg-zinc-50 p-4">
-                        <p className="text-xs font-semibold uppercase text-zinc-500">Weight Limit</p>
+                        <p className="text-xs font-semibold uppercase text-stone-500">Weight Limit</p>
                         <p className="mt-1 font-semibold text-zinc-900">{s.weightLimit}</p>
                       </div>
                       <div className="rounded-lg bg-zinc-50 p-4">
-                        <p className="text-xs font-semibold uppercase text-zinc-500">Capacity</p>
+                        <p className="text-xs font-semibold uppercase text-stone-500">Capacity</p>
                         <p className="mt-1 font-semibold text-zinc-900">{s.truckLoads}</p>
                       </div>
                       <div className="rounded-lg bg-zinc-50 p-4">
-                        <p className="text-xs font-semibold uppercase text-zinc-500">Starting At</p>
-                        <p className="mt-1 font-semibold text-green-600">{s.price}</p>
+                        <p className="text-xs font-semibold uppercase text-stone-500">Starting At</p>
+                        <p className="mt-1 font-semibold text-orange-600">{s.price}</p>
                       </div>
                     </div>
 
                     <div className="mt-6 flex flex-col gap-3 sm:flex-row">
                       <a
                         href={`sms:${phonePlain}?body=I'm interested in a ${s.yard} yard dumpster`}
-                        className="inline-flex items-center justify-center rounded-lg bg-green-600 px-6 py-3 text-sm font-semibold text-white hover:bg-green-700"
+                        className="inline-flex items-center justify-center rounded-lg bg-orange-600 px-6 py-3 text-sm font-semibold text-white hover:bg-orange-700"
                       >
                         Text for a {s.yard} Yard Quote
                       </a>
@@ -232,7 +232,7 @@ export default function DumpsterSizesPage() {
                       <ul className="mt-3 space-y-2">
                         {s.bestFor.map((item) => (
                           <li key={item} className="flex items-start gap-2 text-sm text-zinc-600">
-                            <span className="mt-0.5 text-green-600">&#10003;</span>
+                            <span className="mt-0.5 text-orange-600">&#10003;</span>
                             {item}
                           </li>
                         ))}
@@ -243,7 +243,7 @@ export default function DumpsterSizesPage() {
                       <ul className="mt-3 space-y-2">
                         {s.whatFits.map((item) => (
                           <li key={item} className="flex items-start gap-2 text-sm text-zinc-600">
-                            <span className="mt-0.5 text-green-600">&#10003;</span>
+                            <span className="mt-0.5 text-orange-600">&#10003;</span>
                             {item}
                           </li>
                         ))}
@@ -258,7 +258,7 @@ export default function DumpsterSizesPage() {
       </section>
 
       {/* In-Depth Size Guides */}
-      <section className="bg-[#0A0A0A] py-16">
+      <section className="bg-stone-950 py-16">
         <div className="mx-auto max-w-4xl px-4 sm:px-6 lg:px-8">
           <h2 className="text-3xl font-bold text-white">
             In-Depth Size Guide for Each Dumpster
@@ -266,10 +266,10 @@ export default function DumpsterSizesPage() {
 
           <div className="mt-10 space-y-10">
             <div>
-              <h3 className="text-xl font-semibold text-green-500">
+              <h3 className="text-xl font-semibold text-orange-500">
                 10 Yard Dumpster — The Compact Workhorse
               </h3>
-              <div className="mt-4 space-y-3 leading-7 text-zinc-300">
+              <div className="mt-4 space-y-3 leading-7 text-stone-300">
                 <p>
                   The 10 yard dumpster is the smallest roll-off container we
                   offer, but do not let the size fool you — it handles the
@@ -306,10 +306,10 @@ export default function DumpsterSizesPage() {
             </div>
 
             <div>
-              <h3 className="text-xl font-semibold text-green-500">
+              <h3 className="text-xl font-semibold text-orange-500">
                 20 Yard Dumpster — The All-Purpose Favorite
               </h3>
-              <div className="mt-4 space-y-3 leading-7 text-zinc-300">
+              <div className="mt-4 space-y-3 leading-7 text-stone-300">
                 <p>
                   The 20 yard dumpster is our most-ordered size by a wide
                   margin, and for good reason: it hits the sweet spot
@@ -347,10 +347,10 @@ export default function DumpsterSizesPage() {
             </div>
 
             <div>
-              <h3 className="text-xl font-semibold text-green-500">
+              <h3 className="text-xl font-semibold text-orange-500">
                 30 Yard Dumpster — Maximum Capacity
               </h3>
-              <div className="mt-4 space-y-3 leading-7 text-zinc-300">
+              <div className="mt-4 space-y-3 leading-7 text-stone-300">
                 <p>
                   The 30 yard dumpster is our largest container, built for
                   projects that generate serious volume. It shares the same
@@ -395,7 +395,7 @@ export default function DumpsterSizesPage() {
           <h2 className="text-center text-3xl font-bold text-zinc-900">
             Side-by-Side Comparison
           </h2>
-          <p className="mt-3 text-center text-zinc-500">
+          <p className="mt-3 text-center text-stone-500">
             Quick reference to compare all three dumpster sizes at a glance.
           </p>
           <div className="mt-10 overflow-x-auto">
@@ -404,7 +404,7 @@ export default function DumpsterSizesPage() {
                 <tr className="border-b-2 border-zinc-300">
                   <th className="py-3 pr-4 font-semibold text-zinc-900">Feature</th>
                   <th className="px-4 py-3 font-semibold text-zinc-900">10 Yard</th>
-                  <th className="px-4 py-3 font-semibold text-green-600">20 Yard</th>
+                  <th className="px-4 py-3 font-semibold text-orange-600">20 Yard</th>
                   <th className="px-4 py-3 font-semibold text-zinc-900">30 Yard</th>
                 </tr>
               </thead>
@@ -436,13 +436,13 @@ export default function DumpsterSizesPage() {
                 <tr>
                   <td className="py-3 pr-4 font-medium text-zinc-700">Starting Price</td>
                   <td className="px-4 py-3 font-semibold text-zinc-900">$275</td>
-                  <td className="px-4 py-3 font-semibold text-green-600">$350</td>
+                  <td className="px-4 py-3 font-semibold text-orange-600">$350</td>
                   <td className="px-4 py-3 font-semibold text-zinc-900">$450</td>
                 </tr>
                 <tr>
                   <td className="py-3 pr-4 font-medium text-zinc-700">Price per Cubic Yard</td>
                   <td className="px-4 py-3 text-zinc-600">$27.50/yd</td>
-                  <td className="px-4 py-3 font-semibold text-green-600">$17.50/yd</td>
+                  <td className="px-4 py-3 font-semibold text-orange-600">$17.50/yd</td>
                   <td className="px-4 py-3 text-zinc-600">$15.00/yd</td>
                 </tr>
                 <tr>
@@ -487,7 +487,7 @@ export default function DumpsterSizesPage() {
           <h2 className="text-3xl font-bold text-zinc-900">
             Which Size Do I Need? Project-by-Project Guide
           </h2>
-          <p className="mt-3 text-lg text-zinc-500">
+          <p className="mt-3 text-lg text-stone-500">
             Use this detailed guide to find the right dumpster for your specific project type.
           </p>
 
@@ -537,7 +537,7 @@ export default function DumpsterSizesPage() {
               <div key={item.project} className="rounded-xl border border-zinc-200 p-6">
                 <div className="flex flex-col gap-2 sm:flex-row sm:items-center sm:justify-between">
                   <h3 className="text-lg font-semibold text-zinc-900">{item.project}</h3>
-                  <span className="inline-block rounded-full bg-green-100 px-3 py-1 text-sm font-semibold text-green-700">
+                  <span className="inline-block rounded-full bg-orange-100 px-3 py-1 text-sm font-semibold text-orange-700">
                     {item.recommended}
                   </span>
                 </div>
@@ -549,12 +549,12 @@ export default function DumpsterSizesPage() {
       </section>
 
       {/* Sizing Mistakes */}
-      <section className="bg-[#0A0A0A] py-16">
+      <section className="bg-stone-950 py-16">
         <div className="mx-auto max-w-4xl px-4 sm:px-6 lg:px-8">
           <h2 className="text-3xl font-bold text-white">
             Common Dumpster Sizing Mistakes (and How to Avoid Them)
           </h2>
-          <div className="mt-6 space-y-4 leading-7 text-zinc-300">
+          <div className="mt-6 space-y-4 leading-7 text-stone-300">
             <p>
               <strong className="text-white">Mistake #1: Ordering too small to save money.</strong>{" "}
               The difference between a 10 yard ($275) and a 20 yard ($350) is

@@ -18,15 +18,15 @@ export default function BrokerServicePage() {
   return (
     <>
       {/* Hero */}
-      <section className="bg-zinc-950 py-20">
+      <section className="bg-stone-950 py-20">
         <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
-          <p className="text-sm font-semibold uppercase tracking-wider text-green-400">
+          <p className="text-sm font-semibold uppercase tracking-wider text-orange-400">
             Our Model
           </p>
           <h1 className="mt-3 text-4xl font-bold tracking-tight text-white sm:text-5xl">
             How Our Broker Service Works
           </h1>
-          <p className="mt-5 max-w-2xl text-lg text-zinc-400">
+          <p className="mt-5 max-w-2xl text-lg text-stone-400">
             Florida Dumpster Rentals connects you with the best local haulers in your
             area. One call, one quote, one point of contact &mdash; backed by a
             statewide network of vetted dumpster providers.
@@ -41,7 +41,7 @@ export default function BrokerServicePage() {
           <h2 className="text-center text-3xl font-bold text-zinc-900">
             The Broker Model Explained
           </h2>
-          <p className="mx-auto mt-3 max-w-2xl text-center text-lg text-zinc-500">
+          <p className="mx-auto mt-3 max-w-2xl text-center text-lg text-stone-500">
             We&apos;re not a single hauling company limited to one area. We&apos;re a
             booking and dispatch platform that partners with local haulers across all
             of Florida.
@@ -66,7 +66,7 @@ export default function BrokerServicePage() {
               },
             ].map((s) => (
               <div key={s.step} className="text-center">
-                <div className="mx-auto flex h-16 w-16 items-center justify-center rounded-full bg-green-600 text-2xl font-bold text-white">
+                <div className="mx-auto flex h-16 w-16 items-center justify-center rounded-full bg-orange-600 text-2xl font-bold text-white">
                   {s.step}
                 </div>
                 <h3 className="mt-4 text-xl font-bold text-zinc-900">{s.title}</h3>
@@ -83,7 +83,7 @@ export default function BrokerServicePage() {
           <h2 className="text-3xl font-bold text-zinc-900">
             Benefits for Customers
           </h2>
-          <p className="mt-3 text-lg text-zinc-500">
+          <p className="mt-3 text-lg text-stone-500">
             Why renting through a broker gives you a better experience than going direct.
           </p>
 
@@ -135,7 +135,7 @@ export default function BrokerServicePage() {
           <h2 className="text-3xl font-bold text-zinc-900">
             Benefits for Haulers
           </h2>
-          <p className="mt-3 text-lg text-zinc-500">
+          <p className="mt-3 text-lg text-stone-500">
             Are you a dumpster hauling company? Partner with us to fill your trucks and grow your business.
           </p>
 
@@ -173,7 +173,7 @@ export default function BrokerServicePage() {
             ))}
           </div>
 
-          <div className="mt-12 rounded-2xl border border-green-200 bg-green-50 p-8 text-center">
+          <div className="mt-12 rounded-2xl border border-orange-200 bg-orange-50 p-8 text-center">
             <h3 className="text-2xl font-bold text-zinc-900">
               Interested in Joining Our Hauler Network?
             </h3>
@@ -184,7 +184,7 @@ export default function BrokerServicePage() {
             <div className="mt-6 flex flex-col items-center gap-4 sm:flex-row sm:justify-center">
               <a
                 href={`tel:${phonePlain}`}
-                className="inline-flex items-center rounded-lg bg-green-600 px-6 py-3 text-sm font-semibold text-white hover:bg-green-700"
+                className="inline-flex items-center rounded-lg bg-orange-600 px-6 py-3 text-sm font-semibold text-white hover:bg-orange-700"
               >
                 Call {PHONE}
               </a>
@@ -199,13 +199,98 @@ export default function BrokerServicePage() {
         </div>
       </section>
 
+      {/* How We Vet Our Haulers */}
+      <section className="bg-zinc-50 py-16">
+        <div className="mx-auto max-w-4xl px-4 sm:px-6 lg:px-8">
+          <h2 className="text-3xl font-bold text-zinc-900">
+            How We Vet and Monitor Our Hauler Partners
+          </h2>
+          <div className="mt-6 space-y-5 text-lg text-zinc-600 leading-8">
+            <p>
+              The quality of your dumpster rental experience depends entirely on
+              the hauler who delivers and picks up your container. That is why
+              we invest heavily in selecting, vetting, and continuously
+              monitoring every hauler in our network. A bad hauler experience
+              reflects on us — so we only work with operators who meet our
+              standards.
+            </p>
+            <p>
+              Before a hauler joins our network, we verify their business
+              license, commercial auto insurance, general liability insurance,
+              and workers compensation coverage. We review their equipment
+              condition, fleet size, and service area. We check their reputation
+              through online reviews, Better Business Bureau records, and
+              references from other customers. Only haulers who pass this
+              initial screening are accepted into the network.
+            </p>
+            <p>
+              Once a hauler is active, we track performance across multiple
+              metrics: on-time delivery rate, pickup response time, customer
+              satisfaction scores, and communication responsiveness. We collect
+              feedback after every delivery and flag any issues immediately. If
+              a hauler consistently underperforms — late deliveries, poor
+              communication, damaged driveways — they are removed from the
+              network. This accountability system is what maintains our 98%
+              on-time delivery rate and 4.9-star customer rating across
+              hundreds of reviews.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      {/* Broker vs Direct */}
+      <section className="bg-white py-16">
+        <div className="mx-auto max-w-4xl px-4 sm:px-6 lg:px-8">
+          <h2 className="text-3xl font-bold text-zinc-900">
+            Broker Service vs. Renting Direct: What Customers Should Know
+          </h2>
+          <div className="mt-6 space-y-5 text-lg text-zinc-600 leading-8">
+            <p>
+              Some customers wonder whether they should rent through a broker
+              like us or go directly to a local hauling company. Both
+              approaches work, and the right choice depends on what matters
+              most to you. Here is an honest comparison.
+            </p>
+            <p>
+              <strong className="text-zinc-900">Renting direct</strong> means
+              you contact a hauling company that owns the trucks and containers.
+              You are dealing directly with the operator. The advantage is that
+              there is no middleman — you talk to the person who will deliver
+              your dumpster. The disadvantage is that a single hauler has
+              limited capacity (if their trucks are booked, you wait), limited
+              coverage area (a hauler in Miami cannot serve you in Tampa), and
+              pricing that may be higher because they lack volume leverage.
+            </p>
+            <p>
+              <strong className="text-zinc-900">Renting through a broker</strong>{" "}
+              like Florida Dumpster Rentals means you contact us, we find the
+              best available hauler in your area, and that hauler delivers your
+              dumpster. The advantages are wider availability (we have multiple
+              haulers in every market), competitive pricing (our volume gives us
+              negotiating leverage), and consistent service standards (we hold
+              every hauler accountable). The trade-off is that you are not
+              dealing directly with the driver — you are dealing with us, and
+              we coordinate with the hauler on your behalf.
+            </p>
+            <p>
+              For most customers, the broker model delivers equal or better
+              results at equal or lower cost. The biggest advantage is
+              availability: when a direct hauler is booked, you have to call
+              another company and start over. With us, if one hauler is
+              unavailable, we immediately find another without any extra effort
+              on your part.
+            </p>
+          </div>
+        </div>
+      </section>
+
       {/* Why It Works */}
-      <section className="bg-zinc-950 py-16 text-white">
+      <section className="bg-stone-950 py-16 text-white">
         <div className="mx-auto max-w-4xl px-4 sm:px-6 lg:px-8">
           <h2 className="text-center text-3xl font-bold">
             Why the Broker Model Works
           </h2>
-          <p className="mx-auto mt-3 max-w-2xl text-center text-zinc-400">
+          <p className="mx-auto mt-3 max-w-2xl text-center text-stone-400">
             The dumpster rental industry is hyper-local. A hauler in Tampa can&apos;t
             serve a customer in Jacksonville. Our broker model solves this.
           </p>
@@ -229,9 +314,9 @@ export default function BrokerServicePage() {
                 desc: "If your primary hauler is booked, we have backup options in every market. That means fewer delays and more reliable service for customers.",
               },
             ].map((item) => (
-              <div key={item.title} className="rounded-xl border border-zinc-800 bg-zinc-900 p-6">
-                <h3 className="font-semibold text-green-400">{item.title}</h3>
-                <p className="mt-2 text-zinc-400">{item.desc}</p>
+              <div key={item.title} className="rounded-xl border border-stone-800 bg-stone-900 p-6">
+                <h3 className="font-semibold text-orange-400">{item.title}</h3>
+                <p className="mt-2 text-stone-400">{item.desc}</p>
               </div>
             ))}
           </div>

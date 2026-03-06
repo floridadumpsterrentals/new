@@ -7,6 +7,8 @@ export interface BlogPost {
   intro: string;
   sections: { heading: string; content: string }[];
   relatedServices: { name: string; href: string }[];
+  publishedDate: string;
+  quickAnswer: string;
 }
 
 const dumpsterAZ: BlogPost[] = [
@@ -28,6 +30,8 @@ const dumpsterAZ: BlogPost[] = [
       { name: "Renovation Dumpster Rental", href: "/renovation-dumpster-rental" },
       { name: "Dumpster Sizes", href: "/dumpster-sizes" },
     ],
+    publishedDate: "2025-01-05",
+    quickAnswer: "Asbestos, lead paint, automotive fluids, pesticides, propane tanks, medical waste, batteries, and electronics with mercury are banned from roll-off dumpsters in Florida. Violating hazardous waste disposal rules can result in fines from $500 to $50,000. Always have suspect materials tested by a licensed inspector before demolition.",
   },
   {
     letter: "B",
@@ -47,6 +51,8 @@ const dumpsterAZ: BlogPost[] = [
       { name: "Construction Dumpster Rental", href: "/construction-dumpster-rental" },
       { name: "Areas We Serve", href: "/areas" },
     ],
+    publishedDate: "2025-01-12",
+    quickAnswer: "You don't need a permit to place a dumpster on your own driveway or private property in most Florida cities. However, placing a dumpster on a public street, sidewalk, or right-of-way requires a permit costing $25-$150 from your local municipality, typically taking 1-3 business days to process.",
   },
   {
     letter: "C",
@@ -66,6 +72,8 @@ const dumpsterAZ: BlogPost[] = [
       { name: "Commercial Dumpster Rental", href: "/commercial-dumpster-rental" },
       { name: "Pricing", href: "/pricing" },
     ],
+    publishedDate: "2025-01-19",
+    quickAnswer: "Construction sites typically need a 20 or 30 yard dumpster with weight limits of 3-4 tons. Standard weight allowances are 2 tons for 10 yard, 3 tons for 20 yard, and 4 tons for 30 yard containers. Contractor accounts save 15-25% with volume pricing, priority scheduling, and flexible billing for multi-job operations.",
   },
   {
     letter: "D",
@@ -85,6 +93,8 @@ const dumpsterAZ: BlogPost[] = [
       { name: "How It Works", href: "/how-it-works" },
       { name: "Schedule a Rental", href: "/schedule-dumpster-rental-form" },
     ],
+    publishedDate: "2025-01-26",
+    quickAnswer: "On delivery day, clear 60 feet of straight-line approach and 23 feet of vertical clearance for the roll-off truck. The driver backs in, tilts the bed, and rolls off the dumpster in about 10 minutes. You don't need to be home — just ensure the area is clear. Place plywood under contact points to protect asphalt driveways.",
   },
   {
     letter: "E",
@@ -104,6 +114,8 @@ const dumpsterAZ: BlogPost[] = [
       { name: "Junk Removal Dumpster Rental", href: "/junk-removal-dumpster-rental" },
       { name: "Pricing", href: "/pricing" },
     ],
+    publishedDate: "2025-02-02",
+    quickAnswer: "A 20 yard dumpster handles most estate cleanouts, replacing 8-20 pickup truck loads with a single container. Most cleanouts take 3-7 days using the room-by-room approach: start with easy rooms, sort into keep/donate/sell/toss categories, and work through emotional spaces last. Standard 7-day rentals provide ample time without rushing.",
   },
   {
     letter: "F",
@@ -123,6 +135,8 @@ const dumpsterAZ: BlogPost[] = [
       { name: "Dumpster Sizes", href: "/dumpster-sizes" },
       { name: "Schedule a Rental", href: "/schedule-dumpster-rental-form" },
     ],
+    publishedDate: "2025-02-09",
+    quickAnswer: "Flat-rate dumpster pricing includes delivery, pickup, disposal up to the weight limit, the rental period, and all taxes and fees in one quoted number. Watch out for competitors who advertise low base prices then add $75-$150 in delivery fees, $50-$100 pickup fees, fuel surcharges, and environmental fees that double the actual cost.",
   },
   {
     letter: "G",
@@ -142,6 +156,8 @@ const dumpsterAZ: BlogPost[] = [
       { name: "Junk Removal Dumpster Rental", href: "/junk-removal-dumpster-rental" },
       { name: "Dumpster Sizes", href: "/dumpster-sizes" },
     ],
+    publishedDate: "2025-02-16",
+    quickAnswer: "A 10 yard dumpster is usually perfect for a standard two-car garage cleanout, holding about 4 pickup truck loads of debris. Use the two-pass method: first pull everything obviously trash, then sort what remains into keep, donate, and sell piles. Most garage cleanouts can be completed in a single weekend with Friday delivery and Monday pickup.",
   },
   {
     letter: "H",
@@ -161,6 +177,8 @@ const dumpsterAZ: BlogPost[] = [
       { name: "Roofing Dumpster Rental", href: "/roofing-dumpster-rental" },
       { name: "Residential Dumpster Rental", href: "/residential-dumpster-rental" },
     ],
+    publishedDate: "2025-02-23",
+    quickAnswer: "After a Florida hurricane, dumpster demand spikes 500% and wait times can stretch from same-day to 7-10 days. Book a dumpster before the storm hits if possible. Document all damage with photos before loading for insurance claims — dumpster rental costs are typically reimbursable under homeowner's policies as debris removal expenses.",
   },
   {
     letter: "I",
@@ -180,6 +198,8 @@ const dumpsterAZ: BlogPost[] = [
       { name: "Construction Dumpster Rental", href: "/construction-dumpster-rental" },
       { name: "About Us", href: "/about" },
     ],
+    publishedDate: "2025-03-02",
+    quickAnswer: "The dumpster rental company carries general liability and auto insurance covering damage caused during delivery and pickup. Once placed, the renter is responsible for what goes in the dumpster and keeping the surrounding area safe. Your homeowner's insurance generally covers the dumpster under property liability for incidents like injuries on your property.",
   },
   {
     letter: "J",
@@ -199,6 +219,8 @@ const dumpsterAZ: BlogPost[] = [
       { name: "Residential Dumpster Rental", href: "/residential-dumpster-rental" },
       { name: "Pricing", href: "/pricing" },
     ],
+    publishedDate: "2025-03-09",
+    quickAnswer: "A dumpster rental beats junk removal for any project over one pickup truck load. Junk removal costs $300-$800 for about 8 cubic yards. A 10 yard dumpster (which holds more) costs $350-$450 flat, and a 20 yard runs $450-$550 — equivalent to 2.5 junk removal loads. Dumpsters also let you work at your own pace over multiple days.",
   },
   {
     letter: "K",
@@ -218,6 +240,8 @@ const dumpsterAZ: BlogPost[] = [
       { name: "Construction Dumpster Rental", href: "/construction-dumpster-rental" },
       { name: "Dumpster Sizes", href: "/dumpster-sizes" },
     ],
+    publishedDate: "2025-03-16",
+    quickAnswer: "A standard kitchen teardown generates 5-10 cubic yards of debris including cabinets, countertops, flooring, and appliances. A 10 yard dumpster handles most kitchen demos. Watch granite countertops — an L-shaped counter weighs 400-600 lbs. Schedule dumpster delivery the day before demo starts so crews have immediate disposal space.",
   },
   {
     letter: "L",
@@ -237,6 +261,8 @@ const dumpsterAZ: BlogPost[] = [
       { name: "Commercial Dumpster Rental", href: "/commercial-dumpster-rental" },
       { name: "About Us", href: "/about" },
     ],
+    publishedDate: "2025-03-23",
+    quickAnswer: "Florida landfills are regulated by the Department of Environmental Protection and charge tipping fees of $30-$55 per ton depending on county. Miami-Dade charges $45-$55/ton, Broward $40-$50/ton, and rural counties as low as $30/ton. Construction and demolition debris can often be routed to C&D recycling facilities at lower rates.",
   },
   {
     letter: "M",
@@ -256,6 +282,8 @@ const dumpsterAZ: BlogPost[] = [
       { name: "Junk Removal Dumpster Rental", href: "/junk-removal-dumpster-rental" },
       { name: "Dumpster Sizes", href: "/dumpster-sizes" },
     ],
+    publishedDate: "2025-03-30",
+    quickAnswer: "Rent a dumpster 7-10 days before your move to purge accumulated items and reduce moving costs. A 10 yard handles a 2-3 bedroom pre-move cleanout; upgrade to a 20 yard for larger homes. Schedule pickup 1-2 days before movers arrive to clear the driveway. The average household has 300,000 items — don't pay to move what you don't need.",
   },
   {
     letter: "N",
@@ -275,6 +303,8 @@ const dumpsterAZ: BlogPost[] = [
       { name: "Renovation Dumpster Rental", href: "/renovation-dumpster-rental" },
       { name: "How It Works", href: "/how-it-works" },
     ],
+    publishedDate: "2025-04-06",
+    quickAnswer: "Florida has about 50,000 HOAs governing 10 million residents. Most HOAs restrict dumpsters to driveways only, limit rental periods to 7-14 days, and require 48-72 hours advance notice. Submit a written request including delivery dates, dumpster size, and placement location. HOA fines range from $25 to $1,000 per violation in Florida.",
   },
   {
     letter: "O",
@@ -294,6 +324,8 @@ const dumpsterAZ: BlogPost[] = [
       { name: "Pricing", href: "/pricing" },
       { name: "Construction Dumpster Rental", href: "/construction-dumpster-rental" },
     ],
+    publishedDate: "2025-04-13",
+    quickAnswer: "Nothing can extend above the dumpster fill line — it's a DOT regulation for safe road transport. Weight limits are 2 tons for 10 yard, 3 tons for 20 yard, and 4 tons for 30 yard dumpsters. Exceeding weight limits incurs overage charges of $50-$75 per ton, verified by certified landfill scales. Most household debris stays well under the limit.",
   },
   {
     letter: "P",
@@ -313,6 +345,8 @@ const dumpsterAZ: BlogPost[] = [
       { name: "Dumpster Sizes", href: "/dumpster-sizes" },
       { name: "Schedule a Rental", href: "/schedule-dumpster-rental-form" },
     ],
+    publishedDate: "2025-04-20",
+    quickAnswer: "Place your dumpster as close to the debris source as possible — directly below the roof line for tear-offs, near the nearest exterior door for interior projects. Dumpsters need a hard, flat surface like concrete or asphalt. Maintain 3-foot clearance from fire hydrants, keep utility meters accessible, and don't block sidewalks or intersection sight lines.",
   },
   {
     letter: "Q",
@@ -332,6 +366,8 @@ const dumpsterAZ: BlogPost[] = [
       { name: "Pricing", href: "/pricing" },
       { name: "How It Works", href: "/how-it-works" },
     ],
+    publishedDate: "2025-04-27",
+    quickAnswer: "Before renting a dumpster, ask four key questions: What is the total all-in price including all fees? What is the weight limit and per-ton overage rate? How many days is the rental period and what do extensions cost? What items are prohibited? Any reputable company will give you a single all-inclusive number without hidden surcharges.",
   },
   {
     letter: "R",
@@ -351,6 +387,8 @@ const dumpsterAZ: BlogPost[] = [
       { name: "Construction Dumpster Rental", href: "/construction-dumpster-rental" },
       { name: "Dumpster Sizes", href: "/dumpster-sizes" },
     ],
+    publishedDate: "2025-05-04",
+    quickAnswer: "A standard 3-tab shingle square (100 sq ft) weighs 200-350 lbs; architectural shingles weigh 350-500 lbs per square. A typical Florida home with 20-30 squares generates 4,000-15,000 lbs of shingles. Most residential roof tear-offs need a 20 yard dumpster, which holds 20-25 squares within the weight limit. Position the dumpster directly below the roof edge.",
   },
   {
     letter: "S",
@@ -370,6 +408,8 @@ const dumpsterAZ: BlogPost[] = [
       { name: "How It Works", href: "/how-it-works" },
       { name: "Areas We Serve", href: "/areas" },
     ],
+    publishedDate: "2025-05-11",
+    quickAnswer: "Same-day dumpster delivery is available across most of Florida when you order before noon, with deliveries arriving between 1-5 PM. Text your zip code, dumpster size, and project type for the fastest response — confirmation comes within minutes. After noon, next-morning delivery is typically available. Emergency after-hours delivery is offered for an additional fee.",
   },
   {
     letter: "T",
@@ -389,6 +429,8 @@ const dumpsterAZ: BlogPost[] = [
       { name: "Pricing", href: "/pricing" },
       { name: "Schedule a Rental", href: "/schedule-dumpster-rental-form" },
     ],
+    publishedDate: "2025-05-18",
+    quickAnswer: "The 10 yard (12' x 8' x 3.5', 2-ton limit) holds 4 truck loads and suits garage cleanouts. The 20 yard (22' x 8' x 4.5', 3-ton limit) holds 8 truck loads and handles 70% of projects. The 30 yard (22' x 8' x 6', 4-ton limit) holds 12 truck loads for large renovations. When in doubt, size up — the $50-$100 difference beats ordering a second dumpster.",
   },
   {
     letter: "U",
@@ -408,6 +450,8 @@ const dumpsterAZ: BlogPost[] = [
       { name: "FAQ", href: "/faq" },
       { name: "How It Works", href: "/how-it-works" },
     ],
+    publishedDate: "2025-05-25",
+    quickAnswer: "Key rental agreement terms to review: the rental period (typically 7 days standard), weight limit (2-4 tons depending on size), per-ton overage rate ($50-$75), daily extension rate ($10-$15/day), and the prohibited items list. If your load stays within the weight limit, your final invoice should match the original quote exactly.",
   },
   {
     letter: "V",
@@ -427,6 +471,8 @@ const dumpsterAZ: BlogPost[] = [
       { name: "Construction Dumpster Rental", href: "/construction-dumpster-rental" },
       { name: "Commercial Dumpster Rental", href: "/commercial-dumpster-rental" },
     ],
+    publishedDate: "2025-06-01",
+    quickAnswer: "Vacant Florida properties typically need a 10 yard dumpster for small 2-bedroom units, a 20 yard for standard 3-bedroom houses, or a 30 yard for severely neglected properties. Document everything with photos for bank or REO requirements. Investor and flipper accounts offer volume pricing, priority scheduling, and paperwork that meets HUD and bank standards.",
   },
   {
     letter: "W",
@@ -446,6 +492,8 @@ const dumpsterAZ: BlogPost[] = [
       { name: "Pricing", href: "/pricing" },
       { name: "Construction Dumpster Rental", href: "/construction-dumpster-rental" },
     ],
+    publishedDate: "2025-06-08",
+    quickAnswer: "Common materials per cubic yard: household junk weighs 150-300 lbs, wood 300-500 lbs, drywall 500-700 lbs, shingles 700-1,000 lbs, concrete 2,000-2,500 lbs, and dirt 2,200-3,000 lbs. A 20 yard dumpster full of dirt would weigh 22-30 tons — far exceeding the 3-ton limit. Always separate heavy materials like concrete into dedicated containers.",
   },
   {
     letter: "X",
@@ -465,6 +513,8 @@ const dumpsterAZ: BlogPost[] = [
       { name: "Pricing", href: "/pricing" },
       { name: "FAQ", href: "/faq" },
     ],
+    publishedDate: "2025-06-15",
+    quickAnswer: "Extending your dumpster rental costs $10-$15 per day depending on size and location. Contact us at least 24 hours before your scheduled pickup to request an extension — no new paperwork required, just a daily rate added to your invoice. For projects lasting more than 2 weeks, ask about long-term rental rates which are significantly cheaper per day.",
   },
   {
     letter: "Y",
@@ -484,6 +534,8 @@ const dumpsterAZ: BlogPost[] = [
       { name: "Residential Dumpster Rental", href: "/residential-dumpster-rental" },
       { name: "Dumpster Sizes", href: "/dumpster-sizes" },
     ],
+    publishedDate: "2025-06-22",
+    quickAnswer: "Florida yard waste includes branches, palm fronds, hedge trimmings, grass clippings, and small stumps — but not dirt or sod, which are heavy materials requiring separate disposal. Palm fronds are bulky but light, so a 20 yard dumpster holds an enormous volume. Many Florida counties have yard waste recycling facilities with lower tipping fees than standard landfills.",
   },
   {
     letter: "Z",
@@ -503,6 +555,8 @@ const dumpsterAZ: BlogPost[] = [
       { name: "Schedule a Rental", href: "/schedule-dumpster-rental-form" },
       { name: "FAQ", href: "/faq" },
     ],
+    publishedDate: "2025-06-29",
+    quickAnswer: "True flat-rate dumpster pricing includes delivery, rental period, disposal up to the weight limit, pickup, and all taxes in one number. The only possible additional charge is a per-ton weight overage, verified by certified landfill scales. Ninety percent of residential rentals come in under the weight limit. We match any licensed, insured competitor's all-in price.",
   },
 ];
 
@@ -525,6 +579,8 @@ const projectsAZ: BlogPost[] = [
       { name: "Junk Removal Dumpster Rental", href: "/junk-removal-dumpster-rental" },
       { name: "Pricing", href: "/pricing" },
     ],
+    publishedDate: "2025-07-06",
+    quickAnswer: "Property managers should keep a 20 yard dumpster on-site during heavy turnover months for unit turn cleanouts. Recurring delivery schedules — monthly, bi-monthly, or quarterly — are available at discounted rates. For capital improvement projects like re-roofing or parking lot repaving, multi-dumpster setups with rotation scheduling keep full containers swapping without downtime.",
   },
   {
     letter: "B",
@@ -544,6 +600,8 @@ const projectsAZ: BlogPost[] = [
       { name: "Dumpster Sizes", href: "/dumpster-sizes" },
       { name: "Residential Dumpster Rental", href: "/residential-dumpster-rental" },
     ],
+    publishedDate: "2025-07-13",
+    quickAnswer: "A single bathroom renovation generates 3-5 cubic yards of debris including tile, mortar, vanities, tubs, and drywall. A 10 yard dumpster handles one bathroom; upgrade to a 20 yard for multi-bathroom projects. Cast iron tubs weigh 300-400 lbs and require planning for removal. Fiberglass tub/shower combos are lighter but bulky — break them down before loading.",
   },
   {
     letter: "C",
@@ -563,6 +621,8 @@ const projectsAZ: BlogPost[] = [
       { name: "Construction Dumpster Rental", href: "/construction-dumpster-rental" },
       { name: "Pricing", href: "/pricing" },
     ],
+    publishedDate: "2025-07-20",
+    quickAnswer: "Large commercial job sites need 30 yard dumpsters with scheduled rotation — when one fills, an empty one replaces it within hours. Separate waste streams (concrete, metal, wood, general debris) reduce disposal costs through targeted recycling. Multi-dumpster setups with color-coded or labeled containers keep crews sorting correctly and can save 20-30% on disposal fees.",
   },
   {
     letter: "D",
@@ -582,6 +642,8 @@ const projectsAZ: BlogPost[] = [
       { name: "Renovation Dumpster Rental", href: "/renovation-dumpster-rental" },
       { name: "Dumpster Sizes", href: "/dumpster-sizes" },
     ],
+    publishedDate: "2025-07-27",
+    quickAnswer: "A standard 12x16 wood deck generates 4-6 cubic yards of debris, fitting in a 10 yard dumpster. Concrete patios are much heavier — a 200 sq ft concrete patio at 4 inches thick weighs approximately 2,500 lbs. Pressure-treated lumber from decks built before 2004 may contain CCA (chromated copper arsenate) and should be kept separate from regular wood waste.",
   },
   {
     letter: "E",
@@ -601,6 +663,8 @@ const projectsAZ: BlogPost[] = [
       { name: "Residential Dumpster Rental", href: "/residential-dumpster-rental" },
       { name: "Schedule a Rental", href: "/schedule-dumpster-rental-form" },
     ],
+    publishedDate: "2025-08-03",
+    quickAnswer: "After a Florida storm, call for dumpster delivery immediately — inventory depletes within hours in affected areas. Document all damage with photos and video before cleanup begins for insurance claims. Dumpster rental costs, debris removal, and temporary repairs are typically covered under the debris removal provision of standard Florida homeowner's insurance policies.",
   },
   {
     letter: "F",
@@ -620,6 +684,8 @@ const projectsAZ: BlogPost[] = [
       { name: "Landscaping Dumpster Rental", href: "/landscaping-dumpster-rental" },
       { name: "Dumpster Sizes", href: "/dumpster-sizes" },
     ],
+    publishedDate: "2025-08-10",
+    quickAnswer: "A standard residential fence removal (150-200 linear feet) fits in a 10 yard dumpster. Wood fences are straightforward — cut into 4-foot sections for efficient loading. Chain-link fence posts set in concrete add significant weight; break the concrete collars off with a sledgehammer before loading. Vinyl and aluminum fencing materials may be recyclable — check with your local facility.",
   },
   {
     letter: "G",
@@ -639,6 +705,8 @@ const projectsAZ: BlogPost[] = [
       { name: "Construction Dumpster Rental", href: "/construction-dumpster-rental" },
       { name: "Schedule a Rental", href: "/schedule-dumpster-rental-form" },
     ],
+    publishedDate: "2025-08-17",
+    quickAnswer: "Contractor accounts provide 15-25% savings over standard pricing through volume discounts, priority same-day scheduling, dedicated account management, and flexible net-15 or net-30 billing. Most contractors running 3+ jobs monthly benefit from an account. Setup takes one phone call with no minimums required — just consistent, predictable dumpster service across all your job sites.",
   },
   {
     letter: "H",
@@ -658,6 +726,8 @@ const projectsAZ: BlogPost[] = [
       { name: "Renovation Dumpster Rental", href: "/renovation-dumpster-rental" },
       { name: "Pricing", href: "/pricing" },
     ],
+    publishedDate: "2025-08-24",
+    quickAnswer: "Home additions typically need a 20-30 yard dumpster kept on-site throughout the project with periodic swaps. A single-room addition generates 10-15 cubic yards of debris from demolition through finishing. Plan for 2-3 dumpster swaps during a full addition project — one for demolition, one for framing/rough-in waste, and one for finishing materials and packaging.",
   },
   {
     letter: "I",
@@ -677,6 +747,8 @@ const projectsAZ: BlogPost[] = [
       { name: "Construction Dumpster Rental", href: "/construction-dumpster-rental" },
       { name: "Dumpster Sizes", href: "/dumpster-sizes" },
     ],
+    publishedDate: "2025-08-31",
+    quickAnswer: "Gutting a room to the studs generates approximately 3-5 cubic yards of debris per room, including drywall, flooring, trim, and insulation. A whole-house gut (1,500 sq ft) produces 20-30 cubic yards needing a 30 yard dumpster or multiple loads. Start demo from the top down — ceilings first, then walls, then flooring — for the safest and most efficient workflow.",
   },
   {
     letter: "J",
@@ -696,6 +768,8 @@ const projectsAZ: BlogPost[] = [
       { name: "Commercial Dumpster Rental", href: "/commercial-dumpster-rental" },
       { name: "How It Works", href: "/how-it-works" },
     ],
+    publishedDate: "2025-09-07",
+    quickAnswer: "Effective job site waste management requires dumpster placement within 50 feet of the primary work area, clear signage on prohibited items, and daily cleanup protocols. Separating recyclable materials (metal, cardboard, clean wood) from general waste can reduce disposal costs by 20-30%. Schedule dumpster swaps based on project phase rather than waiting until containers overflow.",
   },
   {
     letter: "K",
@@ -715,6 +789,8 @@ const projectsAZ: BlogPost[] = [
       { name: "Residential Dumpster Rental", href: "/residential-dumpster-rental" },
       { name: "Dumpster Sizes", href: "/dumpster-sizes" },
     ],
+    publishedDate: "2025-09-14",
+    quickAnswer: "A full kitchen remodel generates 8-12 cubic yards of debris across demo and construction phases. A 20 yard dumpster covers both phases for most kitchens. Demo debris (cabinets, countertops, tile, appliances) is heaviest — granite countertops alone can weigh 400-600 lbs. Keep the dumpster through the build phase for packaging waste, cutoffs, and material scraps.",
   },
   {
     letter: "L",
@@ -734,6 +810,8 @@ const projectsAZ: BlogPost[] = [
       { name: "Residential Dumpster Rental", href: "/residential-dumpster-rental" },
       { name: "Dumpster Sizes", href: "/dumpster-sizes" },
     ],
+    publishedDate: "2025-09-21",
+    quickAnswer: "A major landscaping overhaul — removing old plantings, clearing overgrown areas, and prepping for new installations — typically needs a 20 yard dumpster. Green waste like branches and shrubs is bulky but light, so volume is the limiting factor rather than weight. Florida counties often offer lower disposal rates for clean green waste routed to composting facilities.",
   },
   {
     letter: "M",
@@ -753,6 +831,8 @@ const projectsAZ: BlogPost[] = [
       { name: "Renovation Dumpster Rental", href: "/renovation-dumpster-rental" },
       { name: "Pricing", href: "/pricing" },
     ],
+    publishedDate: "2025-09-28",
+    quickAnswer: "Multi-family property cleanouts typically require a 20-30 yard dumpster per building during major turnover or renovation. Schedule recurring dumpster service during peak turnover seasons (spring and fall) to maintain property appearance. Coordinate with property management to stage dumpsters in parking areas that minimize disruption to current tenants while maximizing crew access.",
   },
   {
     letter: "N",
@@ -772,6 +852,8 @@ const projectsAZ: BlogPost[] = [
       { name: "Commercial Dumpster Rental", href: "/commercial-dumpster-rental" },
       { name: "Dumpster Sizes", href: "/dumpster-sizes" },
     ],
+    publishedDate: "2025-10-05",
+    quickAnswer: "New construction generates 3-5 lbs of waste per square foot of building area. A 2,000 sq ft home produces 6,000-10,000 lbs of debris from foundation through finishing. Plan for 3-5 dumpster rotations throughout the build: site prep, framing/rough-in, exterior finishing, interior finishing, and final cleanup. Separating wood and metal for recycling reduces total disposal costs.",
   },
   {
     letter: "O",
@@ -791,6 +873,8 @@ const projectsAZ: BlogPost[] = [
       { name: "Renovation Dumpster Rental", href: "/renovation-dumpster-rental" },
       { name: "Construction Dumpster Rental", href: "/construction-dumpster-rental" },
     ],
+    publishedDate: "2025-10-12",
+    quickAnswer: "Office renovations generate large volumes of carpet, ceiling tiles, cubicle systems, and drywall. A 30 yard dumpster handles most single-floor office buildouts. Schedule deliveries and pickups outside business hours (evenings or weekends) to minimize disruption to occupied floors. Commercial properties may require certificates of insurance and loading dock access coordination.",
   },
   {
     letter: "P",
@@ -810,6 +894,8 @@ const projectsAZ: BlogPost[] = [
       { name: "Residential Dumpster Rental", href: "/residential-dumpster-rental" },
       { name: "Dumpster Sizes", href: "/dumpster-sizes" },
     ],
+    publishedDate: "2025-10-19",
+    quickAnswer: "Removing an inground pool in Florida costs $5,000-$15,000 total. A partial fill-in (breaking the top 18 inches and filling with gravel) is cheaper at $5,000-$8,000. Full removal requires hauling all concrete and rebar — a standard pool generates 15-25 tons of debris needing a 30 yard dumpster or multiple loads. Always check local codes and get a demolition permit first.",
   },
   {
     letter: "Q",
@@ -829,6 +915,8 @@ const projectsAZ: BlogPost[] = [
       { name: "Junk Removal Dumpster Rental", href: "/junk-removal-dumpster-rental" },
       { name: "Schedule a Rental", href: "/schedule-dumpster-rental-form" },
     ],
+    publishedDate: "2025-10-26",
+    quickAnswer: "Weekend dumpster rentals are ideal for garage cleanouts, small renovations, and pre-move purges. Order by Thursday noon for Friday delivery, load Saturday and Sunday, and schedule Monday pickup. A 10 yard dumpster handles most weekend projects. The key to a successful quick turnaround is having everything sorted and ready to load before the dumpster arrives.",
   },
   {
     letter: "R",
@@ -848,6 +936,8 @@ const projectsAZ: BlogPost[] = [
       { name: "Renovation Dumpster Rental", href: "/renovation-dumpster-rental" },
       { name: "Construction Dumpster Rental", href: "/construction-dumpster-rental" },
     ],
+    publishedDate: "2025-11-02",
+    quickAnswer: "Restaurant buildouts generate heavy debris — commercial kitchen equipment, walk-in cooler components, grease traps, tile flooring, and stainless steel fixtures. A 20-30 yard dumpster with a higher weight allowance is typically needed. Health department demolition permits may be required before tearout begins. Grease traps and hood systems often require specialized disposal separate from the dumpster.",
   },
   {
     letter: "S",
@@ -867,6 +957,8 @@ const projectsAZ: BlogPost[] = [
       { name: "Roofing Dumpster Rental", href: "/roofing-dumpster-rental" },
       { name: "Residential Dumpster Rental", href: "/residential-dumpster-rental" },
     ],
+    publishedDate: "2025-11-09",
+    quickAnswer: "When working with insurance on storm damage, document everything before cleanup with dated photos and video. Keep all dumpster rental receipts — they're reimbursable under the debris removal provision of most Florida homeowner's policies (typically 5% of dwelling coverage). File your claim before beginning major cleanup, and save samples of damaged materials your adjuster may need to inspect.",
   },
   {
     letter: "T",
@@ -886,6 +978,8 @@ const projectsAZ: BlogPost[] = [
       { name: "Commercial Dumpster Rental", href: "/commercial-dumpster-rental" },
       { name: "Residential Dumpster Rental", href: "/residential-dumpster-rental" },
     ],
+    publishedDate: "2025-11-16",
+    quickAnswer: "Florida law requires a 24-hour notice before removing abandoned property after eviction, and landlords must store items of apparent value for 10 days in some counties. A 10-20 yard dumpster handles most single-unit cleanouts. Document the unit's condition with photos before and after cleanup. Average turnaround for an eviction cleanout is 1-3 days with a dumpster on-site.",
   },
   {
     letter: "U",
@@ -905,6 +999,8 @@ const projectsAZ: BlogPost[] = [
       { name: "Construction Dumpster Rental", href: "/construction-dumpster-rental" },
       { name: "About Us", href: "/about" },
     ],
+    publishedDate: "2025-11-23",
+    quickAnswer: "Municipal utility projects — water main replacements, sewer upgrades, and road work — generate heavy debris requiring 30 yard dumpsters with enhanced weight allowances. Concrete pipe, asphalt, and excavated soil are the primary waste streams. Government contracts typically require certified weight tickets, disposal facility documentation, and compliance with local procurement policies.",
   },
   {
     letter: "V",
@@ -924,6 +1020,8 @@ const projectsAZ: BlogPost[] = [
       { name: "Commercial Dumpster Rental", href: "/commercial-dumpster-rental" },
       { name: "Dumpster Sizes", href: "/dumpster-sizes" },
     ],
+    publishedDate: "2025-11-30",
+    quickAnswer: "Vehicles, tires, and items containing fluids (engines, transmissions) cannot go in a standard roll-off dumpster. Acceptable automotive debris includes body panels, frames (drained of fluids), bumpers, glass, and interior components. Scrap metal yards often pay for vehicle hulks and heavy equipment. For items with refrigerants or hydraulic fluids, certified removal is required before disposal.",
   },
   {
     letter: "W",
@@ -943,6 +1041,8 @@ const projectsAZ: BlogPost[] = [
       { name: "Junk Removal Dumpster Rental", href: "/junk-removal-dumpster-rental" },
       { name: "Pricing", href: "/pricing" },
     ],
+    publishedDate: "2025-12-07",
+    quickAnswer: "Warehouse cleanouts typically require multiple 30 yard dumpsters with scheduled rotations. Industrial debris like pallet racking, shelving, and old equipment is heavy — factor weight limits carefully. A 10,000 sq ft warehouse cleanout averages 60-100 cubic yards of debris. Separate metals (racking, shelving) from general waste to offset disposal costs through scrap recycling revenue.",
   },
   {
     letter: "X",
@@ -962,6 +1062,8 @@ const projectsAZ: BlogPost[] = [
       { name: "Construction Dumpster Rental", href: "/construction-dumpster-rental" },
       { name: "Residential Dumpster Rental", href: "/residential-dumpster-rental" },
     ],
+    publishedDate: "2025-12-14",
+    quickAnswer: "Exterior renovation debris — vinyl siding, stucco, wood clapboard, and fascia — is bulky but relatively light, making a 20 yard dumpster sufficient for most homes. Stucco removal is the exception: stucco with wire lath weighs 8-10 lbs per square foot, so a 1,500 sq ft home's stucco weighs 6-8 tons. Always separate stucco from lighter siding materials to avoid weight overages.",
   },
   {
     letter: "Y",
@@ -981,6 +1083,8 @@ const projectsAZ: BlogPost[] = [
       { name: "Construction Dumpster Rental", href: "/construction-dumpster-rental" },
       { name: "Pricing", href: "/pricing" },
     ],
+    publishedDate: "2025-12-20",
+    quickAnswer: "Ongoing dumpster service for businesses costs 40-60% less per day than short-term rentals. Options include permanent placement with scheduled weekly or bi-weekly pickups, or on-call service where you request pickup only when the container is full. Most businesses generating consistent waste — contractors, property managers, retail operations — save significantly with annual service agreements.",
   },
   {
     letter: "Z",
@@ -1000,6 +1104,8 @@ const projectsAZ: BlogPost[] = [
       { name: "How It Works", href: "/how-it-works" },
       { name: "FAQ", href: "/faq" },
     ],
+    publishedDate: "2025-12-27",
+    quickAnswer: "Florida dumpster regulations vary by county: Miami-Dade requires right-of-way permits and limits residential dumpsters to 14 days, Broward has similar permit requirements, and Orange County allows dumpsters on private property without permits. Statewide rules prohibit blocking sidewalks, require 3-foot fire hydrant clearance, and ban hazardous waste. Always verify local rules before scheduling delivery.",
   },
 ];
 

@@ -73,19 +73,19 @@ export default function AreasPage() {
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema) }} />
 
       {/* Hero */}
-      <section className="bg-[#0A0A0A] pb-16 pt-8">
+      <section className="bg-stone-950 pb-16 pt-8">
         <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
           <Breadcrumbs items={[{ name: "Service Areas", url: "/areas" }]} />
 
           <div className="mt-10">
-            <p className="text-sm font-semibold uppercase tracking-[0.2em] text-green-500">
+            <p className="text-sm font-semibold uppercase tracking-[0.2em] text-orange-500">
               Service Areas
             </p>
             <h1 className="mt-3 text-4xl font-extrabold tracking-tight sm:text-5xl lg:text-6xl">
               Dumpster Rental Across{" "}
-              <span className="text-green-500">All of Florida</span>
+              <span className="text-orange-500">All of Florida</span>
             </h1>
-            <p className="mt-6 max-w-3xl text-lg leading-8 text-zinc-300">
+            <p className="mt-6 max-w-3xl text-lg leading-8 text-stone-300">
               We deliver 10, 20 &amp; 30 yard roll-off dumpsters to every major
               city, county, and community in Florida. Same-day delivery available.
               Click any area below to see services and pricing for your location.
@@ -96,7 +96,7 @@ export default function AreasPage() {
       </section>
 
       {/* All Areas by Region */}
-      <section className="bg-[#2A2A2A] py-16">
+      <section className="bg-stone-900 py-16">
         <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
           {regions.map((region) => {
             const neighborhoods = neighborhoodsByRegion[region] || [];
@@ -106,7 +106,7 @@ export default function AreasPage() {
               <div key={region} id={regionSlug} className="mt-12 first:mt-0">
                 <div className="flex items-baseline justify-between">
                   <h2 className="text-2xl font-bold">{region}</h2>
-                  <span className="text-sm text-zinc-500">
+                  <span className="text-sm text-stone-500">
                     {neighborhoods.length} areas
                   </span>
                 </div>
@@ -115,7 +115,7 @@ export default function AreasPage() {
                     <Link
                       key={n.slug}
                       href={`/areas/${n.slug}`}
-                      className="rounded-lg border border-zinc-700 bg-zinc-800/50 px-4 py-2.5 text-sm text-zinc-300 transition-colors hover:border-green-600 hover:text-white"
+                      className="rounded-lg border border-stone-700 bg-stone-800/50 px-4 py-2.5 text-sm text-stone-300 transition-colors hover:border-orange-600 hover:text-white"
                     >
                       {n.name}
                     </Link>
@@ -128,17 +128,17 @@ export default function AreasPage() {
       </section>
 
       {/* FAQ */}
-      <section className="bg-[#0A0A0A] py-16">
+      <section className="bg-stone-950 py-16">
         <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
           <h2 className="text-2xl font-bold">Service Area FAQ</h2>
           <div className="mt-6 grid gap-4 sm:grid-cols-2">
             {faqItems.map((faq, i) => (
               <div
                 key={i}
-                className="rounded-xl border border-zinc-800 bg-zinc-900/50 p-6"
+                className="rounded-xl border border-stone-800 bg-stone-900/50 p-6"
               >
                 <h3 className="font-semibold text-white">{faq.q}</h3>
-                <p className="mt-3 text-sm leading-6 text-zinc-400">{faq.a}</p>
+                <p className="mt-3 text-sm leading-6 text-stone-400">{faq.a}</p>
               </div>
             ))}
           </div>

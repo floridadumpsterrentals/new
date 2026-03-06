@@ -80,17 +80,17 @@ export default function BlogPage() {
   return (
     <div className="text-white">
       {/* Hero */}
-      <section className="bg-[#0A0A0A] pb-20 pt-8">
+      <section className="bg-stone-950 pb-20 pt-8">
         <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
           <Breadcrumbs items={[{ name: "Blog", url: "/blog" }]} />
 
           <div className="mt-10 text-center">
-            <p className="text-sm font-semibold uppercase tracking-[0.2em] text-green-500">52 Guides &middot; Two Series</p>
+            <p className="text-sm font-semibold uppercase tracking-[0.2em] text-orange-500">52 Guides &middot; Two Series</p>
             <h1 className="mx-auto mt-4 max-w-4xl text-4xl font-extrabold tracking-tight sm:text-5xl lg:text-6xl">
               The Complete
-              <br /><span className="text-green-400">Dumpster Rental Guide</span>
+              <br /><span className="text-orange-400">Dumpster Rental Guide</span>
             </h1>
-            <p className="mx-auto mt-6 max-w-3xl text-lg leading-8 text-zinc-300">
+            <p className="mx-auto mt-6 max-w-3xl text-lg leading-8 text-stone-300">
               Two complete A-to-Z series covering everything about dumpster rentals in Florida. From sizing and pricing to hurricane cleanup and project-specific guides. No fluff — just the knowledge you need to rent the right dumpster for the right project.
             </p>
           </div>
@@ -98,12 +98,12 @@ export default function BlogPage() {
       </section>
 
       {/* Dumpster Rental A-Z Series */}
-      <section className="bg-[#2A2A2A] py-20">
+      <section className="bg-stone-900 py-20">
         <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
           <div className="text-center">
-            <p className="text-sm font-semibold uppercase tracking-[0.2em] text-green-500">Series 01</p>
+            <p className="text-sm font-semibold uppercase tracking-[0.2em] text-orange-500">Series 01</p>
             <h2 className="mt-2 text-3xl font-bold sm:text-4xl">Dumpster Rental A&ndash;Z</h2>
-            <p className="mx-auto mt-3 max-w-2xl text-zinc-400">26 guides covering every aspect of renting a dumpster in Florida — from hazardous waste rules and pricing to weight limits and HOA regulations.</p>
+            <p className="mx-auto mt-3 max-w-2xl text-stone-400">26 guides covering every aspect of renting a dumpster in Florida — from hazardous waste rules and pricing to weight limits and HOA regulations.</p>
           </div>
 
           <div className="mt-12 grid gap-3 sm:grid-cols-2 lg:grid-cols-3">
@@ -111,12 +111,12 @@ export default function BlogPage() {
               <Link
                 key={post.slug}
                 href={`/blog/${post.slug}`}
-                className="group flex items-start gap-3 rounded-xl border border-zinc-800 bg-[#141414] p-4 transition-colors hover:border-green-600/40 hover:bg-[#1a1a1a]"
+                className="group flex items-start gap-3 rounded-xl border border-stone-800 bg-stone-950 p-4 transition-colors hover:border-orange-600/40 hover:bg-stone-900"
               >
-                <span className="flex h-9 w-9 shrink-0 items-center justify-center rounded-lg bg-green-600 text-sm font-bold text-white">
+                <span className="flex h-9 w-9 shrink-0 items-center justify-center rounded-lg bg-orange-600 text-sm font-bold text-white">
                   {post.letter}
                 </span>
-                <span className="text-sm font-medium leading-snug text-zinc-300 group-hover:text-white">
+                <span className="text-sm font-medium leading-snug text-stone-300 group-hover:text-white">
                   {post.title}
                 </span>
               </Link>
@@ -129,12 +129,12 @@ export default function BlogPage() {
       <CTAGroup variant="mid" />
 
       {/* Florida Projects A-Z Series */}
-      <section className="bg-[#0A0A0A] py-20">
+      <section className="bg-stone-950 py-20">
         <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
           <div className="text-center">
-            <p className="text-sm font-semibold uppercase tracking-[0.2em] text-green-400">Series 02</p>
+            <p className="text-sm font-semibold uppercase tracking-[0.2em] text-orange-400">Series 02</p>
             <h2 className="mt-2 text-3xl font-bold sm:text-4xl">Florida Projects A&ndash;Z</h2>
-            <p className="mx-auto mt-3 max-w-2xl text-zinc-400">26 project-specific guides — from bathroom renovations and pool demolitions to storm cleanup and warehouse cleanouts. Every project type that needs a dumpster in Florida.</p>
+            <p className="mx-auto mt-3 max-w-2xl text-stone-400">26 project-specific guides — from bathroom renovations and pool demolitions to storm cleanup and warehouse cleanouts. Every project type that needs a dumpster in Florida.</p>
           </div>
 
           <div className="mt-12 grid gap-3 sm:grid-cols-2 lg:grid-cols-3">
@@ -142,12 +142,12 @@ export default function BlogPage() {
               <Link
                 key={post.slug}
                 href={`/blog/${post.slug}`}
-                className="group flex items-start gap-3 rounded-xl border border-zinc-800 bg-[#141414] p-4 transition-colors hover:border-green-600/30 hover:bg-[#1a1a1a]"
+                className="group flex items-start gap-3 rounded-xl border border-stone-800 bg-stone-950 p-4 transition-colors hover:border-orange-600/30 hover:bg-stone-900"
               >
-                <span className="flex h-9 w-9 shrink-0 items-center justify-center rounded-lg bg-green-400 text-sm font-bold text-black">
+                <span className="flex h-9 w-9 shrink-0 items-center justify-center rounded-lg bg-orange-400 text-sm font-bold text-black">
                   {post.letter}
                 </span>
-                <span className="text-sm font-medium leading-snug text-zinc-300 group-hover:text-white">
+                <span className="text-sm font-medium leading-snug text-stone-300 group-hover:text-white">
                   {post.title}
                 </span>
               </Link>

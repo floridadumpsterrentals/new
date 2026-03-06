@@ -124,7 +124,7 @@ export default async function NeighborhoodHubPage({ params }: PageProps) {
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }} />
 
       {/* Hero */}
-      <section className="bg-[#0A0A0A] pb-16 pt-8">
+      <section className="bg-stone-950 pb-16 pt-8">
         <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
           <Breadcrumbs
             items={[
@@ -134,14 +134,14 @@ export default async function NeighborhoodHubPage({ params }: PageProps) {
           />
 
           <div className="mt-10">
-            <p className="text-sm font-semibold uppercase tracking-[0.2em] text-green-500">
+            <p className="text-sm font-semibold uppercase tracking-[0.2em] text-orange-500">
               {neighborhood.region}
             </p>
             <h1 className="mt-3 text-4xl font-extrabold tracking-tight sm:text-5xl lg:text-6xl">
               Dumpster Rental in{" "}
-              <span className="text-green-500">{neighborhood.name}</span>
+              <span className="text-orange-500">{neighborhood.name}</span>
             </h1>
-            <p className="mt-6 max-w-3xl text-lg leading-8 text-zinc-300">
+            <p className="mt-6 max-w-3xl text-lg leading-8 text-stone-300">
               {areaContent.heroDescription}
             </p>
             <CTAGroup variant="hero" />
@@ -150,7 +150,7 @@ export default async function NeighborhoodHubPage({ params }: PageProps) {
       </section>
 
       {/* Main Content Sections */}
-      <section className="bg-[#2A2A2A] py-16">
+      <section className="bg-stone-900 py-16">
         <div className="mx-auto max-w-4xl px-4 sm:px-6 lg:px-8">
           <div className="space-y-12">
             {areaContent.sections.map((section, i) => (
@@ -158,7 +158,7 @@ export default async function NeighborhoodHubPage({ params }: PageProps) {
                 <h2 className="text-2xl font-bold text-white">
                   {section.heading}
                 </h2>
-                <p className="mt-4 leading-7 text-zinc-300">
+                <p className="mt-4 leading-7 text-stone-300">
                   {section.content}
                 </p>
               </div>
@@ -168,42 +168,42 @@ export default async function NeighborhoodHubPage({ params }: PageProps) {
       </section>
 
       {/* Pricing */}
-      <section className="bg-[#0A0A0A] py-16">
+      <section className="bg-stone-950 py-16">
         <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
           <h2 className="text-2xl font-bold sm:text-3xl">
             Dumpster Pricing in {neighborhood.name}
           </h2>
-          <p className="mt-3 max-w-3xl text-zinc-400">
+          <p className="mt-3 max-w-3xl text-stone-400">
             Flat-rate pricing. No hidden fees. The price we quote is the price you pay.
           </p>
           <div className="mt-8 grid gap-6 sm:grid-cols-3">
-            <div className="rounded-xl border border-zinc-800 bg-zinc-900/50 p-6">
-              <p className="text-sm font-semibold text-green-500">10 Yard Dumpster</p>
+            <div className="rounded-xl border border-stone-800 bg-stone-900/50 p-6">
+              <p className="text-sm font-semibold text-orange-500">10 Yard Dumpster</p>
               <p className="mt-2 text-3xl font-extrabold text-white">$275</p>
-              <p className="mt-1 text-xs text-zinc-500">starting price</p>
-              <ul className="mt-4 space-y-2 text-sm text-zinc-400">
+              <p className="mt-1 text-xs text-stone-500">starting price</p>
+              <ul className="mt-4 space-y-2 text-sm text-stone-400">
                 <li>Holds ~4 pickup truck loads</li>
                 <li>2 ton weight limit included</li>
                 <li>7-day rental period</li>
                 <li>Garage cleanouts, small renos</li>
               </ul>
             </div>
-            <div className="rounded-xl border-2 border-green-600 bg-zinc-900/50 p-6">
-              <p className="text-sm font-semibold text-green-500">20 Yard Dumpster — Most Popular</p>
+            <div className="rounded-xl border-2 border-orange-600 bg-stone-900/50 p-6">
+              <p className="text-sm font-semibold text-orange-500">20 Yard Dumpster — Most Popular</p>
               <p className="mt-2 text-3xl font-extrabold text-white">$350</p>
-              <p className="mt-1 text-xs text-zinc-500">starting price</p>
-              <ul className="mt-4 space-y-2 text-sm text-zinc-400">
+              <p className="mt-1 text-xs text-stone-500">starting price</p>
+              <ul className="mt-4 space-y-2 text-sm text-stone-400">
                 <li>Holds ~8 pickup truck loads</li>
                 <li>3 ton weight limit included</li>
                 <li>7-day rental period</li>
                 <li>Renovations, roofing, cleanouts</li>
               </ul>
             </div>
-            <div className="rounded-xl border border-zinc-800 bg-zinc-900/50 p-6">
-              <p className="text-sm font-semibold text-green-500">30 Yard Dumpster</p>
+            <div className="rounded-xl border border-stone-800 bg-stone-900/50 p-6">
+              <p className="text-sm font-semibold text-orange-500">30 Yard Dumpster</p>
               <p className="mt-2 text-3xl font-extrabold text-white">$450</p>
-              <p className="mt-1 text-xs text-zinc-500">starting price</p>
-              <ul className="mt-4 space-y-2 text-sm text-zinc-400">
+              <p className="mt-1 text-xs text-stone-500">starting price</p>
+              <ul className="mt-4 space-y-2 text-sm text-stone-400">
                 <li>Holds ~12 pickup truck loads</li>
                 <li>4 ton weight limit included</li>
                 <li>7-day rental period</li>
@@ -214,7 +214,7 @@ export default async function NeighborhoodHubPage({ params }: PageProps) {
           <div className="mt-8">
             <Link
               href="/pricing"
-              className="inline-flex items-center rounded-lg bg-green-600 px-6 py-3 text-sm font-semibold text-white hover:bg-green-700"
+              className="inline-flex items-center rounded-lg bg-orange-600 px-6 py-3 text-sm font-semibold text-white hover:bg-orange-700"
             >
               View Full Pricing Details &rarr;
             </Link>
@@ -223,12 +223,12 @@ export default async function NeighborhoodHubPage({ params }: PageProps) {
       </section>
 
       {/* Services Available */}
-      <section className="bg-[#2A2A2A] py-16">
+      <section className="bg-stone-900 py-16">
         <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
           <h2 className="text-2xl font-bold sm:text-3xl">
             All Dumpster Services in {neighborhood.name}
           </h2>
-          <p className="mt-3 max-w-3xl text-zinc-400">
+          <p className="mt-3 max-w-3xl text-stone-400">
             {totalServices} dumpster rental services available with delivery to {neighborhood.name}.
           </p>
 
@@ -243,7 +243,7 @@ export default async function NeighborhoodHubPage({ params }: PageProps) {
                     <Link
                       key={service.slug}
                       href={`/${service.slug}/${neighborhood.slug}`}
-                      className="rounded-lg border border-zinc-700 bg-zinc-800/50 px-4 py-2.5 text-sm text-zinc-300 transition-colors hover:border-green-600 hover:text-white"
+                      className="rounded-lg border border-stone-700 bg-stone-800/50 px-4 py-2.5 text-sm text-stone-300 transition-colors hover:border-orange-600 hover:text-white"
                     >
                       {service.name}
                     </Link>
@@ -259,7 +259,7 @@ export default async function NeighborhoodHubPage({ params }: PageProps) {
       <CTAGroup variant="mid" />
 
       {/* FAQ */}
-      <section className="bg-[#0A0A0A] py-16">
+      <section className="bg-stone-950 py-16">
         <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
           <h2 className="text-2xl font-bold sm:text-3xl">
             Dumpster Rental FAQ for {neighborhood.name}
@@ -268,10 +268,10 @@ export default async function NeighborhoodHubPage({ params }: PageProps) {
             {faqItems.map((faq, i) => (
               <div
                 key={i}
-                className="rounded-xl border border-zinc-800 bg-zinc-900/50 p-6"
+                className="rounded-xl border border-stone-800 bg-stone-900/50 p-6"
               >
                 <h3 className="font-semibold text-white">{faq.q}</h3>
-                <p className="mt-3 text-sm leading-6 text-zinc-400">{faq.a}</p>
+                <p className="mt-3 text-sm leading-6 text-stone-400">{faq.a}</p>
               </div>
             ))}
           </div>
@@ -280,12 +280,12 @@ export default async function NeighborhoodHubPage({ params }: PageProps) {
 
       {/* Nearby Areas */}
       {nearbyNeighborhoods.length > 0 && (
-        <section className="bg-[#2A2A2A] py-16">
+        <section className="bg-stone-900 py-16">
           <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
             <h2 className="text-2xl font-bold">
               Nearby {neighborhood.region} Areas
             </h2>
-            <p className="mt-3 text-zinc-400">
+            <p className="mt-3 text-stone-400">
               We also deliver dumpsters throughout {neighborhood.region}.
             </p>
             <div className="mt-6 grid gap-2 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4">
@@ -293,7 +293,7 @@ export default async function NeighborhoodHubPage({ params }: PageProps) {
                 <Link
                   key={n.slug}
                   href={`/areas/${n.slug}`}
-                  className="rounded-lg border border-zinc-700 bg-zinc-800/50 px-4 py-2.5 text-sm text-zinc-300 transition-colors hover:border-green-600 hover:text-white"
+                  className="rounded-lg border border-stone-700 bg-stone-800/50 px-4 py-2.5 text-sm text-stone-300 transition-colors hover:border-orange-600 hover:text-white"
                 >
                   {n.name}
                 </Link>
@@ -302,7 +302,7 @@ export default async function NeighborhoodHubPage({ params }: PageProps) {
             <div className="mt-6">
               <Link
                 href="/areas"
-                className="text-sm text-green-500 hover:text-white"
+                className="text-sm text-orange-500 hover:text-white"
               >
                 View all service areas &rarr;
               </Link>

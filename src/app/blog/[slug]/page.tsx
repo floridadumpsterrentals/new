@@ -3,7 +3,7 @@ import type { Metadata } from "next";
 import { notFound } from "next/navigation";
 import Breadcrumbs from "@/components/Breadcrumbs";
 import ProTip from "@/components/ProTip";
-import { PHONE, SITE_URL } from "@/lib/seo";
+import { PHONE, SITE_URL, getBlogPostSchema, getBreadcrumbSchema } from "@/lib/seo";
 import { getPostBySlug, getAllSlugs } from "@/lib/blog";
 
 interface Props {
@@ -25,6 +25,8 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
       title: post.title,
       description: post.intro.slice(0, 155) + "...",
       url: `${SITE_URL}/blog/${post.slug}`,
+      type: "article",
+      publishedTime: post.publishedDate,
     },
     alternates: { canonical: `${SITE_URL}/blog/${post.slug}` },
   };
@@ -36,16 +38,31 @@ export default async function BlogPostPage({ params }: Props) {
   if (!post) notFound();
 
   const seriesColor =
-    post.series === "seo" ? "bg-green-600" : "bg-green-400 text-black";
+    post.series === "seo" ? "bg-orange-600" : "bg-orange-400 text-black";
   const accentColor =
-    post.series === "seo" ? "text-green-500" : "text-green-400";
+    post.series === "seo" ? "text-orange-500" : "text-orange-400";
 
   const phonePlain = PHONE.replace(/-/g, "");
 
   return (
     <div className="text-white">
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify(getBlogPostSchema(post)),
+        }}
+      />
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify(getBreadcrumbSchema([
+            { name: "Blog", url: "/blog" },
+            { name: post.title, url: `/blog/${post.slug}` },
+          ])),
+        }}
+      />
       {/* Hero */}
-      <section className="bg-[#0A0A0A] pb-16 pt-8">
+      <section className="bg-stone-950 pb-16 pt-8">
         <div className="mx-auto max-w-4xl px-4 sm:px-6 lg:px-8">
           <Breadcrumbs
             items={[
@@ -70,18 +87,25 @@ export default async function BlogPostPage({ params }: Props) {
                 {post.seriesLabel}
               </span>
             </div>
+            <time dateTime={post.publishedDate} className="mt-2 block text-sm text-stone-500">
+              {new Date(post.publishedDate + 'T12:00:00').toLocaleDateString('en-US', { year: 'numeric', month: 'long', day: 'numeric' })}
+            </time>
             <h1 className="mt-4 text-3xl font-extrabold tracking-tight sm:text-4xl lg:text-5xl">
               {post.title}
             </h1>
-            <p className="mt-6 text-lg leading-8 text-zinc-300">
+            <p className="mt-6 text-lg leading-8 text-stone-300">
               {post.intro}
             </p>
+            <div className="mt-8 rounded-xl border border-orange-600/30 bg-orange-950/30 p-6">
+              <p className="text-xs font-semibold uppercase tracking-widest text-orange-400">Quick Answer</p>
+              <p className="mt-2 text-base leading-relaxed text-stone-200">{post.quickAnswer}</p>
+            </div>
           </div>
         </div>
       </section>
 
       {/* Content */}
-      <section className="bg-[#2A2A2A] py-16">
+      <section className="bg-stone-900 py-16">
         <div className="mx-auto max-w-4xl px-4 sm:px-6 lg:px-8">
           <div className="space-y-10">
             {post.sections.map((section, i) => (
@@ -89,7 +113,7 @@ export default async function BlogPostPage({ params }: Props) {
                 <h2 className="text-2xl font-bold text-white">
                   {section.heading}
                 </h2>
-                <p className="mt-4 text-zinc-300 leading-relaxed">
+                <p className="mt-4 text-stone-300 leading-relaxed">
                   {section.content}
                 </p>
               </div>
@@ -99,7 +123,7 @@ export default async function BlogPostPage({ params }: Props) {
       </section>
 
       {/* Related Services */}
-      <section className="bg-[#0A0A0A] py-14">
+      <section className="bg-stone-950 py-14">
         <div className="mx-auto max-w-4xl px-4 sm:px-6 lg:px-8">
           <h2 className="text-xl font-bold text-white">Related Services</h2>
           <div className="mt-4 flex flex-wrap gap-3">
@@ -107,7 +131,7 @@ export default async function BlogPostPage({ params }: Props) {
               <Link
                 key={svc.href}
                 href={svc.href}
-                className="rounded-lg border border-zinc-800 bg-[#141414] px-4 py-2 text-sm font-medium text-green-400 hover:border-green-600/40 hover:bg-[#1a1a1a]"
+                className="rounded-lg border border-stone-800 bg-stone-950 px-4 py-2 text-sm font-medium text-orange-400 hover:border-orange-600/40 hover:bg-stone-900"
               >
                 {svc.name}
               </Link>
@@ -134,19 +158,19 @@ export default async function BlogPostPage({ params }: Props) {
       />
 
       {/* CTA */}
-      <section className="bg-green-600 py-14">
+      <section className="bg-orange-600 py-14">
         <div className="mx-auto max-w-4xl px-4 text-center sm:px-6 lg:px-8">
           <h2 className="text-2xl font-bold text-white sm:text-3xl">
             Need a Dumpster for Your Project?
           </h2>
-          <p className="mx-auto mt-3 max-w-2xl text-lg text-green-100">
+          <p className="mx-auto mt-3 max-w-2xl text-lg text-orange-100">
             10, 20 &amp; 30 yard roll-off dumpsters delivered anywhere in
             Florida. Same-day delivery available.
           </p>
           <div className="mt-6 flex flex-col items-center gap-4 sm:flex-row sm:justify-center">
             <a
               href={`sms:${phonePlain}`}
-              className="inline-flex items-center rounded-lg bg-white px-6 py-3 text-lg font-semibold text-green-600 hover:bg-green-50"
+              className="inline-flex items-center rounded-lg bg-white px-6 py-3 text-lg font-semibold text-orange-600 hover:bg-orange-50"
             >
               Text Us for a Quote
             </a>
@@ -163,10 +187,10 @@ export default async function BlogPostPage({ params }: Props) {
               Book Online
             </a>
           </div>
-          <p className="mt-6 text-sm text-green-200">
+          <p className="mt-6 text-sm text-orange-200">
             <Link
               href="/blog"
-              className="text-white underline hover:text-green-200"
+              className="text-white underline hover:text-orange-200"
             >
               &larr; Back to all guides
             </Link>

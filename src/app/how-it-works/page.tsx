@@ -18,15 +18,15 @@ export default function HowItWorksPage() {
   return (
     <>
       {/* Hero */}
-      <section className="bg-zinc-950 py-20">
+      <section className="bg-stone-950 py-20">
         <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
-          <p className="text-sm font-semibold uppercase tracking-wider text-green-400">
+          <p className="text-sm font-semibold uppercase tracking-wider text-orange-400">
             Simple Process
           </p>
           <h1 className="mt-3 text-4xl font-bold tracking-tight text-white sm:text-5xl">
             How Dumpster Rental Works
           </h1>
-          <p className="mt-5 max-w-3xl text-lg text-zinc-400">
+          <p className="mt-5 max-w-3xl text-lg text-stone-400">
             Renting a dumpster in Florida should be as simple as ordering a
             pizza: tell us what you need, we give you a price, we deliver it,
             and we pick it up when you are done. That is exactly how we operate.
@@ -42,7 +42,7 @@ export default function HowItWorksPage() {
         <div className="mx-auto max-w-5xl px-4 sm:px-6 lg:px-8">
           <div className="grid gap-8 lg:grid-cols-5">
             <div className="lg:col-span-1">
-              <div className="flex h-20 w-20 items-center justify-center rounded-2xl bg-green-600 text-3xl font-bold text-white">
+              <div className="flex h-20 w-20 items-center justify-center rounded-2xl bg-orange-600 text-3xl font-bold text-white">
                 1
               </div>
             </div>
@@ -82,28 +82,28 @@ export default function HowItWorksPage() {
               </div>
               <ul className="mt-6 space-y-3">
                 <li className="flex items-start gap-3 text-zinc-600">
-                  <span className="mt-1 text-green-600">&#10003;</span>
+                  <span className="mt-1 text-orange-600">&#10003;</span>
                   Tell us your project type (renovation, cleanout, construction, etc.)
                 </li>
                 <li className="flex items-start gap-3 text-zinc-600">
-                  <span className="mt-1 text-green-600">&#10003;</span>
+                  <span className="mt-1 text-orange-600">&#10003;</span>
                   Share your delivery address and preferred delivery date
                 </li>
                 <li className="flex items-start gap-3 text-zinc-600">
-                  <span className="mt-1 text-green-600">&#10003;</span>
+                  <span className="mt-1 text-orange-600">&#10003;</span>
                   We recommend the right dumpster size (10, 20, or 30 yard)
                 </li>
                 <li className="flex items-start gap-3 text-zinc-600">
-                  <span className="mt-1 text-green-600">&#10003;</span>
+                  <span className="mt-1 text-orange-600">&#10003;</span>
                   Get a transparent, all-inclusive price with no hidden fees
                 </li>
                 <li className="flex items-start gap-3 text-zinc-600">
-                  <span className="mt-1 text-green-600">&#10003;</span>
+                  <span className="mt-1 text-orange-600">&#10003;</span>
                   Confirm your order via text, phone, or our online booking form
                 </li>
               </ul>
-              <div className="mt-6 rounded-lg border border-green-200 bg-green-50 p-4">
-                <p className="text-sm text-green-800">
+              <div className="mt-6 rounded-lg border border-orange-200 bg-orange-50 p-4">
+                <p className="text-sm text-orange-800">
                   <span className="font-semibold">Pro Tip:</span> Not sure what
                   size you need? Text us a photo of what you are removing and we
                   will recommend the right container. A picture is worth a
@@ -120,7 +120,7 @@ export default function HowItWorksPage() {
         <div className="mx-auto max-w-5xl px-4 sm:px-6 lg:px-8">
           <div className="grid gap-8 lg:grid-cols-5">
             <div className="lg:col-span-1">
-              <div className="flex h-20 w-20 items-center justify-center rounded-2xl bg-green-600 text-3xl font-bold text-white">
+              <div className="flex h-20 w-20 items-center justify-center rounded-2xl bg-orange-600 text-3xl font-bold text-white">
                 2
               </div>
             </div>
@@ -163,28 +163,28 @@ export default function HowItWorksPage() {
               </div>
               <ul className="mt-6 space-y-3">
                 <li className="flex items-start gap-3 text-zinc-600">
-                  <span className="mt-1 text-green-600">&#10003;</span>
+                  <span className="mt-1 text-orange-600">&#10003;</span>
                   Driver arrives during your scheduled delivery window
                 </li>
                 <li className="flex items-start gap-3 text-zinc-600">
-                  <span className="mt-1 text-green-600">&#10003;</span>
+                  <span className="mt-1 text-orange-600">&#10003;</span>
                   Dumpster placed exactly where you specify
                 </li>
                 <li className="flex items-start gap-3 text-zinc-600">
-                  <span className="mt-1 text-green-600">&#10003;</span>
+                  <span className="mt-1 text-orange-600">&#10003;</span>
                   You do not need to be home — just clear the area
                 </li>
                 <li className="flex items-start gap-3 text-zinc-600">
-                  <span className="mt-1 text-green-600">&#10003;</span>
+                  <span className="mt-1 text-orange-600">&#10003;</span>
                   Photo confirmation sent after delivery
                 </li>
                 <li className="flex items-start gap-3 text-zinc-600">
-                  <span className="mt-1 text-green-600">&#10003;</span>
+                  <span className="mt-1 text-orange-600">&#10003;</span>
                   Driveway protection boards available on request
                 </li>
               </ul>
-              <div className="mt-6 rounded-lg border border-green-200 bg-green-50 p-4">
-                <p className="text-sm text-green-800">
+              <div className="mt-6 rounded-lg border border-orange-200 bg-orange-50 p-4">
+                <p className="text-sm text-orange-800">
                   <span className="font-semibold">Pro Tip:</span> Have your
                   placement spot clear before delivery. The truck needs about 60
                   feet of straight-line clearance and 23 feet of overhead
@@ -202,7 +202,7 @@ export default function HowItWorksPage() {
         <div className="mx-auto max-w-5xl px-4 sm:px-6 lg:px-8">
           <div className="grid gap-8 lg:grid-cols-5">
             <div className="lg:col-span-1">
-              <div className="flex h-20 w-20 items-center justify-center rounded-2xl bg-green-600 text-3xl font-bold text-white">
+              <div className="flex h-20 w-20 items-center justify-center rounded-2xl bg-orange-600 text-3xl font-bold text-white">
                 3
               </div>
             </div>
@@ -251,8 +251,8 @@ export default function HowItWorksPage() {
                   $20/day for 20 yard, and $25/day for 30 yard dumpsters.
                 </p>
               </div>
-              <div className="mt-6 rounded-lg border border-green-200 bg-green-50 p-4">
-                <p className="text-sm text-green-800">
+              <div className="mt-6 rounded-lg border border-orange-200 bg-orange-50 p-4">
+                <p className="text-sm text-orange-800">
                   <span className="font-semibold">Pro Tip:</span> Cover your
                   dumpster with a tarp between loading sessions, especially
                   during Florida&apos;s rainy season. An afternoon thunderstorm can
@@ -270,7 +270,7 @@ export default function HowItWorksPage() {
         <div className="mx-auto max-w-5xl px-4 sm:px-6 lg:px-8">
           <div className="grid gap-8 lg:grid-cols-5">
             <div className="lg:col-span-1">
-              <div className="flex h-20 w-20 items-center justify-center rounded-2xl bg-green-600 text-3xl font-bold text-white">
+              <div className="flex h-20 w-20 items-center justify-center rounded-2xl bg-orange-600 text-3xl font-bold text-white">
                 4
               </div>
             </div>
@@ -312,28 +312,28 @@ export default function HowItWorksPage() {
               </div>
               <ul className="mt-6 space-y-3">
                 <li className="flex items-start gap-3 text-zinc-600">
-                  <span className="mt-1 text-green-600">&#10003;</span>
+                  <span className="mt-1 text-orange-600">&#10003;</span>
                   Text or call when finished — pickup scheduled within 24 hours
                 </li>
                 <li className="flex items-start gap-3 text-zinc-600">
-                  <span className="mt-1 text-green-600">&#10003;</span>
+                  <span className="mt-1 text-orange-600">&#10003;</span>
                   Load weighed at certified facility
                 </li>
                 <li className="flex items-start gap-3 text-zinc-600">
-                  <span className="mt-1 text-green-600">&#10003;</span>
+                  <span className="mt-1 text-orange-600">&#10003;</span>
                   Recyclable materials diverted from landfill when possible
                 </li>
                 <li className="flex items-start gap-3 text-zinc-600">
-                  <span className="mt-1 text-green-600">&#10003;</span>
+                  <span className="mt-1 text-orange-600">&#10003;</span>
                   Pickup confirmation sent when complete
                 </li>
                 <li className="flex items-start gap-3 text-zinc-600">
-                  <span className="mt-1 text-green-600">&#10003;</span>
+                  <span className="mt-1 text-orange-600">&#10003;</span>
                   Need another dumpster? Same-day swap available
                 </li>
               </ul>
-              <div className="mt-6 rounded-lg border border-green-200 bg-green-50 p-4">
-                <p className="text-sm text-green-800">
+              <div className="mt-6 rounded-lg border border-orange-200 bg-orange-50 p-4">
+                <p className="text-sm text-orange-800">
                   <span className="font-semibold">Pro Tip:</span> Do not
                   overfill the dumpster above the rim. If debris extends above
                   the top edge, our driver cannot legally haul it. Keep the load
@@ -355,7 +355,7 @@ export default function HowItWorksPage() {
       <section className="bg-white py-16">
         <div className="mx-auto max-w-5xl px-4 sm:px-6 lg:px-8">
           <h2 className="text-3xl font-bold text-zinc-900">What to Expect Throughout the Process</h2>
-          <p className="mt-3 text-lg text-zinc-500">
+          <p className="mt-3 text-lg text-stone-500">
             Here is what a typical dumpster rental experience looks like from your first text to final pickup.
           </p>
 
@@ -399,7 +399,7 @@ export default function HowItWorksPage() {
       <section className="bg-zinc-50 py-16">
         <div className="mx-auto max-w-4xl px-4 sm:px-6 lg:px-8">
           <h2 className="text-3xl font-bold text-zinc-900">Dumpster Placement Tips</h2>
-          <p className="mt-3 text-lg text-zinc-500">
+          <p className="mt-3 text-lg text-stone-500">
             Getting the placement right makes your entire project smoother.
             Here are the key things to consider before your dumpster arrives.
           </p>
@@ -441,16 +441,16 @@ export default function HowItWorksPage() {
       </section>
 
       {/* Loading Best Practices */}
-      <section className="bg-[#0A0A0A] py-16 text-white">
+      <section className="bg-stone-950 py-16 text-white">
         <div className="mx-auto max-w-4xl px-4 sm:px-6 lg:px-8">
           <h2 className="text-3xl font-bold">
             Loading Best Practices
           </h2>
-          <p className="mt-3 text-zinc-400">
+          <p className="mt-3 text-stone-400">
             How you load your dumpster affects how much fits, whether you stay
             within the weight limit, and whether pickup goes smoothly.
           </p>
-          <div className="mt-8 space-y-4 leading-7 text-zinc-300">
+          <div className="mt-8 space-y-4 leading-7 text-stone-300">
             <p>
               <strong className="text-white">Load heavy items first.</strong>{" "}
               Concrete, tile, brick, and heavy appliances go on the bottom of
