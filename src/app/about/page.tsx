@@ -68,9 +68,56 @@ export default function AboutPage() {
         </div>
       </section>
 
-      {/* Our Mission */}
+      {/* Our Story */}
       <section className="bg-white py-16">
-        <div className="mx-auto max-w-3xl px-4 sm:px-6 lg:px-8">
+        <div className="mx-auto max-w-4xl px-4 sm:px-6 lg:px-8">
+          <h2 className="text-3xl font-bold text-zinc-900">Our Story</h2>
+          <div className="mt-6 space-y-5 text-lg text-zinc-600 leading-8">
+            <p>
+              Florida Dumpster Rentals started with a simple observation: renting a
+              dumpster in Florida was harder than it needed to be. Homeowners would
+              call three or four companies trying to get a straight answer on
+              pricing. Contractors would schedule a delivery and the dumpster would
+              not show up on time. Invoices would arrive with fees nobody mentioned
+              when the quote was given. The industry had a customer service problem,
+              and we saw an opportunity to fix it.
+            </p>
+            <p>
+              We are based in Fort Lauderdale and serve every county in the state
+              of Florida. Rather than operating a single fleet out of one yard, we
+              built a network of vetted hauler partners across every region — South
+              Florida, Central Florida, Tampa Bay, North Florida, Southwest Florida,
+              the Space Coast, the Treasure Coast, the Panhandle, the Nature Coast,
+              and the Florida Keys. This model lets us offer same-day or next-day
+              delivery across the entire state, not just in the metro area around
+              our headquarters.
+            </p>
+            <p>
+              Every hauler in our network is licensed, insured, and
+              performance-tracked. We monitor on-time delivery rates, customer
+              satisfaction scores, response times, and service quality metrics. If
+              a hauler falls below our standards, they are removed from the
+              network. This accountability loop means that the local driver who
+              delivers your dumpster in Pensacola or Key West meets the same
+              service standard as the driver who delivers in Fort Lauderdale.
+            </p>
+            <p>
+              Our customers are homeowners tackling their first cleanout,
+              experienced contractors managing multiple job sites, property
+              managers overseeing dozens of units, real estate investors flipping
+              houses, restoration companies cleaning up after storms, and
+              businesses relocating or renovating their facilities. We serve all of
+              them with the same approach: transparent pricing, reliable delivery,
+              and responsive communication. The size of your project does not
+              change the level of service you receive.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      {/* Our Mission */}
+      <section className="bg-zinc-50 py-16">
+        <div className="mx-auto max-w-4xl px-4 sm:px-6 lg:px-8">
           <h2 className="text-3xl font-bold text-zinc-900">Our Mission</h2>
           <div className="mt-6 space-y-5 text-lg text-zinc-600 leading-8">
             <p>
@@ -84,54 +131,60 @@ export default function AboutPage() {
               The dumpster rental industry has a reputation for hidden fees,
               unreliable delivery, and poor communication. We built Florida Dumpster
               Rentals to be the opposite of that. Transparent quotes, on-time
-              delivery, and a real person who responds to your texts and calls.
+              delivery, and a real person who responds to your texts and calls
+              within minutes — not hours, not the next business day.
             </p>
             <p>
               We believe you shouldn&apos;t have to call five companies to get a
               straight answer on pricing. You shouldn&apos;t wonder if the dumpster
-              will actually show up. And you definitely shouldn&apos;t get hit with
-              surprise charges after the fact.
+              will actually show up on the day you were promised. And you
+              definitely shouldn&apos;t get hit with surprise charges after the
+              fact. Every price we quote includes delivery, pickup, a 7-day
+              rental period, and disposal up to the weight limit. That is the
+              entire cost. No fuel surcharge, no environmental fee, no admin
+              charge, no pickup fee.
             </p>
           </div>
         </div>
       </section>
 
       {/* Statewide Coverage */}
-      <section className="bg-zinc-50 py-16">
+      <section className="bg-white py-16">
         <div className="mx-auto max-w-5xl px-4 sm:px-6 lg:px-8">
           <h2 className="text-3xl font-bold text-zinc-900">
             Statewide Coverage, Local Service
           </h2>
           <p className="mt-3 text-lg text-zinc-500">
             Based in Fort Lauderdale, serving all of Florida through our network
-            of local hauler partners.
+            of local hauler partners. We maintain dedicated dumpster inventory in
+            every major region to ensure fast delivery regardless of your location.
           </p>
 
           <div className="mt-10 grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
             {[
               {
                 title: "South Florida",
-                desc: "Miami, Fort Lauderdale, West Palm Beach, Boca Raton, Hollywood, Pompano Beach, and all of Miami-Dade, Broward, and Palm Beach counties.",
+                desc: "Miami, Fort Lauderdale, West Palm Beach, Boca Raton, Hollywood, Pompano Beach, and all of Miami-Dade, Broward, and Palm Beach counties. Our home base with the fastest delivery times.",
               },
               {
                 title: "Central Florida",
-                desc: "Orlando, Tampa, St. Petersburg, Lakeland, Sarasota, Daytona Beach, and the entire I-4 corridor.",
+                desc: "Orlando, Tampa, St. Petersburg, Lakeland, Sarasota, Daytona Beach, and the entire I-4 corridor. Our busiest delivery zone outside of South Florida.",
               },
               {
                 title: "North Florida",
-                desc: "Jacksonville, Tallahassee, Gainesville, Pensacola, Panama City, and everything in between.",
+                desc: "Jacksonville, Tallahassee, Gainesville, St. Augustine, and all of Northeast Florida. Same-day delivery available in the Jacksonville metro area.",
               },
               {
                 title: "Southwest Florida",
-                desc: "Naples, Fort Myers, Cape Coral, Bonita Springs, and all of Lee, Collier, and Charlotte counties.",
+                desc: "Naples, Fort Myers, Cape Coral, Bonita Springs, and all of Lee, Collier, and Charlotte counties. High demand for hurricane rebuild and renovation projects.",
               },
               {
                 title: "Space Coast & Treasure Coast",
-                desc: "Melbourne, Cocoa Beach, Vero Beach, Port St. Lucie, Stuart, and the entire eastern coastline.",
+                desc: "Melbourne, Cocoa Beach, Vero Beach, Port St. Lucie, Stuart, and the entire eastern coastline from Cape Canaveral to the Palm Beach county line.",
               },
               {
-                title: "Florida Keys",
-                desc: "Key West, Key Largo, Marathon, Islamorada, and the entire Keys chain. Yes, we deliver to the Keys.",
+                title: "Florida Keys & Panhandle",
+                desc: "Key West, Key Largo, Marathon, Pensacola, Panama City, Destin, and Tallahassee. Yes, we deliver to the Keys and to the far western Panhandle.",
               },
             ].map((area) => (
               <div key={area.title} className="rounded-xl border border-zinc-200 bg-white p-6">
@@ -146,8 +199,54 @@ export default function AboutPage() {
               href="/areas"
               className="text-sm font-medium text-green-600 hover:text-green-700"
             >
-              Browse all service areas &rarr;
+              Browse all 400+ service areas &rarr;
             </Link>
+          </div>
+        </div>
+      </section>
+
+      {/* How Our Model Works */}
+      <section className="bg-[#0A0A0A] py-16 text-white">
+        <div className="mx-auto max-w-4xl px-4 sm:px-6 lg:px-8">
+          <h2 className="text-3xl font-bold">
+            How Our Hauler Network Model Works
+          </h2>
+          <div className="mt-6 space-y-5 text-lg text-zinc-300 leading-8">
+            <p>
+              Most dumpster rental companies operate a single fleet of trucks and
+              containers out of one yard. That works fine if you live near their
+              yard. But Florida is a big state — over 500 miles from Key West to
+              Pensacola. A single-yard company in Miami cannot efficiently serve
+              customers in Jacksonville, and vice versa.
+            </p>
+            <p>
+              We solve this with a network model. Instead of owning a single
+              fleet, we partner with established, reputable haulers in every
+              major market across Florida. When you contact us for a dumpster in
+              Tampa, we dispatch a Tampa-based hauler. When you need a container
+              in the Keys, a Keys-based hauler handles the delivery. Every
+              partner is selected based on equipment quality, insurance
+              coverage, reliability track record, and customer service standards.
+            </p>
+            <p>
+              This model gives you three advantages. First, faster delivery —
+              because the truck is already in your market, we can offer same-day
+              and next-day delivery almost anywhere in Florida. Second, local
+              knowledge — our hauler partners know the roads, the landfill
+              schedules, the permit requirements, and the placement challenges
+              specific to their area. Third, consistent service — because we
+              manage the customer relationship and hold every hauler to our
+              standards, you get the same experience regardless of which hauler
+              handles your delivery.
+            </p>
+            <p>
+              You deal with us — one phone number, one point of contact, one
+              invoice. The hauler partner handles the physical delivery and
+              pickup. You never have to coordinate between multiple companies or
+              wonder who to call if there is an issue. We are your single point
+              of accountability from the moment you request a quote until the
+              dumpster is picked up and gone.
+            </p>
           </div>
         </div>
       </section>
@@ -165,23 +264,27 @@ export default function AboutPage() {
             {[
               {
                 title: "Transparent, All-Inclusive Pricing",
-                desc: "The price we quote is the price you pay. Delivery, pickup, rental period, and disposal are all included. The only extra charge is if you exceed the weight limit, and we'll tell you before billing anything extra.",
+                desc: "The price we quote is the price you pay. Delivery, pickup, rental period, and disposal are all included in one flat rate. The only extra charge is if you exceed the weight limit, and we will tell you before billing anything extra. No fuel surcharge, no environmental fee, no admin charge. We have seen what the hidden-fee approach does to customer trust, and we want no part of it.",
               },
               {
                 title: "Same-Day and Next-Day Delivery",
-                desc: "Because we work with multiple haulers in every market, we can almost always offer same-day or next-day delivery. Most single-hauler companies can't match that availability.",
+                desc: "Because we work with multiple haulers in every market, we can almost always offer same-day or next-day delivery. Most single-hauler companies cannot match that availability — if their trucks are booked, you wait. Our network approach means there is almost always a hauler with availability in your area, even during peak season.",
               },
               {
                 title: "Text-First Communication",
-                desc: "We know you're busy. Text us your project details, get a quote back in minutes, and schedule delivery without sitting on hold. Of course, you can always call too.",
+                desc: "We know you are busy. Text us your project details and get a quote back in minutes. Schedule delivery by text. Request pickup by text. Get delivery confirmation photos by text. You can always call if you prefer — but most of our customers love the speed and convenience of texting. No hold music, no phone trees, no waiting.",
               },
               {
                 title: "Vetted Hauler Network",
-                desc: "Every hauler in our network is licensed, insured, and performance-tracked. We monitor on-time delivery rates, customer satisfaction, and service quality. If a hauler doesn't meet our standards, they don't stay in the network.",
+                desc: "Every hauler in our network is licensed, insured, and performance-tracked. We monitor on-time delivery rates, customer satisfaction, response times, and equipment quality. If a hauler does not meet our standards, they are replaced. This accountability system means you get reliable service regardless of which partner handles your delivery.",
               },
               {
                 title: "No Long-Term Contracts",
-                desc: "Rent a dumpster when you need one. No subscriptions, no commitments, no minimum orders. Contractors who use us regularly get volume pricing, but there's never a lock-in.",
+                desc: "Rent a dumpster when you need one. No subscriptions, no commitments, no minimum orders. Contractors who use us regularly get volume pricing, but there is never a lock-in or penalty for not ordering. Your business is earned on every single job, not locked in by a contract.",
+              },
+              {
+                title: "Florida-Specific Expertise",
+                desc: "We are not a national franchise operating in Florida — we are a Florida company that lives and breathes this state. We know which counties require permits, which landfills close early on Saturdays, which neighborhoods have narrow driveways, and which areas spike in demand after hurricane season. That local expertise translates into better service for you.",
               },
             ].map((item) => (
               <div key={item.title} className="border-b border-zinc-100 pb-8">
@@ -189,6 +292,57 @@ export default function AboutPage() {
                 <p className="mt-3 text-zinc-600">{item.desc}</p>
               </div>
             ))}
+          </div>
+        </div>
+      </section>
+
+      {/* Who We Serve */}
+      <section className="bg-zinc-50 py-16">
+        <div className="mx-auto max-w-4xl px-4 sm:px-6 lg:px-8">
+          <h2 className="text-3xl font-bold text-zinc-900">Who We Serve</h2>
+          <div className="mt-6 space-y-5 text-lg text-zinc-600 leading-8">
+            <p>
+              <strong className="text-zinc-900">Homeowners:</strong> You have a
+              garage full of stuff, a kitchen that needs gutting, a yard that needs
+              clearing, or a house that needs emptying before a move. A dumpster in
+              your driveway turns a week of dump runs into a simple weekend
+              project. We help thousands of Florida homeowners every year with
+              cleanouts, renovations, landscaping, and general decluttering. Most
+              homeowners need a 10 or 20 yard dumpster and finish within the
+              standard 7-day rental period.
+            </p>
+            <p>
+              <strong className="text-zinc-900">Contractors and Builders:</strong>{" "}
+              You need dumpsters on site reliably, on time, and at a competitive
+              price. Our contractor program includes volume discounts, priority
+              scheduling, NET-30 billing, same-day swap service, and a dedicated
+              account manager. Whether you are running one residential renovation
+              or managing ten commercial projects simultaneously, we match our
+              service to your pace.
+            </p>
+            <p>
+              <strong className="text-zinc-900">Property Managers:</strong> Tenant
+              turnovers, unit renovations, common area cleanouts, and emergency
+              cleanups all generate waste that exceeds normal trash service. We
+              provide fast turnaround for property management companies with
+              flexible scheduling and consolidated invoicing across multiple
+              properties.
+            </p>
+            <p>
+              <strong className="text-zinc-900">Real Estate Investors:</strong>{" "}
+              Flipping houses means demolishing old materials and disposing of
+              construction waste on a tight timeline. We understand the urgency of
+              investment property timelines and provide same-day delivery to keep
+              your renovation crew productive.
+            </p>
+            <p>
+              <strong className="text-zinc-900">Businesses:</strong> Office
+              relocations, warehouse cleanouts, retail space renovations,
+              restaurant buildouts, and commercial demolition projects all require
+              professional waste removal. We handle commercial accounts with proper
+              insurance documentation, consolidated billing, and priority service
+              scheduling.
+            </p>
           </div>
         </div>
       </section>
