@@ -31,8 +31,10 @@ export const dynamicParams = true;
 export const revalidate = 86400;
 
 export async function generateStaticParams() {
-  const services = getAllServices();
-  const neighborhoods = getAllNeighborhoods();
+  // Only pre-render a small subset to stay within Vercel's deploy size limit.
+  // The rest are rendered on-demand (dynamicParams = true).
+  const services = getAllServices().slice(0, 5);
+  const neighborhoods = getAllNeighborhoods().slice(0, 10);
 
   return services.flatMap((s) =>
     neighborhoods.map((n) => ({
