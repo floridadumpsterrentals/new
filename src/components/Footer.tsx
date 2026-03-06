@@ -143,10 +143,9 @@ export default function Footer() {
             or <Link href="/schedule-dumpster-rental-form" className="text-green-400 hover:text-green-300">book your dumpster online</Link>.{" "}
             Same-day delivery available across <Link href="/areas" className="text-green-400 hover:text-green-300">436+ Florida service areas</Link>.
           </p>
-          <p className="text-center">
+          <p className="text-center text-zinc-400">
             &copy; {new Date().getFullYear()} {SITE_NAME}. All rights reserved.
-          </p>
-          <p className="text-zinc-500">
+            {" "}&middot;{" "}
             Web design &amp; digital marketing by{" "}
             <a
               href="https://www.consortiumnyc.com/"
